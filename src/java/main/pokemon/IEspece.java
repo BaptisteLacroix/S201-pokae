@@ -15,7 +15,7 @@ import interfaces.statsPokemon.IType;
  * @author Leo Donati
  *
  */
-public interface IEspece {
+public class IEspece {
 	public IStat getBaseStat();
 	public String getNom();
 	public int getNiveauDepart();

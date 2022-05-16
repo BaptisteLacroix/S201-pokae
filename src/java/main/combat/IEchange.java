@@ -3,17 +3,18 @@
  * IUT Côte d'Azur
  * Département Informatique
  * @date
- * IAttaque.java
+ * IEchange.java
  */
 package interfaces.combat;
 
+import interfaces.combat.IAttaque;
 import interfaces.pokemon.IPokemon;
 
 /**
  * @author Leo Donati
  *
  */
-public interface IAttaque {
-	int calculeDommage(IPokemon lanceur, IPokemon receveur);
-	void utilise();
+public class IEchange extends IAttaque {
+	public void setPokemon(IPokemon pok);
+	public IPokemon echangeCombattant(); 
 }

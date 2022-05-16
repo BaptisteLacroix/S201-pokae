@@ -5,10 +5,7 @@
  * @date
  * IEchange.java
  */
-package interfaces.combat;
-
-import interfaces.combat.IAttaque;
-import interfaces.pokemon.IPokemon;
+package interfaces;
 
 /**
  * @author Leo Donati
