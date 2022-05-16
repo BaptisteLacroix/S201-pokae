@@ -5,7 +5,7 @@
  * @date
  * ICategory.java
  */
-package interfaces.java.main.statsPokemon;
+package main.java.statsPokemon;
 
 /**
  * @author Leo Donati

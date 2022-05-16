@@ -5,9 +5,9 @@
  * @date
  * ICapacite.java
  */
-package interfaces.java.main.statsPokemon;
+package main.java.statsPokemon;
 
-import interfaces.java.main.combat.IAttaque;
+import main.java.combat.IAttaque;
 
 /**
  * @author Leo Donati

@@ -5,11 +5,11 @@
  * @date
  * IEspece.java
  */
-package interfaces.java.main.pokemon;
+package main.java.pokemon;
 
-import interfaces.java.main.statsPokemon.ICapacite;
-import interfaces.java.main.statsPokemon.IStat;
-import interfaces.java.main.statsPokemon.IType;
+import main.java.statsPokemon.ICapacite;
+import main.java.statsPokemon.IStat;
+import main.java.statsPokemon.IType;
 
 /**
  * @author Leo Donati
