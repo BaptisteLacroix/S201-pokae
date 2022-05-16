@@ -5,12 +5,12 @@
  * @date
  * IPokedex.java
  */
-package interfaces.java.main.pokedex;
+package main.java.pokedex;
 
-import interfaces.java.main.pokemon.IEspece;
-import interfaces.java.main.pokemon.IPokemon;
-import interfaces.java.main.statsPokemon.ICapacite;
-import interfaces.java.main.statsPokemon.IType;
+import main.java.pokemon.IEspece;
+import main.java.pokemon.IPokemon;
+import main.java.statsPokemon.ICapacite;
+import main.java.statsPokemon.IType;
 
 /**
  * @author Leo Donati

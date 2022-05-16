@@ -5,11 +5,11 @@
  * @date
  * IPokemon.java
  */
-package interfaces.java.main.pokemon;
+package main.java.pokemon;
 
-import interfaces.java.main.combat.IAttaque;
-import interfaces.java.main.statsPokemon.IStat;
-import interfaces.java.main.statsPokemon.ICapacite;
+import main.java.combat.IAttaque;
+import main.java.statsPokemon.IStat;
+import main.java.statsPokemon.ICapacite;
 
 /**
  * @author Leo Donati
