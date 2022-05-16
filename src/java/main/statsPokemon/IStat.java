@@ -5,7 +5,7 @@
  * @date
  * IStat.java
  */
-package interfaces.statsPokemon;
+package interfaces.java.main.statsPokemon;
 
 /**
  * @author Leo Donati

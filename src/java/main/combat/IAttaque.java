@@ -5,9 +5,9 @@
  * @date
  * IAttaque.java
  */
-package interfaces.combat;
+package interfaces.java.main.combat;
 
-import interfaces.pokemon.IPokemon;
+import interfaces.java.main.pokemon.IPokemon;
 
 /**
  * @author Leo Donati
