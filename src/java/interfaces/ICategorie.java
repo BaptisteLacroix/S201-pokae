@@ -3,15 +3,15 @@
  * IUT Côte d'Azur
  * Département Informatique
  * @date
- * IType.java
+ * ICategory.java
  */
-package interfaces.statsPokemon;
+package interfaces;
 
 /**
  * @author Leo Donati
  *
  */
-public interface IType {
-	public String getNom();
-
+public interface ICategorie {
+	boolean isSpecial();
+	String getNom();
 }
