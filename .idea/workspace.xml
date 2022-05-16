@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3586f8bf-247d-4c9b-a976-80336fd05106" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/etape1_lacroix_vidal.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/combat/IAttaque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/combat/IAttaque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/combat/IEchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/combat/IEchange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokedex/IPokedex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokedex/IPokedex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/IEspece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/IEspece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/IPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/IPokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/statsPokemon/ICapacite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/statsPokemon/ICapacite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/statsPokemon/ICategorie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/statsPokemon/ICategorie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/statsPokemon/IStat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/statsPokemon/IStat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/statsPokemon/IType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/statsPokemon/IType.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="297XRH8EAMFKnJIot7Oo4PywRdc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3586f8bf-247d-4c9b-a976-80336fd05106" name="Changes" comment="" />
+      <created>1652465089223</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652465089223</updated>
+      <workItem from="1652465101269" duration="314000" />
+      <workItem from="1652719632866" duration="1758000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
