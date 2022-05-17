@@ -5,13 +5,15 @@
  * @date
  * ICategory.java
  */
-package main.java.statsPokemon;
+package interfaces;
 
 /**
  * @author Leo Donati
- *
+ * Il s'agit de la catégorie d'une capacité :
+ *  - soit Physique
+ *  - soit Special
  */
-public class ICategorie {
+public interface ICategorie {
 	boolean isSpecial();
 	String getNom();
 }

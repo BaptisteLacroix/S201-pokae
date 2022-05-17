@@ -5,7 +5,7 @@
  * @date
  * IEchange.java
  */
-package interfaces;
+package main.interfaces;
 
 /**
  * @author Leo Donati

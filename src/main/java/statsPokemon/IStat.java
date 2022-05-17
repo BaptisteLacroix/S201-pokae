@@ -11,7 +11,7 @@ package main.java.statsPokemon;
  * @author Leo Donati
  *
  */
-public class IStat {
+public interface IStat {
 	public int getPV();
 	public int getForce();
 	public int getDefense();

@@ -11,7 +11,7 @@ package main.java.statsPokemon;
  * @author Leo Donati
  *
  */
-public class IType {
+public interface IType {
 	public String getNom();
 
 }

@@ -5,7 +5,7 @@
  * @date
  * IEspece.java
  */
-package interfaces;
+package main.interfaces;
 
 /**
  * @author Leo Donati
