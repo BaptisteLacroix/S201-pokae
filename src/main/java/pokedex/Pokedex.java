@@ -63,7 +63,7 @@ public class Pokedex implements IPokedex {
         int special;
         int vitesse;
         IType[] types = new IType[2];
-        int experience;
+        int expbase;
         try {
             FileReader file = new FileReader(namefile);
             BufferedReader reader = new BufferedReader(file);
@@ -77,7 +77,7 @@ public class Pokedex implements IPokedex {
                 defense = s.nextInt();
                 special = s.nextInt();
                 vitesse = s.nextInt();
-                experience = s.nextInt();
+                expbase = s.nextInt();
                 for (int i = 0; i < 5; i++) {
                     s.next();
                 }
@@ -86,9 +86,9 @@ public class Pokedex implements IPokedex {
                 niveau = s.nextInt();
 
                 IStat stats = new Stat(pv, force, defense, special, vitesse);
-                IEspece espece = new Espece(stats, nom, niveau, experience, , , , types);
+                IEspece espece = new Espece(stats, nom, niveau, expbase, niveau, , , types);
 
-                this.dico.put(nom, new Pokemon(id, nom, niveau, stats, experience, 100.0
+                this.dico.put(nom, new Pokemon(id, nom, niveau, stats, expbase, 100.0
                         , espece));
             }
             reader.close();
