@@ -7,7 +7,8 @@
  */
 package main.java.combat;
 
-import main.java.pokemon.IPokemon;
+import main.interfaces.IAttaque;
+import main.interfaces.IPokemon;
 
 /**
  * @author Leo Donati
@@ -16,10 +17,16 @@ import main.java.pokemon.IPokemon;
  * - les capacités (interface ICapacity)
  * - les échanges (interface IEchange)
  */
-public interface IAttaque {
+public class Attaque implements IAttaque {
 	//renvoie le nombre de points de vie qu'il faut enlever au receveur
-	int calculeDommage(IPokemon lanceur, IPokemon receveur);
-	
+
+	@Override
+	public int calculeDommage(IPokemon lanceur, IPokemon receveur) {
+		throw new UnsupportedOperationException();
+	}
+
 	//fait diminuer de 1 le nombre restant de fois où l'attaque peut être utilisée
-	void utilise();
+	public void utilise() {
+		throw new UnsupportedOperationException();
+	}
 }
