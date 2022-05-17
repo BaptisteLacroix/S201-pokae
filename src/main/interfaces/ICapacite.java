@@ -5,7 +5,7 @@
  * @date
  * ICapacite.java
  */
-package interfaces;
+package main.interfaces;
 
 /**
  * @author Leo Donati
