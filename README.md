@@ -1,6 +1,5 @@
 # Noms des memebres de l'équipe
 - Lacroix Baptiste
-<br >
 - Vidal Théo
 
 # Nom de l'équipe du projet
