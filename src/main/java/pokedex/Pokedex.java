@@ -81,8 +81,8 @@ public class Pokedex implements IPokedex {
                 for (int i = 0; i < 5; i++) {
                     s.next();
                 }
-                types[0] = new Type(s.next());
-                types[1] = new Type(s.next());
+                types[0] = conversionStringType(s.next());
+                types[1] = conversionStringType(s.next());
                 niveau = s.nextInt();
 
                 IStat stats = new Stat(pv, force, defense, special, vitesse);
@@ -96,5 +96,26 @@ public class Pokedex implements IPokedex {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    private Type conversionStringType(String EspeceType) {
+        return switch (EspeceType) {
+            case "Combat" -> Type.Combat;
+            case "Dragon" -> Type.Dragon;
+            case "Eau" -> Type.Eau;
+            case "Electrik" -> Type.Electrik;
+            case "Feu" -> Type.Feu;
+            case "Glace" -> Type.Glace;
+            case "Insecte" -> Type.Insecte;
+            case "Normal" -> Type.Normal;
+            case "Plante" -> Type.Plante;
+            case "Poison" -> Type.Poison;
+            case "Psy" -> Type.Psy;
+            case "Roche" -> Type.Roche;
+            case "Sol" -> Type.Sol;
+            case "Spectre" -> Type.Spectre;
+            case "Vol" -> Type.Vol;
+            default -> null;
+        };
     }
 }

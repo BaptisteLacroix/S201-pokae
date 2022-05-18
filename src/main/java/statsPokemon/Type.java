@@ -13,10 +13,25 @@ import main.interfaces.IType;
  * @author Leo Donati
  *
  */
-public class Type implements IType {
+public enum Type implements IType {
+	Plante("Plante"),
+	Feu("Feu"),
+	Insecte("Insecte"),
+	Normal("Normal"),
+	Electrik("Electrik"),
+	Sol("Sol"),
+	Poison("Poison"),
+	Eau("Eau"),
+	Combat("Combat"),
+	Psy("Psy"),
+	Roche("Roche"),
+	Spectre("Spectre"),
+	Glace("Glace"),
+	Dragon("Dragon"),
+	Vol("Vol");
 	private String nom;
 
-	public Type(String nom) {
+	Type(String nom) {
 		this.nom = nom;
 	}
 
