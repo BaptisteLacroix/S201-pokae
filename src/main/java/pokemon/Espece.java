@@ -11,7 +11,6 @@ import main.interfaces.ICapacite;
 import main.interfaces.IEspece;
 import main.interfaces.IType;
 import main.interfaces.IStat;
-import main.java.pokedex.Pokedex;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -20,15 +19,12 @@ import org.json.simple.parser.ParseException;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Map;
-import java.util.TreeMap;
 
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 
 /**
- * @author Leo Donati
+ * @author Lacroix Baptiste
  */
 public class Espece implements IEspece {
     private IStat baseStat;
@@ -40,6 +36,15 @@ public class Espece implements IEspece {
     private IStat evolution;
     private IType[] types;
 
+    /**
+     *
+     * @param baseIStat
+     * @param nom
+     * @param niveauDepart
+     * @param baseExp
+     * @param gainsStat
+     * @param types
+     */
     public Espece(IStat baseIStat, String nom, int niveauDepart, int baseExp, IStat gainsStat, IType[] types) {
         this.baseStat = baseIStat;
         this.nom = nom;
@@ -49,46 +54,74 @@ public class Espece implements IEspece {
         this.types = types;
     }
 
-    public static void main(String[] args) {
-        Pokedex p = new Pokedex();
-        p.engendreRanch();
-    }
-
+    /**
+     *
+     * @return
+     */
     @Override
     public IStat getBaseStat() {
         return baseStat;
     }
 
+    /**
+     *
+     * @return
+     */
     @Override
     public String getNom() {
         return nom;
     }
 
+    /**
+     *
+     * @return
+     */
     @Override
     public int getNiveauDepart() {
         return niveauDepart;
     }
 
+    /**
+     *
+     * @return
+     */
     @Override
     public int getBaseExp() {
         return baseExp;
     }
 
+    /**
+     *
+     * @return
+     */
     @Override
     public IStat getGainsStat() {
         return gainsStat;
     }
 
+    /**
+     *
+     * @return
+     */
     @Override
     public ICapacite[] getCapSet() {
         throw new UnsupportedOperationException();
     } //ensemble des capacités disponibles pour cette espèce
 
+    /**
+     *
+     * @return
+     */
     @Override
     public IType[] getTypes() {
         return types;
     } //une espece de pokemon peut avoir un ou deux types
 
+    /**
+     *
+     * @param niveau
+     * @return
+     */
     @Override
     public IEspece getEvolution(int niveau) {
         if (niveau >= 32)
@@ -112,6 +145,13 @@ public class Espece implements IEspece {
         throw new UnsupportedOperationException();
     }  //renvoie null si aucune evolution possible
 
+    /**
+     *
+     * @param url
+     * @return
+     * @throws IOException
+     * @throws ParseException
+     */
     public int recupPokemonUrl(String url) throws IOException, ParseException {
         int id;
         JSONObject obj = requestHTTP(url);
@@ -120,6 +160,13 @@ public class Espece implements IEspece {
         return id;
     }
 
+    /**
+     *
+     * @param url
+     * @return
+     * @throws IOException
+     * @throws ParseException
+     */
     private JSONObject requestHTTP(String url) throws IOException, ParseException {
         URL http = new URL(url);
         HttpURLConnection hpCon = (HttpURLConnection) http.openConnection();
