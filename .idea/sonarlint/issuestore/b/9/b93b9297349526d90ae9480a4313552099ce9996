@@ -1,0 +1,19 @@
+
+S
+java:S1854‰"=Remove this useless assignment to local variable "Evolution".(’Ì€
+S
+java:S1854Š"7Remove this useless assignment to local variable "url".(ÚŞè™úÿÿÿÿ
+J
+java:S1481".Remove this unused "Evolution" local variable.(Âøø†üÿÿÿÿ
+>
+java:S1481‚"(Remove this unused "url" local variable.(½Ğó.
+\
+java:S2147"ECombine this catch with the one at line 140, which has the same body.(ï­£Ä
+O	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(ö¡¹ê
+E
+java:S1068#"*Remove this unused "capSet" private field.(à†á¬øÿÿÿÿ
+B
+java:S1068$"-Remove this unused "evolution" private field.(ôÉ¶ 
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âøø†üÿÿÿÿ
+w
+java:S1488¹"[Immediately return this expression instead of assigning it to the temporary variable "obj".(ˆĞĞËûÿÿÿÿ
