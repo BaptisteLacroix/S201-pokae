@@ -10,7 +10,7 @@ package main.java.statsPokemon;
 import main.interfaces.IType;
 
 /**
- * @author Leo Donati
+ * @author Lacroix Baptiste
  *
  */
 public enum Type implements IType {
@@ -31,10 +31,18 @@ public enum Type implements IType {
 	Vol("Vol");
 	private String nom;
 
+	/**
+	 *
+	 * @param nom
+	 */
 	Type(String nom) {
 		this.nom = nom;
 	}
 
+	/**
+	 *
+	 * @return
+	 */
 	@Override
 	public String getNom() {
 		return this.nom;

@@ -24,43 +24,123 @@ import java.io.IOException;
 import java.util.*;
 
 /**
- * @author Leo Donati
+ * @author Lacroix Baptiste
  */
 public class Pokedex implements IPokedex {
-    private IPokemon[] ranch = new IPokemon[6];
     Map<Integer, IPokemon> dico = new HashMap<>();
 
+    private IPokemon[] ranch = new IPokemon[6];
+
+    /**
+     *
+     * @return
+     */
+    @Override
     public IPokemon[] engendreRanch() {
         Random rand = new Random();
-        IPokemon v;
+        IPokemon pokemon;
         this.initializeFromCSV("./resources/listePokemeon1G.csv");
-        System.out.println(dico);
         for (int i = 0; i < 6; i++) {
-            v = dico.get(rand.nextInt(151));
-            while (v == null) {
-                v = dico.get(rand.nextInt(151));
+            pokemon = dico.get(rand.nextInt(151));
+            while (pokemon == null) {
+                pokemon = dico.get(rand.nextInt(151));
             }
-            this.ranch[i] = v;
+            this.ranch[i] = pokemon;
         }
         return this.ranch;
     }           //Renvoie un tableau de 6 Pokemon au hasard
 
+    @Override
     public IEspece getInfo(String nomEspece) {
         throw new UnsupportedOperationException();
     }           //Renvoie une instance de l'espèce de Pokemon dont on fournit le nom
 
+
+    /**
+     *
+     * @param nbrA
+     * @param nbrD
+     * @param reader
+     * @return
+     */
+    private double foundEfficacite(int nbrA, int nbrD, BufferedReader reader) {
+        double eff = 0.0;
+        try {
+            for (int i = 0; i < nbrA - 1; i++) {
+                reader.readLine();
+            }
+            while (reader.ready()) {
+                Scanner s = new Scanner(reader.readLine()).useDelimiter(";");
+                for (int i = 0; i < nbrD - 1; i++) {
+                    s.nextDouble();
+                }
+                eff = s.nextDouble();
+            }
+            reader.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return eff;
+    }
+
+    /**
+     *
+     * @param attaque
+     * @param defense
+     * @return
+     */
+    @Override
     public Double getEfficacite(IType attaque, IType defense) {
-        throw new UnsupportedOperationException();
+        double value = 0.0;
+        int cmp = 1;
+        int nbrA = 0;
+        int nbrD = 0;
+        try {
+            FileReader file = new FileReader("./resources/efficacites.csv");
+            BufferedReader reader = new BufferedReader(file);
+            Scanner s = new Scanner(reader.readLine()).useDelimiter(";");
+            System.out.println(s.next());
+            while (s.hasNext()) {
+                String str = s.next();
+                System.out.println(s.next());
+                if (attaque.getNom().equals(str))
+                    nbrA = cmp;
+                if (defense.getNom().equals(str))
+                    nbrD = cmp;
+                cmp ++;
+            }
+            value = this.foundEfficacite(nbrA, nbrD, reader);
+            file.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return value;
     }           //Calcule l'efficacité d'un type d'attaque sur un type de cible
 
+    /**
+     *
+     * @param nomCapacite
+     * @return
+     */
+    @Override
     public ICapacite getCapacite(String nomCapacite) {
         throw new UnsupportedOperationException();
-    }               //Renvoie une instance de la capacité appelée nomCapacite
+    }            //Renvoie une instance de la capacité appelée nomCapacite
 
+    /**
+     *
+     * @param nunCapacite
+     * @return
+     */
+    @Override
     public ICapacite getCapacite(int nunCapacite) {
         throw new UnsupportedOperationException();
     }
 
+    /**
+     *
+     * @param namefile
+     */
     public void initializeFromCSV(String namefile) {
         int id;
         String nom;
@@ -99,85 +179,53 @@ public class Pokedex implements IPokedex {
                     this.dico.put(id, new Pokemon(id, nom, niveau, stats, expbase, 100.0, espece));
                 }
             }
-                reader.close();
-                file.close();
-            } catch(IOException e){
-                e.printStackTrace();
-            }
-        }
-
-    /*
-    private Type conversionStringType(String EspeceType) {
-        return switch (EspeceType) {
-            case "Combat" -> Type.Combat;
-            case "Dragon" -> Type.Dragon;
-            case "Eau" -> Type.Eau;
-            case "Electrik" -> Type.Electrik;
-            case "Feu" -> Type.Feu;
-            case "Glace" -> Type.Glace;
-            case "Insecte" -> Type.Insecte;
-            case "Normal" -> Type.Normal;
-            case "Plante" -> Type.Plante;
-            case "Poison" -> Type.Poison;
-            case "Psy" -> Type.Psy;
-            case "Roche" -> Type.Roche;
-            case "Sol" -> Type.Sol;
-            case "Spectre" -> Type.Spectre;
-            case "Vol" -> Type.Vol;
-            default -> null;
-        };
-    }*/
-
-        private Type conversionStringType (String EspeceType){
-            Type type = null;
-            switch (EspeceType) {
-                case "Combat":
-                    type = Type.Combat;
-                    break;
-                case "Dragon":
-                    type = Type.Dragon;
-                    break;
-                case "Eau":
-                    type = Type.Eau;
-                    break;
-                case "Electrik":
-                    type = Type.Electrik;
-                    break;
-                case "Feu":
-                    type = Type.Feu;
-                    break;
-                case "Glace":
-                    type = Type.Glace;
-                    break;
-                case "Insecte":
-                    type = Type.Insecte;
-                    break;
-                case "Normal":
-                    type = Type.Normal;
-                    break;
-                case "Plante":
-                    type = Type.Plante;
-                    break;
-                case "Poison":
-                    type = Type.Poison;
-                    break;
-                case "Psy":
-                    type = Type.Psy;
-                    break;
-                case "Roche":
-                    type = Type.Roche;
-                    break;
-                case "Sol":
-                    type = Type.Sol;
-                    break;
-                case "Spectre":
-                    type = Type.Spectre;
-                    break;
-                case "Vol":
-                    type = Type.Vol;
-                    break;
-            }
-
-            return type;
+            reader.close();
+            file.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
+
+    /**
+     *
+     * @param EspeceType
+     * @return
+     */
+    private Type conversionStringType(String EspeceType) {
+        switch (EspeceType) {
+            case "Combat":
+                return Type.Combat;
+            case "Dragon":
+                return Type.Dragon;
+            case "Eau":
+                return Type.Eau;
+            case "Electrik":
+                return Type.Electrik;
+            case "Feu":
+                return Type.Feu;
+            case "Glace":
+                return Type.Glace;
+            case "Insecte":
+                return Type.Insecte;
+            case "Normal":
+                return Type.Normal;
+            case "Plante":
+                return Type.Plante;
+            case "Poison":
+                return Type.Poison;
+            case "Psy":
+                return Type.Psy;
+            case "Roche":
+                return Type.Roche;
+            case "Sol":
+                return Type.Sol;
+            case "Spectre":
+                return Type.Spectre;
+            case "Vol":
+                return Type.Vol;
+            default:
+                return null;
+        }
+    }
+
+}
