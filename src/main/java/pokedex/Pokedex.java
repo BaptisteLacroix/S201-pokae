@@ -28,7 +28,7 @@ import java.util.*;
  */
 public class Pokedex implements IPokedex {
     private IPokemon[] ranch = new IPokemon[6];
-    Map<Integer, IEspece> dico = new HashMap<>();
+    Map<Integer, IPokemon> dico = new HashMap<>();
 
     public IPokemon[] engendreRanch() {
         Random rand = new Random();
@@ -36,13 +36,13 @@ public class Pokedex implements IPokedex {
         this.initializeFromCSV("./resources/listePokemeon1G.csv");
         System.out.println(dico);
         for (int i = 0; i < 6; i++) {
-            v = (IPokemon) dico.get(rand.nextInt(151));
+            v = dico.get(rand.nextInt(151));
             while (v == null) {
-                v = (IPokemon) dico.get(rand.nextInt(151));
+                v = dico.get(rand.nextInt(151));
             }
-            ranch[i] = v;
+            this.ranch[i] = v;
         }
-        throw new UnsupportedOperationException();
+        return this.ranch;
     }           //Renvoie un tableau de 6 Pokemon au hasard
 
     public IEspece getInfo(String nomEspece) {
@@ -95,7 +95,8 @@ public class Pokedex implements IPokedex {
                 if (niveau == 1) {
                     IStat stats = new Stat(pv, force, defense, special, vitesse);
                     IStat evstats = new Stat(evPV, evForce, evDefense, evSpecial, evVitesse);
-                    this.dico.put(id, new Espece(stats, nom, niveau, expbase, evstats, types));
+                    IEspece espece = new Espece(stats, nom, niveau, expbase, evstats, types);
+                    this.dico.put(id, new Pokemon(id, nom, niveau, stats, expbase, 100.0, espece));
                 }
             }
                 reader.close();
