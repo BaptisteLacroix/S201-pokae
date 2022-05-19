@@ -9,6 +9,8 @@ package main.java.statsPokemon;
 
 
 import main.interfaces.ICapacite;
+import main.interfaces.ICategorie;
+import main.interfaces.IType;
 import main.java.combat.Attaque;
 
 /**
@@ -17,4 +19,38 @@ import main.java.combat.Attaque;
  */
 public class Capacite extends Attaque implements ICapacite {
 
+    @Override
+    public String getNom() {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public double getPrecision() {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public int getPuissance() {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public int getPP() {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public void resetPP() {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public ICategorie getCategorie() {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public IType getType() {
+        throw new UnsupportedOperationException();
+    }
 }
