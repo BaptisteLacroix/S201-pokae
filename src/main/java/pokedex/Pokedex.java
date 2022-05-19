@@ -27,13 +27,21 @@ import java.util.*;
  * @author Leo Donati
  */
 public class Pokedex implements IPokedex {
-    private IPokemon[] ranch;
-    Map<String, IPokemon> dico = new HashMap<>();
+    private IPokemon[] ranch = new IPokemon[6];
+    Map<Integer, IEspece> dico = new HashMap<>();
 
     public IPokemon[] engendreRanch() {
         Random rand = new Random();
-        // for (int i = 0; i < 6; i++) {
-        // }
+        IPokemon v;
+        this.initializeFromCSV("./resources/listePokemeon1G.csv");
+        System.out.println(dico);
+        for (int i = 0; i < 6; i++) {
+            v = (IPokemon) dico.get(rand.nextInt(151));
+            while (v == null) {
+                v = (IPokemon) dico.get(rand.nextInt(151));
+            }
+            ranch[i] = v;
+        }
         throw new UnsupportedOperationException();
     }           //Renvoie un tableau de 6 Pokemon au hasard
 
@@ -57,11 +65,8 @@ public class Pokedex implements IPokedex {
         int id;
         String nom;
         int niveau;
-        int pv;
-        int force;
-        int defense;
-        int special;
-        int vitesse;
+        int pv, force, defense, special, vitesse;
+        int evPV, evForce, evDefense, evSpecial, evVitesse;
         IType[] types = new IType[2];
         int expbase;
         try {
@@ -78,26 +83,29 @@ public class Pokedex implements IPokedex {
                 special = s.nextInt();
                 vitesse = s.nextInt();
                 expbase = s.nextInt();
-                for (int i = 0; i < 5; i++) {
-                    s.next();
-                }
+                evPV = s.nextInt();
+                evForce = s.nextInt();
+                evDefense = s.nextInt();
+                evSpecial = s.nextInt();
+                evVitesse = s.nextInt();
                 types[0] = conversionStringType(s.next());
                 types[1] = conversionStringType(s.next());
                 niveau = s.nextInt();
 
-                IStat stats = new Stat(pv, force, defense, special, vitesse);
-                IEspece espece = new Espece(stats, nom, niveau, expbase, niveau, , , types);
-
-                this.dico.put(nom, new Pokemon(id, nom, niveau, stats, expbase, 100.0
-                        , espece));
+                if (niveau == 1) {
+                    IStat stats = new Stat(pv, force, defense, special, vitesse);
+                    IStat evstats = new Stat(evPV, evForce, evDefense, evSpecial, evVitesse);
+                    this.dico.put(id, new Espece(stats, nom, niveau, expbase, evstats, types));
+                }
             }
-            reader.close();
-            file.close();
-        } catch (IOException e) {
-            e.printStackTrace();
+                reader.close();
+                file.close();
+            } catch(IOException e){
+                e.printStackTrace();
+            }
         }
-    }
 
+    /*
     private Type conversionStringType(String EspeceType) {
         return switch (EspeceType) {
             case "Combat" -> Type.Combat;
@@ -117,5 +125,58 @@ public class Pokedex implements IPokedex {
             case "Vol" -> Type.Vol;
             default -> null;
         };
+    }*/
+
+        private Type conversionStringType (String EspeceType){
+            Type type = null;
+            switch (EspeceType) {
+                case "Combat":
+                    type = Type.Combat;
+                    break;
+                case "Dragon":
+                    type = Type.Dragon;
+                    break;
+                case "Eau":
+                    type = Type.Eau;
+                    break;
+                case "Electrik":
+                    type = Type.Electrik;
+                    break;
+                case "Feu":
+                    type = Type.Feu;
+                    break;
+                case "Glace":
+                    type = Type.Glace;
+                    break;
+                case "Insecte":
+                    type = Type.Insecte;
+                    break;
+                case "Normal":
+                    type = Type.Normal;
+                    break;
+                case "Plante":
+                    type = Type.Plante;
+                    break;
+                case "Poison":
+                    type = Type.Poison;
+                    break;
+                case "Psy":
+                    type = Type.Psy;
+                    break;
+                case "Roche":
+                    type = Type.Roche;
+                    break;
+                case "Sol":
+                    type = Type.Sol;
+                    break;
+                case "Spectre":
+                    type = Type.Spectre;
+                    break;
+                case "Vol":
+                    type = Type.Vol;
+                    break;
+            }
+
+            return type;
+        }
     }
-}
