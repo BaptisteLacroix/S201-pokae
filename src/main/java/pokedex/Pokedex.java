@@ -32,7 +32,6 @@ public class Pokedex implements IPokedex {
     private IPokemon[] ranch = new IPokemon[6];
 
     /**
-     *
      * @return
      */
     @Override
@@ -57,34 +56,6 @@ public class Pokedex implements IPokedex {
 
 
     /**
-     *
-     * @param nbrA
-     * @param nbrD
-     * @param reader
-     * @return
-     */
-    private double foundEfficacite(int nbrA, int nbrD, BufferedReader reader) {
-        double eff = 0.0;
-        try {
-            for (int i = 0; i < nbrA - 1; i++) {
-                reader.readLine();
-            }
-            while (reader.ready()) {
-                Scanner s = new Scanner(reader.readLine()).useDelimiter(";");
-                for (int i = 0; i < nbrD - 1; i++) {
-                    s.nextDouble();
-                }
-                eff = s.nextDouble();
-            }
-            reader.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return eff;
-    }
-
-    /**
-     *
      * @param attaque
      * @param defense
      * @return
@@ -92,22 +63,18 @@ public class Pokedex implements IPokedex {
     @Override
     public Double getEfficacite(IType attaque, IType defense) {
         double value = 0.0;
-        int cmp = 1;
         int nbrA = 0;
         int nbrD = 0;
         try {
             FileReader file = new FileReader("./resources/efficacites.csv");
             BufferedReader reader = new BufferedReader(file);
             Scanner s = new Scanner(reader.readLine()).useDelimiter(";");
-            System.out.println(s.next());
-            while (s.hasNext()) {
-                String str = s.next();
-                System.out.println(s.next());
-                if (attaque.getNom().equals(str))
-                    nbrA = cmp;
-                if (defense.getNom().equals(str))
-                    nbrD = cmp;
-                cmp ++;
+            String[] var = s.nextLine().split(";");
+            for (int i = 0; i < var.length - 1; i++) {
+                if (attaque.getNom().equals(var[i]))
+                    nbrA = i;
+                if (defense.getNom().equals(var[i]))
+                    nbrD = i;
             }
             value = this.foundEfficacite(nbrA, nbrD, reader);
             file.close();
@@ -118,7 +85,21 @@ public class Pokedex implements IPokedex {
     }           //Calcule l'efficacité d'un type d'attaque sur un type de cible
 
     /**
-     *
+     * @param nbrA
+     * @param nbrD
+     * @param reader
+     * @return
+     */
+    private double foundEfficacite(int nbrA, int nbrD, BufferedReader reader) throws IOException {
+        for (int i = 0; i < nbrA - 1; i ++) {
+            reader.readLine();
+        }
+        Scanner s = new Scanner(reader.readLine()).useDelimiter(";");
+        String[] var = s.nextLine().split(";");
+        return Double.parseDouble(var[nbrD]);
+    }
+
+    /**
      * @param nomCapacite
      * @return
      */
@@ -128,7 +109,6 @@ public class Pokedex implements IPokedex {
     }            //Renvoie une instance de la capacité appelée nomCapacite
 
     /**
-     *
      * @param nunCapacite
      * @return
      */
@@ -138,7 +118,6 @@ public class Pokedex implements IPokedex {
     }
 
     /**
-     *
      * @param namefile
      */
     public void initializeFromCSV(String namefile) {
@@ -187,7 +166,6 @@ public class Pokedex implements IPokedex {
     }
 
     /**
-     *
      * @param EspeceType
      * @return
      */
