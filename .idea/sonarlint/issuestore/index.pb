@@ -21,3 +21,9 @@ Y
 )src/main/java/statsPokemon/Categorie.java,b\1\b15c4c3592dd0ffd111424aa073605e0585ba624
 T
 $src/main/java/statsPokemon/Type.java,a\c\ac270d0a194cf67c76ba291686348b3770e0b002
+Z
+*src/main/java/testPokedex/TestPokedex.java,b\4\b4a8c70609723782fb2edf1b9244b0ae4c139d4b
+R
+"src/main/interfaces/ICapacite.java,2\2\22adee93a3845dfee4db9a04b4e07371ad1648a4
+X
+(src/main/java/statsPokemon/Capacite.java,6\9\699a7bfe1e3fda01b464cab9de85cfbf034cc704

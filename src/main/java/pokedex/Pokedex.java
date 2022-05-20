@@ -5,23 +5,23 @@
  *
  * @date IPokedex.java
  */
-package main.java.pokedex;
+        package main.java.pokedex;
 
-import main.interfaces.IPokedex;
-import main.interfaces.IEspece;
-import main.interfaces.IPokemon;
-import main.interfaces.ICapacite;
-import main.interfaces.IStat;
-import main.interfaces.IType;
-import main.java.pokemon.Espece;
-import main.java.pokemon.Pokemon;
-import main.java.statsPokemon.Stat;
-import main.java.statsPokemon.Type;
+        import main.interfaces.IPokedex;
+        import main.interfaces.IEspece;
+        import main.interfaces.IPokemon;
+        import main.interfaces.ICapacite;
+        import main.interfaces.IStat;
+        import main.interfaces.IType;
+        import main.java.pokemon.Espece;
+        import main.java.pokemon.Pokemon;
+        import main.java.statsPokemon.Stat;
+        import main.java.statsPokemon.Type;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.*;
+        import java.io.BufferedReader;
+        import java.io.FileReader;
+        import java.io.IOException;
+        import java.util.*;
 
 /**
  * @author Lacroix Baptiste
@@ -32,10 +32,7 @@ public class Pokedex implements IPokedex {
     private IPokemon[] ranch = new IPokemon[6];
 
     /**
-<<<<<<< HEAD
-=======
      * It generates a random array of 6 Pokemon.
->>>>>>> dev
      * @return
      */
     @Override
@@ -62,41 +59,26 @@ public class Pokedex implements IPokedex {
 
 
     /**
-<<<<<<< HEAD
-=======
      * It reads the file line by line until it reaches the line corresponding to the attacker's type, then it reads the
      * value corresponding to the defender's type
->>>>>>> dev
      * @param attaque
      * @param defense
      * @return
      */
     @Override
     public Double getEfficacite(IType attaque, IType defense) {
-<<<<<<< HEAD
-        double value = 0.0;
-=======
         double eff = 0.0;
->>>>>>> dev
         int nbrA = 0;
         int nbrD = 0;
         try {
             FileReader file = new FileReader("./resources/efficacites.csv");
             BufferedReader reader = new BufferedReader(file);
             Scanner s = new Scanner(reader.readLine()).useDelimiter(";");
-<<<<<<< HEAD
-            String[] var = s.nextLine().split(";");
-            for (int i = 0; i < var.length - 1; i++) {
-                if (attaque.getNom().equals(var[i]))
-                    nbrA = i;
-                if (defense.getNom().equals(var[i]))
-=======
             String[] tab = s.nextLine().split(";");
             for (int i = 0; i < tab.length - 1; i++) {
                 if (attaque.getNom().equals(tab[i]))
                     nbrA = i;
                 if (defense.getNom().equals(tab[i]))
->>>>>>> dev
                     nbrD = i;
             }
             eff = this.foundEfficacite(nbrA, nbrD, reader);
@@ -109,20 +91,6 @@ public class Pokedex implements IPokedex {
 
 
     /**
-<<<<<<< HEAD
-     * @param nbrA
-     * @param nbrD
-     * @param reader
-     * @return
-     */
-    private double foundEfficacite(int nbrA, int nbrD, BufferedReader reader) throws IOException {
-        for (int i = 0; i < nbrA - 1; i ++) {
-            reader.readLine();
-        }
-        Scanner s = new Scanner(reader.readLine()).useDelimiter(";");
-        String[] var = s.nextLine().split(";");
-        return Double.parseDouble(var[nbrD]);
-=======
      * It reads the file line by line until it reaches the line corresponding to the attacker's type, then it reads the
      * value corresponding to the defender's type
      *
@@ -138,7 +106,6 @@ public class Pokedex implements IPokedex {
         Scanner s = new Scanner(reader.readLine()).useDelimiter(";");
         String[] tab = s.nextLine().split(";");
         return Double.parseDouble(tab[nbrD]);
->>>>>>> dev
     }
 
     /**
@@ -152,15 +119,10 @@ public class Pokedex implements IPokedex {
 
 
     /**
-<<<<<<< HEAD
-     * @param nunCapacite
-     * @return
-=======
      * > This function is not supported
      *
      * @param nunCapacite The number of the ability to get.
      * @return A ICapacite object.
->>>>>>> dev
      */
     @Override
     public ICapacite getCapacite(int nunCapacite) {
@@ -169,11 +131,7 @@ public class Pokedex implements IPokedex {
 
 
     /**
-<<<<<<< HEAD
-     * @param namefile
-=======
      * It reads a csv file and creates a Pokemon object for each line of the file
->>>>>>> dev
      */
     private void initializeFromCSV() {
         int id;
@@ -222,15 +180,10 @@ public class Pokedex implements IPokedex {
 
 
     /**
-<<<<<<< HEAD
-     * @param EspeceType
-     * @return
-=======
      * It converts a string into a type
      *
      * @param EspeceType The type of the Pokemon
      * @return The type of the pokemon
->>>>>>> dev
      */
     private Type conversionStringType(String EspeceType) {
         switch (EspeceType) {
