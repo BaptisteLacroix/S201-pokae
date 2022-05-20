@@ -9,21 +9,42 @@ package main.java.statsPokemon;
 
 import main.interfaces.ICategorie;
 
+import java.util.Objects;
+
 /**
- * @author Leo Donati
+ * @author Lacroix Baptiste
  * Il s'agit de la catégorie d'une capacité :
  *  - soit Physique
  *  - soit Special
  */
-public class Categorie implements ICategorie {
+public enum Categorie implements ICategorie {
+	Physique("Physique"),
+	Special("Special");
+	private String nom;
 
-	@Override
-	public boolean isSpecial() {
-		throw new UnsupportedOperationException();
+	/**
+	 *
+	 * @param nom
+	 */
+	Categorie(String nom) {
+		this.nom = nom;
 	}
 
+	/**
+	 *
+	 * @return
+	 */
+	@Override
+	public boolean isSpecial() {
+		return Objects.equals(this.nom, Physique.nom);
+	}
+
+	/**
+	 *
+	 * @return
+	 */
 	@Override
 	public String getNom() {
-		throw new UnsupportedOperationException();
+		return this.nom;
 	}
 }

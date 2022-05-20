@@ -24,6 +24,7 @@ public class Pokemon implements IPokemon {
     private double experience;
     private double pourcentagePV;
     private IEspece espece;
+    private ICapacite[] capacites = new ICapacite[4];
 
     /**
      *
@@ -46,7 +47,7 @@ public class Pokemon implements IPokemon {
     }
 
     /**
-     *
+     * A getter for the stat attribute.
      * @return
      */
     @Override
@@ -55,7 +56,7 @@ public class Pokemon implements IPokemon {
     }
 
     /**
-     *
+     * A getter for the experience attribute.
      * @return
      */
     @Override
@@ -64,7 +65,7 @@ public class Pokemon implements IPokemon {
     }
 
     /**
-     *
+     * A getter for the niveau attribute.
      * @return
      */
     @Override
@@ -73,44 +74,53 @@ public class Pokemon implements IPokemon {
     }
 
     /**
+     * This function returns the id of the object.
      *
-     * @return
+     * @return The id of the object.
      */
     @Override
     public int getId() {
         return id;
     }
 
+
     /**
+     * > This function returns the name of the object
      *
-     * @return
+     * @return The name of the person
      */
     @Override
     public String getNom() {
         return nom;
     }
 
+
     /**
+     * It returns the percentage of the health of the player.
      *
-     * @return
+     * @return The percentage of the health of the character.
      */
     @Override
     public double getPourcentagePV() {
         return pourcentagePV;
     }
 
+
     /**
+     * It returns the species of the animal.
      *
-     * @return
+     * @return The espece of the animal.
      */
     @Override
     public IEspece getEspece() {
         return espece;
     }
 
+
     /**
+     * This function is not supported.
      *
-     * @param esp
+     * @param esp The species to mutate into.
      */
     @Override
     public void vaMuterEn(IEspece esp) {
@@ -123,7 +133,7 @@ public class Pokemon implements IPokemon {
      */
     @Override
     public ICapacite[] getCapacitesApprises() {
-        throw new UnsupportedOperationException();
+        return this.capacites;
     }    //Tableau des capacités que le Pokemon peut utiliser
 
     /**
@@ -132,7 +142,7 @@ public class Pokemon implements IPokemon {
      */
     @Override
     public void apprendCapacites(ICapacite[] caps) {
-        throw new UnsupportedOperationException();
+        this.capacites = caps;
     }    //Enseigne les capacités au Pokemon
 
     /**
@@ -143,7 +153,9 @@ public class Pokemon implements IPokemon {
      */
     @Override
     public void remplaceCapacite(int i, ICapacite cap) throws Exception {
-        throw new UnsupportedOperationException();
+        if (i < 0 || i > 4)
+            throw new Exception();
+        this.capacites[i] = cap;
     }
 
     /**
@@ -171,7 +183,7 @@ public class Pokemon implements IPokemon {
      */
     @Override
     public boolean estEvanoui() {
-        throw new UnsupportedOperationException();
+        return this.stat.getPV() == 0;
     }        //renvoie true si les pointes de vie du pokemonsont 0
 
     /**
@@ -190,13 +202,13 @@ public class Pokemon implements IPokemon {
     @Override
     public boolean peutMuter() {
         throw new UnsupportedOperationException();
-    }            //renvoie true si le Pokemon peut muter
+    }         //renvoie true si le Pokemon peut muter
 
     /**
      *
      */
     @Override
     public void soigne() {
-        throw new UnsupportedOperationException();
-    }                //Remet les PV au maximum
+        this.stat.setPV(this.espece.getBaseStat().getPV());
+    }       // Remet les PV au maximum
 }
