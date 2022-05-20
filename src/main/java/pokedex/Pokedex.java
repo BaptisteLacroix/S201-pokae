@@ -21,15 +21,16 @@ import main.java.statsPokemon.Type;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.rmi.UnexpectedException;
 import java.util.*;
 
 /**
  * @author Lacroix Baptiste
  */
 public class Pokedex implements IPokedex {
-    Map<Integer, IPokemon> dico = new HashMap<>();
+    private final Map<Integer, IPokemon> dico = new HashMap<>();
 
-    private IPokemon[] ranch = new IPokemon[6];
+    private final IPokemon[] ranch = new IPokemon[6];
 
     /**
      * Il génère une équipe aléatoire de 6 pokemon
@@ -47,14 +48,39 @@ public class Pokedex implements IPokedex {
                 pokemon = dico.get(rand.nextInt(151));
             }
             this.ranch[i] = pokemon;
-            System.out.println(this.ranch[i].getId() + " : " + this.ranch[i].getEspece().getCapSet().length);
+            System.out.println(this.ranch[i].getNom());
         }
         return this.ranch;
     }           //Renvoie un tableau de 6 Pokemon au hasard
 
     @Override
     public IEspece getInfo(String nomEspece) {
-        throw new UnsupportedOperationException();
+        IEspece espece = null;
+        IType[] type = new IType[2];
+        boolean trouve = false;
+        try {
+            FileReader file = new FileReader("./resources/listePokemeon1G.csv");
+            BufferedReader reader = new BufferedReader(file);
+            reader.readLine();
+            while (reader.ready() && !trouve) {
+                Scanner scanner = new Scanner(reader.readLine()).useDelimiter(";");
+                String[] tab = scanner.nextLine().split(";");
+                if (tab[1].equals(nomEspece)) {
+                    IStat stats = new Stat(Integer.parseInt(tab[2]), Integer.parseInt(tab[3]), Integer.parseInt(tab[4]),
+                            Integer.parseInt(tab[5]), Integer.parseInt(tab[6]));
+                    IStat evstats = new Stat(Integer.parseInt(tab[8]), Integer.parseInt(tab[9]), Integer.parseInt(tab[10]),
+                            Integer.parseInt(tab[11]), Integer.parseInt(tab[12]));
+                    type[0] = conversionStringType(tab[13]);
+                    type[1] = conversionStringType(tab[14]);
+                    espece = new Espece(Integer.parseInt(tab[0]), stats, tab[1], Integer.parseInt(tab[15]),
+                            Integer.parseInt(tab[7]), evstats, type);
+                    trouve = true;
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return espece;
     }           //Renvoie une instance de l'espèce de Pokemon dont on fournit le nom
 
 
