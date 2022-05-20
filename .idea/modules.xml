@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pokae-g2-bl-tv.iml" filepath="$PROJECT_DIR$/.idea/pokae-g2-bl-tv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pokae-g2-bl-tv.iml" filepath="$PROJECT_DIR$/pokae-g2-bl-tv.iml" />
     </modules>
   </component>
 </project>

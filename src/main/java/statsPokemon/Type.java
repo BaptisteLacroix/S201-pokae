@@ -31,17 +31,17 @@ public enum Type implements IType {
 	Vol("Vol");
 	private String nom;
 
-	/**
-	 *
-	 * @param nom
-	 */
+
+	// C'est un constructeur.
 	Type(String nom) {
 		this.nom = nom;
 	}
 
+
 	/**
+	 * > Cette fonction renvoie le nom du type
 	 *
-	 * @return
+	 * @return Le nom de la personne.
 	 */
 	@Override
 	public String getNom() {

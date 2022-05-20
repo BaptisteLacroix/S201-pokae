@@ -22,26 +22,27 @@ public enum Categorie implements ICategorie {
 	Special("Special");
 	private String nom;
 
-	/**
-	 *
-	 * @param nom
-	 */
+
 	Categorie(String nom) {
 		this.nom = nom;
 	}
 
+
 	/**
+	 * > Si le nom de l'objet en cours est égal au nom de l'objet passé en paramètre, alors renvoie vrai, sinon renvoie faux
 	 *
-	 * @return
+	 * @return Le nom de l'objet.
 	 */
 	@Override
 	public boolean isSpecial() {
 		return Objects.equals(this.nom, Physique.nom);
 	}
 
+
 	/**
+	 * > Cette fonction renvoie le nom de la Catégorie
 	 *
-	 * @return
+	 * @return Le nom de la personne.
 	 */
 	@Override
 	public String getNom() {
