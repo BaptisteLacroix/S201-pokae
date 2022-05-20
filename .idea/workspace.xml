@@ -2,51 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b1a1f92-a572-465e-92e4-e09477082a40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pokae-g2-bl-tv.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pokae-g2-bl-tv.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/22adee93a3845dfee4db9a04b4e07371ad1648a4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/23088b585af493682c0f7616c2a1c1b541eb8451" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/29b1e4bc6bd4f1f806ee8ba57250a6d542cc059f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/637eb78f2ad3c3a937563506e1e7c498858b32b2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/699a7bfe1e3fda01b464cab9de85cfbf034cc704" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/c/6c8b972d5afdb8c21e22259d01823554ac83bcc5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/ac270d0a194cf67c76ba291686348b3770e0b002" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b15c4c3592dd0ffd111424aa073605e0585ba624" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4a8c70609723782fb2edf1b9244b0ae4c139d4b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b5dce109237d4a6b2e65c3ff19089c7556d23c40" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e2f72aacbeb01f701bc8bd744691a536193fccca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed3a8bc6fc7380ef39c5a7b1c406ce8ee9b667ae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/feda8e5517737224c68a0fa315f26ad62216cf2b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/IAttaque.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/IAttaque.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/ICapacite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/ICapacite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/ICategorie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/ICategorie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/IEchange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/IEchange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/IEspece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/IEspece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/IPokedex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/IPokedex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/IPokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/IPokemon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/IStat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/IStat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/IType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/IType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/combat/Attaque.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/combat/Attaque.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/combat/Echange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/combat/Echange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/statsPokemon/Stat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/statsPokemon/Stat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/statsPokemon/Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/statsPokemon/Type.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/moves.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/Pokedex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/Pokedex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pokemon/Espece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokemon/Espece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pokemon/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokemon/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/statsPokemon/Capacite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/statsPokemon/Capacite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/statsPokemon/Categorie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/statsPokemon/Categorie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/statsPokemon/Stat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/statsPokemon/Stat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/statsPokemon/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/statsPokemon/Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testPokedex/TestPokedex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testPokedex/TestPokedex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653061816652</updated>
-      <workItem from="1653061823659" duration="1990000" />
+      <workItem from="1653061823659" duration="3748000" />
     </task>
     <servers />
   </component>
