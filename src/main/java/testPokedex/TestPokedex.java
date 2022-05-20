@@ -8,8 +8,8 @@ public class TestPokedex {
     public static void main(String[] args) {
         Pokedex p = new Pokedex();
         p.engendreRanch();
-        IType typeA = Type.Insecte;
-        IType typeD = Type.Sol;
-        System.out.println(p.getEfficacite(typeA, typeD));
+        // IType typeA = Type.Insecte;
+        // IType typeD = Type.Sol;
+        // System.out.println(p.getEfficacite(typeA, typeD));
     }
 }
