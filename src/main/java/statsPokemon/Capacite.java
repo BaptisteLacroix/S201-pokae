@@ -21,9 +21,20 @@ public class Capacite extends Attaque implements ICapacite {
     private String nom;
     private double precision;
     private int puissance;
+    private int PP_base;
     private int PP;
     private ICategorie categorie;
     private IType type;
+
+    public Capacite(String nom, double precision, int puissance, int PP, ICategorie categorie, IType type) {
+        this.nom = nom;
+        this.precision = precision;
+        this.puissance = puissance;
+        this.PP_base = PP;
+        this.PP = PP;
+        this.categorie = categorie;
+        this.type = type;
+    }
 
     /**
      *
@@ -31,7 +42,7 @@ public class Capacite extends Attaque implements ICapacite {
      */
     @Override
     public String getNom() {
-        throw new UnsupportedOperationException();
+        return this.nom;
     }
 
     /**
@@ -40,7 +51,7 @@ public class Capacite extends Attaque implements ICapacite {
      */
     @Override
     public double getPrecision() {
-        throw new UnsupportedOperationException();
+        return this.precision;
     }
 
     /**
@@ -49,7 +60,7 @@ public class Capacite extends Attaque implements ICapacite {
      */
     @Override
     public int getPuissance() {
-        throw new UnsupportedOperationException();
+        return this.puissance;
     }
 
     /**
@@ -58,7 +69,7 @@ public class Capacite extends Attaque implements ICapacite {
      */
     @Override
     public int getPP() {
-        throw new UnsupportedOperationException();
+        return this.PP;
     }
 
     /**
@@ -66,7 +77,7 @@ public class Capacite extends Attaque implements ICapacite {
      */
     @Override
     public void resetPP() {
-        throw new UnsupportedOperationException();
+        this.PP = this.PP_base;
     }
 
     /**
@@ -75,7 +86,7 @@ public class Capacite extends Attaque implements ICapacite {
      */
     @Override
     public ICategorie getCategorie() {
-        throw new UnsupportedOperationException();
+        return this.categorie;
     }
 
     /**
@@ -84,6 +95,19 @@ public class Capacite extends Attaque implements ICapacite {
      */
     @Override
     public IType getType() {
-        throw new UnsupportedOperationException();
+        return this.type;
+    }
+
+    @Override
+    public String toString() {
+        return "Capacite{" +
+                "nom='" + nom + '\'' +
+                ", precision=" + precision +
+                ", puissance=" + puissance +
+                ", PP_base=" + PP_base +
+                ", PP=" + PP +
+                ", categorie=" + categorie +
+                ", type=" + type +
+                '}';
     }
 }
