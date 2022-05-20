@@ -1,5 +1,0 @@
-
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼±Ö8Â”ÍŠ0
-u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ç¬·T8Ã”ÍŠ0
-s	java:S116"RRename this field "PP_base" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú…ûÛúÿÿÿÿ8È”ÍŠ0
-n	java:S116"MRename this field "PP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œéö÷üÿÿÿÿ8Ø”ÍŠ0

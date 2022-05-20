@@ -34,90 +34,111 @@ public class Stat implements main.interfaces.IStat {
         this.vitesse = vitesse;
     }
 
+
     /**
+     * Cette fonction définit le pv de l'objet sur le pv passé en paramètre.
      *
-     * @param pv
+     * @param pv La santé actuelle du Pokemon.
      */
     @Override
     public void setPV(int pv) {
         this.pv = pv;
     }
 
+
+
     /**
+     * Cette fonction renvoie la valeur de la variable privée pv.
      *
-     * @return
+     * @return La variable pv est renvoyée.
      */
     @Override
     public int getPV() {
-        return pv;
+        return this.pv;
     }
 
+
     /**
+     * Cette fonction renvoie la force du Pokemon.
      *
-     * @return
+     * @return La force du Pokemon.
      */
     @Override
     public int getForce() {
-        return force;
+        return this.force;
     }
 
+
     /**
+     * Cette fonction définit la force de l'objet sur la valeur du paramètre force.
      *
-     * @param force
+     * @param force La force du Pokemon.
      */
     @Override
     public void setForce(int force) {
         this.force = force;
     }
 
+
     /**
+     * Cette fonction renvoie la défense du Pokemon
      *
-     * @return
+     * @return La défense du Pokemon.
      */
     @Override
     public int getDefense() {
         return defense;
     }
 
+
     /**
+     * Cette fonction fixe la défense du Pokemon à la valeur du paramètre défense.
      *
-     * @param defense
+     * @param defense La quantité de défense dont dispose le Pokemon.
      */
     @Override
     public void setDefense(int defense) {
         this.defense = defense;
     }
 
+
     /**
+     * Cette fonction renvoie la valeur de la variable spéciale
      *
-     * @return
+     * @return La variable spéciale est renvoyée.
      */
     @Override
     public int getSpecial() {
         return special;
     }
 
+
     /**
+     * Cette fonction définit la variable spéciale sur la valeur du paramètre spécial.
      *
-     * @param special
+     * @param special La valeur spéciale du Pokemon.
      */
     @Override
     public void setSpecial(int special) {
         this.special = special;
     }
 
+
     /**
+     * > Cette fonction renvoie la vitesse d'attaque du Pokemon
      *
-     * @return
+     * @return La vitesse d'attaque du Pokemon.
      */
     @Override
     public int getVitesse() {
         return vitesse;
     }
 
+
     /**
-     * Permet de définir changer la vitesse du Pokemon
-     * @param vitesse : Integer
+     * Cette fonction fixe la vitesse d'attaque du Pokemon à la valeur du paramètre vitesse.
+     *
+     * @param vitesse la vitesse d'attaque du Pokemon
      */
     @Override
     public void setVitesse(int vitesse) {

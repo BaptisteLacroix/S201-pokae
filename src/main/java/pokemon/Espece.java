@@ -40,6 +40,8 @@ public class Espece implements IEspece {
     private IType[] types;
 
     /**
+     * Il s'agit d'un constructeur.
+     *
      * @param baseIStat
      * @param nom
      * @param niveauDepart
@@ -57,40 +59,55 @@ public class Espece implements IEspece {
         this.types = types;
     }
 
+
     /**
-     * @return
+     * > Cette fonction renvoie la statistique de base de l'élément
+     *
+     * @return La baseStat
      */
     @Override
     public IStat getBaseStat() {
         return baseStat;
     }
 
+
     /**
-     * @return
+     * > Cette fonction retourne le nom de l'objet
+     *
+     * @return Le nom de la personne
      */
     @Override
     public String getNom() {
         return nom;
     }
 
+
     /**
-     * @return
+     * > Cette fonction renvoie le niveau de départ du Pokemon
+     *
+     * @return La variable niveauDepart.
      */
     @Override
     public int getNiveauDepart() {
         return niveauDepart;
     }
 
+
     /**
-     * @return
+     * Renvoie l'expérience de base du Pokémon.
+     *
+     * @return L'expérience de base du Pokémon.
      */
     @Override
     public int getBaseExp() {
         return baseExp;
     }
 
+
     /**
-     * @return
+     * Renvoie la statistique utilisée pour calculer les gains de cette statistique.
+     *
+     * @return La variable gainsStat.
      */
     @Override
     public IStat getGainsStat() {
@@ -98,11 +115,12 @@ public class Espece implements IEspece {
     }
 
     /**
+     * Une méthode qui renvoie l'ensemble des capacités disponibles pour cette espèce.
+     *
      * @return
      */
     @Override
     public ICapacite[] getCapSet() {
-        int cmp = 0;
         List<ICapacite> cap = new ArrayList<>();
         String url = this.getURLPokemon();
         List<String> nameMove = this.recupMoves(url);
@@ -111,16 +129,14 @@ public class Espece implements IEspece {
                 FileReader file = new FileReader("./resources/listeCapacites.csv");
                 BufferedReader reader = new BufferedReader(file);
                 reader.readLine();
-                Scanner scanner = new Scanner(reader.readLine()).useDelimiter(";");
-                String[] tab = scanner.nextLine().split(";");
-                while (!tab[0].equals(s) && reader.ready()) {
-                    cmp ++;
-                    scanner = new Scanner(reader.readLine()).useDelimiter(";");
-                    tab = scanner.nextLine().split(";");
+                while (reader.ready()) {
+                    Scanner scanner = new Scanner(reader.readLine()).useDelimiter(";");
+                    String[] tab = scanner.nextLine().split(";");
+                    if (tab[0].equals(s)) {
+                        cap.add(new Capacite(tab[0], Double.parseDouble(tab[2]), Integer.parseInt(tab[1]),
+                                Integer.parseInt(tab[3]), Categorie.valueOf(tab[5]), Type.valueOf(tab[6])));
+                    }
                 }
-                if (cmp <= 111)
-                    cap.add(new Capacite(tab[0], Double.parseDouble(tab[2]), Integer.parseInt(tab[1]),
-                        Integer.parseInt(tab[3]), Categorie.valueOf(tab[5]), Type.valueOf(tab[6])));
                 file.close();
             } catch (IOException e) {
                 e.printStackTrace();
@@ -129,11 +145,15 @@ public class Espece implements IEspece {
         this.capSet = new ICapacite[cap.size()];
         for (int i = 0; i < cap.size(); i++) {
             this.capSet[i] = cap.get(i);
-            System.out.println(this.capSet[i].toString());
         }
         return this.capSet;
     } //ensemble des capacités disponibles pour cette espèce
 
+    /**
+     * Il obtient l'URL du pokemon à partir de l'API pokemon-species
+     *
+     * @return L'URL du Pokémon
+     */
     private String getURLPokemon() {
         String pokemonurl = "";
         try {
@@ -150,6 +170,12 @@ public class Espece implements IEspece {
         return pokemonurl;
     }
 
+    /**
+     * Il prend une URL en paramètre et renvoie une liste de chaînes
+     *
+     * @param url l'url du pokémon
+     * @return Une liste de mouvements
+     */
     private List<String> recupMoves(String url) {
         List<String> moveName = new ArrayList<>();
         try {
@@ -168,6 +194,12 @@ public class Espece implements IEspece {
         return moveName;
     }
 
+    /**
+     * Il prend une url en paramètre, et retourne le nom du move en français
+     *
+     * @param url l'url du move dont vous voulez obtenir le nom
+     * @return Le nom du déménagement en français.
+     */
     private String recupFrenchMoves(String url) {
         String moveName = "";
         try {
@@ -185,6 +217,8 @@ public class Espece implements IEspece {
 
 
     /**
+     * Une méthode qui renvoie les types du pokémon.
+     *
      * @return
      */
     @Override
@@ -192,10 +226,7 @@ public class Espece implements IEspece {
         return types;
     } //une espece de pokemon peut avoir un ou deux types
 
-    /**
-     * @param niveau
-     * @return
-     */
+
     @Override
     public IEspece getEvolution(int niveau) {
         if (niveau >= 32)
@@ -219,11 +250,12 @@ public class Espece implements IEspece {
         throw new UnsupportedOperationException();
     }  //renvoie null si aucune evolution possible
 
+
     /**
-     * @param url
-     * @return
-     * @throws IOException
-     * @throws ParseException
+     * Il prend une URL sous forme de chaîne, ouvre une connexion à cette URL, lit la réponse et renvoie un JSONObject
+     *
+     * @param url L'URL du point de terminaison de l'API.
+     * @return Un objet JSON
      */
     private JSONObject requestHTTP(String url) throws IOException, ParseException {
         URL http = new URL(url);
