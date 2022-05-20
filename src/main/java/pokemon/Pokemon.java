@@ -125,10 +125,12 @@ public class Pokemon implements IPokemon {
     }
 
 
-
+    /**
+     * Une méthode qui change l'espèce du pokémon.
+     */
     @Override
     public void vaMuterEn(IEspece esp) {
-        throw new UnsupportedOperationException();
+        this.espece = esp;
     }   //Modifie l'espèce du Pokemon en esp
 
 
@@ -142,7 +144,7 @@ public class Pokemon implements IPokemon {
 
 
     /**
-     * Méthode permettant de rajouter des capacités au Pokemon
+     * Méthode permettant de rajouter des capacitées au Pokemon
      */
     @Override
     public void apprendCapacites(ICapacite[] caps) {
