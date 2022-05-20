@@ -110,16 +110,4 @@ public class Capacite extends Attaque implements ICapacite {
         return this.type;
     }
 
-    @Override
-    public String toString() {
-        return "Capacite{" +
-                "nom='" + nom + '\'' +
-                ", precision=" + precision +
-                ", puissance=" + puissance +
-                ", PP_base=" + PP_base +
-                ", PP=" + PP +
-                ", categorie=" + categorie +
-                ", type=" + type +
-                '}';
-    }
 }

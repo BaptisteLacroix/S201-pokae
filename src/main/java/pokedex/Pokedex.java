@@ -41,8 +41,7 @@ public class Pokedex implements IPokedex {
         Random rand = new Random();
         IPokemon pokemon;
         this.initializeFromCSV();
-        this.ranch[0] = dico.get(1);
-        for (int i = 1; i < 6; i++) {
+        for (int i = 0; i < 5; i++) {
             pokemon = dico.get(rand.nextInt(151));
             while (pokemon == null) {
                 pokemon = dico.get(rand.nextInt(151));

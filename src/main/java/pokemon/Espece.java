@@ -10,6 +10,7 @@ package main.java.pokemon;
 import main.interfaces.*;
 import main.java.statsPokemon.Capacite;
 import main.java.statsPokemon.Categorie;
+import main.java.statsPokemon.Stat;
 import main.java.statsPokemon.Type;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -186,9 +187,7 @@ public class Espece implements IEspece {
                 JSONObject obj2 = (JSONObject) new JSONParser().parse(String.valueOf(jsonObj.get("move")));
                 moveName.add(this.recupFrenchMoves((String) obj2.get("url")));
             }
-        } catch (ParseException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
+        } catch (ParseException | IOException e) {
             e.printStackTrace();
         }
         return moveName;
@@ -207,9 +206,7 @@ public class Espece implements IEspece {
             JSONArray modules = (JSONArray) obj.get("names");
             JSONObject jsonObj = (JSONObject) modules.get(3);
             moveName = (String) jsonObj.get("name");
-        } catch (ParseException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
+        } catch (ParseException | IOException e) {
             e.printStackTrace();
         }
         return moveName;
@@ -219,7 +216,7 @@ public class Espece implements IEspece {
     /**
      * Une méthode qui renvoie les types du pokémon.
      *
-     * @return
+     * @return les types du pokémon
      */
     @Override
     public IType[] getTypes() {
@@ -231,25 +228,80 @@ public class Espece implements IEspece {
     public IEspece getEvolution(int niveau) {
         if (niveau >= 32)
             return null;
-        String Evolution;
-        String url;
+        Espece espece = null;
         try {
-            JSONObject obj = requestHTTP("");
-            JSONArray modules = (JSONArray) obj.get("moves");
-            for (Object m : modules) {
-                JSONObject jsonObj = (JSONObject) m;
-                JSONObject obj2 = (JSONObject) new JSONParser().parse(String.valueOf(jsonObj.get("move")));
-                Evolution = (String) obj2.get("name");
-                url = (String) obj2.get("url");
+            boolean trouve = false;
+            FileReader file = new FileReader("./resources/listePokemeon1G.csv");
+            BufferedReader reader = new BufferedReader(file);
+            reader.readLine();
+            while (reader.ready() && !trouve) {
+                Scanner scanner = new Scanner(reader.readLine()).useDelimiter(";");
+                String[] tab = scanner.nextLine().split(";");
+                if (tab[1].equals(this.nom) && !tab[17].equals("")) {
+                    scanner = new Scanner(reader.readLine()).useDelimiter(";");
+                    tab = scanner.nextLine().split(";");
+                    IType[] type = new IType[2];
+                    IStat stats = new Stat(Integer.parseInt(tab[2]), Integer.parseInt(tab[3]), Integer.parseInt(tab[4]),
+                            Integer.parseInt(tab[5]), Integer.parseInt(tab[6]));
+                    IStat evstats = new Stat(Integer.parseInt(tab[8]), Integer.parseInt(tab[9]), Integer.parseInt(tab[10]),
+                            Integer.parseInt(tab[11]), Integer.parseInt(tab[12]));
+                    type[0] = conversionStringType(tab[13]);
+                    type[1] = conversionStringType(tab[14]);
+                    espece = new Espece(Integer.parseInt(tab[0]), stats, tab[1], Integer.parseInt(tab[15]),
+                            Integer.parseInt(tab[7]), evstats, type);
+                    trouve = true;
+                }
             }
-        } catch (ParseException e) {
-            e.printStackTrace();
+            reader.close();
+            file.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        throw new UnsupportedOperationException();
+        return espece;
     }  //renvoie null si aucune evolution possible
 
+    /**
+     * Il convertit une chaîne en un Type
+     *
+     * @param EspeceType Le type de Pokémon.
+     * @return Le type de pokémon
+     */
+    private Type conversionStringType(String EspeceType) {
+        switch (EspeceType) {
+            case "Combat":
+                return Type.Combat;
+            case "Dragon":
+                return Type.Dragon;
+            case "Eau":
+                return Type.Eau;
+            case "Electrik":
+                return Type.Electrik;
+            case "Feu":
+                return Type.Feu;
+            case "Glace":
+                return Type.Glace;
+            case "Insecte":
+                return Type.Insecte;
+            case "Normal":
+                return Type.Normal;
+            case "Plante":
+                return Type.Plante;
+            case "Poison":
+                return Type.Poison;
+            case "Psy":
+                return Type.Psy;
+            case "Roche":
+                return Type.Roche;
+            case "Sol":
+                return Type.Sol;
+            case "Spectre":
+                return Type.Spectre;
+            case "Vol":
+                return Type.Vol;
+            default:
+                return null;
+        }
+    }
 
     /**
      * Il prend une URL sous forme de chaîne, ouvre une connexion à cette URL, lit la réponse et renvoie un JSONObject
@@ -265,15 +317,14 @@ public class Espece implements IEspece {
         BufferedReader streamReader = new BufferedReader(new InputStreamReader(hpCon.getInputStream()));
         StringBuilder responseStrBuilder = new StringBuilder();
 
-        String inputStr = "";
+        String inputStr;
         while ((inputStr = streamReader.readLine()) != null) {
             responseStrBuilder.append(inputStr);
         }
         inputStr = responseStrBuilder.toString();
         streamReader.close();
 
-        JSONObject obj = (JSONObject) new JSONParser().parse(inputStr);
-        return obj;
+        return (JSONObject) new JSONParser().parse(inputStr);
     }
 
 }
