@@ -15,6 +15,8 @@ import main.interfaces.IStat;
 import main.interfaces.IType;
 import main.java.pokemon.Espece;
 import main.java.pokemon.Pokemon;
+import main.java.statsPokemon.Capacite;
+import main.java.statsPokemon.Categorie;
 import main.java.statsPokemon.Stat;
 import main.java.statsPokemon.Type;
 
@@ -53,6 +55,13 @@ public class Pokedex implements IPokedex {
         return this.ranch;
     }           //Renvoie un tableau de 6 Pokemon au hasard
 
+
+    /**
+     * Il lit le fichier ligne par ligne jusqu'à ce qu'il atteigne la ligne correspondant au nom de l'espèce, puis il lit
+     * la valeur correspondant à l'espèce
+     * @param nomEspece chaine de caractère (String) correspondant au nom de l'espece recherchée
+     * @return une instance de l'espèce de Pokemon
+     */
     @Override
     public IEspece getInfo(String nomEspece) {
         IEspece espece = null;
@@ -137,16 +146,53 @@ public class Pokedex implements IPokedex {
     }
 
 
+    /**
+     * Il lit un fichier CSV et renvoie une instance de la capacite appelée nomCapacite
+     * @return une instance de la capacité appelée nomCapacite
+     */
     @Override
     public ICapacite getCapacite(String nomCapacite) {
-        throw new UnsupportedOperationException();
+        ICapacite capacite = null;
+        boolean trouve = false;
+        try {
+            FileReader file = new FileReader("./resources/listeCapacites.csv");
+            BufferedReader reader = new BufferedReader(file);
+            reader.readLine();
+            while (reader.ready() && !trouve) {
+                Scanner scanner = new Scanner(reader.readLine()).useDelimiter(";");
+                String[] tab = scanner.nextLine().split(";");
+                if (tab[0].equals(nomCapacite)) {
+                    capacite = new Capacite(tab[0], Double.parseDouble(tab[2]), Integer.parseInt(tab[1]), Integer.parseInt(tab[3]), Categorie.valueOf(tab[5]), conversionStringType(tab[6]));
+                    trouve = true;
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return capacite;
     }            //Renvoie une instance de la capacité appelée nomCapacite
-
 
 
     @Override
     public ICapacite getCapacite(int nunCapacite) {
-        throw new UnsupportedOperationException();
+        ICapacite capacite = null;
+        boolean trouve = false;
+        try {
+            FileReader file = new FileReader("./resources/listeCapacites.csv");
+            BufferedReader reader = new BufferedReader(file);
+            reader.readLine();
+            while (reader.ready() && !trouve) {
+                Scanner scanner = new Scanner(reader.readLine()).useDelimiter(";");
+                String[] tab = scanner.nextLine().split(";");
+                if (Integer.parseInt(tab[4]) == nunCapacite) {
+                    capacite = new Capacite(tab[0], Double.parseDouble(tab[2]), Integer.parseInt(tab[1]), Integer.parseInt(tab[3]), Categorie.valueOf(tab[5]), conversionStringType(tab[6]));
+                    trouve = true;
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return capacite;
     }
 
 

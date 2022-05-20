@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/Pokedex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/Pokedex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pokemon/Espece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokemon/Espece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/statsPokemon/Capacite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/statsPokemon/Capacite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/testPokedex/TestPokedex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testPokedex/TestPokedex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +62,8 @@
       <option name="presentableId" value="Default" />
       <updated>1653061816652</updated>
       <workItem from="1653061823659" duration="3749000" />
-      <workItem from="1653074330275" duration="7385000" />
+      <workItem from="1653074330275" duration="7511000" />
+      <workItem from="1653082821361" duration="770000" />
     </task>
     <servers />
   </component>
