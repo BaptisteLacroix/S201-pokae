@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/Pokedex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/Pokedex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pokemon/Espece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokemon/Espece.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/statsPokemon/Capacite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/statsPokemon/Capacite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testPokedex/TestPokedex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testPokedex/TestPokedex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653061816652</updated>
       <workItem from="1653061823659" duration="3749000" />
-      <workItem from="1653074330275" duration="6335000" />
+      <workItem from="1653074330275" duration="7385000" />
     </task>
     <servers />
   </component>

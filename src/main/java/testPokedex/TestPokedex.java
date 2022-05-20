@@ -11,5 +11,7 @@ public class TestPokedex {
         // IType typeA = Type.Insecte;
         // IType typeD = Type.Sol;
         // System.out.println(p.getEfficacite(typeA, typeD));
+        //System.out.println("INFOOOO : " + p.getInfo("Bulbizarre").getNom()); -> Fonctionne
+        //System.out.println("INFOOOO : " + p.getInfo("Bulbizare").getNom()); -> Erreur
     }
 }
