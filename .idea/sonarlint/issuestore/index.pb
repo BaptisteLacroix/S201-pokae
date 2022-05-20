@@ -15,5 +15,3 @@ T
 $src/main/java/statsPokemon/Type.java,a\c\ac270d0a194cf67c76ba291686348b3770e0b002
 Y
 )src/main/java/statsPokemon/Categorie.java,b\1\b15c4c3592dd0ffd111424aa073605e0585ba624
-R
-"src/main/java/pokemon/Pokemon.java,f\3\f3878736f472ce13aa71bb9d57e13b93f3955ea9

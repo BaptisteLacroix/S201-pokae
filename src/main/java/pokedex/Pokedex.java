@@ -23,7 +23,6 @@ import main.java.statsPokemon.Type;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.rmi.UnexpectedException;
 import java.util.*;
 
 /**
@@ -59,6 +58,7 @@ public class Pokedex implements IPokedex {
     /**
      * Il lit le fichier ligne par ligne jusqu'à ce qu'il atteigne la ligne correspondant au nom de l'espèce, puis il lit
      * la valeur correspondant à l'espèce
+     *
      * @param nomEspece chaine de caractère (String) correspondant au nom de l'espece recherchée
      * @return une instance de l'espèce de Pokemon
      */
@@ -131,8 +131,8 @@ public class Pokedex implements IPokedex {
      * Il lit le fichier ligne par ligne jusqu'à ce qu'il atteigne la ligne correspondant au type de l'attaquant, puis il
      * lit la valeur correspondant au type du défenseur
      *
-     * @param nbrA Le numéro du pokémon de l'attaquant
-     * @param nbrD le nombre de pokémon du défenseur
+     * @param nbrA   Le numéro du pokémon de l'attaquant
+     * @param nbrD   le nombre de pokémon du défenseur
      * @param reader l'objet BufferedReader qui lit le fichier CSV
      * @return L'efficacité de l'attaque du pokémon dans la ligne nbrA et la colonne nbrD.
      */
@@ -147,8 +147,10 @@ public class Pokedex implements IPokedex {
 
 
     /**
-     * Il lit un fichier CSV et renvoie une instance de la capacite appelée nomCapacite
-     * @return une instance de la capacité appelée nomCapacite
+     * Il lit un fichier csv et renvoie un objet Capacite
+     *
+     * @param nomCapacite le nom de la capacité
+     * @return Un objet ICapacite
      */
     @Override
     public ICapacite getCapacite(String nomCapacite) {
@@ -162,7 +164,8 @@ public class Pokedex implements IPokedex {
                 Scanner scanner = new Scanner(reader.readLine()).useDelimiter(";");
                 String[] tab = scanner.nextLine().split(";");
                 if (tab[0].equals(nomCapacite)) {
-                    capacite = new Capacite(tab[0], Double.parseDouble(tab[2]), Integer.parseInt(tab[1]), Integer.parseInt(tab[3]), Categorie.valueOf(tab[5]), conversionStringType(tab[6]));
+                    capacite = new Capacite(tab[0], Double.parseDouble(tab[2]), Integer.parseInt(tab[1]),
+                            Integer.parseInt(tab[3]), Categorie.valueOf(tab[5]), conversionStringType(tab[6]));
                     trouve = true;
                 }
             }
@@ -173,6 +176,12 @@ public class Pokedex implements IPokedex {
     }            //Renvoie une instance de la capacité appelée nomCapacite
 
 
+    /**
+     * Il lit un fichier csv et renvoie un objet Capacite
+     *
+     * @param nunCapacite le numéro de la capacité
+     * @return Un objet ICapacite
+     */
     @Override
     public ICapacite getCapacite(int nunCapacite) {
         ICapacite capacite = null;
@@ -185,7 +194,8 @@ public class Pokedex implements IPokedex {
                 Scanner scanner = new Scanner(reader.readLine()).useDelimiter(";");
                 String[] tab = scanner.nextLine().split(";");
                 if (Integer.parseInt(tab[4]) == nunCapacite) {
-                    capacite = new Capacite(tab[0], Double.parseDouble(tab[2]), Integer.parseInt(tab[1]), Integer.parseInt(tab[3]), Categorie.valueOf(tab[5]), conversionStringType(tab[6]));
+                    capacite = new Capacite(tab[0], Double.parseDouble(tab[2]), Integer.parseInt(tab[1]),
+                            Integer.parseInt(tab[3]), Categorie.valueOf(tab[5]), conversionStringType(tab[6]));
                     trouve = true;
                 }
             }
@@ -245,14 +255,17 @@ public class Pokedex implements IPokedex {
     }
 
 
-
     /**
      * Il convertit une chaîne en un Type
      *
      * @param EspeceType Le type de Pokémon.
      * @return Le type de pokémon
      */
-    private Type conversionStringType(String EspeceType) {
+    private IType conversionStringType(String EspeceType) {
+        return getType(EspeceType);
+    }
+
+    public static IType getType(String EspeceType) {
         switch (EspeceType) {
             case "Combat":
                 return Type.Combat;
