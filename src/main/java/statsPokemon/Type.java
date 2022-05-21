@@ -5,9 +5,9 @@
  * @date
  * IType.java
  */
-package main.java.statsPokemon;
+package statsPokemon;
 
-import main.interfaces.IType;
+import interfaces.IType;
 
 /**
  * @author Lacroix Baptiste

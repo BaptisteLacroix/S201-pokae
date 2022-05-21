@@ -5,14 +5,14 @@
  *
  * @date IPokemon.java
  */
-package main.java.pokemon;
+package pokemon;
 
-import main.interfaces.IEspece;
-import main.interfaces.IPokemon;
-import main.interfaces.IStat;
-import main.interfaces.IAttaque;
-import main.interfaces.ICapacite;
-import main.java.statsPokemon.Stat;
+import interfaces.IEspece;
+import interfaces.IPokemon;
+import interfaces.IStat;
+import interfaces.IAttaque;
+import interfaces.ICapacite;
+import statsPokemon.Stat;
 
 import java.util.Random;
 
@@ -22,6 +22,7 @@ import java.util.Random;
 public class Pokemon implements IPokemon {
     private int id;
     private String nom;
+    private int ancien_niveau;
     private int niveau;
     private IStat stat;
     private double experience;
@@ -34,6 +35,7 @@ public class Pokemon implements IPokemon {
     public Pokemon(int id, String nom, int niveau, IStat stat, double experience, double pourcentagePV, IEspece espece) {
         this.id = id;
         this.nom = nom;
+        this.ancien_niveau = niveau;
         this.niveau = niveau;
         this.stat = stat;
         this.experience = experience;
@@ -59,6 +61,11 @@ public class Pokemon implements IPokemon {
         lowWeight[3] = this.decimalToBinary(special)[3];
 
         this.DV = new Stat(this.binaryToDecimal(lowWeight), force, defense, special, vitesse);
+
+        while (peutChangerDeNiveau()) {
+            this.niveau++;
+            this.miseAJourStats();
+        }
     }
 
 
@@ -174,6 +181,7 @@ public class Pokemon implements IPokemon {
 
     /**
      * Une méthode qui change l'espèce du pokémon.
+     *
      * @param esp Nouvelle espèce du Pokemon
      */
     @Override
@@ -199,6 +207,7 @@ public class Pokemon implements IPokemon {
 
     /**
      * Méthode permettant de rajouter des capacités au Pokemon
+     *
      * @param caps Capacités à ajouter au Pokemon
      */
     @Override
@@ -212,7 +221,7 @@ public class Pokemon implements IPokemon {
      *
      * @param i   l'indice de capacité à remplacer
      * @param cap le nouveau ICapacite pour remplacer l'ancien
-     * @exception UnsupportedOperationException Si l'indice n'est pas contenu dans le tableau
+     * @throws UnsupportedOperationException Si l'indice n'est pas contenu dans le tableau
      */
     @Override
     public void remplaceCapacite(int i, ICapacite cap) throws UnsupportedOperationException {
@@ -224,16 +233,25 @@ public class Pokemon implements IPokemon {
 
     /**
      * Mise à jour de l'expérience du pokémon après avoir vaincu un autre pokémon.
+     *
      * @param pok le pokemon vaincu.
      */
     @Override
     public void gagneExperienceDe(IPokemon pok) {
         this.experience = (1.5 * pok.getNiveau() * pok.getEspece().getBaseExp()) / 7;
+        while (peutChangerDeNiveau()) {
+            this.niveau ++;
+            this.miseAJourStats();
+        }
     } //Met à jour l'exprérience de this suite à la défaite de pok
 
+    private boolean peutChangerDeNiveau() {
+        return this.experience >= (0.8 * Math.pow(this.niveau + 1, 3));
+    }
 
     /**
      * Une méthode qui met à jour les stats du Pokémon après les dégâts subis par l'attaque atk de pok.
+     *
      * @param pok pokemon attaquant
      * @param atk l'attaque subbies
      */
@@ -253,7 +271,7 @@ public class Pokemon implements IPokemon {
     @Override
     public boolean estEvanoui() {
         return this.stat.getPV() == 0;
-    }        //renvoie true si les pointes de vie du pokemonsont 0
+    }        //renvoie true si les pointes de vie du pokemon sont 0
 
 
     /**
@@ -263,19 +281,14 @@ public class Pokemon implements IPokemon {
      */
     @Override
     public boolean aChangeNiveau() {
-        if (this.experience >= (0.8 * Math.pow(this.niveau++, 3))) {
-            this.niveau++;
-            this.changeStat();
-            return true;
-        }
-        return false;
+        return this.niveau != this.ancien_niveau;
     }        //renvoie true si le Pokemon vient de changer de niveau
 
 
     /**
-     * > Cette fonction met à jour les stats du Pokemon après son gain de Niveau.
+     * Cette fonction met à jour les stats du Pokemon après son gain de Niveau.
      */
-    private void changeStat() {
+    private void miseAJourStats() {
         int gainpv = (((2 * (this.espece.getBaseStat().getPV()) + this.espece.getGainsStat().getPV() / 4) *
                 this.niveau) / 100) + this.niveau + 10;
         int gainforce = (((this.espece.getBaseStat().getForce() + this.DV.getForce()) +
@@ -286,7 +299,9 @@ public class Pokemon implements IPokemon {
                 this.espece.getGainsStat().getVitesse() / 4) * this.niveau) / 100 + 5;
         int gainspecial = (((this.espece.getBaseStat().getSpecial() + this.DV.getSpecial()) +
                 this.espece.getGainsStat().getSpecial() / 4) * this.niveau) / 100 + 5;
-        this.stat = new Stat(gainpv, gainforce, gaindefense, gainspecial, gainvitesse);
+        this.stat = new Stat(this.getStat().getPV() + gainpv, this.getStat().getForce() + gainforce,
+                this.getStat().getDefense() + gaindefense, this.getStat().getSpecial() + gainspecial,
+                this.getStat().getVitesse() + gainvitesse);
     }
 
     /**
@@ -309,6 +324,7 @@ public class Pokemon implements IPokemon {
      */
     @Override
     public void soigne() {
-        this.stat.setPV(this.espece.getBaseStat().getPV());
+        this.stat.setPV((((2 * (this.espece.getBaseStat().getPV()) + this.espece.getGainsStat().getPV() / 4) *
+                this.niveau) / 100) + this.niveau + 10);
     }       // Remet les PV au maximum
 }

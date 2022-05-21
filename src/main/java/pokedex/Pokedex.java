@@ -5,20 +5,20 @@
  *
  * @date IPokedex.java
  */
-package main.java.pokedex;
+package pokedex;
 
-import main.interfaces.IPokedex;
-import main.interfaces.IEspece;
-import main.interfaces.IPokemon;
-import main.interfaces.ICapacite;
-import main.interfaces.IStat;
-import main.interfaces.IType;
-import main.java.pokemon.Espece;
-import main.java.pokemon.Pokemon;
-import main.java.statsPokemon.Capacite;
-import main.java.statsPokemon.Categorie;
-import main.java.statsPokemon.Stat;
-import main.java.statsPokemon.Type;
+import interfaces.IPokedex;
+import interfaces.IEspece;
+import interfaces.IPokemon;
+import interfaces.ICapacite;
+import interfaces.IStat;
+import interfaces.IType;
+import pokemon.Espece;
+import pokemon.Pokemon;
+import combat.Capacite;
+import statsPokemon.Categorie;
+import statsPokemon.Stat;
+import statsPokemon.Type;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -31,6 +31,10 @@ import java.util.*;
 public class Pokedex implements IPokedex {
     private final Map<Integer, IPokemon> dico = new HashMap<>();
     private final IPokemon[] ranch = new IPokemon[6];
+
+    public Pokedex() {
+        this.engendreRanch();
+    }
 
     /**
      * Il génère une équipe aléatoire de 6 pokemons

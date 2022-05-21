@@ -5,10 +5,10 @@
  *
  * @date IAttaque.java
  */
-package main.java.combat;
+package combat;
 
-import main.interfaces.IAttaque;
-import main.interfaces.IPokemon;
+import interfaces.IAttaque;
+import interfaces.IPokemon;
 
 /**
  * @author Leo Donati
@@ -26,6 +26,7 @@ public class Attaque implements IAttaque {
     }
 
     //fait diminuer de 1 le nombre restant de fois où l'attaque peut être utilisée
+    @Override
     public void utilise() {
         throw new UnsupportedOperationException();
     }
