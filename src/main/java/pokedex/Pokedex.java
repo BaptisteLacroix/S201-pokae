@@ -30,7 +30,6 @@ import java.util.*;
  */
 public class Pokedex implements IPokedex {
     private final Map<Integer, IPokemon> dico = new HashMap<>();
-
     private final IPokemon[] ranch = new IPokemon[6];
 
     /**
@@ -43,13 +42,14 @@ public class Pokedex implements IPokedex {
         Random rand = new Random();
         IPokemon pokemon;
         this.initializeFromCSV();
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 6; i++) {
             pokemon = dico.get(rand.nextInt(151));
             while (pokemon == null) {
                 pokemon = dico.get(rand.nextInt(151));
             }
             this.ranch[i] = pokemon;
-            System.out.println(this.ranch[i].getNom());
+            // System.out.println(this.ranch[i].getNom());
+            // System.out.println(this.ranch[i].peutMuter());
         }
         return this.ranch;
     }           //Renvoie un tableau de 6 Pokemon au hasard
@@ -254,18 +254,13 @@ public class Pokedex implements IPokedex {
         }
     }
 
-
     /**
-     * Il convertit une chaîne en un Type
+     * Il prend une chaîne et renvoie le type correspondant
      *
      * @param EspeceType Le type de Pokémon.
      * @return Le type de pokémon
      */
-    private IType conversionStringType(String EspeceType) {
-        return getType(EspeceType);
-    }
-
-    public static IType getType(String EspeceType) {
+    private static IType conversionStringType(String EspeceType) {
         switch (EspeceType) {
             case "Combat":
                 return Type.Combat;
@@ -302,4 +297,12 @@ public class Pokedex implements IPokedex {
         }
     }
 
+    /**
+     * Cette fonction renvoie le tableau des Pokémon qui se trouvent dans le ranch.
+     *
+     * @return Le tableau ranch est renvoyé.
+     */
+    public IPokemon[] getRanch() {
+        return ranch;
+    }
 }

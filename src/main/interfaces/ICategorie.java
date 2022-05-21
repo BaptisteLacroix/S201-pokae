@@ -9,7 +9,9 @@ package main.interfaces;
 
 /**
  * @author Leo Donati
- *
+ * Il s'agit de la catégorie d'une capacité :
+ *  - soit Physique
+ *  - soit Special
  */
 public interface ICategorie {
 	boolean isSpecial();

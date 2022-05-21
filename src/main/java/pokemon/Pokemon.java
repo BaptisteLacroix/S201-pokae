@@ -12,6 +12,9 @@ import main.interfaces.IPokemon;
 import main.interfaces.IStat;
 import main.interfaces.IAttaque;
 import main.interfaces.ICapacite;
+import main.java.statsPokemon.Stat;
+
+import java.util.Random;
 
 /**
  * @author Leo Donati
@@ -25,9 +28,11 @@ public class Pokemon implements IPokemon {
     private double pourcentagePV;
     private IEspece espece;
     private ICapacite[] capacites = new ICapacite[4];
+    private IStat DV;
 
     /**
      * Constucteur du Pokemon
+     *
      * @param id
      * @param nom
      * @param niveau
@@ -44,8 +49,62 @@ public class Pokemon implements IPokemon {
         this.experience = experience;
         this.pourcentagePV = pourcentagePV;
         this.espece = espece;
+        this.setDV();
     }
 
+    /**
+     * Création du DV du Pokémon lors de sa création
+     */
+    private void setDV() {
+        Random rand = new Random();
+        int[] lowWeight = new int[4];
+        int force, defense, vitesse, special;
+        force = rand.nextInt(16);
+        defense = rand.nextInt(16);
+        vitesse = rand.nextInt(16);
+        special = rand.nextInt(16);
+        lowWeight[0] = this.decimalToBinary(force)[3];
+        lowWeight[1] = this.decimalToBinary(defense)[3];
+        lowWeight[2] = this.decimalToBinary(vitesse)[3];
+        lowWeight[3] = this.decimalToBinary(special)[3];
+
+        this.DV = new Stat(this.binaryToDecimal(lowWeight), force, defense, special, vitesse);
+    }
+
+
+    /**
+     * Il convertit un nombre décimal en binaire.
+     *
+     * @param num Le nombre à convertir en binaire
+     * @return La représentation binaire du nombre.
+     */
+    private int[] decimalToBinary(int num) {
+        int[] binary = new int[4];
+        int i = 0;
+
+        while (num > 0) {
+            binary[i++] = num % 2;
+            num = num / 2;
+        }
+
+        return binary;
+    }
+
+    /**
+     * Il prend un tableau de nombres binaires et renvoie l'équivalent décimal
+     *
+     * @param binary le nombre binaire à convertir
+     * @return La valeur décimale du nombre binaire.
+     */
+    private int binaryToDecimal(int[] binary) {
+        int decimal = 0;
+        for (int i = 0; i < binary.length - 1; i++) {
+            if (binary[i] == 1) {
+                decimal += Math.pow(2, i);
+            }
+        }
+        return decimal;
+    }
 
     /**
      * Cette fonction renvoie les statistiques de l'objet courant.
@@ -101,7 +160,6 @@ public class Pokemon implements IPokemon {
     }
 
 
-
     /**
      * Il renvoie le pourcentage de la santé du Pokemon.
      *
@@ -111,7 +169,6 @@ public class Pokemon implements IPokemon {
     public double getPourcentagePV() {
         return pourcentagePV;
     }
-
 
 
     /**
@@ -127,10 +184,17 @@ public class Pokemon implements IPokemon {
 
     /**
      * Une méthode qui change l'espèce du pokémon.
+     * @param esp Nouvelle espèce du Pokemon
      */
     @Override
     public void vaMuterEn(IEspece esp) {
         this.espece = esp;
+        this.niveau = this.espece.getNiveauDepart();
+        this.experience = this.espece.getBaseExp();
+        this.pourcentagePV = 100.0;
+        this.stat = new Stat(this.espece.getBaseStat().getPV(), this.espece.getBaseStat().getForce(),
+                this.espece.getBaseStat().getDefense(), this.espece.getBaseStat().getSpecial(),
+                this.espece.getBaseStat().getVitesse());
     }   //Modifie l'espèce du Pokemon en esp
 
 
@@ -145,6 +209,7 @@ public class Pokemon implements IPokemon {
 
     /**
      * Méthode permettant de rajouter des capacitées au Pokemon
+     * @param caps Capacités à ajouter au Pokemon
      */
     @Override
     public void apprendCapacites(ICapacite[] caps) {
@@ -155,31 +220,45 @@ public class Pokemon implements IPokemon {
     /**
      * Il remplace une capacité de la créature par une autre capacité
      *
-     * @param i l'indice de capacité à remplacer
+     * @param i   l'indice de capacité à remplacer
      * @param cap le nouveau ICapacite pour remplacer l'ancien
+     * @exception UnsupportedOperationException Si l'indice n'est pas contenu dans le tableau
      */
     @Override
-    public void remplaceCapacite(int i, ICapacite cap) throws Exception {
+    public void remplaceCapacite(int i, ICapacite cap) throws UnsupportedOperationException {
         if (i < 0 || i > 4)
-            throw new Exception();
+            throw new UnsupportedOperationException();
         this.capacites[i] = cap;
     }
 
 
+    /**
+     * Mise à jour de l'expérience du pokémon après avoir vaincu un autre pokémon.
+     * @param pok le pokemon vaincu.
+     */
     @Override
     public void gagneExperienceDe(IPokemon pok) {
-        throw new UnsupportedOperationException();
+        this.experience = (1.5 * pok.getNiveau() * pok.getEspece().getBaseExp()) / 7;
     } //Met à jour l'exprérience de this suite à la défaite de pok
 
 
+    /**
+     * Une méthode qui met à jour les stats du Pokémon après les dégâts subis par l'attaque atk de pok.
+     * @param pok pokemon attaquant
+     * @param atk l'attaque subbies
+     */
     @Override
     public void subitAttaqueDe(IPokemon pok, IAttaque atk) {
-        throw new UnsupportedOperationException();
+        if (atk instanceof ICapacite) {
+            int degats = atk.calculeDommage(pok, this);
+            this.stat.setPV(this.stat.getPV() - degats);
+        }
     } //Met à jour les stats de this en tenant compte des dégats subits par l'attaque atk de pok
 
     /**
      * Une méthode qui renvoie vrai si les points de vie du pokémon sont à 0.
-     * @return
+     *
+     * @return Un boolean.
      */
     @Override
     public boolean estEvanoui() {
@@ -187,15 +266,52 @@ public class Pokemon implements IPokemon {
     }        //renvoie true si les pointes de vie du pokemonsont 0
 
 
+    /**
+     * Vérifier si le pokémon a changé de niveau.
+     *
+     * @return Un boolean.
+     */
     @Override
     public boolean aChangeNiveau() {
-        throw new UnsupportedOperationException();
+        if (this.experience >= (0.8 * Math.pow(this.niveau++, 3))) {
+            this.niveau++;
+            this.changeStat();
+            return true;
+        }
+        return false;
     }        //renvoie true si le Pokemon vient de changer de niveau
 
 
+    /**
+     * > Cette fonction met a jour les stats du Pokemon après son gain de Niveau.
+     */
+    private void changeStat() {
+        int gainpv = (((2 * (this.espece.getBaseStat().getPV()) + this.espece.getGainsStat().getPV() / 4) *
+                this.niveau) / 100) + this.niveau + 10;
+        int gainforce = (((this.espece.getBaseStat().getForce() + this.DV.getForce()) +
+                this.espece.getGainsStat().getForce() / 4) * this.niveau) / 100 + 5;
+        int gaindefense = (((this.espece.getBaseStat().getDefense() + this.DV.getDefense()) +
+                this.espece.getGainsStat().getDefense() / 4) * this.niveau) / 100 + 5;
+        int gainvitesse = (((this.espece.getBaseStat().getVitesse() + this.DV.getVitesse()) +
+                this.espece.getGainsStat().getVitesse() / 4) * this.niveau) / 100 + 5;
+        int gainspecial = (((this.espece.getBaseStat().getSpecial() + this.DV.getSpecial()) +
+                this.espece.getGainsStat().getSpecial() / 4) * this.niveau) / 100 + 5;
+        this.stat = new Stat(gainpv, gainforce, gaindefense, gainspecial, gainvitesse);
+    }
+
+    /**
+     * Vérifier si le pokémon peut muter.
+     *
+     * @return Un boolean.
+     */
     @Override
     public boolean peutMuter() {
-        throw new UnsupportedOperationException();
+        IEspece especeM = this.espece.getEvolution(this.niveau);
+        if (especeM == null)
+            return false;
+        else {
+            return especeM.getNiveauDepart() >= this.niveau;
+        }
     }         //renvoie true si le Pokemon peut muter
 
     /**

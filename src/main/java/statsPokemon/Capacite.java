@@ -14,8 +14,8 @@ import main.interfaces.IType;
 import main.java.combat.Attaque;
 
 /**
- * @author Leo Donati
- * Une capacité est un type d'attaque qu ele pokemon peut utilser
+ * @author Lacroix Baptiste
+ * Une capacité est un type d'attaque que le pokemon peut utilser
  */
 public class Capacite extends Attaque implements ICapacite {
     private String nom;
@@ -35,7 +35,6 @@ public class Capacite extends Attaque implements ICapacite {
         this.categorie = categorie;
         this.type = type;
     }
-
 
     /**
      * > Cette fonction renvoie le nom du Pokemon
@@ -110,4 +109,16 @@ public class Capacite extends Attaque implements ICapacite {
         return this.type;
     }
 
+    @Override
+    public String toString() {
+        return "Capacite{" +
+                "nom='" + nom + '\'' +
+                ", precision=" + precision +
+                ", puissance=" + puissance +
+                ", PP_base=" + PP_base +
+                ", PP=" + PP +
+                ", categorie=" + categorie +
+                ", type=" + type +
+                '}';
+    }
 }
