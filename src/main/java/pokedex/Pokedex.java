@@ -52,8 +52,6 @@ public class Pokedex implements IPokedex {
                 pokemon = dico.get(rand.nextInt(151));
             }
             this.ranch[i] = pokemon;
-            // System.out.println(this.ranch[i].getNom());
-            // System.out.println(this.ranch[i].peutMuter());
         }
         return this.ranch;
     }           //Renvoie un tableau de 6 Pokemon au hasard

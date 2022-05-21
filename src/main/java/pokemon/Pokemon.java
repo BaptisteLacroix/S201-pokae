@@ -20,8 +20,8 @@ import java.util.Random;
  * @author Lacroix Baptiste
  */
 public class Pokemon implements IPokemon {
-    private int id;
-    private String nom;
+    private final int id;
+    private final String nom;
     private int ancien_niveau;
     private int niveau;
     private IStat stat;
@@ -42,6 +42,47 @@ public class Pokemon implements IPokemon {
         this.pourcentagePV = pourcentagePV;
         this.espece = espece;
         this.setDV();
+
+        while (peutChangerDeNiveau()) {
+            this.niveau++;
+            this.miseAjourStats();
+        }
+    }
+
+
+    /**
+     * Il met à jour les stats du pokémon
+     */
+    private void miseAjourStats() {
+        this.stat.setPV(this.stat.getPV() + calculGainStatPV(this.stat.getPV(), this.espece.getGainsStat().getPV(), espece.getGainsStat().getPV()));
+        this.stat.setForce(this.stat.getForce() + calculGainStat(this.stat.getForce(), this.espece.getGainsStat().getForce(), espece.getGainsStat().getForce()));
+        this.stat.setDefense(this.stat.getDefense() + calculGainStat(this.stat.getDefense(), this.espece.getGainsStat().getDefense(), espece.getGainsStat().getDefense()));
+        this.stat.setSpecial(this.stat.getSpecial() + calculGainStat(this.stat.getSpecial(), this.espece.getGainsStat().getSpecial(), espece.getGainsStat().getSpecial()));
+        this.stat.setVitesse(this.stat.getVitesse() + calculGainStat(this.stat.getVitesse(), this.espece.getGainsStat().getVitesse(), espece.getGainsStat().getVitesse()));
+    }
+
+    /**
+     * Calcule le gain de statistiques gagné par un pokémon lorsqu'il monte de niveau
+     *
+     * @param stat La statistique de base du Pokémon.
+     * @param dv La statistique de base du Pokémon.
+     * @param ev Valeur d'effort
+     * @return Le gain d'une stat.
+     */
+    private int calculGainStat(int stat, int dv, int ev) {
+        return (int) Math.round(((2 * (stat + dv) + ev / 4.0) * niveau) / 100 + 5);
+    }
+
+    /**
+     * Calcule la quantité de HP gagnée par un Pokémon lorsqu'il monte de niveau
+     *
+     * @param stat La statistique de base du Pokémon.
+     * @param dv Les DV des Pokémon.
+     * @param ev Valeur d'effort
+     * @return la valeur des PV du pokémon.
+     */
+    private int calculGainStatPV(int stat, int dv, int ev) {
+        return (int) Math.round(((2 * (stat + dv) + ev / 4.0) * niveau) / 100 + niveau + 10);
     }
 
     /**
@@ -61,11 +102,6 @@ public class Pokemon implements IPokemon {
         lowWeight[3] = this.decimalToBinary(special)[3];
 
         this.DV = new Stat(this.binaryToDecimal(lowWeight), force, defense, special, vitesse);
-
-        while (peutChangerDeNiveau()) {
-            this.niveau++;
-            this.miseAJourStats();
-        }
     }
 
 
@@ -240,8 +276,8 @@ public class Pokemon implements IPokemon {
     public void gagneExperienceDe(IPokemon pok) {
         this.experience = (1.5 * pok.getNiveau() * pok.getEspece().getBaseExp()) / 7;
         while (peutChangerDeNiveau()) {
-            this.niveau ++;
-            this.miseAJourStats();
+            this.niveau++;
+            this.miseAjourStats();
         }
     } //Met à jour l'exprérience de this suite à la défaite de pok
 
@@ -283,26 +319,6 @@ public class Pokemon implements IPokemon {
     public boolean aChangeNiveau() {
         return this.niveau != this.ancien_niveau;
     }        //renvoie true si le Pokemon vient de changer de niveau
-
-
-    /**
-     * Cette fonction met à jour les stats du Pokemon après son gain de Niveau.
-     */
-    private void miseAJourStats() {
-        int gainpv = (((2 * (this.espece.getBaseStat().getPV()) + this.espece.getGainsStat().getPV() / 4) *
-                this.niveau) / 100) + this.niveau + 10;
-        int gainforce = (((this.espece.getBaseStat().getForce() + this.DV.getForce()) +
-                this.espece.getGainsStat().getForce() / 4) * this.niveau) / 100 + 5;
-        int gaindefense = (((this.espece.getBaseStat().getDefense() + this.DV.getDefense()) +
-                this.espece.getGainsStat().getDefense() / 4) * this.niveau) / 100 + 5;
-        int gainvitesse = (((this.espece.getBaseStat().getVitesse() + this.DV.getVitesse()) +
-                this.espece.getGainsStat().getVitesse() / 4) * this.niveau) / 100 + 5;
-        int gainspecial = (((this.espece.getBaseStat().getSpecial() + this.DV.getSpecial()) +
-                this.espece.getGainsStat().getSpecial() / 4) * this.niveau) / 100 + 5;
-        this.stat = new Stat(this.getStat().getPV() + gainpv, this.getStat().getForce() + gainforce,
-                this.getStat().getDefense() + gaindefense, this.getStat().getSpecial() + gainspecial,
-                this.getStat().getVitesse() + gainvitesse);
-    }
 
     /**
      * Vérifier si le pokémon peut muter.

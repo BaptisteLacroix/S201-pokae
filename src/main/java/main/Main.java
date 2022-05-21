@@ -1,8 +1,13 @@
 package main;
 
+import interfaces.IEspece;
 import interfaces.IPokemon;
+import interfaces.IStat;
 import interfaces.IType;
 import pokedex.Pokedex;
+import pokemon.Espece;
+import pokemon.Pokemon;
+import statsPokemon.Stat;
 import statsPokemon.Type;
 
 import java.util.Arrays;
@@ -20,7 +25,7 @@ public class Main {
         System.out.println(p.getCapacite("Écras'Face").getNom()); // -> Fonctionne
         // System.out.println("INFOOOO : " + p.getCapacite("Écras").getNom()); // -> Erreur
         System.out.println(p.getCapacite(1).getNom()); // -> Fonctionne
-        // System.out.println("INFOOOO : " + p.getCapacite(0).getNom()); // -> Erreur
+        System.out.println("INFOOOO : " + p.getCapacite(0).getNom()); // -> Erreur
 
 
         // Pokemon
