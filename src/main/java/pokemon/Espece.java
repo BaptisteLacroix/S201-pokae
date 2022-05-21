@@ -30,14 +30,14 @@ import java.util.*;
  * @author Lacroix Baptiste
  */
 public class Espece implements IEspece {
-    private int id;
-    private IStat baseStat;
-    private String nom;
-    private int niveauDepart;
-    private int baseExp;
-    private IStat gainsStat; //  Stats EV
+    private final int id;
+    private final IStat baseStat;
+    private final String nom;
+    private final int niveauDepart;
+    private final int baseExp;
+    private final IStat gainsStat; //  Stats EV
     private ICapacite[] capSet;
-    private IType[] types;
+    private final IType[] types;
 
 
     public Espece(int id, IStat baseIStat, String nom, int niveauDepart, int baseExp, IStat gainsStat, IType[] types) {

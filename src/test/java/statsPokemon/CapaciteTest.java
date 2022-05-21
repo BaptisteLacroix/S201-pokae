@@ -17,7 +17,7 @@ public class CapaciteTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(1, stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, stats, 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 64, 100.0, espece);
 
         ICapacite[] capacite = new Capacite[4];
         capacite[0] = new Capacite("Écras'Face", 1.00, 40,
@@ -43,7 +43,7 @@ public class CapaciteTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(1, stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, stats, 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 64, 100.0, espece);
 
         ICapacite[] capacite = new Capacite[4];
         capacite[0] = new Capacite("Écras'Face", 1.00, 40,
@@ -71,7 +71,7 @@ public class CapaciteTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(1, stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, stats, 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 64, 100.0, espece);
 
         ICapacite[] capacite = new Capacite[4];
         capacite[0] = new Capacite("Écras'Face", 1.00, 40,
@@ -95,7 +95,7 @@ public class CapaciteTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(1, stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, stats, 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 64, 100.0, espece);
 
         ICapacite[] capacite = new Capacite[4];
         capacite[0] = new Capacite("Écras'Face", 1.00, 40,
