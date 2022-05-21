@@ -39,16 +39,7 @@ public class Espece implements IEspece {
     private ICapacite[] capSet;
     private IType[] types;
 
-    /**
-     * Il s'agit d'un constructeur.
-     *
-     * @param baseIStat
-     * @param nom
-     * @param niveauDepart
-     * @param baseExp
-     * @param gainsStat
-     * @param types
-     */
+
     public Espece(int id, IStat baseIStat, String nom, int niveauDepart, int baseExp, IStat gainsStat, IType[] types) {
         this.id = id;
         this.baseStat = baseIStat;
@@ -61,7 +52,7 @@ public class Espece implements IEspece {
 
 
     /**
-     * > Cette fonction renvoie la statistique de base de l'élément
+     * Cette fonction renvoie la statistique de base de l'élément
      *
      * @return La baseStat
      */
@@ -72,9 +63,9 @@ public class Espece implements IEspece {
 
 
     /**
-     * > Cette fonction retourne le nom de l'objet
+     * Cette fonction retourne le nom de l'objet
      *
-     * @return Le nom de la personne
+     * @return Le nom du Pokemon
      */
     @Override
     public String getNom() {
@@ -83,7 +74,7 @@ public class Espece implements IEspece {
 
 
     /**
-     * > Cette fonction renvoie le niveau de départ du Pokemon
+     * Cette fonction renvoie le niveau de départ du Pokemon
      *
      * @return La variable niveauDepart.
      */
@@ -105,7 +96,7 @@ public class Espece implements IEspece {
 
 
     /**
-     * Renvoie la statistique utilisée pour calculer les gains de cette statistique.
+     * Renvoie la statistique utilisée pour calculer les gains.
      *
      * @return La variable gainsStat.
      */
@@ -117,7 +108,7 @@ public class Espece implements IEspece {
     /**
      * Une méthode qui renvoie l'ensemble des capacités disponibles pour cette espèce.
      *
-     * @return
+     * @return un objet ICapacite
      */
     @Override
     public ICapacite[] getCapSet() {
@@ -174,7 +165,7 @@ public class Espece implements IEspece {
      * Il prend une URL en paramètre et renvoie une liste de chaînes
      *
      * @param url l'url du pokémon
-     * @return Une liste de mouvements
+     * @return Une liste des Moves
      */
     private List<String> recupMoves(String url) {
         List<String> moveName = new ArrayList<>();
@@ -193,10 +184,10 @@ public class Espece implements IEspece {
     }
 
     /**
-     * Il prend une url en paramètre, et retourne le nom du move en français
+     * Il prend une url en paramètre et retourne le nom du move en français
      *
      * @param url l'url du move dont vous voulez obtenir le nom
-     * @return Le nom du déménagement en français.
+     * @return Le nom du Move en français.
      */
     private String recupFrenchMoves(String url) {
         String moveName = "";
@@ -223,6 +214,11 @@ public class Espece implements IEspece {
     } //une espece de pokemon peut avoir un ou deux types
 
 
+    /**
+     * Renvoie l'évolution si possible du Pokemon actuel
+     * @param niveau niveau du Pokemon dont on cherche son évolution
+     * @return un objet IEspece
+     */
     @Override
     public IEspece getEvolution(int niveau) {
         if (niveau >= 32)

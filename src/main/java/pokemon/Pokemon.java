@@ -17,7 +17,7 @@ import main.java.statsPokemon.Stat;
 import java.util.Random;
 
 /**
- * @author Leo Donati
+ * @author Lacroix Baptiste
  */
 public class Pokemon implements IPokemon {
     private int id;
@@ -30,17 +30,7 @@ public class Pokemon implements IPokemon {
     private ICapacite[] capacites = new ICapacite[4];
     private IStat DV;
 
-    /**
-     * Constucteur du Pokemon
-     *
-     * @param id
-     * @param nom
-     * @param niveau
-     * @param stat
-     * @param experience
-     * @param pourcentagePV
-     * @param espece
-     */
+
     public Pokemon(int id, String nom, int niveau, IStat stat, double experience, double pourcentagePV, IEspece espece) {
         this.id = id;
         this.nom = nom;
@@ -129,7 +119,7 @@ public class Pokemon implements IPokemon {
 
 
     /**
-     * > Cette fonction retourne le niveau du Pokemon
+     * Cette fonction retourne le niveau du Pokemon
      *
      * @return Le niveau du Pokemon
      */
@@ -150,9 +140,9 @@ public class Pokemon implements IPokemon {
     }
 
     /**
-     * > Cette fonction retourne le nom du Pokemon
+     * Cette fonction retourne le nom du Pokemon
      *
-     * @return Le nom de la personne
+     * @return Le nom du Pokemon
      */
     @Override
     public String getNom() {
@@ -163,7 +153,7 @@ public class Pokemon implements IPokemon {
     /**
      * Il renvoie le pourcentage de la santé du Pokemon.
      *
-     * @return Le pourcentage de la santé du personnage.
+     * @return Le pourcentage de la santé du Pokemon.
      */
     @Override
     public double getPourcentagePV() {
@@ -174,7 +164,7 @@ public class Pokemon implements IPokemon {
     /**
      * Il renvoie l'espèce du pokemon.
      *
-     * @return L'espèce de l'animal.
+     * @return L'espèce du pokemon.
      */
     @Override
     public IEspece getEspece() {
@@ -208,7 +198,7 @@ public class Pokemon implements IPokemon {
 
 
     /**
-     * Méthode permettant de rajouter des capacitées au Pokemon
+     * Méthode permettant de rajouter des capacités au Pokemon
      * @param caps Capacités à ajouter au Pokemon
      */
     @Override
@@ -283,7 +273,7 @@ public class Pokemon implements IPokemon {
 
 
     /**
-     * > Cette fonction met a jour les stats du Pokemon après son gain de Niveau.
+     * > Cette fonction met à jour les stats du Pokemon après son gain de Niveau.
      */
     private void changeStat() {
         int gainpv = (((2 * (this.espece.getBaseStat().getPV()) + this.espece.getGainsStat().getPV() / 4) *

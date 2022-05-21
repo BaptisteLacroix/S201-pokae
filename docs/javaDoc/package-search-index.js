@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"main"},{"l":"main.interfaces"},{"l":"main.java.combat"},{"l":"main.java.pokedex"},{"l":"main.java.pokemon"},{"l":"main.java.statsPokemon"}]

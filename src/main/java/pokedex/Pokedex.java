@@ -33,7 +33,7 @@ public class Pokedex implements IPokedex {
     private final IPokemon[] ranch = new IPokemon[6];
 
     /**
-     * Il génère une équipe aléatoire de 6 pokemon
+     * Il génère une équipe aléatoire de 6 pokemons
      *
      * @return Un tableau d'IPokemon
      */
@@ -95,8 +95,8 @@ public class Pokedex implements IPokedex {
 
     /**
      * Il lit un fichier csv et renvoie un double
-     * It reads the file line by line until it reaches the line corresponding to the attacker's type, then it reads the
-     * value corresponding to the defender's type
+     * Il lit le fichier ligne par ligne jusqu'à ce qu'il atteigne la ligne correspondant au type de l'attaque,
+     * puis il lit la valeur correspondant au type du défenseur
      *
      * @param attaque Le type d'attaque
      * @param defense Le type du Pokémon défenseur
