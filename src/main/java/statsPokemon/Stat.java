@@ -18,14 +18,6 @@ public class Stat implements main.interfaces.IStat {
     private int special;
     private int vitesse;
 
-    /**
-     *
-     * @param pv
-     * @param force
-     * @param defense
-     * @param special
-     * @param vitesse
-     */
     public Stat(int pv, int force, int defense, int special, int vitesse) {
         this.pv = pv;
         this.force = force;
@@ -125,7 +117,7 @@ public class Stat implements main.interfaces.IStat {
 
 
     /**
-     * > Cette fonction renvoie la vitesse d'attaque du Pokemon
+     * Cette fonction renvoie la vitesse d'attaque du Pokemon
      *
      * @return La vitesse d'attaque du Pokemon.
      */

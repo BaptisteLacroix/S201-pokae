@@ -29,7 +29,7 @@ public enum Categorie implements ICategorie {
 
 
 	/**
-	 * > Si le nom de l'objet en cours est égal au nom de l'objet passé en paramètre, alors renvoie vrai, sinon renvoie faux
+	 * Si le nom de l'objet en cours est égal au nom de l'objet passé en paramètre, alors renvoie vrai, sinon renvoie faux
 	 *
 	 * @return Le nom de l'objet.
 	 */
@@ -40,9 +40,9 @@ public enum Categorie implements ICategorie {
 
 
 	/**
-	 * > Cette fonction renvoie le nom de la Catégorie
+	 * Cette fonction renvoie le nom de la Catégorie
 	 *
-	 * @return Le nom de la personne.
+	 * @return Le nom de la Catégorie.
 	 */
 	@Override
 	public String getNom() {

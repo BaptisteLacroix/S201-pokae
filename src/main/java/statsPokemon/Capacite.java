@@ -37,9 +37,9 @@ public class Capacite extends Attaque implements ICapacite {
     }
 
     /**
-     * > Cette fonction renvoie le nom du Pokemon
+     * Cette fonction renvoie le nom de la Capacité
      *
-     * @return Le nom de la personne.
+     * @return Le nom de la capacité.
      */
     @Override
     public String getNom() {
@@ -48,9 +48,9 @@ public class Capacite extends Attaque implements ICapacite {
 
 
     /**
-     * Cette fonction renvoie la précision du Pokemon
+     * Cette fonction renvoie la précision de la capacité
      *
-     * @return La précision du classificateur.
+     * @return La précision de la capacité.
      */
     @Override
     public double getPrecision() {
@@ -59,9 +59,9 @@ public class Capacite extends Attaque implements ICapacite {
 
 
     /**
-     * > Cette fonction retourne la valeur de l'attribut puissance
+     * Cette fonction retourne la valeur de l'attribut puissance
      *
-     * @return La puissance du moteur.
+     * @return La puissance de la capacité.
      */
     @Override
     public int getPuissance() {
@@ -69,9 +69,9 @@ public class Capacite extends Attaque implements ICapacite {
     }
 
     /**
-     * > Cette fonction renvoie le PP du coup
+     * Cette fonction renvoie le PP restant de la capacité.
      *
-     * @return Le PP du déménagement.
+     * @return Le PP de la capacité.
      */
     @Override
     public int getPP() {
@@ -80,7 +80,7 @@ public class Capacite extends Attaque implements ICapacite {
 
 
     /**
-     * Réinitialise le PP du mouvement à sa valeur de base.
+     * Réinitialise le PP de la capacité à sa valeur de base.
      */
     @Override
     public void resetPP() {
@@ -89,7 +89,7 @@ public class Capacite extends Attaque implements ICapacite {
 
 
     /**
-     * > Cette fonction renvoie la catégorie de l'objet courant Pokemon
+     * Cette fonction renvoie la catégorie de la capacité
      *
      * @return La catégorie du produit.
      */
@@ -100,15 +100,21 @@ public class Capacite extends Attaque implements ICapacite {
 
 
     /**
-     * Renvoie le type du Pokemon
+     * Renvoie le type de la Capacité
      *
-     * @return Le type de la variable.
+     * @return Le type de la Capacité.
      */
     @Override
     public IType getType() {
         return this.type;
     }
 
+    /**
+     * Il renvoie une chaîne qui contient le nom de la classe, le nom de l'objet et les valeurs de tous les attributs de
+     * l'objet
+     *
+     * @return Le nom, la précision, la puissance, le PP de base, le PP, la catégorie et le type de mouvement.
+     */
     @Override
     public String toString() {
         return "Capacite{" +

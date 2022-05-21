@@ -39,9 +39,9 @@ public enum Type implements IType {
 
 
 	/**
-	 * > Cette fonction renvoie le nom du type
+	 * Cette fonction renvoie le nom du type
 	 *
-	 * @return Le nom de la personne.
+	 * @return Le nom du type.
 	 */
 	@Override
 	public String getNom() {
