@@ -20,11 +20,11 @@ public class PokemonTest extends TestCase {
         IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, stats, 64, 100.0, espece);
 
         // Stat
-        Assert.assertEquals(45, pokemon.getStat().getPV());
-        Assert.assertEquals(49, pokemon.getStat().getForce());
-        Assert.assertEquals(49, pokemon.getStat().getDefense());
-        Assert.assertEquals(65, pokemon.getStat().getSpecial());
-        Assert.assertEquals(45, pokemon.getStat().getVitesse());
+        Assert.assertEquals(96, pokemon.getStat().getPV());
+        Assert.assertEquals(74, pokemon.getStat().getForce());
+        Assert.assertEquals(74, pokemon.getStat().getDefense());
+        Assert.assertEquals(94, pokemon.getStat().getSpecial());
+        Assert.assertEquals(70, pokemon.getStat().getVitesse());
     }
 
     public void testGetExperience() {
@@ -50,7 +50,7 @@ public class PokemonTest extends TestCase {
         IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, stats, 64, 100.0, espece);
 
         // Niveau
-        Assert.assertEquals(1, pokemon.getNiveau());
+        Assert.assertEquals(4, pokemon.getNiveau());
     }
 
     public void testGetId() {
@@ -191,7 +191,7 @@ public class PokemonTest extends TestCase {
         IEspece espece = new Espece(1, stats, "Bulbizarre", 1, 64, evstats, type);
         IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, stats, 64, 100.0, espece);
 
-        Assert.assertFalse(pokemon.aChangeNiveau());
+        Assert.assertTrue(pokemon.aChangeNiveau());
     }
 
     public void testPeutMuter() {
