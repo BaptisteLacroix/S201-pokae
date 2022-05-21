@@ -26,8 +26,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.*;
 
-import static main.java.pokedex.Pokedex.getType;
-
 /**
  * @author Lacroix Baptiste
  */
@@ -39,7 +37,6 @@ public class Espece implements IEspece {
     private int baseExp;
     private IStat gainsStat; //  Stats EV
     private ICapacite[] capSet;
-    private IStat evolution;
     private IType[] types;
 
     /**
@@ -268,8 +265,41 @@ public class Espece implements IEspece {
      * @param EspeceType Le type de Pokémon.
      * @return Le type de pokémon
      */
-    private IType conversionStringType(String EspeceType) {
-        return getType(EspeceType);
+    private static IType conversionStringType(String EspeceType) {
+        switch (EspeceType) {
+            case "Combat":
+                return Type.Combat;
+            case "Dragon":
+                return Type.Dragon;
+            case "Eau":
+                return Type.Eau;
+            case "Electrik":
+                return Type.Electrik;
+            case "Feu":
+                return Type.Feu;
+            case "Glace":
+                return Type.Glace;
+            case "Insecte":
+                return Type.Insecte;
+            case "Normal":
+                return Type.Normal;
+            case "Plante":
+                return Type.Plante;
+            case "Poison":
+                return Type.Poison;
+            case "Psy":
+                return Type.Psy;
+            case "Roche":
+                return Type.Roche;
+            case "Sol":
+                return Type.Sol;
+            case "Spectre":
+                return Type.Spectre;
+            case "Vol":
+                return Type.Vol;
+            default:
+                return null;
+        }
     }
 
     /**

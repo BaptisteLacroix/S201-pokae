@@ -144,4 +144,15 @@ public class Stat implements main.interfaces.IStat {
     public void setVitesse(int vitesse) {
         this.vitesse = vitesse;
     }
+
+    @Override
+    public String toString() {
+        return "Stat{" +
+                "pv=" + pv +
+                ", force=" + force +
+                ", defense=" + defense +
+                ", special=" + special +
+                ", vitesse=" + vitesse +
+                '}';
+    }
 }

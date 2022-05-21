@@ -2,11 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b1a1f92-a572-465e-92e4-e09477082a40" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed96d3a2ffe01e0901254fe77da0a84a109670ae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/22adee93a3845dfee4db9a04b4e07371ad1648a4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/23088b585af493682c0f7616c2a1c1b541eb8451" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/29b1e4bc6bd4f1f806ee8ba57250a6d542cc059f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/565f5d589e2de12eec07acce1a447806a1381b01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/690c5e17fb7d6b8d4120028127374afe0e8c641c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/ac270d0a194cf67c76ba291686348b3770e0b002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b15c4c3592dd0ffd111424aa073605e0585ba624" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed3a8bc6fc7380ef39c5a7b1c406ce8ee9b667ae" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/pokedex/Pokedex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/pokedex/Pokedex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/pokemon/Espece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/pokemon/Espece.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/pokemon/Pokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/pokemon/Pokemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/statsPokemon/Capacite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/statsPokemon/Capacite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/statsPokemon/Stat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/statsPokemon/Stat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/testPokedex/TestPokedex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/interfaces/IAttaque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/interfaces/IAttaque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/interfaces/ICapacite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/interfaces/ICapacite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/interfaces/ICategorie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/interfaces/ICategorie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/interfaces/IEchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/interfaces/IEchange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/interfaces/IEspece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/interfaces/IEspece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/interfaces/IPokedex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/interfaces/IPokedex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/interfaces/IPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/interfaces/IPokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/interfaces/IStat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/interfaces/IStat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/interfaces/IType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/interfaces/IType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/combat/Attaque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/combat/Attaque.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/Pokedex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/Pokedex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pokemon/Espece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokemon/Espece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pokemon/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokemon/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/statsPokemon/Capacite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/statsPokemon/Capacite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/statsPokemon/Stat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/statsPokemon/Stat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testPokedex/TestPokedex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +65,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
-    <configuration name="TestPokedex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.testPokedex.TestPokedex" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="pokae-g2-bl-tv" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.testPokedex.*" />
+          <option name="PATTERN" value="main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -50,7 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestPokedex" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -64,7 +94,8 @@
       <updated>1653061816652</updated>
       <workItem from="1653061823659" duration="3749000" />
       <workItem from="1653074330275" duration="7511000" />
-      <workItem from="1653082821361" duration="1943000" />
+      <workItem from="1653082821361" duration="2181000" />
+      <workItem from="1653122403726" duration="8737000" />
     </task>
     <servers />
   </component>
