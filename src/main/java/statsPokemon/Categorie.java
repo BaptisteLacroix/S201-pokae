@@ -5,9 +5,9 @@
  * @date
  * ICategory.java
  */
-package main.java.statsPokemon;
+package statsPokemon;
 
-import main.interfaces.ICategorie;
+import interfaces.ICategorie;
 
 import java.util.Objects;
 

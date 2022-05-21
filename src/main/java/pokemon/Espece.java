@@ -5,13 +5,13 @@
  *
  * @date IEspece.java
  */
-package main.java.pokemon;
+package pokemon;
 
-import main.interfaces.*;
-import main.java.statsPokemon.Capacite;
-import main.java.statsPokemon.Categorie;
-import main.java.statsPokemon.Stat;
-import main.java.statsPokemon.Type;
+import interfaces.*;
+import combat.Capacite;
+import statsPokemon.Categorie;
+import statsPokemon.Stat;
+import statsPokemon.Type;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;

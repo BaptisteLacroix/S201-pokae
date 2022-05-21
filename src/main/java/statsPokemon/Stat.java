@@ -5,13 +5,15 @@
  *
  * @date IStat.java
  */
-package main.java.statsPokemon;
+package statsPokemon;
+
+import interfaces.IStat;
 
 /**
  * @author Lacroix Baptiste
  *
  */
-public class Stat implements main.interfaces.IStat {
+public class Stat implements IStat {
     private int pv;
     private int force;
     private int defense;
