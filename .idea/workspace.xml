@@ -5,26 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b1a1f92-a572-465e-92e4-e09477082a40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/28ebd0db8981a8815e50b0fd689c73b154720a8b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e81f6f12e1945dee9ecdb4845c71c1c1ce5421d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/4218b5970a93e51d8cb566a041792bd8b8b8e8a4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7eee7dd7cd518f603211002e4c05af4a31cfd37b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a04c0aa3cbdf74f56edd6f880fc2eb54d535b2a2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a942d427e0f190e0b68454d467add1fdf6747688" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e70f425f5f4b7627379ae341e454673dfaeaedaf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fcee786dfd8d6bd52c4bfae6f19978b8735e84c2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fcee786dfd8d6bd52c4bfae6f19978b8735e84c2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/combat/Capacite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/combat/Capacite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/Pokedex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/Pokedex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pokemon/Espece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokemon/Espece.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pokemon/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokemon/Pokemon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pokemon/PokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pokemon/PokemonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/statsPokemon/CapaciteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/statsPokemon/CapaciteTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pokedex/Pokedex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pokedex/Pokedex.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pokemon/Espece.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pokemon/Espece.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pokemon/Pokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pokemon/Pokemon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/statsPokemon/Capacite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/combat/Capacite.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pokemon/PokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pokemon/PokemonTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/statsPokemon/CapaciteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/statsPokemon/CapaciteTest.class" afterDir="false" />
     </list>
@@ -89,7 +83,7 @@
       <recent name="pokedex" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EspeceTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="pokae-g2-bl-tv" />
@@ -165,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EspeceTest" />
-        <item itemvalue="JUnit.CapaciteTest" />
-        <item itemvalue="JUnit.PokedexTest" />
-        <item itemvalue="JUnit.PokemonTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CapaciteTest" />
+        <item itemvalue="JUnit.EspeceTest" />
+        <item itemvalue="JUnit.PokemonTest" />
+        <item itemvalue="JUnit.PokedexTest" />
       </list>
     </recent_temporary>
   </component>
@@ -185,12 +179,15 @@
       <workItem from="1653074330275" duration="7511000" />
       <workItem from="1653082821361" duration="2181000" />
       <workItem from="1653122403726" duration="27474000" />
-      <workItem from="1653156885451" duration="5932000" />
+      <workItem from="1653156885451" duration="13698000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

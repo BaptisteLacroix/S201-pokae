@@ -32,12 +32,12 @@ public class Pokemon implements IPokemon {
     private IStat DV;
 
 
-    public Pokemon(int id, String nom, int niveau, IStat stat, double experience, double pourcentagePV, IEspece espece) {
+    public Pokemon(int id, String nom, int niveau, double experience, double pourcentagePV, IEspece espece) {
         this.id = id;
         this.nom = nom;
         this.ancien_niveau = niveau;
         this.niveau = niveau;
-        this.stat = stat;
+        this.stat = this.copyStats(espece.getBaseStat());
         this.experience = experience;
         this.pourcentagePV = pourcentagePV;
         this.espece = espece;
@@ -49,18 +49,27 @@ public class Pokemon implements IPokemon {
         }
     }
 
+    /**
+     * Il crée un nouvel objet Stat avec les mêmes valeurs que l'objet Stat donné
+     *
+     * @param stats Les statistiques du pokémon
+     * @return Un nouvel objet Stat avec les mêmes statistiques que celui transmis.
+     */
+    private IStat copyStats(IStat stats) {
+        return new Stat(stats.getPV(), stats.getForce(), stats.getDefense(), stats.getSpecial(), stats.getVitesse());
+    }
+
 
     /**
      * Il met à jour les stats du pokémon
      */
     private void miseAjourStats() {
-        this.stat.setPV(this.stat.getPV() + calculGainStatPV(this.stat.getPV(), this.espece.getGainsStat().getPV(), espece.getGainsStat().getPV()));
+        this.stat.setPV(this.stat.getPV() + calculGainStatPV());
         this.stat.setForce(this.stat.getForce() + calculGainStat(this.stat.getForce(), this.espece.getGainsStat().getForce(), espece.getGainsStat().getForce()));
         this.stat.setDefense(this.stat.getDefense() + calculGainStat(this.stat.getDefense(), this.espece.getGainsStat().getDefense(), espece.getGainsStat().getDefense()));
         this.stat.setSpecial(this.stat.getSpecial() + calculGainStat(this.stat.getSpecial(), this.espece.getGainsStat().getSpecial(), espece.getGainsStat().getSpecial()));
         this.stat.setVitesse(this.stat.getVitesse() + calculGainStat(this.stat.getVitesse(), this.espece.getGainsStat().getVitesse(), espece.getGainsStat().getVitesse()));
     }
-
     /**
      * Calcule le gain de statistiques gagné par un pokémon lorsqu'il monte de niveau
      *
@@ -72,17 +81,13 @@ public class Pokemon implements IPokemon {
     private int calculGainStat(int stat, int dv, int ev) {
         return (int) Math.round(((2 * (stat + dv) + ev / 4.0) * niveau) / 100 + 5);
     }
-
     /**
      * Calcule la quantité de HP gagnée par un Pokémon lorsqu'il monte de niveau
      *
-     * @param stat La statistique de base du Pokémon.
-     * @param dv Les DV des Pokémon.
-     * @param ev Valeur d'effort
      * @return la valeur des PV du pokémon.
      */
-    private int calculGainStatPV(int stat, int dv, int ev) {
-        return (int) Math.round(((2 * (stat + dv) + ev / 4.0) * niveau) / 100 + niveau + 10);
+    private int calculGainStatPV() {
+        return (int) Math.round(((2 * (this.stat.getPV() + this.espece.getGainsStat().getPV()) + espece.getGainsStat().getPV() / 4.0) * niveau) / 100 + niveau + 10);
     }
 
     /**
@@ -340,7 +345,8 @@ public class Pokemon implements IPokemon {
      */
     @Override
     public void soigne() {
-        this.stat.setPV((((2 * (this.espece.getBaseStat().getPV()) + this.espece.getGainsStat().getPV() / 4) *
-                this.niveau) / 100) + this.niveau + 10);
+        System.out.println(this.stat.getPV());
+        System.out.println(this.espece.getBaseStat().getPV());
+        this.stat.setPV(this.calculGainStatPV());
     }       // Remet les PV au maximum
 }

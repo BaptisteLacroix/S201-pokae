@@ -1,0 +1,18 @@
+
+s	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şù™øÿÿÿÿ8üşŞµ0
+b
+java:S2095|"EUse try-with-resources or close this "Scanner" in a "finally" clause.(´†´¼8Œ…ßµ0
+i
+java:S2095y"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ß¤ñÅ8‹…ßµ0
+j
+java:S2095æ"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ß¤ñÅ8Œ…ßµ0
+c
+java:S2095é"EUse try-with-resources or close this "Scanner" in a "finally" clause.(´†´¼8Œ…ßµ0
+c
+java:S2095ì"EUse try-with-resources or close this "Scanner" in a "finally" clause.(ŞØù8Œ…ßµ0
+w
+java:S1450'"URemove the "capSet" field and declare it as a local variable in the relevant methods.(à†á¬øÿÿÿÿ8…ßµ0
+n
+java:S2677z"LUse or store the value returned from "readLine" instead of throwing it away.(£­—âÿÿÿÿÿ8‘…ßµ0
+o
+java:S2677ç"LUse or store the value returned from "readLine" instead of throwing it away.(£­—âÿÿÿÿÿ8—…ßµ0
