@@ -96,7 +96,6 @@ public class Pokedex implements IPokedex {
 
 
     /**
-     * Il lit un fichier csv et renvoie un double
      * Il lit le fichier ligne par ligne jusqu'à ce qu'il atteigne la ligne correspondant au type de l'attaque,
      * puis il lit la valeur correspondant au type du défenseur
      *
@@ -106,7 +105,7 @@ public class Pokedex implements IPokedex {
      */
     @Override
     public Double getEfficacite(IType attaque, IType defense) {
-        double eff = 0.0;
+        double eff = 1.0;
         int nbrA = 0;
         int nbrD = 0;
         try {
@@ -114,13 +113,15 @@ public class Pokedex implements IPokedex {
             BufferedReader reader = new BufferedReader(file);
             Scanner s = new Scanner(reader.readLine()).useDelimiter(";");
             String[] tab = s.nextLine().split(";");
-            for (int i = 0; i < tab.length - 1; i++) {
-                if (attaque.getNom().equals(tab[i]))
-                    nbrA = i;
-                if (defense.getNom().equals(tab[i]))
-                    nbrD = i;
+            if (attaque != null && defense != null) {
+                for (int i = 0; i < tab.length - 1; i++) {
+                    if (attaque.getNom().equals(tab[i]))
+                        nbrA = i;
+                    if (defense.getNom().equals(tab[i]))
+                        nbrD = i;
+                }
+                eff = this.foundEfficacite(nbrA, nbrD, reader);
             }
-            eff = this.foundEfficacite(nbrA, nbrD, reader);
             file.close();
         } catch (IOException e) {
             e.printStackTrace();

@@ -5,22 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b1a1f92-a572-465e-92e4-e09477082a40" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fcee786dfd8d6bd52c4bfae6f19978b8735e84c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0c8df50b5e671afb5095b1fa65ed58d99719636a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/4218b5970a93e51d8cb566a041792bd8b8b8e8a4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f08be4e9c62f2e5f8f02242af89b918cb9a135f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/ac270d0a194cf67c76ba291686348b3770e0b002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba72be48843b516e051929604152b0ae7c0abc71" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/efef1501ad91ab222c9cbb1ae03b8b1bd2483f01" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/combat/Capacite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/combat/Capacite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/Pokedex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/Pokedex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pokemon/Espece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokemon/Espece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pokemon/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokemon/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pokemon/PokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pokemon/PokemonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/statsPokemon/CapaciteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/statsPokemon/CapaciteTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pokedex/Pokedex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pokedex/Pokedex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pokemon/Espece.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pokemon/Espece.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pokemon/Pokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pokemon/Pokemon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pokemon/PokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pokemon/PokemonTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/statsPokemon/CapaciteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/statsPokemon/CapaciteTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +60,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../R2_01_POO/TD9" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -180,6 +178,7 @@
       <workItem from="1653082821361" duration="2181000" />
       <workItem from="1653122403726" duration="27474000" />
       <workItem from="1653156885451" duration="13698000" />
+      <workItem from="1653209535925" duration="2675000" />
     </task>
     <servers />
   </component>
@@ -199,6 +198,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="7" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pokae_g2_bl_tv$EspeceTest.ic" NAME="EspeceTest Coverage Results" MODIFIED="1653163758767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
