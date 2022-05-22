@@ -9,11 +9,13 @@ import statsPokemon.Type;
 import java.util.Arrays;
 
 public class Main {
+
     /**
      * Ceci est une méthode qui illustre le fonctionnement des différentes classes
      * Il crée un Pokedex, crée un Pokémon, crée un Capacite, puis imprime le nom du Pokémon, son espèce, ses statistiques
      * et les dommages qu'il causerait à un autre Pokémon.
      */
+
     public static void main(String[] args) throws Exception {
         // Pokedex
         System.out.println("\n\n----------- Pokedex -----------\n\n");
@@ -88,7 +90,7 @@ public class Main {
     /**
      * Il crée les quatre capacités du pokémon puis les enseigne au pokémon
      *
-     * @param pokemon2 le pokémon qui apprendra les mouvements
+     * @param pokemon2  le pokémon qui apprendra les mouvements
      * @param capacite2 la gamme d'ICapacite
      */
     private static void createCapacite(IPokemon pokemon2, ICapacite[] capacite2) {

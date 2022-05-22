@@ -12,25 +12,15 @@ import combat.Capacite;
 import statsPokemon.Categorie;
 import statsPokemon.Stat;
 import statsPokemon.Type;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.util.*;
 
 /**
  * @author Lacroix Baptiste
  */
 public class Espece implements IEspece {
-    private final int id;
     private final IStat baseStat;
     private final String nom;
     private final int niveauDepart;
@@ -40,14 +30,14 @@ public class Espece implements IEspece {
     private final IType[] types;
 
 
-    public Espece(int id, IStat baseIStat, String nom, int niveauDepart, int baseExp, IStat gainsStat, IType[] types) {
-        this.id = id;
+    public Espece(IStat baseIStat, String nom, int niveauDepart, int baseExp, IStat gainsStat, IType[] types) {
         this.baseStat = baseIStat;
         this.nom = nom;
         this.niveauDepart = niveauDepart;
         this.baseExp = baseExp;
         this.gainsStat = gainsStat;
         this.types = types;
+        this.setCapSet();
     }
 
 
@@ -105,6 +95,62 @@ public class Espece implements IEspece {
         return gainsStat;
     }
 
+
+    /**
+     * Il lit un fichier csv et crée une liste d'objets ICapacite
+     */
+    private void setCapSet() {
+        boolean trouve = false;
+        try {
+            FileReader file = new FileReader("./resources/listeCapacitesEspeces.csv");
+            BufferedReader reader = new BufferedReader(file);
+            while (reader.ready() && !trouve) {
+                Scanner scanner = new Scanner(reader.readLine()).useDelimiter(";");
+                String[] tab = scanner.nextLine().split(";");
+                if (tab[0].equals(this.nom)) {
+                    this.creatCap(tab);
+                    trouve = true;
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    /**
+     * Il lit un fichier csv et crée une liste d'objets ICapacite
+     *
+     * @param tableau le tableau de chaînes contenant le nom, le type et les capacités du pokémon.
+     */
+    private void creatCap(String[] tableau) {
+        boolean trouve = false;
+        List<ICapacite> cap = new ArrayList<>();
+        for (int i = 1; i < tableau.length; i++) {
+            try {
+                FileReader file2 = new FileReader("./resources/listeCapacites.csv");
+                BufferedReader reader = new BufferedReader(file2);
+                reader.readLine();
+                while (reader.ready() && !trouve) {
+                    Scanner scanner = new Scanner(reader.readLine()).useDelimiter(";");
+                    String[] tab = scanner.nextLine().split(";");
+                    if (tab[0].equals(tableau[i])) {
+                        cap.add(new Capacite(tab[0], Double.parseDouble(tab[2]), Integer.parseInt(tab[1]),
+                                Integer.parseInt(tab[3]), Categorie.valueOf(tab[5]), conversionStringType(tab[6])));
+                    }
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        this.capSet = new ICapacite[cap.size()];
+        for (int i = 0; i < cap.size(); i++) {
+            if (cap.get(i) != null) {
+                this.capSet[i] = cap.get(i);
+            }
+        }
+    }
+
     /**
      * Une méthode qui renvoie l'ensemble des capacités disponibles pour cette espèce.
      *
@@ -112,95 +158,8 @@ public class Espece implements IEspece {
      */
     @Override
     public ICapacite[] getCapSet() {
-        List<ICapacite> cap = new ArrayList<>();
-        String url = this.getURLPokemon();
-        List<String> nameMove = this.recupMoves(url);
-        for (String s : nameMove) {
-            try {
-                FileReader file = new FileReader("./resources/listeCapacites.csv");
-                BufferedReader reader = new BufferedReader(file);
-                reader.readLine();
-                while (reader.ready()) {
-                    Scanner scanner = new Scanner(reader.readLine()).useDelimiter(";");
-                    String[] tab = scanner.nextLine().split(";");
-                    if (tab[0].equals(s)) {
-                        cap.add(new Capacite(tab[0], Double.parseDouble(tab[2]), Integer.parseInt(tab[1]),
-                                Integer.parseInt(tab[3]), Categorie.valueOf(tab[5]), Type.valueOf(tab[6])));
-                    }
-                }
-                file.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-        this.capSet = new ICapacite[cap.size()];
-        for (int i = 0; i < cap.size(); i++) {
-            this.capSet[i] = cap.get(i);
-        }
         return this.capSet;
     } //ensemble des capacités disponibles pour cette espèce
-
-    /**
-     * Il obtient l'URL du pokemon à partir de l'API pokemon-species
-     *
-     * @return L'URL du Pokémon
-     */
-    private String getURLPokemon() {
-        String pokemonurl = "";
-        try {
-            JSONObject obj = requestHTTP("https://pokeapi.co/api/v2/pokemon-species/" + this.id + "/");
-            JSONArray modules = (JSONArray) obj.get("varieties");
-            for (Object m : modules) {
-                JSONObject jsonObj = (JSONObject) m;
-                JSONObject obj2 = (JSONObject) new JSONParser().parse(String.valueOf(jsonObj.get("pokemon")));
-                pokemonurl = (String) obj2.get("url");
-            }
-        } catch (ParseException | IOException e) {
-            e.printStackTrace();
-        }
-        return pokemonurl;
-    }
-
-    /**
-     * Il prend une URL en paramètre et renvoie une liste de chaînes
-     *
-     * @param url l'url du pokémon
-     * @return Une liste des Moves
-     */
-    private List<String> recupMoves(String url) {
-        List<String> moveName = new ArrayList<>();
-        try {
-            JSONObject obj = requestHTTP(url);
-            JSONArray modules = (JSONArray) obj.get("moves");
-            for (Object m : modules) {
-                JSONObject jsonObj = (JSONObject) m;
-                JSONObject obj2 = (JSONObject) new JSONParser().parse(String.valueOf(jsonObj.get("move")));
-                moveName.add(this.recupFrenchMoves((String) obj2.get("url")));
-            }
-        } catch (ParseException | IOException e) {
-            e.printStackTrace();
-        }
-        return moveName;
-    }
-
-    /**
-     * Il prend une url en paramètre et retourne le nom du move en français
-     *
-     * @param url l'url du move dont vous voulez obtenir le nom
-     * @return Le nom du Move en français.
-     */
-    private String recupFrenchMoves(String url) {
-        String moveName = "";
-        try {
-            JSONObject obj = requestHTTP(url);
-            JSONArray modules = (JSONArray) obj.get("names");
-            JSONObject jsonObj = (JSONObject) modules.get(3);
-            moveName = (String) jsonObj.get("name");
-        } catch (ParseException | IOException e) {
-            e.printStackTrace();
-        }
-        return moveName;
-    }
 
 
     /**
@@ -216,6 +175,7 @@ public class Espece implements IEspece {
 
     /**
      * Renvoie l'évolution si possible du Pokemon actuel
+     *
      * @param niveau niveau du Pokemon dont on cherche son évolution
      * @return un objet IEspece
      */
@@ -242,7 +202,7 @@ public class Espece implements IEspece {
                             Integer.parseInt(tab[11]), Integer.parseInt(tab[12]));
                     type[0] = conversionStringType(tab[13]);
                     type[1] = conversionStringType(tab[14]);
-                    espece = new Espece(Integer.parseInt(tab[0]), stats, tab[1], Integer.parseInt(tab[15]),
+                    espece = new Espece(stats, tab[1], Integer.parseInt(tab[15]),
                             Integer.parseInt(tab[7]), evstats, type);
                     trouve = true;
                 }
@@ -296,30 +256,6 @@ public class Espece implements IEspece {
             default:
                 return null;
         }
-    }
-
-    /**
-     * Il prend une URL sous forme de chaîne, ouvre une connexion à cette URL, lit la réponse et renvoie un JSONObject
-     *
-     * @param url L'URL du point de terminaison de l'API.
-     * @return Un objet JSON
-     */
-    private JSONObject requestHTTP(String url) throws IOException, ParseException {
-        URL http = new URL(url);
-        HttpURLConnection hpCon = (HttpURLConnection) http.openConnection();
-        hpCon.connect();
-
-        BufferedReader streamReader = new BufferedReader(new InputStreamReader(hpCon.getInputStream()));
-        StringBuilder responseStrBuilder = new StringBuilder();
-
-        String inputStr;
-        while ((inputStr = streamReader.readLine()) != null) {
-            responseStrBuilder.append(inputStr);
-        }
-        inputStr = responseStrBuilder.toString();
-        streamReader.close();
-
-        return (JSONObject) new JSONParser().parse(inputStr);
     }
 
 }

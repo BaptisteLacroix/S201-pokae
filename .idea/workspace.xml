@@ -1,23 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="pokae-g2-bl-tv:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b1a1f92-a572-465e-92e4-e09477082a40" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0c8df50b5e671afb5095b1fa65ed58d99719636a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/4218b5970a93e51d8cb566a041792bd8b8b8e8a4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f08be4e9c62f2e5f8f02242af89b918cb9a135f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/ac270d0a194cf67c76ba291686348b3770e0b002" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba72be48843b516e051929604152b0ae7c0abc71" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/efef1501ad91ab222c9cbb1ae03b8b1bd2483f01" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/pokae_g2_bl_tv_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/opencsv_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/super_csv.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/23088b585af493682c0f7616c2a1c1b541eb8451" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/28ebd0db8981a8815e50b0fd689c73b154720a8b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86b13b04bb8a035d4ad643e5b8c4d5f1567fd2d9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b15c4c3592dd0ffd111424aa073605e0585ba624" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b30cd196df16de542dff54ffd021e1aca66c640a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b93b9297349526d90ae9480a4313552099ce9996" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be5dbe8358c9a017d54d9d09c4498664ff7eb8cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3878736f472ce13aa71bb9d57e13b93f3955ea9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fcee786dfd8d6bd52c4bfae6f19978b8735e84c2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokae-g2-bl-tv.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pokae-g2-bl-tv.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/Pokedex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/Pokedex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pokemon/Espece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokemon/Espece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pokemon/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokemon/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pokemon/EspeceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pokemon/EspeceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pokemon/PokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pokemon/PokemonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/statsPokemon/CapaciteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/statsPokemon/CapaciteTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pokedex/Pokedex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pokedex/Pokedex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pokemon/Espece.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pokemon/Espece.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pokemon/Pokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pokemon/Pokemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pokemon/EspeceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pokemon/EspeceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pokemon/PokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pokemon/PokemonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/statsPokemon/CapaciteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/statsPokemon/CapaciteTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +49,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit3 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -61,12 +83,13 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../R2_01_POO/TD9" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.14746094" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -81,7 +104,7 @@
       <recent name="pokedex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.EspeceTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="pokae-g2-bl-tv" />
@@ -125,17 +148,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PokedexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EspeceTest.setCapSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pokae-g2-bl-tv" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pokedex.*" />
+          <option name="PATTERN" value="pokemon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pokedex" />
-      <option name="MAIN_CLASS_NAME" value="pokedex.PokedexTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="pokemon" />
+      <option name="MAIN_CLASS_NAME" value="pokemon.EspeceTest" />
+      <option name="METHOD_NAME" value="setCapSet" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -157,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.CapaciteTest" />
         <item itemvalue="JUnit.EspeceTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.EspeceTest.setCapSet" />
+        <item itemvalue="JUnit.CapaciteTest" />
         <item itemvalue="JUnit.PokemonTest" />
-        <item itemvalue="JUnit.PokedexTest" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +202,7 @@
       <workItem from="1653082821361" duration="2181000" />
       <workItem from="1653122403726" duration="27474000" />
       <workItem from="1653156885451" duration="13698000" />
-      <workItem from="1653209535925" duration="2675000" />
+      <workItem from="1653209535925" duration="20910000" />
     </task>
     <servers />
   </component>

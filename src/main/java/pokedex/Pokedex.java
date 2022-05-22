@@ -83,7 +83,7 @@ public class Pokedex implements IPokedex {
                             Integer.parseInt(tab[11]), Integer.parseInt(tab[12]));
                     type[0] = conversionStringType(tab[13]);
                     type[1] = conversionStringType(tab[14]);
-                    espece = new Espece(Integer.parseInt(tab[0]), stats, tab[1], Integer.parseInt(tab[15]),
+                    espece = new Espece(stats, tab[1], Integer.parseInt(tab[15]),
                             Integer.parseInt(tab[7]), evstats, type);
                     trouve = true;
                 }
@@ -246,7 +246,7 @@ public class Pokedex implements IPokedex {
                 if (niveau == 1) {
                     IStat stats = new Stat(pv, force, defense, special, vitesse);
                     IStat evstats = new Stat(evPV, evForce, evDefense, evSpecial, evVitesse);
-                    IEspece espece = new Espece(id, stats, nom, niveau, expbase, evstats, types);
+                    IEspece espece = new Espece(stats, nom, niveau, expbase, evstats, types);
                     this.dico.put(id, new Pokemon(id, nom, niveau, expbase, 100.0, espece));
                 }
             }
