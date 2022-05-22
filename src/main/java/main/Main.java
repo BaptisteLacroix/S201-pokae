@@ -15,7 +15,6 @@ public class Main {
      * Il crée un Pokedex, crée un Pokémon, crée un Capacite, puis imprime le nom du Pokémon, son espèce, ses statistiques
      * et les dommages qu'il causerait à un autre Pokémon.
      */
-
     public static void main(String[] args) throws Exception {
         // Pokedex
         System.out.println("\n\n----------- Pokedex -----------\n\n");

@@ -13,9 +13,5 @@ V
 &src/main/java/interfaces/IAttaque.java,7\e\7eee7dd7cd518f603211002e4c05af4a31cfd37b
 W
 'src/main/java/interfaces/ICapacite.java,e\7\e70f425f5f4b7627379ae341e454673dfaeaedaf
-Q
-!src/main/java/combat/Echange.java,e\2\e2f72aacbeb01f701bc8bd744691a536193fccca
 V
 &src/main/java/interfaces/IPokemon.java,9\5\95429f52da2589ec0c18434ae15cb3dffad2d34e
-Q
-!src/main/java/combat/Attaque.java,6\3\637eb78f2ad3c3a937563506e1e7c498858b32b2

@@ -17,7 +17,7 @@ public class WritingCSV {
     /**
      * Il prend le nom du pokémon et le nom des mouvements qui lui sont associés et les écrit dans un fichier csv
      */
-    public void writeIntoCsv() throws IOException {
+    public void writeIntoCsv() throws FileNotFoundException {
         int id = 1;
         OutputStream os = new FileOutputStream("listeCapacitesEspeces.csv");
         PrintWriter writer = new PrintWriter(new OutputStreamWriter(os, StandardCharsets.UTF_8));
