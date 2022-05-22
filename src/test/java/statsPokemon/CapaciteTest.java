@@ -9,6 +9,9 @@ import pokemon.Pokemon;
 
 public class CapaciteTest {
 
+    /**
+     * Il teste la méthode calculeDommage() de la classe Capacite
+     */
     @Test
     public void testCalculeDommage() {
         IType[] type = new IType[2];
@@ -35,6 +38,9 @@ public class CapaciteTest {
         Assert.assertNotNull(pokemon.getCapacitesApprises()[0].calculeDommage(pokemon, pokemon));
     }
 
+    /**
+     * Il teste que le PP d'un mouvement est diminué de un à chaque fois qu'il est utilisé
+     */
     @Test
     public void testUtilise() {
         IType[] type = new IType[2];
@@ -63,6 +69,9 @@ public class CapaciteTest {
         Assert.assertEquals(32, pokemon.getCapacitesApprises()[0].getPP());
     }
 
+    /**
+     * Il teste que le PP du Bulbizarre est de 35
+     */
     @Test
     public void testGetPP() {
         IType[] type = new IType[2];
@@ -87,6 +96,9 @@ public class CapaciteTest {
         Assert.assertEquals(35, pokemon.getCapacitesApprises()[0].getPP());
     }
 
+    /**
+     * Il teste que la fonction resetPP() de la classe Capacite fonctionne correctement
+     */
     @Test
     public void testResetPP() {
         IType[] type = new IType[2];

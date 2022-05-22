@@ -9,10 +9,12 @@ import statsPokemon.Categorie;
 import statsPokemon.Stat;
 import statsPokemon.Type;
 
-import java.util.Arrays;
 
 public class EspeceTest {
 
+    /**
+     * Il teste la fonction getBaseStat() de la classe Espece
+     */
     @Test
     public void testGetBaseStat() {
         IType[] type = new IType[2];
@@ -30,6 +32,9 @@ public class EspeceTest {
         Assert.assertEquals(45, espece.getBaseStat().getVitesse());
     }
 
+    /**
+     * Il teste la fonction getNom() de la classe Espece
+     */
     @Test
     public void testGetNom() {
         IType[] type = new IType[2];
@@ -45,6 +50,9 @@ public class EspeceTest {
         Assert.assertNotEquals("Bulbizae", espece.getNom());
     }
 
+    /**
+     * TestGetNiveauDepart() teste la fonction getNiveauDepart().
+     */
     @Test
     public void testGetNiveauDepart() {
         IType[] type = new IType[2];
@@ -58,6 +66,9 @@ public class EspeceTest {
         Assert.assertEquals(1, espece.getNiveauDepart());
     }
 
+    /**
+     * Il teste que l'expérience de base d'un Bulbizarre est de 64
+     */
     @Test
     public void testGetBaseExp() {
         IType[] type = new IType[2];
@@ -71,6 +82,9 @@ public class EspeceTest {
         Assert.assertEquals(64, espece.getBaseExp());
     }
 
+    /**
+     * Il teste la fonction getGainsStat() de la classe Espece
+     */
     @Test
     public void testGetGainsStat() {
         IType[] type = new IType[2];
@@ -88,6 +102,9 @@ public class EspeceTest {
         Assert.assertEquals(0, espece.getGainsStat().getVitesse());
     }
 
+    /**
+     * Il teste la fonction setCapSet()
+     */
     @Test
     public void setCapSet() {
         IType[] type = new IType[2];
@@ -121,6 +138,9 @@ public class EspeceTest {
         // IEspece espece3 = new Espece(stats2, "Bulbizarre", 1, 64, evstats2, type2);
     }
 
+    /**
+     * Il teste la fonction getTypes() de la classe Espece
+     */
     @Test
     public void testGetTypes() {
         IType[] type = new IType[2];
@@ -137,6 +157,9 @@ public class EspeceTest {
         Assert.assertNotNull(espece.getTypes()[0]);
     }
 
+    /**
+     * Il teste que l'évolution d'un Bulbizarre n'est pas nulle
+     */
     @Test
     public void testGetEvolution() {
         IType[] type = new IType[2];
