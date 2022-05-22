@@ -3,3 +3,15 @@ D
 docs/CONTRIBUTING.md,e\d\ed96d3a2ffe01e0901254fe77da0a84a109670ae
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+X
+(src/main/java/interfaces/ICategorie.java,a\9\a942d427e0f190e0b68454d467add1fdf6747688
+V
+&src/main/java/interfaces/IEchange.java,2\e\2e81f6f12e1945dee9ecdb4845c71c1c1ce5421d
+V
+&src/main/java/interfaces/IPokedex.java,a\0\a04c0aa3cbdf74f56edd6f880fc2eb54d535b2a2
+V
+&src/main/java/interfaces/IAttaque.java,7\e\7eee7dd7cd518f603211002e4c05af4a31cfd37b
+W
+'src/main/java/interfaces/ICapacite.java,e\7\e70f425f5f4b7627379ae341e454673dfaeaedaf
+V
+&src/main/java/interfaces/IPokemon.java,9\5\95429f52da2589ec0c18434ae15cb3dffad2d34e
