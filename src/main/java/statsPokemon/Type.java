@@ -32,7 +32,9 @@ public enum Type implements IType {
 	private String nom;
 
 
-	// C'est un constructeur.
+	/**
+	 * Constructeur de l'enum Type.
+ 	 */
 	Type(String nom) {
 		this.nom = nom;
 	}
