@@ -15,8 +15,6 @@ V
 &src/main/java/interfaces/IAttaque.java,7\e\7eee7dd7cd518f603211002e4c05af4a31cfd37b
 W
 'src/main/java/interfaces/ICapacite.java,e\7\e70f425f5f4b7627379ae341e454673dfaeaedaf
-S
-#src/main/java/interfaces/IType.java,4\2\4218b5970a93e51d8cb566a041792bd8b8b8e8a4
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 Q
@@ -29,14 +27,10 @@ V
 &src/test/java/pokemon/PokemonTest.java,b\3\b30cd196df16de542dff54ffd021e1aca66c640a
 U
 %src/test/java/pokemon/EspeceTest.java,8\6\86b13b04bb8a035d4ad643e5b8c4d5f1567fd2d9
-\
-,src/test/java/statsPokemon/CapaciteTest.java,0\c\0c8df50b5e671afb5095b1fa65ed58d99719636a
 Y
 )src/main/java/statsPokemon/Categorie.java,b\1\b15c4c3592dd0ffd111424aa073605e0585ba624
 S
 #src/main/java/interfaces/IStat.java,f\c\fcee786dfd8d6bd52c4bfae6f19978b8735e84c2
-T
-$src/main/java/statsPokemon/Type.java,a\c\ac270d0a194cf67c76ba291686348b3770e0b002
 T
 $src/main/java/statsPokemon/Stat.java,2\3\23088b585af493682c0f7616c2a1c1b541eb8451
 Q
@@ -45,9 +39,3 @@ Q
 !src/main/java/pokemon/Espece.java,b\9\b93b9297349526d90ae9480a4313552099ce9996
 R
 "src/main/java/pokemon/Pokemon.java,f\3\f3878736f472ce13aa71bb9d57e13b93f3955ea9
-L
-src/main/java/main/Main.java,7\f\7f08be4e9c62f2e5f8f02242af89b918cb9a135f
-R
-"src/main/java/pokedex/Pokedex.java,e\f\efef1501ad91ab222c9cbb1ae03b8b1bd2483f01
-R
-"src/main/java/combat/Capacite.java,b\a\ba72be48843b516e051929604152b0ae7c0abc71
