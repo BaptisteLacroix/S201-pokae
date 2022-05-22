@@ -52,8 +52,6 @@ public class Pokedex implements IPokedex {
                 pokemon = dico.get(rand.nextInt(151));
             }
             this.ranch[i] = pokemon;
-            // System.out.println(this.ranch[i].getNom());
-            // System.out.println(this.ranch[i].peutMuter());
         }
         return this.ranch;
     }           //Renvoie un tableau de 6 Pokemon au hasard
@@ -85,7 +83,7 @@ public class Pokedex implements IPokedex {
                             Integer.parseInt(tab[11]), Integer.parseInt(tab[12]));
                     type[0] = conversionStringType(tab[13]);
                     type[1] = conversionStringType(tab[14]);
-                    espece = new Espece(Integer.parseInt(tab[0]), stats, tab[1], Integer.parseInt(tab[15]),
+                    espece = new Espece(stats, tab[1], Integer.parseInt(tab[15]),
                             Integer.parseInt(tab[7]), evstats, type);
                     trouve = true;
                 }
@@ -98,7 +96,6 @@ public class Pokedex implements IPokedex {
 
 
     /**
-     * Il lit un fichier csv et renvoie un double
      * Il lit le fichier ligne par ligne jusqu'à ce qu'il atteigne la ligne correspondant au type de l'attaque,
      * puis il lit la valeur correspondant au type du défenseur
      *
@@ -108,7 +105,7 @@ public class Pokedex implements IPokedex {
      */
     @Override
     public Double getEfficacite(IType attaque, IType defense) {
-        double eff = 0.0;
+        double eff = 1.0;
         int nbrA = 0;
         int nbrD = 0;
         try {
@@ -116,13 +113,15 @@ public class Pokedex implements IPokedex {
             BufferedReader reader = new BufferedReader(file);
             Scanner s = new Scanner(reader.readLine()).useDelimiter(";");
             String[] tab = s.nextLine().split(";");
-            for (int i = 0; i < tab.length - 1; i++) {
-                if (attaque.getNom().equals(tab[i]))
-                    nbrA = i;
-                if (defense.getNom().equals(tab[i]))
-                    nbrD = i;
+            if (attaque != null && defense != null) {
+                for (int i = 0; i < tab.length - 1; i++) {
+                    if (attaque.getNom().equals(tab[i]))
+                        nbrA = i;
+                    if (defense.getNom().equals(tab[i]))
+                        nbrD = i;
+                }
+                eff = this.foundEfficacite(nbrA, nbrD, reader);
             }
-            eff = this.foundEfficacite(nbrA, nbrD, reader);
             file.close();
         } catch (IOException e) {
             e.printStackTrace();
@@ -247,8 +246,8 @@ public class Pokedex implements IPokedex {
                 if (niveau == 1) {
                     IStat stats = new Stat(pv, force, defense, special, vitesse);
                     IStat evstats = new Stat(evPV, evForce, evDefense, evSpecial, evVitesse);
-                    IEspece espece = new Espece(id, stats, nom, niveau, expbase, evstats, types);
-                    this.dico.put(id, new Pokemon(id, nom, niveau, stats, expbase, 100.0, espece));
+                    IEspece espece = new Espece(stats, nom, niveau, expbase, evstats, types);
+                    this.dico.put(id, new Pokemon(id, nom, niveau, expbase, 100.0, espece));
                 }
             }
             reader.close();

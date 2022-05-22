@@ -9,6 +9,9 @@ import pokemon.Pokemon;
 
 public class CapaciteTest {
 
+    /**
+     * Il teste la méthode calculeDommage() de la classe Capacite
+     */
     @Test
     public void testCalculeDommage() {
         IType[] type = new IType[2];
@@ -16,8 +19,8 @@ public class CapaciteTest {
         type[1] = Type.Poison;
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
-        IEspece espece = new Espece(1, stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, stats, 64, 100.0, espece);
+        IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 64, 100.0, espece);
 
         ICapacite[] capacite = new Capacite[4];
         capacite[0] = new Capacite("Écras'Face", 1.00, 40,
@@ -35,6 +38,9 @@ public class CapaciteTest {
         Assert.assertNotNull(pokemon.getCapacitesApprises()[0].calculeDommage(pokemon, pokemon));
     }
 
+    /**
+     * Il teste que le PP d'un mouvement est diminué de un à chaque fois qu'il est utilisé
+     */
     @Test
     public void testUtilise() {
         IType[] type = new IType[2];
@@ -42,8 +48,8 @@ public class CapaciteTest {
         type[1] = Type.Poison;
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
-        IEspece espece = new Espece(1, stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, stats, 64, 100.0, espece);
+        IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 64, 100.0, espece);
 
         ICapacite[] capacite = new Capacite[4];
         capacite[0] = new Capacite("Écras'Face", 1.00, 40,
@@ -63,6 +69,9 @@ public class CapaciteTest {
         Assert.assertEquals(32, pokemon.getCapacitesApprises()[0].getPP());
     }
 
+    /**
+     * Il teste que le PP du Bulbizarre est de 35
+     */
     @Test
     public void testGetPP() {
         IType[] type = new IType[2];
@@ -70,8 +79,8 @@ public class CapaciteTest {
         type[1] = Type.Poison;
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
-        IEspece espece = new Espece(1, stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, stats, 64, 100.0, espece);
+        IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 64, 100.0, espece);
 
         ICapacite[] capacite = new Capacite[4];
         capacite[0] = new Capacite("Écras'Face", 1.00, 40,
@@ -87,6 +96,9 @@ public class CapaciteTest {
         Assert.assertEquals(35, pokemon.getCapacitesApprises()[0].getPP());
     }
 
+    /**
+     * Il teste que la fonction resetPP() de la classe Capacite fonctionne correctement
+     */
     @Test
     public void testResetPP() {
         IType[] type = new IType[2];
@@ -94,8 +106,8 @@ public class CapaciteTest {
         type[1] = Type.Poison;
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
-        IEspece espece = new Espece(1, stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, stats, 64, 100.0, espece);
+        IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 64, 100.0, espece);
 
         ICapacite[] capacite = new Capacite[4];
         capacite[0] = new Capacite("Écras'Face", 1.00, 40,
