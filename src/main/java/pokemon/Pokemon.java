@@ -253,7 +253,13 @@ public class Pokemon implements IPokemon {
      */
     @Override
     public void apprendCapacites(ICapacite[] caps) {
-        this.capacites = caps;
+        for (int i = 0; i < caps.length; i ++) {
+            for (ICapacite c : this.espece.getCapSet()) {
+                if (caps[i].getNom().equals(c.getNom())) {
+                    this.capacites[i] = caps[i];
+                }
+            }
+        }
     }    //Enseigne les capacités au Pokemon
 
 
@@ -268,7 +274,11 @@ public class Pokemon implements IPokemon {
     public void remplaceCapacite(int i, ICapacite cap) throws UnsupportedOperationException {
         if (i < 0 || i > 4)
             throw new UnsupportedOperationException();
-        this.capacites[i] = cap;
+        for (ICapacite c : this.espece.getCapSet()) {
+            if (cap.getNom().equals(c.getNom())) {
+                this.capacites[i] = cap;
+            }
+        }
     }
 
 
