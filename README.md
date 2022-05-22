@@ -41,3 +41,6 @@ Ce projet a comme membres Baptiste Lacroix et Théo Vidal, tout deux étudiants 
 # Contribuer
 
 [Lien de contribution](./docs/CONTRIBUTING.md)
+
+
+
