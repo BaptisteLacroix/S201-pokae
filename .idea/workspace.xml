@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b1a1f92-a572-465e-92e4-e09477082a40" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/allclasses.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/allclasses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/element-list" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/element-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index-files/index-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index-files/index-13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index-files/index-14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index-files/index-15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/main/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/interfaces/IAttaque.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/interfaces/ICapacite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/interfaces/ICategorie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/interfaces/IEchange.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/interfaces/IEspece.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/interfaces/IPokedex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/interfaces/IPokemon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/interfaces/IStat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/interfaces/IType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/interfaces/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/interfaces/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/java/combat/Attaque.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/java/combat/Echange.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/java/combat/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/java/combat/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/java/pokedex/Pokedex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/java/pokedex/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/java/pokedex/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/java/pokemon/Espece.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/java/pokemon/Pokemon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/java/pokemon/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/java/pokemon/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/java/statsPokemon/Capacite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/java/statsPokemon/Categorie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/java/statsPokemon/Stat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/java/statsPokemon/Type.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/java/statsPokemon/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/java/statsPokemon/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/main/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/main/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/main/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/member-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/member-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/member-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/package-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/package-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/package-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/package-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/type-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/type-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/type-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/type-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/IAttaque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/ICapacite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/ICategorie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/IEchange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/IEspece.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/IPokedex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/IPokemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/IStat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/interfaces/IType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/combat/Attaque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/combat/Echange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/pokedex/Pokedex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/pokemon/Espece.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/pokemon/Pokemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/statsPokemon/Capacite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/statsPokemon/Categorie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/statsPokemon/Stat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokae-g2-bl-tv/main/java/statsPokemon/Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokae-g2-bl-tv.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pokae-g2-bl-tv.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/interfaces/IAttaque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/interfaces/ICapacite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/interfaces/ICategorie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/interfaces/IEchange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/interfaces/IEspece.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/interfaces/IPokedex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/interfaces/IPokemon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/interfaces/IStat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/interfaces/IType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/combat/Attaque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/combat/Attaque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/combat/Echange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/combat/Echange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/Pokedex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/Pokedex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pokemon/Espece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokemon/Espece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pokemon/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokemon/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/statsPokemon/Capacite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/combat/Capacite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/statsPokemon/Categorie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/statsPokemon/Categorie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/statsPokemon/Stat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/statsPokemon/Stat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/statsPokemon/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/statsPokemon/Type.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit3 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="29R2vyYmZ5NCUi6tQCw8ZMtp1zw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../R2_01_POO/TD9" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.14746094" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="J:\1-Travail\Travail Baptiste\IUT_Nice\Semestre2\SAE\SAE201\Rendu2\pokae-g2-bl-tv\src\main\java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="statsPokemon" />
+      <recent name="pokemon" />
+      <recent name="pokedex" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CapaciteTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="pokae-g2-bl-tv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CapaciteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pokae-g2-bl-tv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="combat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="statsPokemon" />
+      <option name="MAIN_CLASS_NAME" value="statsPokemon.CapaciteTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CapaciteTest.testCalculeDommage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pokae-g2-bl-tv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="combat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="statsPokemon" />
+      <option name="MAIN_CLASS_NAME" value="statsPokemon.CapaciteTest" />
+      <option name="METHOD_NAME" value="testCalculeDommage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CapaciteTest.testGetPP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pokae-g2-bl-tv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="combat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="statsPokemon" />
+      <option name="MAIN_CLASS_NAME" value="statsPokemon.CapaciteTest" />
+      <option name="METHOD_NAME" value="testGetPP" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CapaciteTest.testUtilise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pokae-g2-bl-tv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="combat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="statsPokemon" />
+      <option name="MAIN_CLASS_NAME" value="statsPokemon.CapaciteTest" />
+      <option name="METHOD_NAME" value="testUtilise" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CapaciteTest" />
+        <item itemvalue="JUnit.CapaciteTest.testGetPP" />
+        <item itemvalue="JUnit.CapaciteTest.testUtilise" />
+        <item itemvalue="JUnit.CapaciteTest.testCalculeDommage" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b1a1f92-a572-465e-92e4-e09477082a40" name="Changes" comment="" />
+      <created>1653061816652</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653061816652</updated>
+      <workItem from="1653061823659" duration="3749000" />
+      <workItem from="1653074330275" duration="7511000" />
+      <workItem from="1653082821361" duration="2181000" />
+      <workItem from="1653122403726" duration="24658000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
