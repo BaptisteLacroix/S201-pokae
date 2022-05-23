@@ -47,4 +47,4 @@ La répartition des taches, certains choix stratégiques et algorithmiques sur l
 
 # Contribuer
 
-[Lien de contribution](notion://www.notion.so/visioligne-docs/docs/CONTRIBUTING.md)
+[Lien de contribution](./docs/CONTRIBUTING.md)
