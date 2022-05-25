@@ -1,13 +1,0 @@
-
-Y
-java:S2184¢"BCast one of the operands of this addition operation to a "double".(ØûÚè
-m	java:S116"XRename this field "ancien_niveau" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÁƒù
-g	java:S116 "MRename this field "DV" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶­ğüüÿÿÿÿ
-l
-java:S1450 "QRemove the "DV" field and declare it as a local variable in the relevant methods.(¶­ğüüÿÿÿÿ
-Y
-java:S1659c"DDeclare "defense" and all following declarations on a separate line.(Öáb
-9
-java:S2119a"Save and re-use this "Random".(šŸ«íøÿÿÿÿ
-A
-java:S1068 "&Remove this unused "DV" private field.(¶­ğüüÿÿÿÿ
