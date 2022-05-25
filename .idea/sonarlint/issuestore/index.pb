@@ -23,10 +23,6 @@ V
 &src/test/java/pokedex/PokedexTest.java,b\e\be5dbe8358c9a017d54d9d09c4498664ff7eb8cd
 U
 %src/test/java/pokemon/EspeceTest.java,8\6\86b13b04bb8a035d4ad643e5b8c4d5f1567fd2d9
-R
-"src/main/java/pokemon/Pokemon.java,f\3\f3878736f472ce13aa71bb9d57e13b93f3955ea9
-V
-&src/test/java/pokemon/PokemonTest.java,b\3\b30cd196df16de542dff54ffd021e1aca66c640a
 Q
 !src/main/java/combat/Echange.java,e\2\e2f72aacbeb01f701bc8bd744691a536193fccca
 R
