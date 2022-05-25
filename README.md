@@ -35,12 +35,16 @@ Ce projet a comme membres Baptiste Lacroix et Théo Vidal, tout deux étudiants 
 - Théo Vidal [https://github.com/Dalvii](https://github.com/Dalvii)
 
 ### Nom de notre projet et de notre équipe
+
 - pokae-g2-bl-tv
 - G2 BL TV
+
+### Méthode d’organisation de l’équipe
+
+L’implémentation et la réalisation du programme, les interactions entre les différentes classes, l’organisation du dépôt sur GitHub, la suite de tests JUnit a été majoritairement géré par Baptiste Lacroix (chef de projet).
+
+La répartition des taches, certains choix stratégiques et algorithmiques sur l’implémentation des données, la mise en forme des documents annexes et JavaDoc ont été majoritairement gérés par Théo Vidal.
 
 # Contribuer
 
 [Lien de contribution](./docs/CONTRIBUTING.md)
-
-
-
