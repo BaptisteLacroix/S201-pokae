@@ -47,7 +47,7 @@ Pour cela :
     
 - Enregistrez vos modifications avec un message descriptif qui résume les modifications faites (important)
     
-    `git commit -a`
+    `git commit -am "description"`
     
 - Une fois terminé, soumettez votre version du projet
     
