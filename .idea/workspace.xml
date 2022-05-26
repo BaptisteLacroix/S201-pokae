@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="pokae-g2-bl-tv:jar" />
+      <artifact name="main:jar" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,8 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b1a1f92-a572-465e-92e4-e09477082a40" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dresseur/Strategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pokemon/Pokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pokemon/Pokemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dresseur/Dresseur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dresseur/Dresseur.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +182,8 @@
       <workItem from="1653553992856" duration="8000" />
       <workItem from="1653554037343" duration="127000" />
       <workItem from="1653556462232" duration="113000" />
-      <workItem from="1653556611304" duration="2696000" />
+      <workItem from="1653556611304" duration="2764000" />
+      <workItem from="1653573638850" duration="837000" />
     </task>
     <servers />
   </component>
