@@ -24,7 +24,7 @@ public class Dresseur implements IDresseur {
 
     @Override
     public String getNom() {
-        return null;
+        return this.nom;
     }//Nom du dresseur
 
     @Override
@@ -77,7 +77,17 @@ public class Dresseur implements IDresseur {
 
     @Override
     public IPokemon choisitCombattantContre(IPokemon pok) {
-        return pok;
+        IPokemon pokemon = null;
+        System.out.println(pok.toString());
+        Scanner input = new Scanner(System.in);  // Create a Scanner object
+        System.out.println(this.nom + " choose a pokemon who is gonna fight against " + pok.getNom() +" : ");
+        System.out.println("Your ranch : " + Arrays.toString(this.ranch));
+        String choixPokemon = input.next();  // Read user input
+        for (IPokemon p : ranch) {
+            if (p.getNom().equals(choixPokemon))
+                pokemon = p;
+        }
+        return pokemon;
     } //Choisit le Pokemon pour combattre contre pok
 
     @Override
@@ -96,7 +106,9 @@ public class Dresseur implements IDresseur {
                 if (p.getNom().equals(choixCap))
                     attaque = new Attaque(p);
             }
+            return attaque;
+        } else {
+            throw new UnsupportedOperationException(); // Change de Pokemon
         }
-        return attaque;
     } //Choisit l'attaque à utiliser contre le pokemon defenseur
 }
