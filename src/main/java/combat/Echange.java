@@ -7,6 +7,7 @@
  */
 package combat;
 
+import interfaces.ICapacite;
 import interfaces.IEchange;
 import interfaces.IPokemon;
 
@@ -15,7 +16,13 @@ import interfaces.IPokemon;
  * C'est un autre type d'attaque
  * Correspond à l'échange du Pokemon du combat avec un autre Pokemon du ranch
  */
-public class Echange implements IEchange {
+public class Echange extends Attaque implements IEchange {
+	private IPokemon pokemon;
+
+	public Echange(IPokemon pokemon, ICapacite capacite) {
+		super(capacite);
+		this.pokemon = pokemon;
+	}
 
 	@Override
 	public void setPokemon(IPokemon pok) //choisit le Pokemon remplaçant
@@ -28,12 +35,4 @@ public class Echange implements IEchange {
 	{
 		throw new UnsupportedOperationException();
 	}
-
-	@Override
-	public int calculeDommage(IPokemon lanceur, IPokemon receveur) {
-		return 0;
-	}
-
-	@Override
-	public void utilise() {}
 }

@@ -8,10 +8,7 @@
 package combat;
 
 
-import interfaces.ICapacite;
-import interfaces.ICategorie;
-import interfaces.IPokemon;
-import interfaces.IType;
+import interfaces.*;
 import pokedex.Pokedex;
 import statsPokemon.Type;
 
@@ -21,7 +18,7 @@ import java.util.Random;
  * @author Lacroix Baptiste
  * Une capacité est un type d'attaque que le pokemon peut utilser
  */
-public class Capacite implements ICapacite {
+public class Capacite extends Attaque implements ICapacite {
     private String nom;
     private double precision;
     private int puissance;
@@ -32,6 +29,7 @@ public class Capacite implements ICapacite {
     private Random rand = new Random();
 
     public Capacite(String nom, double precision, int puissance, int PP, ICategorie categorie, IType type) {
+        super(this);
         this.nom = nom;
         this.precision = precision;
         this.puissance = puissance;
