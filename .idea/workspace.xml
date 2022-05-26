@@ -10,7 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b1a1f92-a572-465e-92e4-e09477082a40" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dresseur/Dresseur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b93b9297349526d90ae9480a4313552099ce9996" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba72be48843b516e051929604152b0ae7c0abc71" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e2f72aacbeb01f701bc8bd744691a536193fccca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/efef1501ad91ab222c9cbb1ae03b8b1bd2483f01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/combat/Attaque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/combat/Attaque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/combat/Capacite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/combat/Capacite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/combat/Echange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/combat/Echange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/Pokedex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/Pokedex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pokemon/Espece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokemon/Espece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pokemon/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokemon/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/statsPokemon/Categorie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/statsPokemon/Categorie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/statsPokemon/Stat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/statsPokemon/Stat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/statsPokemon/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/statsPokemon/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pokemon/Pokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pokemon/Pokemon.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +76,7 @@
     <property name="project.structure.proportion" value="0.14746094" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -75,7 +91,7 @@
       <recent name="pokedex" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EspeceTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="pokae-g2-bl-tv" />
@@ -152,8 +168,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EspeceTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.EspeceTest" />
         <item itemvalue="JUnit.EspeceTest.setCapSet" />
         <item itemvalue="JUnit.CapaciteTest" />
         <item itemvalue="JUnit.PokemonTest" />
@@ -175,6 +191,11 @@
       <workItem from="1653156885451" duration="13698000" />
       <workItem from="1653209535925" duration="21685000" />
       <workItem from="1653238608844" duration="1946000" />
+      <workItem from="1653553949107" duration="20000" />
+      <workItem from="1653553992856" duration="8000" />
+      <workItem from="1653554037343" duration="127000" />
+      <workItem from="1653556462232" duration="113000" />
+      <workItem from="1653556611304" duration="2350000" />
     </task>
     <servers />
   </component>

@@ -10,7 +10,7 @@ package statsPokemon;
 import interfaces.IStat;
 
 /**
- * @author Lacroix Baptiste
+ * @author Lacroix baptiste and Vidal Théo
  *
  */
 public class Stat implements IStat {
