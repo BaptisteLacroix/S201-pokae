@@ -11,7 +11,7 @@ import interfaces.IEchange;
 import interfaces.IPokemon;
 
 /**
- * @author Leo Donati
+ * @author Lacroix baptiste and Vidal Théo
  * C'est un autre type d'attaque
  * Correspond à l'échange du Pokemon du combat avec un autre Pokemon du ranch
  */

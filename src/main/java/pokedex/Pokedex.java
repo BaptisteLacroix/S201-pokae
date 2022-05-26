@@ -26,7 +26,7 @@ import java.io.IOException;
 import java.util.*;
 
 /**
- * @author Lacroix Baptiste
+ * @author Lacroix baptiste and Vidal Théo
  */
 public class Pokedex implements IPokedex {
     private final Map<Integer, IPokemon> dico = new HashMap<>();

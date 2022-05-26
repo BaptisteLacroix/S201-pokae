@@ -17,7 +17,7 @@ import statsPokemon.Stat;
 import java.util.Random;
 
 /**
- * @author Lacroix Baptiste
+ * @author Lacroix baptiste and Vidal Théo
  */
 public class Pokemon implements IPokemon {
     private final int id;
@@ -357,4 +357,16 @@ public class Pokemon implements IPokemon {
     public void soigne() {
         this.stat.setPV(this.calculGainStatPV());
     }       // Remet les PV au maximum
+
+    @Override
+    public String toString() {
+        return "Pokemon{" +
+                "nom='" + nom + '\'' +
+                ", niveau=" + niveau +
+                ", stat=" + stat +
+                ", pourcentagePV=" + pourcentagePV +
+                ", espece=" + espece +
+                ", DV=" + DV +
+                '}';
+    }
 }
