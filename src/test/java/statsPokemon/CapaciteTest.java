@@ -1,6 +1,6 @@
 package statsPokemon;
 
-import combat.Capacite;
+import attaque.Capacite;
 import interfaces.*;
 import org.junit.Assert;
 import org.junit.Test;

@@ -17,8 +17,6 @@ B
 pokae-g2-bl-tv.iml,c\3\c347b863375c9e239af13a3431ec52ed33c730c9
 U
 %src/main/java/interfaces/IEspece.java,2\8\28ebd0db8981a8815e50b0fd689c73b154720a8b
-U
-%src/main/java/interfaces/ICombat.java,8\c\8cbf71bca073206928a8bd3fd9d2ad0fc081807c
 R
 "src/main/java/pokedex/Pokedex.java,e\f\efef1501ad91ab222c9cbb1ae03b8b1bd2483f01
 Q
@@ -33,14 +31,8 @@ T
 $src/main/java/statsPokemon/Type.java,a\c\ac270d0a194cf67c76ba291686348b3770e0b002
 L
 src/main/java/main/Main.java,7\f\7f08be4e9c62f2e5f8f02242af89b918cb9a135f
-S
-#src/main/java/interfaces/ITour.java,5\a\5a91a2e582b38db11a0482f7734038a29c9fd8de
 W
 'src/main/java/interfaces/IDresseur.java,2\d\2de7de10f89d5c52cef150dd9b787d9079733d1b
-W
-'src/main/java/interfaces/IStrategy.java,5\6\5622d8d71e127368629dd7ba67ab18d32d0115da
-T
-$src/main/java/dresseur/Strategy.java,5\9\595156e42dfd910c62a43670f8ebaccefc9a0e9c
 T
 $src/main/java/dresseur/Dresseur.java,8\6\86cfa80ab2b88ec0b6f400b06f73de26af911e61
 X
@@ -51,9 +43,3 @@ V
 &src/main/java/interfaces/IAttaque.java,7\e\7eee7dd7cd518f603211002e4c05af4a31cfd37b
 W
 'src/main/java/interfaces/ICapacite.java,e\7\e70f425f5f4b7627379ae341e454673dfaeaedaf
-Q
-!src/main/java/combat/Attaque.java,6\3\637eb78f2ad3c3a937563506e1e7c498858b32b2
-R
-"src/main/java/combat/Capacite.java,b\a\ba72be48843b516e051929604152b0ae7c0abc71
-Q
-!src/main/java/combat/Echange.java,e\2\e2f72aacbeb01f701bc8bd744691a536193fccca

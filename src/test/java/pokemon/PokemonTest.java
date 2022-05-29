@@ -2,7 +2,7 @@ package pokemon;
 
 import interfaces.*;
 import org.junit.Assert;
-import combat.Capacite;
+import attaque.Capacite;
 import org.junit.Test;
 import statsPokemon.Categorie;
 import statsPokemon.Stat;
