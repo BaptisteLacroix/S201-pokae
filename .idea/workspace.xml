@@ -10,10 +10,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b1a1f92-a572-465e-92e4-e09477082a40" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/combat/Combat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/combat/Capacite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/combat/Capacite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/combat/Echange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/combat/Echange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/allclasses.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/allclasses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/combat/Attaque.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/combat/Attaque.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/combat/Capacite.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/combat/Capacite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/combat/Echange.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/combat/Echange.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/combat/class-use/Attaque.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/combat/class-use/Attaque.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/combat/class-use/Capacite.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/combat/class-use/Capacite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/combat/class-use/Echange.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/combat/class-use/Echange.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/combat/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/combat/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/combat/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/combat/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/combat/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/combat/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/element-list" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/element-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index-files/index-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index-files/index-13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index-files/index-14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/interfaces/IAttaque.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/interfaces/IAttaque.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/interfaces/ICapacite.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/interfaces/ICapacite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/interfaces/IEchange.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/interfaces/IEchange.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/interfaces/class-use/IAttaque.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/interfaces/class-use/IAttaque.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/interfaces/class-use/ICapacite.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/interfaces/class-use/ICapacite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/interfaces/class-use/ICategorie.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/interfaces/class-use/ICategorie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/interfaces/class-use/IEchange.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/interfaces/class-use/IEchange.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/interfaces/class-use/IPokemon.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/interfaces/class-use/IPokemon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/interfaces/class-use/IType.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/interfaces/class-use/IType.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/interfaces/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/interfaces/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javaDoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javaDoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/combat/Attaque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attaque/Attaque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/combat/Capacite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attaque/Capacite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/combat/Echange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attaque/Echange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dresseur/Dresseur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dresseur/Dresseur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dresseur/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dresseur/Strategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/Pokedex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/Pokedex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pokemon/Espece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokemon/Espece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pokemon/PokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pokemon/PokemonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/statsPokemon/CapaciteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/statsPokemon/CapaciteTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,6 +226,7 @@
       <workItem from="1653556462232" duration="113000" />
       <workItem from="1653556611304" duration="2764000" />
       <workItem from="1653573638850" duration="1626000" />
+      <workItem from="1653827485316" duration="781000" />
     </task>
     <servers />
   </component>

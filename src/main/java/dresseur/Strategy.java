@@ -1,6 +1,6 @@
 package dresseur;
 
-import combat.Attaque;
+import attaque.Attaque;
 import interfaces.IAttaque;
 import interfaces.IPokemon;
 import interfaces.IStrategy;

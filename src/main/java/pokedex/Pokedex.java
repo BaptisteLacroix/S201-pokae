@@ -15,7 +15,7 @@ import interfaces.IStat;
 import interfaces.IType;
 import pokemon.Espece;
 import pokemon.Pokemon;
-import combat.Capacite;
+import attaque.Capacite;
 import statsPokemon.Categorie;
 import statsPokemon.Stat;
 import statsPokemon.Type;

@@ -8,7 +8,7 @@
 package pokemon;
 
 import interfaces.*;
-import combat.Capacite;
+import attaque.Capacite;
 import statsPokemon.Categorie;
 import statsPokemon.Stat;
 import statsPokemon.Type;
