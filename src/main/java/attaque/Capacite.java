@@ -29,7 +29,7 @@ public class Capacite extends Attaque implements ICapacite {
     private Random rand = new Random();
 
     public Capacite(String nom, double precision, int puissance, int PP, ICategorie categorie, IType type) {
-        super(this);
+        super(new Capacite(nom, precision, puissance, PP, categorie, type));
         this.nom = nom;
         this.precision = precision;
         this.puissance = puissance;

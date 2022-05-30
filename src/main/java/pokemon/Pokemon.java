@@ -321,7 +321,7 @@ public class Pokemon implements IPokemon {
      */
     @Override
     public boolean estEvanoui() {
-        return this.stat.getPV() == 0;
+        return this.stat.getPV() <= 0;
     }        //renvoie true si les pointes de vie du pokemon sont 0
 
 

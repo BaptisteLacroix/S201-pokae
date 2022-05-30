@@ -69,7 +69,7 @@ public class Dresseur implements IDresseur {
         System.out.println(this.nom + " Give the name of the Pokemon that will fight : ");
         String choixPokemon = input.nextLine();  // Read user input
         for (IPokemon p : this.ranch) {
-            if (p.getNom().equals(choixPokemon))
+            if (p.getNom().equals(choixPokemon) && !p.estEvanoui())
                 pok = p;
         }
         return pok;
@@ -84,7 +84,7 @@ public class Dresseur implements IDresseur {
         System.out.println("Your ranch : " + Arrays.toString(this.ranch));
         String choixPokemon = input.next();  // Read user input
         for (IPokemon p : ranch) {
-            if (p.getNom().equals(choixPokemon))
+            if (p.getNom().equals(choixPokemon) && !p.estEvanoui())
                 pokemon = p;
         }
         return pokemon;
