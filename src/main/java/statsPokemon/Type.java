@@ -10,7 +10,7 @@ package statsPokemon;
 import interfaces.IType;
 
 /**
- * @author Lacroix Baptiste
+ * @author Lacroix baptiste and Vidal Théo
  *
  */
 public enum Type implements IType {

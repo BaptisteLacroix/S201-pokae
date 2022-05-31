@@ -5,13 +5,10 @@
  *
  * @date ICapacite.java
  */
-package combat;
+package attaque;
 
 
-import interfaces.ICapacite;
-import interfaces.ICategorie;
-import interfaces.IPokemon;
-import interfaces.IType;
+import interfaces.*;
 import pokedex.Pokedex;
 import statsPokemon.Type;
 
@@ -21,7 +18,7 @@ import java.util.Random;
  * @author Lacroix Baptiste
  * Une capacité est un type d'attaque que le pokemon peut utilser
  */
-public class Capacite implements ICapacite {
+public class Capacite extends Attaque implements ICapacite {
     private String nom;
     private double precision;
     private int puissance;
@@ -32,6 +29,7 @@ public class Capacite implements ICapacite {
     private Random rand = new Random();
 
     public Capacite(String nom, double precision, int puissance, int PP, ICategorie categorie, IType type) {
+        super(new Capacite(nom, precision, puissance, PP, categorie, type));
         this.nom = nom;
         this.precision = precision;
         this.puissance = puissance;
@@ -50,6 +48,33 @@ public class Capacite implements ICapacite {
      */
     @Override
     public int calculeDommage(IPokemon lanceur, IPokemon receveur) {
+        if (this.precision < 0 + 1 * rand.nextDouble()) {
+            this.utilise();
+            return 0;
+        }
+
+        int damage = this.caseAttack(lanceur, receveur);
+
+        if (damage == -1) {
+            this.utilise();
+            double eff = new Pokedex().getEfficacite(this.type, receveur.getEspece().getTypes()[0]);
+            double eff2 = new Pokedex().getEfficacite(this.type, receveur.getEspece().getTypes()[1]);
+            double pparenthese = lanceur.getNiveau() * 0.4 + 2;
+            double numerateur = pparenthese * lanceur.getStat().getForce() * this.puissance;
+            double denominateur = receveur.getStat().getDefense() * 50;
+            double fraction = numerateur / denominateur + 2;
+
+            if (this.type == lanceur.getEspece().getTypes()[0] || this.type == lanceur.getEspece().getTypes()[1]) {
+                double CM = (eff * eff2) * 1.5 * (0.85 + (1 - 0.85) * rand.nextDouble());
+                return (int) Math.round(fraction * CM);
+            }
+
+            double CM = (eff * eff2) * (0.85 + (1 - 0.85) * rand.nextDouble());
+            return (int) Math.round(fraction * CM);
+        } else return damage;
+    }
+
+    private int caseAttack(IPokemon lanceur, IPokemon receveur) {
         switch (this.puissance) {
             case -1:
                 if (this.precision < 0 + 1 * rand.nextDouble()) {
@@ -109,27 +134,8 @@ public class Capacite implements ICapacite {
                     return 1;
                 return receveur.getStat().getPV() / 2;
             default:
-                break;
+                return -1;
         }
-        if (this.precision < 0 + 1 * rand.nextDouble()) {
-            this.utilise();
-            return 0;
-        }
-        this.utilise();
-        double eff = new Pokedex().getEfficacite(this.type, receveur.getEspece().getTypes()[0]);
-        double eff2 = new Pokedex().getEfficacite(this.type, receveur.getEspece().getTypes()[1]);
-        double pparenthese = lanceur.getNiveau() * 0.4 + 2;
-        double numerateur = pparenthese * lanceur.getStat().getForce() * this.puissance;
-        double denominateur = receveur.getStat().getDefense() * 50;
-        double fraction = numerateur / denominateur + 2;
-
-        if (this.type == lanceur.getEspece().getTypes()[0] || this.type == lanceur.getEspece().getTypes()[1]) {
-            double CM = (eff * eff2) * 1.5 * (0.85 + (1 - 0.85) * rand.nextDouble());
-            return (int) Math.round(fraction * CM);
-        }
-
-        double CM = (eff * eff2) * (0.85 + (1 - 0.85) * rand.nextDouble());
-        return (int) Math.round(fraction * CM);
     }
 
     /**
