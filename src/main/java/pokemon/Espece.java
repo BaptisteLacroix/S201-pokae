@@ -8,7 +8,7 @@
 package pokemon;
 
 import interfaces.*;
-import combat.Capacite;
+import attaque.Capacite;
 import statsPokemon.Categorie;
 import statsPokemon.Stat;
 import statsPokemon.Type;
@@ -18,7 +18,7 @@ import java.io.*;
 import java.util.*;
 
 /**
- * @author Lacroix Baptiste
+ * @author Lacroix baptiste and Vidal Théo
  */
 public class Espece implements IEspece {
     private final IStat baseStat;

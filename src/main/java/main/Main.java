@@ -1,6 +1,6 @@
 package main;
 
-import combat.Capacite;
+import attaque.Capacite;
 import interfaces.*;
 import pokedex.Pokedex;
 import statsPokemon.Categorie;

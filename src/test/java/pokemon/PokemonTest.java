@@ -2,7 +2,7 @@ package pokemon;
 
 import interfaces.*;
 import org.junit.Assert;
-import combat.Capacite;
+import attaque.Capacite;
 import org.junit.Test;
 import statsPokemon.Categorie;
 import statsPokemon.Stat;
@@ -165,8 +165,27 @@ public class PokemonTest {
         pokemon.apprendCapacites(capacite);
 
         for (ICapacite cap : pokemon.getCapacitesApprises()) {
+            Assert.assertNull(cap);
+        }
+
+        capacite[0] = new Capacite("Coupe-Vent", 1.00, 40,
+                35, Categorie.Physique, Type.Normal);
+
+        capacite[1] = new Capacite("Coupe", 1.00, 50,
+                25, Categorie.Physique, Type.Normal);
+
+        capacite[2] = new Capacite("Étreinte", 1.00, 75,
+                15, Categorie.Physique, Type.Feu);
+
+        capacite[3] = new Capacite("Fouet Lianes", 0.30, -1,
+                5, Categorie.Physique, Type.Normal);
+
+        pokemon.apprendCapacites(capacite);
+
+        for (ICapacite cap : pokemon.getCapacitesApprises()) {
             Assert.assertNotNull(cap);
         }
+
         Assert.assertEquals(capacite[0], pokemon.getCapacitesApprises()[0]);
         Assert.assertEquals(capacite[1], pokemon.getCapacitesApprises()[1]);
         Assert.assertEquals(capacite[2], pokemon.getCapacitesApprises()[2]);
