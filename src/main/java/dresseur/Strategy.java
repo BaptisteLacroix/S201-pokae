@@ -1,6 +1,6 @@
 package dresseur;
 
-import attaque.Attaque;
+import attaque.Capacite;
 import interfaces.IAttaque;
 import interfaces.IPokemon;
 import interfaces.IStrategy;
@@ -37,7 +37,7 @@ public class Strategy implements IStrategy {
     public IAttaque choisitAttaque(IPokemon attaquant, IPokemon defenseur) {
         int choixAttaque = rand.nextInt(2 + 1) + 1;  // Read user input
         if (choixAttaque == 1) {
-            return new Attaque(attaquant.getCapacitesApprises()[this.rand.nextInt(4)]);
+            return attaquant.getCapacitesApprises()[this.rand.nextInt(4)];
         } else {
             throw new UnsupportedOperationException(); // Change de Pokemon
         }

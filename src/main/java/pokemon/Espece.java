@@ -7,15 +7,22 @@
  */
 package pokemon;
 
-import interfaces.*;
 import attaque.Capacite;
+import interfaces.ICapacite;
+import interfaces.IEspece;
+import interfaces.IStat;
+import interfaces.IType;
 import statsPokemon.Categorie;
 import statsPokemon.Stat;
 import statsPokemon.Type;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
-import java.util.*;
 
 /**
  * @author Lacroix baptiste and Vidal Théo

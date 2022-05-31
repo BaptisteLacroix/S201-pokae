@@ -9,15 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b1a1f92-a572-465e-92e4-e09477082a40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/combat/Tour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/attaque/Capacite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attaque/Capacite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/combat/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/combat/Combat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dresseur/Dresseur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dresseur/Dresseur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pokemon/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokemon/Pokemon.java" afterDir="false" />
-    </list>
+    <list default="true" id="9b1a1f92-a572-465e-92e4-e09477082a40" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,7 +184,8 @@
       <workItem from="1653573638850" duration="1626000" />
       <workItem from="1653827485316" duration="1067000" />
       <workItem from="1653930068385" duration="486000" />
-      <workItem from="1653930841309" duration="4162000" />
+      <workItem from="1653930841309" duration="4383000" />
+      <workItem from="1654006359588" duration="4697000" />
     </task>
     <servers />
   </component>

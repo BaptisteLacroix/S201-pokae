@@ -7,7 +7,6 @@
  */
 package combat;
 
-import interfaces.IAttaque;
 import interfaces.ICombat;
 import interfaces.IDresseur;
 import interfaces.IPokemon;
