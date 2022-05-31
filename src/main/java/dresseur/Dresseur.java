@@ -1,6 +1,5 @@
 package dresseur;
 
-import attaque.Attaque;
 import interfaces.IAttaque;
 import interfaces.ICapacite;
 import interfaces.IDresseur;
@@ -104,7 +103,7 @@ public class Dresseur implements IDresseur {
             String choixCap = input.nextLine();  // Read user input
             for (ICapacite p : attaquant.getCapacitesApprises()) {
                 if (p.getNom().equals(choixCap))
-                    attaque = new Attaque(p);
+                    attaque = p;
             }
             return attaque;
         } else {

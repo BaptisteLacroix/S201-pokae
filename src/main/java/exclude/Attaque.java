@@ -5,7 +5,7 @@
  *
  * @date IAttaque.java
  */
-package attaque;
+package exclude;
 
 import interfaces.IAttaque;
 import interfaces.ICapacite;

@@ -15,3 +15,5 @@ W
 'src/main/java/interfaces/IStrategy.java,5\6\5622d8d71e127368629dd7ba67ab18d32d0115da
 S
 #src/main/java/interfaces/IType.java,4\2\4218b5970a93e51d8cb566a041792bd8b8b8e8a4
+S
+#src/main/java/interfaces/ITour.java,5\a\5a91a2e582b38db11a0482f7734038a29c9fd8de
