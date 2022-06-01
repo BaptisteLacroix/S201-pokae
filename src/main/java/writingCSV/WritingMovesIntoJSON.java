@@ -28,7 +28,7 @@ public class WritingMovesIntoJSON {
         FileWriter file = new FileWriter("listeCapacitesEspecesWLVL.json");
         JSONObject containerPrincipal = new JSONObject(); // (Objet) Conteneur princiapl ->  { Pokemon [
         JSONArray listeContainerSecondaire = new JSONArray();  // (Liste) Contient une liste de conteneurs secondaires
-        while (id < 152) {
+        while (id < 4) {
             String[] infoP = this.getAllURLPokemon(id);
             System.out.println("id : " + id + " Pokemon : " + infoP[1]);
             Map<String, String> dictionnaire = this.recupMoves(infoP[0]);
@@ -119,12 +119,21 @@ public class WritingMovesIntoJSON {
             for (Object m : modules) {
                 JSONObject jsonObj = (JSONObject) m;
                 JSONArray obj2 = (JSONArray) new JSONParser().parse(String.valueOf(jsonObj.get("version_group_details")));
-                JSONObject ob3 = (JSONObject) obj2.get(0);
-                lvl.add(Long.toString((Long) ob3.get("level_learned_at")));
+                for (Object m2 : obj2) {
+                    JSONObject jsonObj2 = (JSONObject) m2;
+                    JSONObject jsonObj3 = (JSONObject) new JSONParser().parse(String.valueOf(jsonObj2.get("version_group")));
+                    // System.out.println("name : " + jsonObj3.get("name"));
+                    // System.out.println("equals : " + jsonObj3.get("name").equals("red-blue"));
+                    if (jsonObj3.get("name").equals("red-blue")) {
+                        JSONObject ob3 = (JSONObject) obj2.get(0);
+                        lvl.add(Long.toString((Long) ob3.get("level_learned_at")));
+                    }
+                }
             }
         } catch (ParseException | IOException e) {
             e.printStackTrace();
         }
+        System.out.println(moveName.size() + " -> " + lvl.size());
         for (int i = 0; i < moveName.size(); i++) {
             dictionnaire.put(moveName.get(i), lvl.get(i));
         }
