@@ -11,26 +11,26 @@ import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 
-public class WritingMovesWLVL {
+public class WritingMovesIntoJSON {
     public static void main(String[] args) throws IOException {
-        WritingMovesWLVL writingMovesWLVL = new WritingMovesWLVL();
-        writingMovesWLVL.writeIntoCsv();
+        WritingMovesIntoJSON writingMovesWLVL = new WritingMovesIntoJSON();
+        writingMovesWLVL.writeIntoJson();
     }
 
     /**
      * Il prend le nom du pokémon et le nom des mouvements qui lui sont associés et les écrit dans un fichier csv
      */
-    public void writeIntoCsv() throws IOException {
+    public void writeIntoJson() throws IOException {
         int id = 1;
         FileWriter file = new FileWriter("listeCapacitesEspecesWLVL.json");
-        while (id < 3) {
+        JSONObject containerPrincipal = new JSONObject(); // (Objet) Conteneur princiapl ->  { Pokemon [
+        JSONArray listeContainerSecondaire = new JSONArray();  // (Liste) Contient une liste de conteneurs secondaires
+        while (id < 152) {
             String[] infoP = this.getAllURLPokemon(id);
             System.out.println("id : " + id + " Pokemon : " + infoP[1]);
             Map<Integer, String> dictionnaire = this.recupMoves(infoP[0]);
             System.out.println("dictionnaire en sortie : " + dictionnaire);
 
-            JSONObject containerPrincipal = new JSONObject(); // (Objet) Conteneur princiapl ->  { Pokemon [
-            JSONArray listeContainerSecondaire = new JSONArray();  // (Liste) Contient une liste de conteneurs secondaires
             JSONObject containerSecondaire = new JSONObject(); // (Objet) Conteneur secondaire -> { nombre [
             JSONArray listeContainerTertiaire = new JSONArray(); // (Liste) Contient une liste de 2 éléments dont un conteneur et une liste
             JSONObject containerTertiaire = new JSONObject(); // (Objet -> Liste) Conteneur tertiaire -> nom : dsds, moves [ {
@@ -43,22 +43,19 @@ public class WritingMovesWLVL {
                 containerQuatrieme.put("move", values.getValue());
                 listeContainerQuatrieme.add(containerQuatrieme);
             }
-            containerSecondaire.put("moves", listeContainerTertiaire);
-            containerSecondaire.put("nom", infoP[1]);
 
-            containerTertiaire.put(id, listeContainerQuatrieme);
-            listeContainerTertiaire.add(containerTertiaire);
-            
-            listeContainerSecondaire.add(containerSecondaire);
-            containerPrincipal.put("Pokemon", listeContainerSecondaire);
+            containerTertiaire.put("moves", listeContainerQuatrieme);
+            containerTertiaire.put("nom", infoP[1]);
+            listeContainerSecondaire.add(containerTertiaire);
 
-            try {
-                file.write(containerPrincipal.toJSONString());
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            System.out.println("JSON file created : " + containerPrincipal);
             id++;
+        }
+        try {
+            containerPrincipal.put("Pokemon", listeContainerSecondaire);
+            System.out.println("JSON file created : " + containerPrincipal);
+            file.write(containerPrincipal.toJSONString());
+        } catch (IOException e) {
+            e.printStackTrace();
         }
         file.close();
     }
