@@ -8,13 +8,16 @@ import org.json.simple.parser.ParseException;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 public class WritingMovesIntoJSON {
     public static void main(String[] args) throws IOException {
         WritingMovesIntoJSON writingMovesWLVL = new WritingMovesIntoJSON();
+        Chrono chrono = new Chrono();
+        chrono.start(); // démarrage du chrono
         writingMovesWLVL.writeIntoJson();
+        chrono.stop(); // arrêt
+        System.out.println(chrono.getDureeTxt()); // affichage au format "1 h 26 min 32 s"
     }
 
     /**
@@ -28,26 +31,36 @@ public class WritingMovesIntoJSON {
         while (id < 152) {
             String[] infoP = this.getAllURLPokemon(id);
             System.out.println("id : " + id + " Pokemon : " + infoP[1]);
-            Map<Integer, String> dictionnaire = this.recupMoves(infoP[0]);
+            Map<String, String> dictionnaire = this.recupMoves(infoP[0]);
             System.out.println("dictionnaire en sortie : " + dictionnaire);
 
-            JSONObject containerSecondaire = new JSONObject(); // (Objet) Conteneur secondaire -> { nombre [
-            JSONArray listeContainerTertiaire = new JSONArray(); // (Liste) Contient une liste de 2 éléments dont un conteneur et une liste
             JSONObject containerTertiaire = new JSONObject(); // (Objet -> Liste) Conteneur tertiaire -> nom : dsds, moves [ {
             JSONArray listeContainerQuatrieme = new JSONArray(); // (Liste) Contient une liste de 2 éléments dont un conteneur et une liste
             JSONObject containerQuatrieme; // (Objet -> Liste) Conteneur tertiaire -> nom : dsds, moves [ {
 
-            for (Map.Entry<Integer, String> values : dictionnaire.entrySet()) {
-                containerQuatrieme = new JSONObject();
-                containerQuatrieme.put("lvl", values.getKey());
-                containerQuatrieme.put("move", values.getValue());
-                listeContainerQuatrieme.add(containerQuatrieme);
+            for (Map.Entry<String, String> values : dictionnaire.entrySet()) {
+                try {
+                    FileReader fileCap = new FileReader("./resources/listeCapacites.csv");
+                    BufferedReader reader = new BufferedReader(fileCap);
+                    reader.readLine();
+                    while (reader.ready()) {
+                        Scanner scanner = new Scanner(reader.readLine()).useDelimiter(";");
+                        String[] tab = scanner.nextLine().split(";");
+                        if (tab[0].equals(values.getKey())) {
+                            containerQuatrieme = new JSONObject();
+                            containerQuatrieme.put("lvl", values.getValue());
+                            containerQuatrieme.put("move", values.getKey());
+                            listeContainerQuatrieme.add(containerQuatrieme);
+                        }
+                    }
+                    fileCap.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
-
             containerTertiaire.put("moves", listeContainerQuatrieme);
             containerTertiaire.put("nom", infoP[1]);
             listeContainerSecondaire.add(containerTertiaire);
-
             id++;
         }
         try {
@@ -90,10 +103,10 @@ public class WritingMovesIntoJSON {
      * @param url l'url du pokémon
      * @return Une liste des Moves
      */
-    private Map<Integer, String> recupMoves(String url) {
-        Map<Integer, String> dictionnaire = new HashMap<>();
+    private Map<String, String> recupMoves(String url) {
+        Map<String, String> dictionnaire = new HashMap<>();
         List<String> moveName = new ArrayList<>();
-        List<Integer> lvl = new ArrayList<>();
+        List<String> lvl = new ArrayList<>();
         try {
             JSONObject obj = requestHTTP(url);
             JSONArray modules = (JSONArray) obj.get("moves");
@@ -107,13 +120,13 @@ public class WritingMovesIntoJSON {
                 JSONObject jsonObj = (JSONObject) m;
                 JSONArray obj2 = (JSONArray) new JSONParser().parse(String.valueOf(jsonObj.get("version_group_details")));
                 JSONObject ob3 = (JSONObject) obj2.get(0);
-                lvl.add((int) (long) ob3.get("level_learned_at"));
+                lvl.add(Long.toString((Long) ob3.get("level_learned_at")));
             }
         } catch (ParseException | IOException e) {
             e.printStackTrace();
         }
         for (int i = 0; i < moveName.size(); i++) {
-            dictionnaire.put(lvl.get(i), moveName.get(i));
+            dictionnaire.put(moveName.get(i), lvl.get(i));
         }
         return dictionnaire;
     }
