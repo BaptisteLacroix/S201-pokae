@@ -18,8 +18,9 @@ public class Main {
      * et les dommages qu'il causerait à un autre Pokémon.
      */
     public static void main(String[] args) throws Exception {
-        DresseurIA IA1 = new DresseurIA("Baptiste");
-        DresseurIA IA2 = new DresseurIA("IA");
+        // DresseurHuman baptiste = new DresseurHuman("Baptiste");
+        DresseurIA IA1 = new DresseurIA("IA1");
+        DresseurIA IA2 = new DresseurIA("IA2");
         // for (IPokemon pokemon : baptiste.getRanch()) {
         //     ICapacite[] capacites = pokemon.getEspece().getCapSet();
         //     ICapacite[] capacitesApp = new ICapacite[4];

@@ -72,6 +72,8 @@ public class DresseurHuman implements IDresseur {
     public IPokemon choisitCombattant() {
         IPokemon pok = null;
         Scanner input = new Scanner(System.in);  // Create a Scanner object
+        for (IPokemon pokemon : this.ranch)
+            System.out.printf("%-32s", "nom : " + pokemon.getNom() + " | stats : " + pokemon.getStat() +  " | PourcentagePV : " + pokemon.getPourcentagePV() + "\n");
         System.out.println(this.nom + " Give the name of the Pokemon that will fight : ");
         String choixPokemon = input.nextLine();  // Read user input
         for (IPokemon p : this.ranch) {

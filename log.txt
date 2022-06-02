@@ -1,1377 +1,2366 @@
-Thu Jun 02 19:42:10 CEST 2022
-Le combat a durée : 44Le gagant est Baptiste
-Le perdant est IAM. Mime attaque le premier en infligeant 12
-Tygnon attaque le premier en infligeant 12
-Il reste 0pv a M. Mime
-Il reste 18pv a Tygnon
-Le Dresseur 2 a changé son Pokémon par : Élektek
-Élektek a subit 5 de damage par Tygnon
-Il reste 15pv a Élektek
-Élektek attaque le premier en infligeant 6
-Tygnon attaque le premier en infligeant 9
-Il reste 15pv a Élektek
-Il reste 18pv a Tygnon
-Le Dresseur 1 a changé son Pokémon par : Kicklee
-Kicklee a subit 9 de damage par Élektek
-Il reste 17pv a Kicklee
+Thu Jun 02 21:35:31 CEST 2022
+Le combat a durée : 0 s en 60tours
+Le gagant est Baptiste
+Le perdant est IA
+Le Dresseur 2 a changé son Pokémon par : Poissirène
+Poissirène a subit 6 de damage par Machoc
+Il reste 0pv a Poissirène
+Il reste 16pv a Machoc
+Le Dresseur 1 a changé son Pokémon par : Fantominus
+Le Dresseur 2 a changé son Pokémon par : Caninos
+Aucun n'a recu de dammage.
+Il reste 5pv a Fantominus
+Il reste 0pv a Caninos
+Le Dresseur 1 a changé son Pokémon par : Canarticho
+Le Dresseur 2 a changé son Pokémon par : Artikodin
+Aucun n'a recu de dammage.
+Il reste 0pv a Canarticho
+Il reste 0pv a Artikodin
+Le Dresseur 1 a changé son Pokémon par : Canarticho
+Le Dresseur 2 a changé son Pokémon par : Poissirène
+Aucun n'a recu de dammage.
+Il reste 0pv a Canarticho
+Il reste 0pv a Poissirène
 Le Dresseur 1 a changé son Pokémon par : Tygnon
-Tygnon a subit 3 de damage par Élektek
+Tygnon a subit 6 de damage par Poissirène
 Il reste 18pv a Tygnon
-Nidoran♀ attaque le premier en infligeant 12
-Aspicot attaque le premier en infligeant 12
-Il reste 3pv a Nidoran♀
-Il reste 14pv a Aspicot
+Il reste 0pv a Poissirène
+Le Dresseur 1 a changé son Pokémon par : Fantominus
+Le Dresseur 2 a changé son Pokémon par : Électhor
+Aucun n'a recu de dammage.
+Il reste 5pv a Fantominus
+Il reste 0pv a Électhor
+Le Dresseur 1 a changé son Pokémon par : Machoc
+Machoc a subit 4 de damage par Électhor
+Il reste 16pv a Machoc
+Il reste 0pv a Électhor
+Le Dresseur 2 a changé son Pokémon par : Électhor
+Électhor a subit 11 de damage par Machoc
+Il reste 0pv a Électhor
+Il reste 16pv a Machoc
+Le Dresseur 1 a changé son Pokémon par : Nidoran♂
 Le Dresseur 2 a changé son Pokémon par : Nidoran♀
-Nidoran♀ a subit 6 de damage par Aspicot
-Il reste 3pv a Nidoran♀
-Le Dresseur 2 a changé son Pokémon par : Rattata
-Rattata a subit 5 de damage par Aspicot
-Il reste 0pv a Rattata
-Le Dresseur 1 a changé son Pokémon par : Minidraco
-Minidraco a subit 0 de damage par Rattata
-Il reste 0pv a Minidraco
-Nidoran♀ attaque le premier en infligeant 17
-Kicklee attaque le premier en infligeant 8
-Il reste 3pv a Nidoran♀
-Il reste 17pv a Kicklee
-Le Dresseur 1 a changé son Pokémon par : Minidraco
-Minidraco a subit 10 de damage par Nidoran♀
-Il reste 0pv a Minidraco
-Nidoran♀ attaque le premier en infligeant 7
-Minidraco attaque le premier en infligeant 10
-Il reste 3pv a Nidoran♀
-Il reste 0pv a Minidraco
-Rattata attaque le premier en infligeant 7
-Minidraco attaque le premier en infligeant 14
-Il reste 0pv a Rattata
-Il reste 0pv a Minidraco
+Aucun n'a recu de dammage.
+Il reste 0pv a Nidoran♂
+Il reste 0pv a Nidoran♀
 Le Dresseur 2 a changé son Pokémon par : Nidoran♀
-Nidoran♀ a subit 7 de damage par Minidraco
-Il reste 3pv a Nidoran♀
-Le Dresseur 2 a changé son Pokémon par : Minidraco
-Minidraco a subit 0 de damage par Minidraco
-Il reste 18pv a Minidraco
-M. Mime attaque le premier en infligeant 7
-Minidraco attaque le premier en infligeant 15
-Il reste 0pv a M. Mime
-Il reste 0pv a Minidraco
-Le Dresseur 2 a changé son Pokémon par : Chétiflor
-Chétiflor a subit 9 de damage par Minidraco
-Il reste 18pv a Chétiflor
-Nidoran♀ attaque le premier en infligeant 17
-Kicklee attaque le premier en infligeant 3
-Il reste 3pv a Nidoran♀
-Il reste 17pv a Kicklee
-Élektek attaque le premier en infligeant 12
-Abo attaque le premier en infligeant 16
-Il reste 15pv a Élektek
-Il reste 17pv a Abo
-Le Dresseur 2 a changé son Pokémon par : Rattata
-Rattata a subit 10 de damage par Abo
-Il reste 0pv a Rattata
-Le Dresseur 2 a changé son Pokémon par : Rattata
-Rattata a subit 5 de damage par Abo
-Il reste 0pv a Rattata
-Chétiflor attaque le premier en infligeant 13
-Tygnon attaque le premier en infligeant 15
-Il reste 18pv a Chétiflor
+Nidoran♀ a subit 3 de damage par Nidoran♂
+Il reste 0pv a Nidoran♀
+Il reste 0pv a Nidoran♂
+Le Dresseur 1 a changé son Pokémon par : Tygnon
+Le Dresseur 2 a changé son Pokémon par : Électhor
+Aucun n'a recu de dammage.
 Il reste 18pv a Tygnon
-Le Dresseur 1 a changé son Pokémon par : Minidraco
-Minidraco a subit 3 de damage par Chétiflor
-Il reste 0pv a Minidraco
-Minidraco attaque le premier en infligeant 17
-Kicklee attaque le premier en infligeant 15
-Il reste 18pv a Minidraco
-Il reste 17pv a Kicklee
-M. Mime attaque le premier en infligeant 16
-Leveinard attaque le premier en infligeant 15
-Il reste 0pv a M. Mime
-Il reste 8pv a Leveinard
-Le Dresseur 1 a changé son Pokémon par : Kicklee
-Kicklee a subit 9 de damage par M. Mime
-Il reste 17pv a Kicklee
-Chétiflor attaque le premier en infligeant 17
-Abo attaque le premier en infligeant 17
-Il reste 18pv a Chétiflor
-Il reste 17pv a Abo
-Le Dresseur 2 a changé son Pokémon par : Chétiflor
-Chétiflor a subit 3 de damage par Abo
-Il reste 18pv a Chétiflor
-Rattata attaque le premier en infligeant 17
-Kicklee attaque le premier en infligeant 0
-Il reste 0pv a Rattata
-Il reste 17pv a Kicklee
-Élektek attaque le premier en infligeant 13
-Minidraco attaque le premier en infligeant 18
-Il reste 15pv a Élektek
-Il reste 0pv a Minidraco
-Élektek attaque le premier en infligeant 10
-Minidraco attaque le premier en infligeant 15
-Il reste 15pv a Élektek
-Il reste 0pv a Minidraco
-Minidraco attaque le premier en infligeant 17
-Leveinard attaque le premier en infligeant 17
-Il reste 18pv a Minidraco
-Il reste 8pv a Leveinard
-Le Dresseur 1 a changé son Pokémon par : Leveinard
-Leveinard a subit 9 de damage par Minidraco
-Il reste 8pv a Leveinard
-Le Dresseur 2 a changé son Pokémon par : Rattata
-Rattata a subit 0 de damage par Leveinard
-Il reste 0pv a Rattata
-Le Dresseur 2 a changé son Pokémon par : Rattata
-Rattata a subit 0 de damage par Leveinard
-Il reste 0pv a Rattata
-M. Mime attaque le premier en infligeant 13
-Tygnon attaque le premier en infligeant 18
-Il reste 0pv a M. Mime
+Il reste 0pv a Électhor
+Le Dresseur 1 a changé son Pokémon par : Canarticho
+Le Dresseur 2 a changé son Pokémon par : Poissirène
+Aucun n'a recu de dammage.
+Il reste 0pv a Canarticho
+Il reste 0pv a Poissirène
+Le Dresseur 1 a changé son Pokémon par : Tygnon
+Le Dresseur 2 a changé son Pokémon par : Caninos
+Aucun n'a recu de dammage.
 Il reste 18pv a Tygnon
-Chétiflor attaque le premier en infligeant 17
-Kicklee attaque le premier en infligeant 14
-Il reste 18pv a Chétiflor
-Il reste 17pv a Kicklee
-Le Dresseur 1 a changé son Pokémon par : Minidraco
-Minidraco a subit 0 de damage par Chétiflor
-Il reste 0pv a Minidraco
-M. Mime attaque le premier en infligeant 10
-Minidraco attaque le premier en infligeant 18
-Il reste 0pv a M. Mime
-Il reste 0pv a Minidraco
-M. Mime attaque le premier en infligeant 2
-Minidraco attaque le premier en infligeant 6
-Il reste 0pv a M. Mime
-Il reste 0pv a Minidraco
-Élektek attaque le premier en infligeant 18
-Tygnon attaque le premier en infligeant 15
-Il reste 15pv a Élektek
+Il reste 0pv a Caninos
+Le Dresseur 1 a changé son Pokémon par : Canarticho
+Canarticho a subit 8 de damage par Caninos
+Il reste 0pv a Canarticho
+Il reste 0pv a Caninos
+Le Dresseur 1 a changé son Pokémon par : Noeunoeuf
+Le Dresseur 2 a changé son Pokémon par : Poissirène
+Aucun n'a recu de dammage.
+Il reste 0pv a Noeunoeuf
+Il reste 0pv a Poissirène
+Le Dresseur 1 a changé son Pokémon par : Noeunoeuf
+Le Dresseur 2 a changé son Pokémon par : Poissirène
+Aucun n'a recu de dammage.
+Il reste 0pv a Noeunoeuf
+Il reste 0pv a Poissirène
+Le Dresseur 1 a changé son Pokémon par : Canarticho
+Canarticho a subit 9 de damage par Poissirène
+Il reste 0pv a Canarticho
+Il reste 0pv a Poissirène
+Le Dresseur 1 a changé son Pokémon par : Noeunoeuf
+Le Dresseur 2 a changé son Pokémon par : Poissirène
+Aucun n'a recu de dammage.
+Il reste 0pv a Noeunoeuf
+Il reste 0pv a Poissirène
+Le Dresseur 2 a changé son Pokémon par : Électhor
+Électhor a subit 4 de damage par Noeunoeuf
+Il reste 0pv a Électhor
+Il reste 0pv a Noeunoeuf
+Le Dresseur 2 a changé son Pokémon par : Poissirène
+Poissirène a subit 17 de damage par Noeunoeuf
+Il reste 0pv a Poissirène
+Il reste 0pv a Noeunoeuf
+Le Dresseur 1 a changé son Pokémon par : Noeunoeuf
+Noeunoeuf a subit 8 de damage par Onix
+Il reste 0pv a Noeunoeuf
+Il reste 0pv a Onix
+Le Dresseur 1 a changé son Pokémon par : Fantominus
+Le Dresseur 2 a changé son Pokémon par : Nidoran♀
+Aucun n'a recu de dammage.
+Il reste 5pv a Fantominus
+Il reste 0pv a Nidoran♀
+Le Dresseur 1 a changé son Pokémon par : Nidoran♂
+Le Dresseur 2 a changé son Pokémon par : Nidoran♀
+Aucun n'a recu de dammage.
+Il reste 0pv a Nidoran♂
+Il reste 0pv a Nidoran♀
+Le Dresseur 1 a changé son Pokémon par : Machoc
+Machoc a subit 6 de damage par Nidoran♀
+Il reste 16pv a Machoc
+Il reste 0pv a Nidoran♀
+Le Dresseur 1 a changé son Pokémon par : Noeunoeuf
+Le Dresseur 2 a changé son Pokémon par : Caninos
+Aucun n'a recu de dammage.
+Il reste 0pv a Noeunoeuf
+Il reste 0pv a Caninos
+Le Dresseur 1 a changé son Pokémon par : Nidoran♂
+Le Dresseur 2 a changé son Pokémon par : Électhor
+Aucun n'a recu de dammage.
+Il reste 0pv a Nidoran♂
+Il reste 0pv a Électhor
+Le Dresseur 1 a changé son Pokémon par : Nidoran♂
+Le Dresseur 2 a changé son Pokémon par : Nidoran♀
+Aucun n'a recu de dammage.
+Il reste 0pv a Nidoran♂
+Il reste 0pv a Nidoran♀
+Le Dresseur 1 a changé son Pokémon par : Tygnon
+Le Dresseur 2 a changé son Pokémon par : Onix
+Aucun n'a recu de dammage.
 Il reste 18pv a Tygnon
-Le Dresseur 2 a changé son Pokémon par : M. Mime
-M. Mime a subit 6 de damage par Tygnon
-Il reste 0pv a M. Mime
-Le Dresseur 1 a changé son Pokémon par : Minidraco
-Minidraco a subit 2 de damage par Chétiflor
-Il reste 0pv a Minidraco
-Le Dresseur 2 a changé son Pokémon par : Rattata
-Rattata a subit 18 de damage par Kicklee
-Il reste 0pv a Rattata
+Il reste 0pv a Onix
+Le Dresseur 1 a changé son Pokémon par : Tygnon
+Le Dresseur 2 a changé son Pokémon par : Caninos
+Aucun n'a recu de dammage.
+Il reste 18pv a Tygnon
+Il reste 0pv a Caninos
+Le Dresseur 2 a changé son Pokémon par : Nidoran♀
+Nidoran♀ a subit 8 de damage par Tygnon
+Il reste 0pv a Nidoran♀
+Il reste 18pv a Tygnon
+Le Dresseur 1 a changé son Pokémon par : Noeunoeuf
+Le Dresseur 2 a changé son Pokémon par : Onix
+Aucun n'a recu de dammage.
+Il reste 0pv a Noeunoeuf
+Il reste 0pv a Onix
+Le Dresseur 2 a changé son Pokémon par : Onix
+Onix a subit 11 de damage par Noeunoeuf
+Il reste 0pv a Onix
+Il reste 0pv a Noeunoeuf
+Le Dresseur 1 a changé son Pokémon par : Noeunoeuf
+Noeunoeuf a subit 8 de damage par Onix
+Il reste 0pv a Noeunoeuf
+Il reste 0pv a Onix
+Le Dresseur 1 a changé son Pokémon par : Fantominus
+Le Dresseur 2 a changé son Pokémon par : Électhor
+Aucun n'a recu de dammage.
+Il reste 5pv a Fantominus
+Il reste 0pv a Électhor
+Le Dresseur 2 a changé son Pokémon par : Onix
+Onix a subit 7 de damage par Fantominus
+Il reste 0pv a Onix
+Il reste 5pv a Fantominus
+Le Dresseur 1 a changé son Pokémon par : Nidoran♂
+Nidoran♂ a subit 5 de damage par Électhor
+Il reste 0pv a Nidoran♂
+Il reste 0pv a Électhor
+Électhor attaque le premier en infligeant 15
+Nidoran♂ attaque le deuxième en infligeant 3
+Il reste 0pv a Électhor
+Il reste 0pv a Nidoran♂
+Le Dresseur 2 a changé son Pokémon par : Caninos
+Caninos a subit 10 de damage par Machoc
+Il reste 0pv a Caninos
+Il reste 16pv a Machoc
+Le Dresseur 1 a changé son Pokémon par : Noeunoeuf
+Le Dresseur 2 a changé son Pokémon par : Nidoran♀
+Aucun n'a recu de dammage.
+Il reste 0pv a Noeunoeuf
+Il reste 0pv a Nidoran♀
+Le Dresseur 1 a changé son Pokémon par : Machoc
+Le Dresseur 2 a changé son Pokémon par : Nidoran♀
+Aucun n'a recu de dammage.
+Il reste 16pv a Machoc
+Il reste 0pv a Nidoran♀
+Le Dresseur 1 a changé son Pokémon par : Tygnon
+Le Dresseur 2 a changé son Pokémon par : Nidoran♀
+Aucun n'a recu de dammage.
+Il reste 18pv a Tygnon
+Il reste 0pv a Nidoran♀
+Le Dresseur 1 a changé son Pokémon par : Fantominus
+Le Dresseur 2 a changé son Pokémon par : Nidoran♀
+Aucun n'a recu de dammage.
+Il reste 5pv a Fantominus
+Il reste 0pv a Nidoran♀
+Le Dresseur 1 a changé son Pokémon par : Tygnon
+Le Dresseur 2 a changé son Pokémon par : Caninos
+Aucun n'a recu de dammage.
+Il reste 18pv a Tygnon
+Il reste 0pv a Caninos
+Le Dresseur 1 a changé son Pokémon par : Machoc
+Le Dresseur 2 a changé son Pokémon par : Caninos
+Aucun n'a recu de dammage.
+Il reste 16pv a Machoc
+Il reste 0pv a Caninos
+Le Dresseur 2 a changé son Pokémon par : Nidoran♀
+Nidoran♀ a subit 9 de damage par Machoc
+Il reste 0pv a Nidoran♀
+Il reste 16pv a Machoc
+Le Dresseur 1 a changé son Pokémon par : Tygnon
+Le Dresseur 2 a changé son Pokémon par : Artikodin
+Aucun n'a recu de dammage.
+Il reste 18pv a Tygnon
+Il reste 0pv a Artikodin
+Le Dresseur 1 a changé son Pokémon par : Machoc
+Machoc a subit 3 de damage par Artikodin
+Il reste 16pv a Machoc
+Il reste 0pv a Artikodin
+Le Dresseur 2 a changé son Pokémon par : Nidoran♀
+Nidoran♀ a subit 8 de damage par Machoc
+Il reste 0pv a Nidoran♀
+Il reste 16pv a Machoc
+Le Dresseur 1 a changé son Pokémon par : Machoc
+Le Dresseur 2 a changé son Pokémon par : Artikodin
+Aucun n'a recu de dammage.
+Il reste 16pv a Machoc
+Il reste 0pv a Artikodin
+Le Dresseur 1 a changé son Pokémon par : Noeunoeuf
+Noeunoeuf a subit 3 de damage par Artikodin
+Il reste 0pv a Noeunoeuf
+Il reste 0pv a Artikodin
+Le Dresseur 1 a changé son Pokémon par : Fantominus
+Le Dresseur 2 a changé son Pokémon par : Caninos
+Aucun n'a recu de dammage.
+Il reste 5pv a Fantominus
+Il reste 0pv a Caninos
+Le Dresseur 2 a changé son Pokémon par : Caninos
+Caninos a subit 8 de damage par Fantominus
+Il reste 0pv a Caninos
+Il reste 5pv a Fantominus
+Le Dresseur 1 a changé son Pokémon par : Fantominus
+Le Dresseur 2 a changé son Pokémon par : Artikodin
+Aucun n'a recu de dammage.
+Il reste 5pv a Fantominus
+Il reste 0pv a Artikodin
+Le Dresseur 1 a changé son Pokémon par : Fantominus
+Le Dresseur 2 a changé son Pokémon par : Artikodin
+Aucun n'a recu de dammage.
+Il reste 5pv a Fantominus
+Il reste 0pv a Artikodin
+Le Dresseur 2 a changé son Pokémon par : Artikodin
+Artikodin a subit 11 de damage par Fantominus
+Il reste 0pv a Artikodin
+Il reste 5pv a Fantominus
+Le Dresseur 1 a changé son Pokémon par : Noeunoeuf
+Le Dresseur 2 a changé son Pokémon par : Artikodin
+Aucun n'a recu de dammage.
+Il reste 0pv a Noeunoeuf
+Il reste 0pv a Artikodin
+Le Dresseur 1 a changé son Pokémon par : Fantominus
+Le Dresseur 2 a changé son Pokémon par : Électhor
+Aucun n'a recu de dammage.
+Il reste 5pv a Fantominus
+Il reste 0pv a Électhor
+Électhor attaque le premier en infligeant 15
+Fantominus attaque le deuxième en infligeant 10
+Il reste 0pv a Électhor
+Il reste 5pv a Fantominus
+Le Dresseur 1 a changé son Pokémon par : Noeunoeuf
+Le Dresseur 2 a changé son Pokémon par : Artikodin
+Aucun n'a recu de dammage.
+Il reste 0pv a Noeunoeuf
+Il reste 0pv a Artikodin
+Artikodin attaque le premier en infligeant 1
+Noeunoeuf attaque le deuxième en infligeant 7
+Il reste 0pv a Artikodin
+Il reste 0pv a Noeunoeuf
 ---------------------------------------------------------->
 
 
-Thu Jun 02 19:45:01 CEST 2022
-Le combat a durée : 41Le gagant est Baptiste
-Le perdant est IAChétiflor attaque le premier en infligeant 9
-Lippoutou attaque le premier en infligeant 9
-Il reste 14pv a Chétiflor
-Il reste 8pv a Lippoutou
-Kangourex attaque le premier en infligeant 13
-Excelangue attaque le premier en infligeant 13
-Il reste 9pv a Kangourex
-Il reste 17pv a Excelangue
-Chétiflor attaque le premier en infligeant 12
-Lippoutou attaque le premier en infligeant 15
-Il reste 14pv a Chétiflor
-Il reste 8pv a Lippoutou
-Rhinocorne attaque le premier en infligeant 15
-Lippoutou attaque le premier en infligeant 13
-Il reste 11pv a Rhinocorne
-Il reste 8pv a Lippoutou
-Kangourex attaque le premier en infligeant 12
-Aspicot attaque le premier en infligeant 15
-Il reste 9pv a Kangourex
-Il reste 9pv a Aspicot
-Le Dresseur 2 a changé son Pokémon par : Minidraco
-Minidraco a subit 6 de damage par Aspicot
-Il reste 7pv a Minidraco
-Roucool attaque le premier en infligeant 15
-Lippoutou attaque le premier en infligeant 12
-Il reste 3pv a Roucool
-Il reste 8pv a Lippoutou
-Chétiflor attaque le premier en infligeant 14
-Excelangue attaque le premier en infligeant 17
-Il reste 14pv a Chétiflor
-Il reste 17pv a Excelangue
-Rhinocorne attaque le premier en infligeant 17
-Aspicot attaque le premier en infligeant 17
-Il reste 11pv a Rhinocorne
-Il reste 9pv a Aspicot
-Rhinocorne attaque le premier en infligeant 17
-Aspicot attaque le premier en infligeant 11
-Il reste 11pv a Rhinocorne
-Il reste 9pv a Aspicot
-Roucool attaque le premier en infligeant 12
-Soporifik attaque le premier en infligeant 17
-Il reste 3pv a Roucool
-Il reste 18pv a Soporifik
-Kangourex attaque le premier en infligeant 15
-Excelangue attaque le premier en infligeant 15
-Il reste 9pv a Kangourex
-Il reste 17pv a Excelangue
-Roucool attaque le premier en infligeant 15
-Lippoutou attaque le premier en infligeant 17
-Il reste 3pv a Roucool
-Il reste 8pv a Lippoutou
-Le Dresseur 2 a changé son Pokémon par : Chétiflor
-Chétiflor a subit 3 de damage par Lippoutou
-Il reste 14pv a Chétiflor
-Racaillou attaque le premier en infligeant 17
-Aspicot attaque le premier en infligeant 12
-Il reste 0pv a Racaillou
-Il reste 9pv a Aspicot
-Kangourex attaque le premier en infligeant 17
-Aspicot attaque le premier en infligeant 17
-Il reste 9pv a Kangourex
-Il reste 9pv a Aspicot
-Minidraco attaque le premier en infligeant 15
-Lippoutou attaque le premier en infligeant 15
-Il reste 7pv a Minidraco
-Il reste 8pv a Lippoutou
-Minidraco attaque le premier en infligeant 2
-Lippoutou attaque le premier en infligeant 15
-Il reste 7pv a Minidraco
-Il reste 8pv a Lippoutou
-Racaillou attaque le premier en infligeant 17
-Excelangue attaque le premier en infligeant 15
-Il reste 0pv a Racaillou
-Il reste 17pv a Excelangue
-Rhinocorne attaque le premier en infligeant 12
-Élektek attaque le premier en infligeant 11
-Il reste 11pv a Rhinocorne
-Il reste 8pv a Élektek
-Rhinocorne attaque le premier en infligeant 6
-Élektek attaque le premier en infligeant 0
-Il reste 11pv a Rhinocorne
-Il reste 8pv a Élektek
-Le Dresseur 2 a changé son Pokémon par : Rhinocorne
-Rhinocorne a subit 0 de damage par Élektek
-Il reste 11pv a Rhinocorne
-Le Dresseur 1 a changé son Pokémon par : Excelangue
-Excelangue a subit 10 de damage par Kangourex
-Il reste 17pv a Excelangue
-Roucool attaque le premier en infligeant 18
-Aspicot attaque le premier en infligeant 17
-Il reste 3pv a Roucool
-Il reste 9pv a Aspicot
-Le Dresseur 2 a changé son Pokémon par : Roucool
-Roucool a subit 6 de damage par Aspicot
-Il reste 3pv a Roucool
-Le Dresseur 2 a changé son Pokémon par : Racaillou
-Racaillou a subit 7 de damage par Aspicot
-Il reste 0pv a Racaillou
-Racaillou attaque le premier en infligeant 9
-Aspicot attaque le premier en infligeant 4
-Il reste 0pv a Racaillou
-Il reste 9pv a Aspicot
-Minidraco attaque le premier en infligeant 17
-Élektek attaque le premier en infligeant 15
-Il reste 7pv a Minidraco
-Il reste 8pv a Élektek
-Le Dresseur 2 a changé son Pokémon par : Racaillou
-Racaillou a subit 4 de damage par Élektek
-Il reste 0pv a Racaillou
-Le Dresseur 2 a changé son Pokémon par : Minidraco
-Minidraco a subit 11 de damage par Élektek
-Il reste 7pv a Minidraco
-Le Dresseur 1 a changé son Pokémon par : Élektek
-Élektek a subit 9 de damage par Minidraco
-Il reste 8pv a Élektek
-Rhinocorne attaque le premier en infligeant 2
-Lippoutou attaque le premier en infligeant 16
-Il reste 11pv a Rhinocorne
-Il reste 8pv a Lippoutou
-Roucool attaque le premier en infligeant 17
-Excelangue attaque le premier en infligeant 11
-Il reste 3pv a Roucool
-Il reste 17pv a Excelangue
-Le Dresseur 2 a changé son Pokémon par : Racaillou
-Racaillou a subit 0 de damage par Excelangue
-Il reste 0pv a Racaillou
-Le Dresseur 1 a changé son Pokémon par : Lippoutou
-Lippoutou a subit 10 de damage par Kangourex
-Il reste 8pv a Lippoutou
-Le Dresseur 2 a changé son Pokémon par : Racaillou
-Racaillou a subit 0 de damage par Lippoutou
-Il reste 0pv a Racaillou
-Chétiflor attaque le premier en infligeant 15
-Soporifik attaque le premier en infligeant 14
-Il reste 14pv a Chétiflor
-Il reste 18pv a Soporifik
-Le Dresseur 2 a changé son Pokémon par : Rhinocorne
-Rhinocorne a subit 5 de damage par Soporifik
-Il reste 11pv a Rhinocorne
-Le Dresseur 2 a changé son Pokémon par : Roucool
-Roucool a subit 8 de damage par Soporifik
-Il reste 3pv a Roucool
-Le Dresseur 2 a changé son Pokémon par : Kangourex
-Kangourex a subit 9 de damage par Soporifik
-Il reste 9pv a Kangourex
-Racaillou attaque le premier en infligeant 8
-Lippoutou attaque le premier en infligeant 0
-Il reste 0pv a Racaillou
-Il reste 8pv a Lippoutou
----------------------------------------------------------->
-
-
-Thu Jun 02 19:48:53 CEST 2022
-Le combat a durée : 43 tours
-Le gagant est IA Le perdant est Baptiste
-Le Dresseur 2 a changé son Pokémon par : Krabby
-Krabby a subit 0 de damage par Stari
-Il reste 9pv a Krabby
-Lippoutou attaque le premier en infligeant 12
-Machoc attaque le premier en infligeant 12
-Il reste 13pv a Lippoutou
-Il reste 0pv a Machoc
-Krabby attaque le premier en infligeant 14
-Machoc attaque le premier en infligeant 15
-Il reste 9pv a Krabby
-Il reste 0pv a Machoc
-Lippoutou attaque le premier en infligeant 14
-Stari attaque le premier en infligeant 15
-Il reste 13pv a Lippoutou
-Il reste 18pv a Stari
-Krabby attaque le premier en infligeant 15
-Machoc attaque le premier en infligeant 15
-Il reste 9pv a Krabby
-Il reste 0pv a Machoc
-Magnéti attaque le premier en infligeant 13
-Sulfura attaque le premier en infligeant 12
-Il reste 14pv a Magnéti
-Il reste 18pv a Sulfura
-Le Dresseur 2 a changé son Pokémon par : Pikachu
-Pikachu a subit 5 de damage par Sulfura
-Il reste 5pv a Pikachu
-Magnéti attaque le premier en infligeant 13
-Artikodin attaque le premier en infligeant 15
-Il reste 14pv a Magnéti
-Il reste 15pv a Artikodin
-Krabby attaque le premier en infligeant 13
-Tadmorv attaque le premier en infligeant 15
-Il reste 9pv a Krabby
-Il reste 0pv a Tadmorv
-Le Dresseur 2 a changé son Pokémon par : Pikachu
-Pikachu a subit 10 de damage par Tadmorv
-Il reste 5pv a Pikachu
-Le Dresseur 1 a changé son Pokémon par : Sulfura
-Sulfura a subit 8 de damage par Pikachu
-Il reste 18pv a Sulfura
-Lippoutou attaque le premier en infligeant 15
-Sulfura attaque le premier en infligeant 17
-Il reste 13pv a Lippoutou
-Il reste 18pv a Sulfura
-Le Dresseur 1 a changé son Pokémon par : Tadmorv
-Tadmorv a subit 14 de damage par Lippoutou
-Il reste 0pv a Tadmorv
-Le Dresseur 1 a changé son Pokémon par : Machoc
-Machoc a subit 4 de damage par Lippoutou
-Il reste 0pv a Machoc
-Lippoutou attaque le premier en infligeant 17
-Stari attaque le premier en infligeant 18
-Il reste 13pv a Lippoutou
-Il reste 18pv a Stari
-Krabby attaque le premier en infligeant 18
-Tadmorv attaque le premier en infligeant 15
-Il reste 9pv a Krabby
-Il reste 0pv a Tadmorv
-Krabby attaque le premier en infligeant 13
-Tadmorv attaque le premier en infligeant 13
-Il reste 9pv a Krabby
-Il reste 0pv a Tadmorv
-Mimitoss attaque le premier en infligeant 18
-Machoc attaque le premier en infligeant 12
-Il reste 17pv a Mimitoss
-Il reste 0pv a Machoc
-Le Dresseur 1 a changé son Pokémon par : Tadmorv
-Tadmorv a subit 5 de damage par Mimitoss
-Il reste 0pv a Tadmorv
-Le Dresseur 2 a changé son Pokémon par : Lippoutou
-Lippoutou a subit 13 de damage par Tadmorv
-Il reste 13pv a Lippoutou
-Krabby attaque le premier en infligeant 15
-Artikodin attaque le premier en infligeant 13
-Il reste 9pv a Krabby
-Il reste 15pv a Artikodin
-Le Dresseur 1 a changé son Pokémon par : Tadmorv
-Tadmorv a subit 8 de damage par Krabby
-Il reste 0pv a Tadmorv
-Krabby attaque le premier en infligeant 12
-Ponyta attaque le premier en infligeant 18
-Il reste 9pv a Krabby
-Il reste 16pv a Ponyta
-Magnéti attaque le premier en infligeant 17
-Artikodin attaque le premier en infligeant 18
-Il reste 14pv a Magnéti
-Il reste 15pv a Artikodin
-Krabby attaque le premier en infligeant 0
-Tadmorv attaque le premier en infligeant 18
-Il reste 9pv a Krabby
-Il reste 0pv a Tadmorv
-Le Dresseur 1 a changé son Pokémon par : Ponyta
-Ponyta a subit 6 de damage par Krabby
-Il reste 16pv a Ponyta
-Le Dresseur 1 a changé son Pokémon par : Machoc
-Machoc a subit 6 de damage par Krabby
-Il reste 0pv a Machoc
-Magnéti attaque le premier en infligeant 17
-Artikodin attaque le premier en infligeant 18
-Il reste 14pv a Magnéti
-Il reste 15pv a Artikodin
-Lippoutou attaque le premier en infligeant 0
-Tadmorv attaque le premier en infligeant 5
-Il reste 13pv a Lippoutou
-Il reste 0pv a Tadmorv
-Paras attaque le premier en infligeant 18
-Artikodin attaque le premier en infligeant 12
-Il reste 20pv a Paras
-Il reste 15pv a Artikodin
-Le Dresseur 2 a changé son Pokémon par : Pikachu
-Pikachu a subit 7 de damage par Artikodin
-Il reste 5pv a Pikachu
-Le Dresseur 2 a changé son Pokémon par : Pikachu
-Pikachu a subit 14 de damage par Artikodin
-Il reste 5pv a Pikachu
-Le Dresseur 1 a changé son Pokémon par : Ponyta
-Ponyta a subit 7 de damage par Pikachu
-Il reste 16pv a Ponyta
-Le Dresseur 2 a changé son Pokémon par : Magnéti
-Magnéti a subit 4 de damage par Ponyta
-Il reste 14pv a Magnéti
-Le Dresseur 2 a changé son Pokémon par : Krabby
-Krabby a subit 9 de damage par Ponyta
-Il reste 9pv a Krabby
-Le Dresseur 2 a changé son Pokémon par : Lippoutou
-Lippoutou a subit 0 de damage par Ponyta
-Il reste 13pv a Lippoutou
-Lippoutou attaque le premier en infligeant 16
-Ponyta attaque le premier en infligeant 13
-Il reste 13pv a Lippoutou
-Il reste 16pv a Ponyta
-Le Dresseur 1 a changé son Pokémon par : Sulfura
-Sulfura a subit 0 de damage par Lippoutou
-Il reste 18pv a Sulfura
-Le Dresseur 1 a changé son Pokémon par : Artikodin
-Artikodin a subit 3 de damage par Lippoutou
-Il reste 15pv a Artikodin
-Le Dresseur 1 a changé son Pokémon par : Machoc
-Machoc a subit 12 de damage par Lippoutou
-Il reste 0pv a Machoc
-Pikachu attaque le premier en infligeant 15
-Artikodin attaque le premier en infligeant 5
-Il reste 5pv a Pikachu
-Il reste 15pv a Artikodin
-Le Dresseur 1 a changé son Pokémon par : Machoc
-Machoc a subit 0 de damage par Pikachu
-Il reste 0pv a Machoc
-Lippoutou attaque le premier en infligeant 0
-Machoc attaque le premier en infligeant 13
-Il reste 13pv a Lippoutou
-Il reste 0pv a Machoc
----------------------------------------------------------->
-
-
-Thu Jun 02 20:00:43 CEST 2022
-Le combat a durée : 54tours
+Thu Jun 02 21:40:59 CEST 2022
+Le combat a durée : 54 s en 55 tours
 Le gagant est Baptiste
 Le perdant est IA
-Le Dresseur 1 a changé son Pokémon par : Canarticho
-Canarticho a subit 6 de damage par Saquedeneu
-Il reste 19pv a Canarticho
-Le Dresseur 2 a changé son Pokémon par : Saquedeneu
-Saquedeneu a subit 7 de damage par Canarticho
+Saquedeneu attaque le premier en infligeant 7
+Mimitoss attaque le deuxième en infligeant 4
 Il reste 0pv a Saquedeneu
-Le Dresseur 1 a changé son Pokémon par : Kokiyas
-Kokiyas a subit 3 de damage par Saquedeneu
-Il reste 8pv a Kokiyas
-Le Dresseur 1 a changé son Pokémon par : Canarticho
-Canarticho a subit 2 de damage par Saquedeneu
-Il reste 19pv a Canarticho
-Le Dresseur 1 a changé son Pokémon par : Canarticho
-Canarticho a subit 4 de damage par Saquedeneu
-Il reste 19pv a Canarticho
-Saquedeneu attaque le premier en infligeant 13
-Électhor attaque le deuxième en infligeant 16
-Il reste 0pv a Saquedeneu
-Il reste 7pv a Électhor
-Saquedeneu attaque le premier en infligeant 13
-Électhor attaque le deuxième en infligeant 9
-Il reste 0pv a Saquedeneu
-Il reste 7pv a Électhor
-Ptéra attaque le premier en infligeant 13
-Électhor attaque le deuxième en infligeant 13
-Il reste 1pv a Ptéra
-Il reste 7pv a Électhor
-Rhinocorne attaque le premier en infligeant 12
-Nosferapti attaque le deuxième en infligeant 13
-Il reste 13pv a Rhinocorne
-Il reste 0pv a Nosferapti
-Ptéra attaque le premier en infligeant 12
-Nidoran♀ attaque le deuxième en infligeant 20
-Il reste 1pv a Ptéra
-Il reste 19pv a Nidoran♀
-Fantominus attaque le premier en infligeant 18
-Kokiyas attaque le deuxième en infligeant 12
-Il reste 19pv a Fantominus
-Il reste 8pv a Kokiyas
-Le Dresseur 1 a changé son Pokémon par : Nosferapti
-Nosferapti a subit 1 de damage par Fantominus
-Il reste 0pv a Nosferapti
-Le Dresseur 1 a changé son Pokémon par : Nidoran♀
-Nidoran♀ a subit 1 de damage par Fantominus
-Il reste 19pv a Nidoran♀
-Le Dresseur 2 a changé son Pokémon par : Porygon
-Porygon a subit 1 de damage par Nidoran♀
-Il reste 1pv a Porygon
-Le Dresseur 2 a changé son Pokémon par : Fantominus
-Fantominus a subit 5 de damage par Nidoran♀
-Il reste 19pv a Fantominus
-Le Dresseur 2 a changé son Pokémon par : Rhinocorne
-Rhinocorne a subit 1 de damage par Nidoran♀
-Il reste 13pv a Rhinocorne
-Rondoudou attaque le premier en infligeant 19
-Nidoran♀ attaque le deuxième en infligeant 13
-Il reste 7pv a Rondoudou
-Il reste 19pv a Nidoran♀
-Porygon attaque le premier en infligeant 12
-Pikachu attaque le deuxième en infligeant 15
-Il reste 1pv a Porygon
-Il reste 9pv a Pikachu
-Rondoudou attaque le premier en infligeant 19
-Nidoran♀ attaque le deuxième en infligeant 15
-Il reste 7pv a Rondoudou
-Il reste 19pv a Nidoran♀
-Fantominus attaque le premier en infligeant 14
-Canarticho attaque le deuxième en infligeant 12
-Il reste 19pv a Fantominus
-Il reste 19pv a Canarticho
-Le Dresseur 2 a changé son Pokémon par : Saquedeneu
-Saquedeneu a subit 9 de damage par Canarticho
-Il reste 0pv a Saquedeneu
-Fantominus attaque le premier en infligeant 13
-Électhor attaque le deuxième en infligeant 12
-Il reste 19pv a Fantominus
-Il reste 7pv a Électhor
-Le Dresseur 2 a changé son Pokémon par : Rondoudou
-Rondoudou a subit 0 de damage par Électhor
-Il reste 7pv a Rondoudou
-Rondoudou attaque le premier en infligeant 13
-Électhor attaque le deuxième en infligeant 7
-Il reste 7pv a Rondoudou
-Il reste 7pv a Électhor
-Fantominus attaque le premier en infligeant 13
-Électhor attaque le deuxième en infligeant 19
-Il reste 19pv a Fantominus
-Il reste 7pv a Électhor
-Rhinocorne attaque le premier en infligeant 17
-Pikachu attaque le deuxième en infligeant 15
-Il reste 13pv a Rhinocorne
-Il reste 9pv a Pikachu
-Le Dresseur 2 a changé son Pokémon par : Ptéra
-Ptéra a subit 9 de damage par Pikachu
-Il reste 1pv a Ptéra
-Porygon attaque le premier en infligeant 20
-Pikachu attaque le deuxième en infligeant 15
-Il reste 1pv a Porygon
-Il reste 9pv a Pikachu
-Porygon attaque le premier en infligeant 9
-Pikachu attaque le deuxième en infligeant 1
-Il reste 1pv a Porygon
-Il reste 9pv a Pikachu
-Rhinocorne attaque le premier en infligeant 9
-Pikachu attaque le deuxième en infligeant 15
-Il reste 13pv a Rhinocorne
-Il reste 9pv a Pikachu
-Ptéra attaque le premier en infligeant 18
-Kokiyas attaque le deuxième en infligeant 11
-Il reste 1pv a Ptéra
-Il reste 8pv a Kokiyas
-Ptéra attaque le premier en infligeant 13
-Électhor attaque le deuxième en infligeant 11
-Il reste 1pv a Ptéra
-Il reste 7pv a Électhor
-Saquedeneu attaque le premier en infligeant 19
-Nidoran♀ attaque le deuxième en infligeant 0
-Il reste 0pv a Saquedeneu
-Il reste 19pv a Nidoran♀
-Rhinocorne attaque le premier en infligeant 17
-Nosferapti attaque le deuxième en infligeant 17
-Il reste 13pv a Rhinocorne
-Il reste 0pv a Nosferapti
-Le Dresseur 2 a changé son Pokémon par : Ptéra
-Ptéra a subit 9 de damage par Nosferapti
-Il reste 1pv a Ptéra
-Porygon attaque le premier en infligeant 19
-Électhor attaque le deuxième en infligeant 1
-Il reste 1pv a Porygon
-Il reste 7pv a Électhor
-Le Dresseur 2 a changé son Pokémon par : Saquedeneu
-Saquedeneu a subit 0 de damage par Électhor
-Il reste 0pv a Saquedeneu
-Saquedeneu attaque le premier en infligeant 20
-Kokiyas attaque le deuxième en infligeant 0
-Il reste 0pv a Saquedeneu
-Il reste 8pv a Kokiyas
-Le Dresseur 1 a changé son Pokémon par : Nosferapti
-Nosferapti a subit 1 de damage par Fantominus
-Il reste 0pv a Nosferapti
-Rondoudou attaque le premier en infligeant 19
-Électhor attaque le deuxième en infligeant 7
-Il reste 7pv a Rondoudou
-Il reste 7pv a Électhor
-Le Dresseur 1 a changé son Pokémon par : Électhor
-Électhor a subit 12 de damage par Rondoudou
-Il reste 7pv a Électhor
-Le Dresseur 1 a changé son Pokémon par : Nosferapti
-Nosferapti a subit 13 de damage par Rondoudou
-Il reste 0pv a Nosferapti
-Ptéra attaque le premier en infligeant 6
-Nosferapti attaque le deuxième en infligeant 2
-Il reste 1pv a Ptéra
-Il reste 0pv a Nosferapti
-Ptéra attaque le premier en infligeant 0
-Nosferapti attaque le deuxième en infligeant 1
-Il reste 1pv a Ptéra
-Il reste 0pv a Nosferapti
-Le Dresseur 2 a changé son Pokémon par : Porygon
-Porygon a subit 7 de damage par Canarticho
-Il reste 1pv a Porygon
-Rhinocorne attaque le premier en infligeant 20
-Kokiyas attaque le deuxième en infligeant 17
-Il reste 13pv a Rhinocorne
-Il reste 8pv a Kokiyas
-Le Dresseur 2 a changé son Pokémon par : Rhinocorne
-Rhinocorne a subit 4 de damage par Kokiyas
-Il reste 13pv a Rhinocorne
-Ptéra attaque le premier en infligeant 19
-Canarticho attaque le deuxième en infligeant 1
-Il reste 1pv a Ptéra
-Il reste 19pv a Canarticho
-Porygon attaque le premier en infligeant 0
-Nosferapti attaque le deuxième en infligeant 12
-Il reste 1pv a Porygon
-Il reste 0pv a Nosferapti
-Porygon attaque le premier en infligeant 8
-Kokiyas attaque le deuxième en infligeant 1
-Il reste 1pv a Porygon
-Il reste 8pv a Kokiyas
-Rhinocorne attaque le premier en infligeant 19
-Canarticho attaque le deuxième en infligeant 13
-Il reste 13pv a Rhinocorne
-Il reste 19pv a Canarticho
-Saquedeneu attaque le premier en infligeant 0
-Nosferapti attaque le deuxième en infligeant 0
-Il reste 0pv a Saquedeneu
-Il reste 0pv a Nosferapti
-Rondoudou attaque le premier en infligeant 8
-Kokiyas attaque le deuxième en infligeant 7
-Il reste 7pv a Rondoudou
-Il reste 8pv a Kokiyas
-Le Dresseur 2 a changé son Pokémon par : Saquedeneu
-Saquedeneu a subit 0 de damage par Kokiyas
-Il reste 0pv a Saquedeneu
----------------------------------------------------------->
-
-
-Thu Jun 02 20:23:30 CEST 2022
-Le combat a durée : 35tours
-Le gagant est IA
-Le perdant est Baptiste
-Le Dresseur 1 a changé son Pokémon par : Stari
-Stari a subit 4 de damage par Férosinge
-Il reste 5pv a Stari
-Il reste 15pv a Férosinge
-Sabelette attaque le premier en infligeant 12
-Stari attaque le deuxième en infligeant 12
-Il reste 17pv a Sabelette
-Il reste 5pv a Stari
-Le Dresseur 2 a changé son Pokémon par : Férosinge
-Férosinge a subit 7 de damage par Stari
-Il reste 15pv a Férosinge
-Il reste 5pv a Stari
-Le Dresseur 1 a changé son Pokémon par : Goupix
-Goupix a subit 4 de damage par Férosinge
-Il reste 9pv a Goupix
-Il reste 15pv a Férosinge
-Osselait attaque le premier en infligeant 15
-Goupix attaque le deuxième en infligeant 12
-Il reste 0pv a Osselait
-Il reste 9pv a Goupix
-Amonita attaque le premier en infligeant 12
-Doduo attaque le deuxième en infligeant 12
-Il reste 1pv a Amonita
-Il reste 0pv a Doduo
-Amonita attaque le premier en infligeant 0
-Doduo attaque le deuxième en infligeant 6
-Il reste 1pv a Amonita
-Il reste 0pv a Doduo
-Amonita attaque le premier en infligeant 8
-Doduo attaque le deuxième en infligeant 6
-Il reste 1pv a Amonita
-Il reste 0pv a Doduo
-Le Dresseur 2 a changé son Pokémon par : Sabelette
-Sabelette a subit 7 de damage par Doduo
-Il reste 17pv a Sabelette
-Il reste 0pv a Doduo
-Goupix attaque le premier en infligeant 12
-Abra attaque le deuxième en infligeant 15
-Il reste 9pv a Goupix
-Il reste 5pv a Abra
-Sabelette attaque le premier en infligeant 12
-Roucool attaque le deuxième en infligeant 17
-Il reste 17pv a Sabelette
-Il reste 10pv a Roucool
-Le Dresseur 2 a changé son Pokémon par : Osselait
-Osselait a subit 9 de damage par Roucool
-Il reste 0pv a Osselait
-Il reste 10pv a Roucool
-Amonita attaque le premier en infligeant 15
-Roucool attaque le deuxième en infligeant 10
-Il reste 1pv a Amonita
-Il reste 10pv a Roucool
-Le Dresseur 2 a changé son Pokémon par : Abra
-Abra a subit 10 de damage par Roucool
-Il reste 5pv a Abra
-Il reste 10pv a Roucool
-Le Dresseur 2 a changé son Pokémon par : Amonita
-Amonita a subit 9 de damage par Roucool
-Il reste 1pv a Amonita
-Il reste 10pv a Roucool
-Le Dresseur 1 a changé son Pokémon par : Goupix
-Goupix a subit 12 de damage par Amonita
-Il reste 9pv a Goupix
-Il reste 1pv a Amonita
-Le Dresseur 2 a changé son Pokémon par : Rhinocorne
-Rhinocorne a subit 8 de damage par Goupix
-Il reste 15pv a Rhinocorne
-Il reste 9pv a Goupix
-Le Dresseur 1 a changé son Pokémon par : Chétiflor
-Chétiflor a subit 6 de damage par Rhinocorne
-Il reste 0pv a Chétiflor
-Il reste 15pv a Rhinocorne
-Rhinocorne attaque le premier en infligeant 7
-Chétiflor attaque le deuxième en infligeant 11
-Il reste 15pv a Rhinocorne
-Il reste 0pv a Chétiflor
-Le Dresseur 1 a changé son Pokémon par : Roucool
-Roucool a subit 7 de damage par Rhinocorne
-Il reste 10pv a Roucool
-Il reste 15pv a Rhinocorne
-Le Dresseur 1 a changé son Pokémon par : Stari
-Stari a subit 9 de damage par Rhinocorne
-Il reste 5pv a Stari
-Il reste 15pv a Rhinocorne
-Sabelette attaque le premier en infligeant 9
-Doduo attaque le deuxième en infligeant 17
-Il reste 17pv a Sabelette
-Il reste 0pv a Doduo
-Le Dresseur 1 a changé son Pokémon par : Doduo
-Doduo a subit 9 de damage par Sabelette
-Il reste 0pv a Doduo
-Il reste 17pv a Sabelette
-Le Dresseur 1 a changé son Pokémon par : Doduo
-Doduo a subit 0 de damage par Sabelette
-Il reste 0pv a Doduo
-Il reste 17pv a Sabelette
-Sabelette attaque le premier en infligeant 0
-Doduo attaque le deuxième en infligeant 17
-Il reste 17pv a Sabelette
-Il reste 0pv a Doduo
-Sabelette attaque le premier en infligeant 6
-Goupix attaque le deuxième en infligeant 0
-Il reste 17pv a Sabelette
-Il reste 9pv a Goupix
-Rhinocorne attaque le premier en infligeant 9
-Goupix attaque le deuxième en infligeant 15
-Il reste 15pv a Rhinocorne
-Il reste 9pv a Goupix
-Osselait attaque le premier en infligeant 16
-Stari attaque le deuxième en infligeant 6
-Il reste 0pv a Osselait
-Il reste 5pv a Stari
-Osselait attaque le premier en infligeant 0
-Stari attaque le deuxième en infligeant 8
-Il reste 0pv a Osselait
-Il reste 5pv a Stari
-Le Dresseur 1 a changé son Pokémon par : Chétiflor
-Chétiflor a subit 7 de damage par Osselait
-Il reste 0pv a Chétiflor
-Il reste 0pv a Osselait
-Le Dresseur 1 a changé son Pokémon par : Chétiflor
-Chétiflor a subit 3 de damage par Osselait
-Il reste 0pv a Chétiflor
-Il reste 0pv a Osselait
-Amonita attaque le premier en infligeant 0
-Chétiflor attaque le deuxième en infligeant 1
-Il reste 1pv a Amonita
-Il reste 0pv a Chétiflor
-Le Dresseur 1 a changé son Pokémon par : Stari
-Stari a subit 11 de damage par Amonita
-Il reste 5pv a Stari
-Il reste 1pv a Amonita
-Le Dresseur 2 a changé son Pokémon par : Osselait
-Osselait a subit 8 de damage par Stari
-Il reste 0pv a Osselait
-Il reste 5pv a Stari
-Chétiflor attaque le premier en infligeant 15
-Férosinge attaque le deuxième en infligeant 0
-Il reste 0pv a Chétiflor
-Il reste 15pv a Férosinge
----------------------------------------------------------->
-
-
-Thu Jun 02 20:32:38 CEST 2022
-Le combat a durée : 39tours
-Le gagant est IA
-Le perdant est Baptiste
-Bulbizarre attaque le premier en infligeant 4
-Mimitoss attaque le deuxième en infligeant 7
-Il reste 16pv a Bulbizarre
-Il reste 0pv a Mimitoss
-Magicarpe attaque le premier en infligeant 12
-Mimitoss attaque le deuxième en infligeant 11
-Il reste 15pv a Magicarpe
-Il reste 0pv a Mimitoss
-Magicarpe attaque le premier en infligeant 4
-Mimitoss attaque le deuxième en infligeant 7
-Il reste 15pv a Magicarpe
-Il reste 0pv a Mimitoss
+Il reste 9pv a Mimitoss
 Le Dresseur 1 a changé son Pokémon par : Onix
-Onix a subit 3 de damage par Magicarpe
-Il reste 15pv a Onix
-Il reste 15pv a Magicarpe
-Magnéti attaque le premier en infligeant 12
-Porygon attaque le deuxième en infligeant 12
-Il reste 17pv a Magnéti
-Il reste 0pv a Porygon
-Magicarpe attaque le premier en infligeant 12
-Doduo attaque le deuxième en infligeant 7
-Il reste 15pv a Magicarpe
-Il reste 8pv a Doduo
-Magicarpe attaque le premier en infligeant 12
-Porygon attaque le deuxième en infligeant 7
-Il reste 15pv a Magicarpe
-Il reste 0pv a Porygon
-Goupix attaque le premier en infligeant 12
-Onix attaque le deuxième en infligeant 12
-Il reste 2pv a Goupix
-Il reste 15pv a Onix
-Bulbizarre attaque le premier en infligeant 8
-Mimitoss attaque le deuxième en infligeant 14
-Il reste 16pv a Bulbizarre
-Il reste 0pv a Mimitoss
-Goupix attaque le premier en infligeant 12
-Caninos attaque le deuxième en infligeant 14
-Il reste 2pv a Goupix
-Il reste 15pv a Caninos
-Magnéti attaque le premier en infligeant 12
-Porygon attaque le deuxième en infligeant 15
-Il reste 17pv a Magnéti
-Il reste 0pv a Porygon
 Le Dresseur 2 a changé son Pokémon par : Osselait
-Osselait a subit 4 de damage par Porygon
-Il reste 0pv a Osselait
-Il reste 0pv a Porygon
-Le Dresseur 1 a changé son Pokémon par : Mimitoss
-Mimitoss a subit 1 de damage par Osselait
-Il reste 0pv a Mimitoss
+Aucun n'a recu de dammage.
+Il reste 7pv a Onix
 Il reste 0pv a Osselait
 Le Dresseur 1 a changé son Pokémon par : Mimitoss
-Mimitoss a subit 11 de damage par Osselait
-Il reste 0pv a Mimitoss
-Il reste 0pv a Osselait
-Osselait attaque le premier en infligeant 4
-Mimitoss attaque le deuxième en infligeant 17
-Il reste 0pv a Osselait
-Il reste 0pv a Mimitoss
-Osselait attaque le premier en infligeant 4
-Mimitoss attaque le deuxième en infligeant 7
-Il reste 0pv a Osselait
-Il reste 0pv a Mimitoss
-Osselait attaque le premier en infligeant 7
-Rondoudou attaque le deuxième en infligeant 9
-Il reste 0pv a Osselait
-Il reste 8pv a Rondoudou
-Magnéti attaque le premier en infligeant 0
-Mimitoss attaque le deuxième en infligeant 17
-Il reste 17pv a Magnéti
-Il reste 0pv a Mimitoss
-Magnéti attaque le premier en infligeant 5
-Porygon attaque le deuxième en infligeant 0
-Il reste 17pv a Magnéti
-Il reste 0pv a Porygon
-Le Dresseur 2 a changé son Pokémon par : Goupix
-Goupix a subit 3 de damage par Porygon
-Il reste 2pv a Goupix
-Il reste 0pv a Porygon
-Goupix attaque le premier en infligeant 3
-Porygon attaque le deuxième en infligeant 9
-Il reste 2pv a Goupix
-Il reste 0pv a Porygon
-Le Dresseur 2 a changé son Pokémon par : Bulbizarre
-Bulbizarre a subit 10 de damage par Porygon
-Il reste 16pv a Bulbizarre
-Il reste 0pv a Porygon
-Magnéti attaque le premier en infligeant 12
-Onix attaque le deuxième en infligeant 17
-Il reste 17pv a Magnéti
-Il reste 15pv a Onix
-Le Dresseur 1 a changé son Pokémon par : Porygon
-Porygon a subit 5 de damage par Magnéti
-Il reste 0pv a Porygon
-Il reste 17pv a Magnéti
-Goupix attaque le premier en infligeant 2
-Porygon attaque le deuxième en infligeant 7
-Il reste 2pv a Goupix
-Il reste 0pv a Porygon
-Goupix attaque le premier en infligeant 2
-Porygon attaque le deuxième en infligeant 5
-Il reste 2pv a Goupix
-Il reste 0pv a Porygon
-Le Dresseur 2 a changé son Pokémon par : Magicarpe
-Magicarpe a subit 0 de damage par Rondoudou
-Il reste 15pv a Magicarpe
-Il reste 8pv a Rondoudou
-Le Dresseur 1 a changé son Pokémon par : Doduo
-Doduo a subit 4 de damage par Magicarpe
-Il reste 8pv a Doduo
-Il reste 15pv a Magicarpe
-Piafabec attaque le premier en infligeant 8
-Rondoudou attaque le deuxième en infligeant 12
-Il reste 12pv a Piafabec
-Il reste 8pv a Rondoudou
-Le Dresseur 2 a changé son Pokémon par : Osselait
-Osselait a subit 1 de damage par Rondoudou
-Il reste 0pv a Osselait
-Il reste 8pv a Rondoudou
+Le Dresseur 2 a changé son Pokémon par : Noeunoeuf
+Aucun n'a recu de dammage.
+Il reste 9pv a Mimitoss
+Il reste 0pv a Noeunoeuf
+Le Dresseur 1 a changé son Pokémon par : Onix
+Le Dresseur 2 a changé son Pokémon par : M. Mime
+Aucun n'a recu de dammage.
+Il reste 7pv a Onix
+Il reste 0pv a M. Mime
+Le Dresseur 1 a changé son Pokémon par : Onix
+Le Dresseur 2 a changé son Pokémon par : Noeunoeuf
+Aucun n'a recu de dammage.
+Il reste 7pv a Onix
+Il reste 0pv a Noeunoeuf
 Le Dresseur 1 a changé son Pokémon par : Mimitoss
-Mimitoss a subit 0 de damage par Bulbizarre
-Il reste 0pv a Mimitoss
-Il reste 16pv a Bulbizarre
-Piafabec attaque le premier en infligeant 15
-Onix attaque le deuxième en infligeant 15
-Il reste 12pv a Piafabec
-Il reste 15pv a Onix
-Magnéti attaque le premier en infligeant 14
-Caninos attaque le deuxième en infligeant 17
-Il reste 17pv a Magnéti
-Il reste 15pv a Caninos
-Magnéti attaque le premier en infligeant 15
-Onix attaque le deuxième en infligeant 17
-Il reste 17pv a Magnéti
-Il reste 15pv a Onix
-Piafabec attaque le premier en infligeant 0
-Porygon attaque le deuxième en infligeant 15
-Il reste 12pv a Piafabec
-Il reste 0pv a Porygon
+Mimitoss a subit 3 de damage par Noeunoeuf
+Il reste 9pv a Mimitoss
+Il reste 0pv a Noeunoeuf
+Le Dresseur 2 a changé son Pokémon par : Ptéra
+Ptéra a subit 5 de damage par Mimitoss
+Il reste 0pv a Ptéra
+Il reste 9pv a Mimitoss
+Le Dresseur 1 a changé son Pokémon par : Sabelette
+Le Dresseur 2 a changé son Pokémon par : Saquedeneu
+Aucun n'a recu de dammage.
+Il reste 7pv a Sabelette
+Il reste 0pv a Saquedeneu
+Le Dresseur 2 a changé son Pokémon par : Saquedeneu
+Saquedeneu a subit 11 de damage par Sabelette
+Il reste 0pv a Saquedeneu
+Il reste 7pv a Sabelette
+Le Dresseur 1 a changé son Pokémon par : Onix
+Le Dresseur 2 a changé son Pokémon par : Tauros
+Aucun n'a recu de dammage.
+Il reste 7pv a Onix
+Il reste 0pv a Tauros
+Le Dresseur 1 a changé son Pokémon par : Sabelette
 Le Dresseur 2 a changé son Pokémon par : Osselait
-Osselait a subit 0 de damage par Caninos
+Aucun n'a recu de dammage.
+Il reste 7pv a Sabelette
 Il reste 0pv a Osselait
-Il reste 15pv a Caninos
 Le Dresseur 2 a changé son Pokémon par : Osselait
-Osselait a subit 0 de damage par Caninos
+Osselait a subit 9 de damage par Sabelette
 Il reste 0pv a Osselait
-Il reste 15pv a Caninos
-Le Dresseur 2 a changé son Pokémon par : Piafabec
-Piafabec a subit 3 de damage par Caninos
-Il reste 12pv a Piafabec
-Il reste 15pv a Caninos
+Il reste 7pv a Sabelette
+Le Dresseur 1 a changé son Pokémon par : Voltorbe
+Le Dresseur 2 a changé son Pokémon par : M. Mime
+Aucun n'a recu de dammage.
+Il reste 14pv a Voltorbe
+Il reste 0pv a M. Mime
+Le Dresseur 1 a changé son Pokémon par : Nosferapti
+Le Dresseur 2 a changé son Pokémon par : Noeunoeuf
+Aucun n'a recu de dammage.
+Il reste 15pv a Nosferapti
+Il reste 0pv a Noeunoeuf
 Le Dresseur 1 a changé son Pokémon par : Mimitoss
-Mimitoss a subit 0 de damage par Piafabec
-Il reste 0pv a Mimitoss
-Il reste 12pv a Piafabec
+Le Dresseur 2 a changé son Pokémon par : Ptéra
+Aucun n'a recu de dammage.
+Il reste 9pv a Mimitoss
+Il reste 0pv a Ptéra
+Le Dresseur 1 a changé son Pokémon par : Onix
+Onix a subit 6 de damage par Ptéra
+Il reste 7pv a Onix
+Il reste 0pv a Ptéra
+Le Dresseur 1 a changé son Pokémon par : Sabelette
+Le Dresseur 2 a changé son Pokémon par : Ptéra
+Aucun n'a recu de dammage.
+Il reste 7pv a Sabelette
+Il reste 0pv a Ptéra
+Le Dresseur 1 a changé son Pokémon par : Poissirène
+Poissirène a subit 10 de damage par Ptéra
+Il reste 0pv a Poissirène
+Il reste 0pv a Ptéra
+Le Dresseur 1 a changé son Pokémon par : Sabelette
+Le Dresseur 2 a changé son Pokémon par : Osselait
+Aucun n'a recu de dammage.
+Il reste 7pv a Sabelette
+Il reste 0pv a Osselait
+Le Dresseur 1 a changé son Pokémon par : Onix
+Le Dresseur 2 a changé son Pokémon par : Ptéra
+Aucun n'a recu de dammage.
+Il reste 7pv a Onix
+Il reste 0pv a Ptéra
+Le Dresseur 1 a changé son Pokémon par : Poissirène
+Poissirène a subit 7 de damage par Ptéra
+Il reste 0pv a Poissirène
+Il reste 0pv a Ptéra
+Le Dresseur 1 a changé son Pokémon par : Mimitoss
+Le Dresseur 2 a changé son Pokémon par : Noeunoeuf
+Aucun n'a recu de dammage.
+Il reste 9pv a Mimitoss
+Il reste 0pv a Noeunoeuf
+Le Dresseur 2 a changé son Pokémon par : Osselait
+Osselait a subit 6 de damage par Mimitoss
+Il reste 0pv a Osselait
+Il reste 9pv a Mimitoss
+Le Dresseur 1 a changé son Pokémon par : Voltorbe
+Voltorbe a subit 3 de damage par Osselait
+Il reste 14pv a Voltorbe
+Il reste 0pv a Osselait
+Le Dresseur 1 a changé son Pokémon par : Mimitoss
+Le Dresseur 2 a changé son Pokémon par : Osselait
+Aucun n'a recu de dammage.
+Il reste 9pv a Mimitoss
+Il reste 0pv a Osselait
+Le Dresseur 1 a changé son Pokémon par : Sabelette
+Le Dresseur 2 a changé son Pokémon par : Noeunoeuf
+Aucun n'a recu de dammage.
+Il reste 7pv a Sabelette
+Il reste 0pv a Noeunoeuf
+Le Dresseur 2 a changé son Pokémon par : M. Mime
+M. Mime a subit 11 de damage par Sabelette
+Il reste 0pv a M. Mime
+Il reste 7pv a Sabelette
+Le Dresseur 1 a changé son Pokémon par : Onix
+Le Dresseur 2 a changé son Pokémon par : Osselait
+Aucun n'a recu de dammage.
+Il reste 7pv a Onix
+Il reste 0pv a Osselait
+Le Dresseur 1 a changé son Pokémon par : Sabelette
+Sabelette a subit 6 de damage par Osselait
+Il reste 7pv a Sabelette
+Il reste 0pv a Osselait
+Osselait attaque le premier en infligeant 5
+Sabelette attaque le deuxième en infligeant 8
+Il reste 0pv a Osselait
+Il reste 7pv a Sabelette
+Le Dresseur 1 a changé son Pokémon par : Nosferapti
+Le Dresseur 2 a changé son Pokémon par : Noeunoeuf
+Aucun n'a recu de dammage.
+Il reste 15pv a Nosferapti
+Il reste 0pv a Noeunoeuf
+Le Dresseur 1 a changé son Pokémon par : Sabelette
+Le Dresseur 2 a changé son Pokémon par : Osselait
+Aucun n'a recu de dammage.
+Il reste 7pv a Sabelette
+Il reste 0pv a Osselait
+Le Dresseur 1 a changé son Pokémon par : Nosferapti
+Nosferapti a subit 0 de damage par Osselait
+Il reste 15pv a Nosferapti
+Il reste 0pv a Osselait
+Le Dresseur 2 a changé son Pokémon par : Osselait
+Osselait a subit 2 de damage par Nosferapti
+Il reste 0pv a Osselait
+Il reste 15pv a Nosferapti
+Le Dresseur 1 a changé son Pokémon par : Voltorbe
+Le Dresseur 2 a changé son Pokémon par : Saquedeneu
+Aucun n'a recu de dammage.
+Il reste 14pv a Voltorbe
+Il reste 0pv a Saquedeneu
+Le Dresseur 1 a changé son Pokémon par : Sabelette
+Le Dresseur 2 a changé son Pokémon par : Saquedeneu
+Aucun n'a recu de dammage.
+Il reste 7pv a Sabelette
+Il reste 0pv a Saquedeneu
+Le Dresseur 1 a changé son Pokémon par : Mimitoss
+Le Dresseur 2 a changé son Pokémon par : Ptéra
+Aucun n'a recu de dammage.
+Il reste 9pv a Mimitoss
+Il reste 0pv a Ptéra
+Le Dresseur 2 a changé son Pokémon par : Ptéra
+Ptéra a subit 5 de damage par Mimitoss
+Il reste 0pv a Ptéra
+Il reste 9pv a Mimitoss
+Le Dresseur 1 a changé son Pokémon par : Poissirène
+Le Dresseur 2 a changé son Pokémon par : Tauros
+Aucun n'a recu de dammage.
+Il reste 0pv a Poissirène
+Il reste 0pv a Tauros
+Le Dresseur 2 a changé son Pokémon par : Ptéra
+Ptéra a subit 9 de damage par Poissirène
+Il reste 0pv a Ptéra
+Il reste 0pv a Poissirène
+Le Dresseur 1 a changé son Pokémon par : Poissirène
+Le Dresseur 2 a changé son Pokémon par : Noeunoeuf
+Aucun n'a recu de dammage.
+Il reste 0pv a Poissirène
+Il reste 0pv a Noeunoeuf
+Le Dresseur 1 a changé son Pokémon par : Nosferapti
+Nosferapti a subit 3 de damage par Noeunoeuf
+Il reste 15pv a Nosferapti
+Il reste 0pv a Noeunoeuf
+Le Dresseur 2 a changé son Pokémon par : Saquedeneu
+Saquedeneu a subit 7 de damage par Nosferapti
+Il reste 0pv a Saquedeneu
+Il reste 15pv a Nosferapti
+Le Dresseur 2 a changé son Pokémon par : Noeunoeuf
+Noeunoeuf a subit 7 de damage par Nosferapti
+Il reste 0pv a Noeunoeuf
+Il reste 15pv a Nosferapti
+Le Dresseur 1 a changé son Pokémon par : Onix
+Le Dresseur 2 a changé son Pokémon par : M. Mime
+Aucun n'a recu de dammage.
+Il reste 7pv a Onix
+Il reste 0pv a M. Mime
+Le Dresseur 2 a changé son Pokémon par : Saquedeneu
+Saquedeneu a subit 8 de damage par Onix
+Il reste 0pv a Saquedeneu
+Il reste 7pv a Onix
+Tauros attaque le premier en infligeant 11
+Onix attaque le deuxième en infligeant 9
+Il reste 0pv a Tauros
+Il reste 7pv a Onix
+Le Dresseur 2 a changé son Pokémon par : Noeunoeuf
+Noeunoeuf a subit 10 de damage par Onix
+Il reste 0pv a Noeunoeuf
+Il reste 7pv a Onix
+Le Dresseur 1 a changé son Pokémon par : Sabelette
+Le Dresseur 2 a changé son Pokémon par : Tauros
+Aucun n'a recu de dammage.
+Il reste 7pv a Sabelette
+Il reste 0pv a Tauros
+Le Dresseur 1 a changé son Pokémon par : Poissirène
+Poissirène a subit 9 de damage par Tauros
+Il reste 0pv a Poissirène
+Il reste 0pv a Tauros
+Tauros attaque le premier en infligeant 2
+Poissirène attaque le deuxième en infligeant 8
+Il reste 0pv a Tauros
+Il reste 0pv a Poissirène
+Le Dresseur 1 a changé son Pokémon par : Mimitoss
+Le Dresseur 2 a changé son Pokémon par : Ptéra
+Aucun n'a recu de dammage.
+Il reste 9pv a Mimitoss
+Il reste 0pv a Ptéra
+Le Dresseur 1 a changé son Pokémon par : Mimitoss
+Le Dresseur 2 a changé son Pokémon par : M. Mime
+Aucun n'a recu de dammage.
+Il reste 9pv a Mimitoss
+Il reste 0pv a M. Mime
+M. Mime attaque le premier en infligeant 3
+Mimitoss attaque le deuxième en infligeant 6
+Il reste 0pv a M. Mime
+Il reste 9pv a Mimitoss
+Ptéra attaque le premier en infligeant 6
+Mimitoss attaque le deuxième en infligeant 3
+Il reste 0pv a Ptéra
+Il reste 9pv a Mimitoss
 ---------------------------------------------------------->
 
 
-Thu Jun 02 20:35:48 CEST 2022
-Le combat a durée : 97tours
-Le gagant est Baptiste
-Le perdant est IA
-Artikodin attaque le premier en infligeant 13
-Électhor attaque le deuxième en infligeant 13
-Il reste 0pv a Artikodin
+Thu Jun 02 22:12:53 CEST 2022
+Le combat a durée : 1 min 6 s en 60 tours
+Le gagant est IA2
+Le perdant est IA1
+Le Dresseur 1 a changé son Pokémon par : Excelangue
+Le Dresseur 2 a changé son Pokémon par : Nosferapti
+Aucun n'a recu de dammage.
+Il reste 0pv a Excelangue
+Il reste 0pv a Nosferapti
+Le Dresseur 1 a changé son Pokémon par : Onix
+Le Dresseur 2 a changé son Pokémon par : Nosferapti
+Aucun n'a recu de dammage.
+Il reste 0pv a Onix
+Il reste 0pv a Nosferapti
+Le Dresseur 2 a changé son Pokémon par : Otaria
+Otaria a subit 7 de damage par Onix
+Il reste 18pv a Otaria
+Il reste 0pv a Onix
+Le Dresseur 1 a changé son Pokémon par : Onix
+Le Dresseur 2 a changé son Pokémon par : Porygon
+Aucun n'a recu de dammage.
+Il reste 0pv a Onix
+Il reste 19pv a Porygon
+Porygon attaque le premier en infligeant 9
+Onix attaque le deuxième en infligeant 0
+Il reste 19pv a Porygon
+Il reste 0pv a Onix
+Le Dresseur 1 a changé son Pokémon par : Sabelette
+Sabelette a subit 9 de damage par Porygon
+Il reste 0pv a Sabelette
+Il reste 19pv a Porygon
+Le Dresseur 1 a changé son Pokémon par : Sabelette
+Le Dresseur 2 a changé son Pokémon par : Électhor
+Aucun n'a recu de dammage.
+Il reste 0pv a Sabelette
+Il reste 19pv a Électhor
+Le Dresseur 1 a changé son Pokémon par : Rattata
+Le Dresseur 2 a changé son Pokémon par : Chétiflor
+Aucun n'a recu de dammage.
+Il reste 0pv a Rattata
+Il reste 0pv a Chétiflor
+Le Dresseur 1 a changé son Pokémon par : Caninos
+Le Dresseur 2 a changé son Pokémon par : Électhor
+Aucun n'a recu de dammage.
+Il reste 0pv a Caninos
+Il reste 19pv a Électhor
+Le Dresseur 2 a changé son Pokémon par : Sabelette
+Sabelette a subit 7 de damage par Caninos
+Il reste 0pv a Sabelette
+Il reste 0pv a Caninos
+Le Dresseur 1 a changé son Pokémon par : Sabelette
+Le Dresseur 2 a changé son Pokémon par : Électhor
+Aucun n'a recu de dammage.
+Il reste 0pv a Sabelette
+Il reste 19pv a Électhor
+Électhor attaque le premier en infligeant 7
+Sabelette attaque le deuxième en infligeant 9
+Il reste 19pv a Électhor
+Il reste 0pv a Sabelette
+Le Dresseur 1 a changé son Pokémon par : Sabelette
+Sabelette a subit 6 de damage par Électhor
+Il reste 0pv a Sabelette
+Il reste 19pv a Électhor
+Le Dresseur 1 a changé son Pokémon par : Rattata
+Rattata a subit 12 de damage par Électhor
+Il reste 0pv a Rattata
+Il reste 19pv a Électhor
+Le Dresseur 2 a changé son Pokémon par : Nosferapti
+Nosferapti a subit 14 de damage par Tauros
+Il reste 0pv a Nosferapti
+Il reste 0pv a Tauros
+Le Dresseur 1 a changé son Pokémon par : Sabelette
+Le Dresseur 2 a changé son Pokémon par : Sabelette
+Aucun n'a recu de dammage.
+Il reste 0pv a Sabelette
+Il reste 0pv a Sabelette
+Le Dresseur 2 a changé son Pokémon par : Chétiflor
+Chétiflor a subit 12 de damage par Sabelette
+Il reste 0pv a Chétiflor
+Il reste 0pv a Sabelette
+Le Dresseur 1 a changé son Pokémon par : Tauros
+Le Dresseur 2 a changé son Pokémon par : Otaria
+Aucun n'a recu de dammage.
+Il reste 0pv a Tauros
+Il reste 18pv a Otaria
+Le Dresseur 1 a changé son Pokémon par : Sabelette
+Le Dresseur 2 a changé son Pokémon par : Porygon
+Aucun n'a recu de dammage.
+Il reste 0pv a Sabelette
+Il reste 19pv a Porygon
+Le Dresseur 1 a changé son Pokémon par : Caninos
+Le Dresseur 2 a changé son Pokémon par : Sabelette
+Aucun n'a recu de dammage.
+Il reste 0pv a Caninos
+Il reste 0pv a Sabelette
+Le Dresseur 2 a changé son Pokémon par : Sabelette
+Sabelette a subit 9 de damage par Caninos
+Il reste 0pv a Sabelette
+Il reste 0pv a Caninos
+Le Dresseur 2 a changé son Pokémon par : Nosferapti
+Nosferapti a subit 11 de damage par Caninos
+Il reste 0pv a Nosferapti
+Il reste 0pv a Caninos
+Le Dresseur 1 a changé son Pokémon par : Caninos
+Le Dresseur 2 a changé son Pokémon par : Chétiflor
+Aucun n'a recu de dammage.
+Il reste 0pv a Caninos
+Il reste 0pv a Chétiflor
+Le Dresseur 1 a changé son Pokémon par : Sabelette
+Le Dresseur 2 a changé son Pokémon par : Porygon
+Aucun n'a recu de dammage.
+Il reste 0pv a Sabelette
+Il reste 19pv a Porygon
+Porygon attaque le premier en infligeant 1
+Sabelette attaque le deuxième en infligeant 10
+Il reste 19pv a Porygon
+Il reste 0pv a Sabelette
+Le Dresseur 1 a changé son Pokémon par : Onix
+Le Dresseur 2 a changé son Pokémon par : Sabelette
+Aucun n'a recu de dammage.
+Il reste 0pv a Onix
+Il reste 0pv a Sabelette
+Le Dresseur 2 a changé son Pokémon par : Otaria
+Otaria a subit 0 de damage par Onix
+Il reste 18pv a Otaria
+Il reste 0pv a Onix
+Otaria attaque le premier en infligeant 5
+Onix attaque le deuxième en infligeant 3
+Il reste 18pv a Otaria
+Il reste 0pv a Onix
+Le Dresseur 1 a changé son Pokémon par : Excelangue
+Excelangue a subit 10 de damage par Otaria
+Il reste 0pv a Excelangue
+Il reste 18pv a Otaria
+Le Dresseur 1 a changé son Pokémon par : Onix
+Onix a subit 9 de damage par Otaria
+Il reste 0pv a Onix
+Il reste 18pv a Otaria
+Le Dresseur 1 a changé son Pokémon par : Excelangue
+Excelangue a subit 9 de damage par Otaria
+Il reste 0pv a Excelangue
+Il reste 18pv a Otaria
+Le Dresseur 1 a changé son Pokémon par : Sabelette
+Le Dresseur 2 a changé son Pokémon par : Porygon
+Aucun n'a recu de dammage.
+Il reste 0pv a Sabelette
+Il reste 19pv a Porygon
+Le Dresseur 2 a changé son Pokémon par : Sabelette
+Sabelette a subit 3 de damage par Sabelette
+Il reste 0pv a Sabelette
+Il reste 0pv a Sabelette
+Le Dresseur 1 a changé son Pokémon par : Tauros
+Le Dresseur 2 a changé son Pokémon par : Nosferapti
+Aucun n'a recu de dammage.
+Il reste 0pv a Tauros
+Il reste 0pv a Nosferapti
+Le Dresseur 1 a changé son Pokémon par : Sabelette
+Sabelette a subit 4 de damage par Nosferapti
+Il reste 0pv a Sabelette
+Il reste 0pv a Nosferapti
+Le Dresseur 1 a changé son Pokémon par : Caninos
+Le Dresseur 2 a changé son Pokémon par : Électhor
+Aucun n'a recu de dammage.
+Il reste 0pv a Caninos
+Il reste 19pv a Électhor
+Le Dresseur 1 a changé son Pokémon par : Caninos
+Caninos a subit 10 de damage par Électhor
+Il reste 0pv a Caninos
+Il reste 19pv a Électhor
+Le Dresseur 1 a changé son Pokémon par : Excelangue
+Le Dresseur 2 a changé son Pokémon par : Chétiflor
+Aucun n'a recu de dammage.
+Il reste 0pv a Excelangue
+Il reste 0pv a Chétiflor
+Le Dresseur 1 a changé son Pokémon par : Excelangue
+Le Dresseur 2 a changé son Pokémon par : Porygon
+Aucun n'a recu de dammage.
+Il reste 0pv a Excelangue
+Il reste 19pv a Porygon
+Le Dresseur 1 a changé son Pokémon par : Tauros
+Le Dresseur 2 a changé son Pokémon par : Chétiflor
+Aucun n'a recu de dammage.
+Il reste 0pv a Tauros
+Il reste 0pv a Chétiflor
+Le Dresseur 1 a changé son Pokémon par : Excelangue
+Excelangue a subit 3 de damage par Chétiflor
+Il reste 0pv a Excelangue
+Il reste 0pv a Chétiflor
+Le Dresseur 1 a changé son Pokémon par : Caninos
+Le Dresseur 2 a changé son Pokémon par : Électhor
+Aucun n'a recu de dammage.
+Il reste 0pv a Caninos
+Il reste 19pv a Électhor
+Le Dresseur 2 a changé son Pokémon par : Nosferapti
+Nosferapti a subit 7 de damage par Caninos
+Il reste 0pv a Nosferapti
+Il reste 0pv a Caninos
+Le Dresseur 1 a changé son Pokémon par : Excelangue
+Excelangue a subit 5 de damage par Porygon
+Il reste 0pv a Excelangue
+Il reste 19pv a Porygon
+Le Dresseur 1 a changé son Pokémon par : Tauros
+Le Dresseur 2 a changé son Pokémon par : Porygon
+Aucun n'a recu de dammage.
+Il reste 0pv a Tauros
+Il reste 19pv a Porygon
+Le Dresseur 1 a changé son Pokémon par : Caninos
+Caninos a subit 10 de damage par Porygon
+Il reste 0pv a Caninos
+Il reste 19pv a Porygon
+Le Dresseur 1 a changé son Pokémon par : Onix
+Onix a subit 2 de damage par Porygon
+Il reste 0pv a Onix
+Il reste 19pv a Porygon
+Le Dresseur 1 a changé son Pokémon par : Tauros
+Tauros a subit 1 de damage par Porygon
+Il reste 0pv a Tauros
+Il reste 19pv a Porygon
+Le Dresseur 1 a changé son Pokémon par : Tauros
+Tauros a subit 1 de damage par Porygon
+Il reste 0pv a Tauros
+Il reste 19pv a Porygon
+Le Dresseur 2 a changé son Pokémon par : Sabelette
+Sabelette a subit 5 de damage par Tauros
+Il reste 0pv a Sabelette
+Il reste 0pv a Tauros
+Le Dresseur 2 a changé son Pokémon par : Chétiflor
+Chétiflor a subit 10 de damage par Tauros
+Il reste 0pv a Chétiflor
+Il reste 0pv a Tauros
+Le Dresseur 1 a changé son Pokémon par : Tauros
+Tauros a subit 3 de damage par Chétiflor
+Il reste 0pv a Tauros
+Il reste 0pv a Chétiflor
+Le Dresseur 1 a changé son Pokémon par : Tauros
+Tauros a subit 4 de damage par Chétiflor
+Il reste 0pv a Tauros
+Il reste 0pv a Chétiflor
+Le Dresseur 2 a changé son Pokémon par : Otaria
+Otaria a subit 10 de damage par Tauros
+Il reste 18pv a Otaria
+Il reste 0pv a Tauros
+Le Dresseur 1 a changé son Pokémon par : Tauros
+Le Dresseur 2 a changé son Pokémon par : Chétiflor
+Aucun n'a recu de dammage.
+Il reste 0pv a Tauros
+Il reste 0pv a Chétiflor
+Le Dresseur 2 a changé son Pokémon par : Chétiflor
+Chétiflor a subit 10 de damage par Tauros
+Il reste 0pv a Chétiflor
+Il reste 0pv a Tauros
+Chétiflor attaque le premier en infligeant 3
+Tauros attaque le deuxième en infligeant 8
+Il reste 0pv a Chétiflor
+Il reste 0pv a Tauros
+Le Dresseur 1 a changé son Pokémon par : Tauros
+Le Dresseur 2 a changé son Pokémon par : Otaria
+Aucun n'a recu de dammage.
+Il reste 0pv a Tauros
+Il reste 18pv a Otaria
+Le Dresseur 1 a changé son Pokémon par : Tauros
+Le Dresseur 2 a changé son Pokémon par : Otaria
+Aucun n'a recu de dammage.
+Il reste 0pv a Tauros
+Il reste 18pv a Otaria
+Le Dresseur 1 a changé son Pokémon par : Tauros
+Tauros a subit 9 de damage par Otaria
+Il reste 0pv a Tauros
+Il reste 18pv a Otaria
+
+
+---------------------------------------------------------->
+
+
+Thu Jun 02 22:14:35 CEST 2022
+Le combat a durée : 1 min 22 s en 71 tours
+Le gagant est IA2
+Le perdant est IA1
+Le Dresseur 1 a changé son Pokémon par : Kokiyas
+Kokiyas a subit 6 de damage par Onix
+Il reste 0pv a Kokiyas
+Il reste 0pv a Onix
+Le Dresseur 1 a changé son Pokémon par : Abra
+Le Dresseur 2 a changé son Pokémon par : Onix
+Aucun n'a recu de dammage.
+Il reste 0pv a Abra
+Il reste 0pv a Onix
+Le Dresseur 1 a changé son Pokémon par : Onix
+Le Dresseur 2 a changé son Pokémon par : Chétiflor
+Aucun n'a recu de dammage.
+Il reste 0pv a Onix
+Il reste 0pv a Chétiflor
+Chétiflor attaque le premier en infligeant 7
+Onix attaque le deuxième en infligeant 3
+Il reste 0pv a Chétiflor
+Il reste 0pv a Onix
+Le Dresseur 1 a changé son Pokémon par : Fantominus
+Le Dresseur 2 a changé son Pokémon par : Taupiqueur
+Aucun n'a recu de dammage.
+Il reste 0pv a Fantominus
+Il reste 14pv a Taupiqueur
+Le Dresseur 1 a changé son Pokémon par : Kokiyas
+Kokiyas a subit 8 de damage par Taupiqueur
+Il reste 0pv a Kokiyas
+Il reste 14pv a Taupiqueur
+Le Dresseur 2 a changé son Pokémon par : Soporifik
+Soporifik a subit 8 de damage par Kokiyas
+Il reste 0pv a Soporifik
+Il reste 0pv a Kokiyas
+Le Dresseur 1 a changé son Pokémon par : Kokiyas
+Le Dresseur 2 a changé son Pokémon par : Soporifik
+Aucun n'a recu de dammage.
+Il reste 0pv a Kokiyas
+Il reste 0pv a Soporifik
+Le Dresseur 1 a changé son Pokémon par : Onix
+Onix a subit 7 de damage par Soporifik
+Il reste 0pv a Onix
+Il reste 0pv a Soporifik
+Le Dresseur 1 a changé son Pokémon par : Paras
+Paras a subit 6 de damage par Soporifik
+Il reste 0pv a Paras
+Il reste 0pv a Soporifik
+Le Dresseur 2 a changé son Pokémon par : Soporifik
+Soporifik a subit 5 de damage par Paras
+Il reste 0pv a Soporifik
+Il reste 0pv a Paras
+Le Dresseur 1 a changé son Pokémon par : Abra
+Abra a subit 4 de damage par Soporifik
+Il reste 0pv a Abra
+Il reste 0pv a Soporifik
+Le Dresseur 2 a changé son Pokémon par : Stari
+Stari a subit 3 de damage par Abra
+Il reste 0pv a Stari
+Il reste 0pv a Abra
+Stari attaque le premier en infligeant 5
+Abra attaque le deuxième en infligeant 6
+Il reste 0pv a Stari
+Il reste 0pv a Abra
+Le Dresseur 2 a changé son Pokémon par : Stari
+Stari a subit 8 de damage par Abra
+Il reste 0pv a Stari
+Il reste 0pv a Abra
+Le Dresseur 2 a changé son Pokémon par : Chétiflor
+Chétiflor a subit 4 de damage par Abra
+Il reste 0pv a Chétiflor
+Il reste 0pv a Abra
+Le Dresseur 1 a changé son Pokémon par : Paras
+Paras a subit 4 de damage par Chétiflor
+Il reste 0pv a Paras
+Il reste 0pv a Chétiflor
+Le Dresseur 1 a changé son Pokémon par : Évoli
+Le Dresseur 2 a changé son Pokémon par : Soporifik
+Aucun n'a recu de dammage.
+Il reste 0pv a Évoli
+Il reste 0pv a Soporifik
+Le Dresseur 2 a changé son Pokémon par : Leveinard
+Leveinard a subit 1 de damage par Évoli
+Il reste 0pv a Leveinard
+Il reste 0pv a Évoli
+Le Dresseur 2 a changé son Pokémon par : Chétiflor
+Chétiflor a subit 8 de damage par Évoli
+Il reste 0pv a Chétiflor
+Il reste 0pv a Évoli
+Le Dresseur 1 a changé son Pokémon par : Onix
+Onix a subit 8 de damage par Chétiflor
+Il reste 0pv a Onix
+Il reste 0pv a Chétiflor
+Le Dresseur 2 a changé son Pokémon par : Leveinard
+Leveinard a subit 3 de damage par Paras
+Il reste 0pv a Leveinard
+Il reste 0pv a Paras
+Le Dresseur 1 a changé son Pokémon par : Paras
+Le Dresseur 2 a changé son Pokémon par : Onix
+Aucun n'a recu de dammage.
+Il reste 0pv a Paras
+Il reste 0pv a Onix
+Le Dresseur 1 a changé son Pokémon par : Paras
+Le Dresseur 2 a changé son Pokémon par : Soporifik
+Aucun n'a recu de dammage.
+Il reste 0pv a Paras
+Il reste 0pv a Soporifik
+Le Dresseur 2 a changé son Pokémon par : Chétiflor
+Chétiflor a subit 3 de damage par Paras
+Il reste 0pv a Chétiflor
+Il reste 0pv a Paras
+Le Dresseur 1 a changé son Pokémon par : Fantominus
+Fantominus a subit 6 de damage par Taupiqueur
+Il reste 0pv a Fantominus
+Il reste 14pv a Taupiqueur
+Le Dresseur 1 a changé son Pokémon par : Abra
+Abra a subit 6 de damage par Taupiqueur
+Il reste 0pv a Abra
+Il reste 14pv a Taupiqueur
+Le Dresseur 2 a changé son Pokémon par : Onix
+Onix a subit 8 de damage par Évoli
+Il reste 0pv a Onix
+Il reste 0pv a Évoli
+Le Dresseur 1 a changé son Pokémon par : Fantominus
+Fantominus a subit 8 de damage par Onix
+Il reste 0pv a Fantominus
+Il reste 0pv a Onix
+Le Dresseur 1 a changé son Pokémon par : Paras
+Le Dresseur 2 a changé son Pokémon par : Leveinard
+Aucun n'a recu de dammage.
+Il reste 0pv a Paras
+Il reste 0pv a Leveinard
+Le Dresseur 1 a changé son Pokémon par : Évoli
+Le Dresseur 2 a changé son Pokémon par : Stari
+Aucun n'a recu de dammage.
+Il reste 0pv a Évoli
+Il reste 0pv a Stari
+Le Dresseur 1 a changé son Pokémon par : Fantominus
+Fantominus a subit 3 de damage par Stari
+Il reste 0pv a Fantominus
+Il reste 0pv a Stari
+Le Dresseur 2 a changé son Pokémon par : Onix
+Onix a subit 7 de damage par Fantominus
+Il reste 0pv a Onix
+Il reste 0pv a Fantominus
+Le Dresseur 2 a changé son Pokémon par : Soporifik
+Soporifik a subit 4 de damage par Fantominus
+Il reste 0pv a Soporifik
+Il reste 0pv a Fantominus
+Le Dresseur 1 a changé son Pokémon par : Paras
+Le Dresseur 2 a changé son Pokémon par : Leveinard
+Aucun n'a recu de dammage.
+Il reste 0pv a Paras
+Il reste 0pv a Leveinard
+Le Dresseur 1 a changé son Pokémon par : Paras
+Le Dresseur 2 a changé son Pokémon par : Stari
+Aucun n'a recu de dammage.
+Il reste 0pv a Paras
+Il reste 0pv a Stari
+Le Dresseur 2 a changé son Pokémon par : Leveinard
+Leveinard a subit 5 de damage par Paras
+Il reste 0pv a Leveinard
+Il reste 0pv a Paras
+Le Dresseur 1 a changé son Pokémon par : Kokiyas
+Kokiyas a subit 4 de damage par Leveinard
+Il reste 0pv a Kokiyas
+Il reste 0pv a Leveinard
+Le Dresseur 1 a changé son Pokémon par : Paras
+Le Dresseur 2 a changé son Pokémon par : Taupiqueur
+Aucun n'a recu de dammage.
+Il reste 0pv a Paras
+Il reste 14pv a Taupiqueur
+Le Dresseur 2 a changé son Pokémon par : Taupiqueur
+Taupiqueur a subit 4 de damage par Paras
+Il reste 14pv a Taupiqueur
+Il reste 0pv a Paras
+Le Dresseur 2 a changé son Pokémon par : Stari
+Stari a subit 1 de damage par Paras
+Il reste 0pv a Stari
+Il reste 0pv a Paras
+Le Dresseur 1 a changé son Pokémon par : Évoli
+Le Dresseur 2 a changé son Pokémon par : Soporifik
+Aucun n'a recu de dammage.
+Il reste 0pv a Évoli
+Il reste 0pv a Soporifik
+Le Dresseur 1 a changé son Pokémon par : Paras
+Paras a subit 8 de damage par Soporifik
+Il reste 0pv a Paras
+Il reste 0pv a Soporifik
+Le Dresseur 2 a changé son Pokémon par : Taupiqueur
+Taupiqueur a subit 4 de damage par Paras
+Il reste 14pv a Taupiqueur
+Il reste 0pv a Paras
+Le Dresseur 2 a changé son Pokémon par : Leveinard
+Leveinard a subit 5 de damage par Paras
+Il reste 0pv a Leveinard
+Il reste 0pv a Paras
+Le Dresseur 2 a changé son Pokémon par : Soporifik
+Soporifik a subit 5 de damage par Paras
+Il reste 0pv a Soporifik
+Il reste 0pv a Paras
+Le Dresseur 2 a changé son Pokémon par : Taupiqueur
+Taupiqueur a subit 5 de damage par Paras
+Il reste 14pv a Taupiqueur
+Il reste 0pv a Paras
+Le Dresseur 1 a changé son Pokémon par : Fantominus
+Le Dresseur 2 a changé son Pokémon par : Soporifik
+Aucun n'a recu de dammage.
+Il reste 0pv a Fantominus
+Il reste 0pv a Soporifik
+Le Dresseur 2 a changé son Pokémon par : Soporifik
+Soporifik a subit 1 de damage par Fantominus
+Il reste 0pv a Soporifik
+Il reste 0pv a Fantominus
+Soporifik attaque le premier en infligeant 7
+Fantominus attaque le deuxième en infligeant 8
+Il reste 0pv a Soporifik
+Il reste 0pv a Fantominus
+Le Dresseur 2 a changé son Pokémon par : Soporifik
+Soporifik a subit 2 de damage par Fantominus
+Il reste 0pv a Soporifik
+Il reste 0pv a Fantominus
+Le Dresseur 1 a changé son Pokémon par : Évoli
+Évoli a subit 7 de damage par Leveinard
+Il reste 0pv a Évoli
+Il reste 0pv a Leveinard
+Le Dresseur 1 a changé son Pokémon par : Évoli
+Le Dresseur 2 a changé son Pokémon par : Taupiqueur
+Aucun n'a recu de dammage.
+Il reste 0pv a Évoli
+Il reste 14pv a Taupiqueur
+Le Dresseur 1 a changé son Pokémon par : Paras
+Paras a subit 7 de damage par Taupiqueur
+Il reste 0pv a Paras
+Il reste 14pv a Taupiqueur
+Le Dresseur 1 a changé son Pokémon par : Évoli
+Le Dresseur 2 a changé son Pokémon par : Taupiqueur
+Aucun n'a recu de dammage.
+Il reste 0pv a Évoli
+Il reste 14pv a Taupiqueur
+Le Dresseur 1 a changé son Pokémon par : Fantominus
+Le Dresseur 2 a changé son Pokémon par : Leveinard
+Aucun n'a recu de dammage.
+Il reste 0pv a Fantominus
+Il reste 0pv a Leveinard
+Leveinard attaque le premier en infligeant 8
+Fantominus attaque le deuxième en infligeant 6
+Il reste 0pv a Leveinard
+Il reste 0pv a Fantominus
+Le Dresseur 1 a changé son Pokémon par : Paras
+Le Dresseur 2 a changé son Pokémon par : Taupiqueur
+Aucun n'a recu de dammage.
+Il reste 0pv a Paras
+Il reste 14pv a Taupiqueur
+Le Dresseur 1 a changé son Pokémon par : Fantominus
+Fantominus a subit 3 de damage par Taupiqueur
+Il reste 0pv a Fantominus
+Il reste 14pv a Taupiqueur
+Le Dresseur 1 a changé son Pokémon par : Paras
+Le Dresseur 2 a changé son Pokémon par : Taupiqueur
+Aucun n'a recu de dammage.
+Il reste 0pv a Paras
+Il reste 14pv a Taupiqueur
+Le Dresseur 1 a changé son Pokémon par : Kokiyas
+Le Dresseur 2 a changé son Pokémon par : Taupiqueur
+Aucun n'a recu de dammage.
+Il reste 0pv a Kokiyas
+Il reste 14pv a Taupiqueur
+Le Dresseur 1 a changé son Pokémon par : Kokiyas
+Kokiyas a subit 10 de damage par Taupiqueur
+Il reste 0pv a Kokiyas
+Il reste 14pv a Taupiqueur
+Le Dresseur 1 a changé son Pokémon par : Kokiyas
+Le Dresseur 2 a changé son Pokémon par : Taupiqueur
+Aucun n'a recu de dammage.
+Il reste 0pv a Kokiyas
+Il reste 14pv a Taupiqueur
+Le Dresseur 1 a changé son Pokémon par : Kokiyas
+Kokiyas a subit 8 de damage par Taupiqueur
+Il reste 0pv a Kokiyas
+Il reste 14pv a Taupiqueur
+Le Dresseur 2 a changé son Pokémon par : Taupiqueur
+Taupiqueur a subit 1 de damage par Évoli
+Il reste 14pv a Taupiqueur
+Il reste 0pv a Évoli
+Le Dresseur 1 a changé son Pokémon par : Évoli
+Le Dresseur 2 a changé son Pokémon par : Taupiqueur
+Aucun n'a recu de dammage.
+Il reste 0pv a Évoli
+Il reste 14pv a Taupiqueur
+Le Dresseur 1 a changé son Pokémon par : Paras
+Le Dresseur 2 a changé son Pokémon par : Taupiqueur
+Aucun n'a recu de dammage.
+Il reste 0pv a Paras
+Il reste 14pv a Taupiqueur
+Le Dresseur 1 a changé son Pokémon par : Évoli
+Évoli a subit 10 de damage par Taupiqueur
+Il reste 0pv a Évoli
+Il reste 14pv a Taupiqueur
+Le Dresseur 1 a changé son Pokémon par : Paras
+Paras a subit 3 de damage par Taupiqueur
+Il reste 0pv a Paras
+Il reste 14pv a Taupiqueur
+Le Dresseur 1 a changé son Pokémon par : Évoli
+Le Dresseur 2 a changé son Pokémon par : Taupiqueur
+Aucun n'a recu de dammage.
+Il reste 0pv a Évoli
+Il reste 14pv a Taupiqueur
+Le Dresseur 1 a changé son Pokémon par : Évoli
+Évoli a subit 7 de damage par Taupiqueur
+Il reste 0pv a Évoli
+Il reste 14pv a Taupiqueur
+
+
+---------------------------------------------------------->
+
+
+Thu Jun 02 22:20:13 CEST 2022
+Le combat a durée : 37 s en 42 tours
+Le gagant est IA2
+Le perdant est IA1
+Le Dresseur 1 a changé son Pokémon par : Bulbizarre
+Le Dresseur 2 a changé son Pokémon par : Électhor
+Aucun n'a recu de dammage.
+Il reste 0pv a Bulbizarre
 Il reste 0pv a Électhor
-Le Dresseur 2 a changé son Pokémon par : Racaillou
-Racaillou a subit 5 de damage par Électhor
-Il reste 0pv a Racaillou
+Le Dresseur 1 a changé son Pokémon par : Saquedeneu
+Le Dresseur 2 a changé son Pokémon par : Électhor
+Aucun n'a recu de dammage.
+Il reste 0pv a Saquedeneu
 Il reste 0pv a Électhor
-Magicarpe attaque le premier en infligeant 12
-M. Mime attaque le deuxième en infligeant 11
-Il reste 0pv a Magicarpe
-Il reste 0pv a M. Mime
-Le Dresseur 2 a changé son Pokémon par : Artikodin
-Artikodin a subit 5 de damage par M. Mime
-Il reste 0pv a Artikodin
-Il reste 0pv a M. Mime
+Le Dresseur 1 a changé son Pokémon par : Roucool
+Le Dresseur 2 a changé son Pokémon par : Ramoloss
+Aucun n'a recu de dammage.
+Il reste 0pv a Roucool
+Il reste 17pv a Ramoloss
+Le Dresseur 1 a changé son Pokémon par : Amonita
+Amonita a subit 3 de damage par Ramoloss
+Il reste 0pv a Amonita
+Il reste 17pv a Ramoloss
+Le Dresseur 2 a changé son Pokémon par : Électhor
+Électhor a subit 7 de damage par Amonita
+Il reste 0pv a Électhor
+Il reste 0pv a Amonita
+Le Dresseur 1 a changé son Pokémon par : Roucool
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Aucun n'a recu de dammage.
+Il reste 0pv a Roucool
+Il reste 0pv a Roucool
+Le Dresseur 2 a changé son Pokémon par : Électhor
+Électhor a subit 3 de damage par Roucool
+Il reste 0pv a Électhor
+Il reste 0pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Roucool
+Le Dresseur 2 a changé son Pokémon par : Hypotrempe
+Aucun n'a recu de dammage.
+Il reste 0pv a Roucool
+Il reste 13pv a Hypotrempe
+Hypotrempe attaque le premier en infligeant 20
+Roucool attaque le deuxième en infligeant 7
+Il reste 13pv a Hypotrempe
+Il reste 0pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Saquedeneu
+Le Dresseur 2 a changé son Pokémon par : Électhor
+Aucun n'a recu de dammage.
+Il reste 0pv a Saquedeneu
+Il reste 0pv a Électhor
+Le Dresseur 1 a changé son Pokémon par : Bulbizarre
+Bulbizarre a subit 14 de damage par Électhor
+Il reste 0pv a Bulbizarre
+Il reste 0pv a Électhor
+Le Dresseur 1 a changé son Pokémon par : Lippoutou
+Lippoutou a subit 9 de damage par Électhor
+Il reste 0pv a Lippoutou
+Il reste 0pv a Électhor
+Électhor attaque le premier en infligeant 14
+Lippoutou attaque le deuxième en infligeant 4
+Il reste 0pv a Électhor
+Il reste 0pv a Lippoutou
+Le Dresseur 1 a changé son Pokémon par : Saquedeneu
+Saquedeneu a subit 13 de damage par Électhor
+Il reste 0pv a Saquedeneu
+Il reste 0pv a Électhor
+Le Dresseur 1 a changé son Pokémon par : Amonita
+Amonita a subit 10 de damage par Électhor
+Il reste 0pv a Amonita
+Il reste 0pv a Électhor
+Le Dresseur 1 a changé son Pokémon par : Saquedeneu
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Aucun n'a recu de dammage.
+Il reste 0pv a Saquedeneu
+Il reste 0pv a Roucool
+Roucool attaque le premier en infligeant 7
+Saquedeneu attaque le deuxième en infligeant 7
+Il reste 0pv a Roucool
+Il reste 0pv a Saquedeneu
+Le Dresseur 1 a changé son Pokémon par : Taupiqueur
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Aucun n'a recu de dammage.
+Il reste 0pv a Taupiqueur
+Il reste 0pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Amonita
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Aucun n'a recu de dammage.
+Il reste 0pv a Amonita
+Il reste 0pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Amonita
+Amonita a subit 10 de damage par Roucool
+Il reste 0pv a Amonita
+Il reste 0pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Taupiqueur
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Aucun n'a recu de dammage.
+Il reste 0pv a Taupiqueur
+Il reste 0pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Lippoutou
+Le Dresseur 2 a changé son Pokémon par : Magmar
+Aucun n'a recu de dammage.
+Il reste 0pv a Lippoutou
+Il reste 18pv a Magmar
+Le Dresseur 1 a changé son Pokémon par : Taupiqueur
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Aucun n'a recu de dammage.
+Il reste 0pv a Taupiqueur
+Il reste 0pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Taupiqueur
+Le Dresseur 2 a changé son Pokémon par : Hypotrempe
+Aucun n'a recu de dammage.
+Il reste 0pv a Taupiqueur
+Il reste 13pv a Hypotrempe
+Hypotrempe attaque le premier en infligeant 1
+Taupiqueur attaque le deuxième en infligeant 5
+Il reste 13pv a Hypotrempe
+Il reste 0pv a Taupiqueur
+Le Dresseur 1 a changé son Pokémon par : Lippoutou
+Le Dresseur 2 a changé son Pokémon par : Magmar
+Aucun n'a recu de dammage.
+Il reste 0pv a Lippoutou
+Il reste 18pv a Magmar
+Le Dresseur 1 a changé son Pokémon par : Lippoutou
+Le Dresseur 2 a changé son Pokémon par : Électhor
+Aucun n'a recu de dammage.
+Il reste 0pv a Lippoutou
+Il reste 0pv a Électhor
+Le Dresseur 1 a changé son Pokémon par : Taupiqueur
+Le Dresseur 2 a changé son Pokémon par : Électhor
+Aucun n'a recu de dammage.
+Il reste 0pv a Taupiqueur
+Il reste 0pv a Électhor
+Le Dresseur 1 a changé son Pokémon par : Taupiqueur
+Le Dresseur 2 a changé son Pokémon par : Électhor
+Aucun n'a recu de dammage.
+Il reste 0pv a Taupiqueur
+Il reste 0pv a Électhor
+Le Dresseur 1 a changé son Pokémon par : Taupiqueur
+Taupiqueur a subit 3 de damage par Électhor
+Il reste 0pv a Taupiqueur
+Il reste 0pv a Électhor
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Roucool a subit 6 de damage par Taupiqueur
+Il reste 0pv a Roucool
+Il reste 0pv a Taupiqueur
+Roucool attaque le premier en infligeant 5
+Taupiqueur attaque le deuxième en infligeant 0
+Il reste 0pv a Roucool
+Il reste 0pv a Taupiqueur
+Le Dresseur 1 a changé son Pokémon par : Lippoutou
+Lippoutou a subit 5 de damage par Roucool
+Il reste 0pv a Lippoutou
+Il reste 0pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Lippoutou
+Lippoutou a subit 1 de damage par Roucool
+Il reste 0pv a Lippoutou
+Il reste 0pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Taupiqueur
+Le Dresseur 2 a changé son Pokémon par : Ramoloss
+Aucun n'a recu de dammage.
+Il reste 0pv a Taupiqueur
+Il reste 17pv a Ramoloss
+Le Dresseur 2 a changé son Pokémon par : Électhor
+Électhor a subit 4 de damage par Taupiqueur
+Il reste 0pv a Électhor
+Il reste 0pv a Taupiqueur
+Le Dresseur 1 a changé son Pokémon par : Taupiqueur
+Le Dresseur 2 a changé son Pokémon par : Magmar
+Aucun n'a recu de dammage.
+Il reste 0pv a Taupiqueur
+Il reste 18pv a Magmar
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Roucool a subit 5 de damage par Taupiqueur
+Il reste 0pv a Roucool
+Il reste 0pv a Taupiqueur
+Le Dresseur 1 a changé son Pokémon par : Taupiqueur
+Le Dresseur 2 a changé son Pokémon par : Magmar
+Aucun n'a recu de dammage.
+Il reste 0pv a Taupiqueur
+Il reste 18pv a Magmar
+Le Dresseur 1 a changé son Pokémon par : Taupiqueur
+Le Dresseur 2 a changé son Pokémon par : Magmar
+Aucun n'a recu de dammage.
+Il reste 0pv a Taupiqueur
+Il reste 18pv a Magmar
+Le Dresseur 1 a changé son Pokémon par : Taupiqueur
+Le Dresseur 2 a changé son Pokémon par : Magmar
+Aucun n'a recu de dammage.
+Il reste 0pv a Taupiqueur
+Il reste 18pv a Magmar
+Le Dresseur 1 a changé son Pokémon par : Taupiqueur
+Taupiqueur a subit 12 de damage par Magmar
+Il reste 0pv a Taupiqueur
+Il reste 18pv a Magmar
+
+
+---------------------------------------------------------->
+
+
+Thu Jun 02 22:22:32 CEST 2022
+Le combat a durée : 1 min 12 s en 62 tours
+Le gagant est IA1
+Le perdant est IA2
+Miaouss attaque le premier en infligeant 4
+Saquedeneu attaque le deuxième en infligeant 3
+Il reste 0pv a Miaouss
+Il reste 1pv a Saquedeneu
+Le Dresseur 2 a changé son Pokémon par : Rhinocorne
+Rhinocorne a subit 2 de damage par Saquedeneu
+Il reste 0pv a Rhinocorne
+Il reste 1pv a Saquedeneu
+Le Dresseur 1 a changé son Pokémon par : Otaria
+Le Dresseur 2 a changé son Pokémon par : Machoc
+Aucun n'a recu de dammage.
+Il reste 0pv a Otaria
+Il reste 0pv a Machoc
+Le Dresseur 1 a changé son Pokémon par : Miaouss
+Le Dresseur 2 a changé son Pokémon par : Miaouss
+Aucun n'a recu de dammage.
+Il reste 0pv a Miaouss
+Il reste 0pv a Miaouss
+Le Dresseur 1 a changé son Pokémon par : Kicklee
+Kicklee a subit 5 de damage par Miaouss
+Il reste 19pv a Kicklee
+Il reste 0pv a Miaouss
+Le Dresseur 2 a changé son Pokémon par : Magmar
+Magmar a subit 8 de damage par Kicklee
+Il reste 0pv a Magmar
+Il reste 19pv a Kicklee
+Le Dresseur 1 a changé son Pokémon par : Insécateur
+Insécateur a subit 5 de damage par Magmar
+Il reste 0pv a Insécateur
+Il reste 0pv a Magmar
+Le Dresseur 1 a changé son Pokémon par : Otaria
+Le Dresseur 2 a changé son Pokémon par : Magmar
+Aucun n'a recu de dammage.
+Il reste 0pv a Otaria
+Il reste 0pv a Magmar
+Le Dresseur 2 a changé son Pokémon par : Miaouss
+Miaouss a subit 10 de damage par Otaria
+Il reste 0pv a Miaouss
+Il reste 0pv a Otaria
+Miaouss attaque le premier en infligeant 5
+Otaria attaque le deuxième en infligeant 7
+Il reste 0pv a Miaouss
+Il reste 0pv a Otaria
+Le Dresseur 1 a changé son Pokémon par : Insécateur
+Le Dresseur 2 a changé son Pokémon par : Sulfura
+Aucun n'a recu de dammage.
+Il reste 0pv a Insécateur
+Il reste 0pv a Sulfura
+Le Dresseur 1 a changé son Pokémon par : Excelangue
+Excelangue a subit 3 de damage par Sulfura
+Il reste 0pv a Excelangue
+Il reste 0pv a Sulfura
+Le Dresseur 2 a changé son Pokémon par : Voltorbe
+Voltorbe a subit 9 de damage par Excelangue
+Il reste 0pv a Voltorbe
+Il reste 0pv a Excelangue
+Le Dresseur 1 a changé son Pokémon par : Miaouss
+Miaouss a subit 11 de damage par Voltorbe
+Il reste 0pv a Miaouss
+Il reste 0pv a Voltorbe
+Le Dresseur 1 a changé son Pokémon par : Excelangue
+Excelangue a subit 1 de damage par Voltorbe
+Il reste 0pv a Excelangue
+Il reste 0pv a Voltorbe
+Le Dresseur 1 a changé son Pokémon par : Kicklee
+Kicklee a subit 11 de damage par Voltorbe
+Il reste 19pv a Kicklee
+Il reste 0pv a Voltorbe
+Le Dresseur 1 a changé son Pokémon par : Excelangue
+Excelangue a subit 7 de damage par Voltorbe
+Il reste 0pv a Excelangue
+Il reste 0pv a Voltorbe
+Le Dresseur 1 a changé son Pokémon par : Insécateur
+Le Dresseur 2 a changé son Pokémon par : Sulfura
+Aucun n'a recu de dammage.
+Il reste 0pv a Insécateur
+Il reste 0pv a Sulfura
+Le Dresseur 1 a changé son Pokémon par : Miaouss
+Miaouss a subit 15 de damage par Sulfura
+Il reste 0pv a Miaouss
+Il reste 0pv a Sulfura
+Le Dresseur 1 a changé son Pokémon par : Otaria
+Le Dresseur 2 a changé son Pokémon par : Voltorbe
+Aucun n'a recu de dammage.
+Il reste 0pv a Otaria
+Il reste 0pv a Voltorbe
+Le Dresseur 1 a changé son Pokémon par : Otaria
+Otaria a subit 9 de damage par Voltorbe
+Il reste 0pv a Otaria
+Il reste 0pv a Voltorbe
+Le Dresseur 1 a changé son Pokémon par : Otaria
+Le Dresseur 2 a changé son Pokémon par : Voltorbe
+Aucun n'a recu de dammage.
+Il reste 0pv a Otaria
+Il reste 0pv a Voltorbe
+Le Dresseur 2 a changé son Pokémon par : Voltorbe
+Voltorbe a subit 5 de damage par Otaria
+Il reste 0pv a Voltorbe
+Il reste 0pv a Otaria
+Voltorbe attaque le premier en infligeant 4
+Otaria attaque le deuxième en infligeant 9
+Il reste 0pv a Voltorbe
+Il reste 0pv a Otaria
+Le Dresseur 1 a changé son Pokémon par : Excelangue
+Le Dresseur 2 a changé son Pokémon par : Sulfura
+Aucun n'a recu de dammage.
+Il reste 0pv a Excelangue
+Il reste 0pv a Sulfura
+Le Dresseur 2 a changé son Pokémon par : Rhinocorne
+Rhinocorne a subit 9 de damage par Excelangue
+Il reste 0pv a Rhinocorne
+Il reste 0pv a Excelangue
+Le Dresseur 1 a changé son Pokémon par : Excelangue
+Le Dresseur 2 a changé son Pokémon par : Voltorbe
+Aucun n'a recu de dammage.
+Il reste 0pv a Excelangue
+Il reste 0pv a Voltorbe
+Le Dresseur 2 a changé son Pokémon par : Machoc
+Machoc a subit 11 de damage par Excelangue
+Il reste 0pv a Machoc
+Il reste 0pv a Excelangue
+Le Dresseur 2 a changé son Pokémon par : Magmar
+Magmar a subit 13 de damage par Excelangue
+Il reste 0pv a Magmar
+Il reste 0pv a Excelangue
+Magmar attaque le premier en infligeant 10
+Excelangue attaque le deuxième en infligeant 5
+Il reste 0pv a Magmar
+Il reste 0pv a Excelangue
+Le Dresseur 1 a changé son Pokémon par : Insécateur
+Insécateur a subit 4 de damage par Sulfura
+Il reste 0pv a Insécateur
+Il reste 0pv a Sulfura
+Le Dresseur 1 a changé son Pokémon par : Excelangue
+Le Dresseur 2 a changé son Pokémon par : Sulfura
+Aucun n'a recu de dammage.
+Il reste 0pv a Excelangue
+Il reste 0pv a Sulfura
+Le Dresseur 1 a changé son Pokémon par : Insécateur
+Le Dresseur 2 a changé son Pokémon par : Rhinocorne
+Aucun n'a recu de dammage.
+Il reste 0pv a Insécateur
+Il reste 0pv a Rhinocorne
+Le Dresseur 1 a changé son Pokémon par : Insécateur
+Le Dresseur 2 a changé son Pokémon par : Voltorbe
+Aucun n'a recu de dammage.
+Il reste 0pv a Insécateur
+Il reste 0pv a Voltorbe
+Le Dresseur 2 a changé son Pokémon par : Sulfura
+Sulfura a subit 15 de damage par Insécateur
+Il reste 0pv a Sulfura
+Il reste 0pv a Insécateur
+Le Dresseur 1 a changé son Pokémon par : Excelangue
+Le Dresseur 2 a changé son Pokémon par : Sulfura
+Aucun n'a recu de dammage.
+Il reste 0pv a Excelangue
+Il reste 0pv a Sulfura
+Le Dresseur 1 a changé son Pokémon par : Saquedeneu
+Le Dresseur 2 a changé son Pokémon par : Sulfura
+Aucun n'a recu de dammage.
+Il reste 1pv a Saquedeneu
+Il reste 0pv a Sulfura
+Le Dresseur 1 a changé son Pokémon par : Insécateur
+Le Dresseur 2 a changé son Pokémon par : Rhinocorne
+Aucun n'a recu de dammage.
+Il reste 0pv a Insécateur
+Il reste 0pv a Rhinocorne
+Le Dresseur 1 a changé son Pokémon par : Saquedeneu
+Saquedeneu a subit 1 de damage par Rhinocorne
+Il reste 1pv a Saquedeneu
+Il reste 0pv a Rhinocorne
+Le Dresseur 1 a changé son Pokémon par : Saquedeneu
+Le Dresseur 2 a changé son Pokémon par : Machoc
+Aucun n'a recu de dammage.
+Il reste 1pv a Saquedeneu
+Il reste 0pv a Machoc
+Le Dresseur 1 a changé son Pokémon par : Insécateur
+Le Dresseur 2 a changé son Pokémon par : Voltorbe
+Aucun n'a recu de dammage.
+Il reste 0pv a Insécateur
+Il reste 0pv a Voltorbe
+Le Dresseur 1 a changé son Pokémon par : Kicklee
+Le Dresseur 2 a changé son Pokémon par : Machoc
+Aucun n'a recu de dammage.
+Il reste 19pv a Kicklee
+Il reste 0pv a Machoc
+Le Dresseur 1 a changé son Pokémon par : Kicklee
+Le Dresseur 2 a changé son Pokémon par : Sulfura
+Aucun n'a recu de dammage.
+Il reste 19pv a Kicklee
+Il reste 0pv a Sulfura
+Le Dresseur 1 a changé son Pokémon par : Excelangue
+Excelangue a subit 2 de damage par Sulfura
+Il reste 0pv a Excelangue
+Il reste 0pv a Sulfura
+Le Dresseur 1 a changé son Pokémon par : Kicklee
+Le Dresseur 2 a changé son Pokémon par : Sulfura
+Aucun n'a recu de dammage.
+Il reste 19pv a Kicklee
+Il reste 0pv a Sulfura
+Le Dresseur 2 a changé son Pokémon par : Rhinocorne
+Rhinocorne a subit 18 de damage par Kicklee
+Il reste 0pv a Rhinocorne
+Il reste 19pv a Kicklee
+Le Dresseur 1 a changé son Pokémon par : Insécateur
+Le Dresseur 2 a changé son Pokémon par : Voltorbe
+Aucun n'a recu de dammage.
+Il reste 0pv a Insécateur
+Il reste 0pv a Voltorbe
+Le Dresseur 1 a changé son Pokémon par : Insécateur
+Le Dresseur 2 a changé son Pokémon par : Rhinocorne
+Aucun n'a recu de dammage.
+Il reste 0pv a Insécateur
+Il reste 0pv a Rhinocorne
+Le Dresseur 2 a changé son Pokémon par : Sulfura
+Sulfura a subit 5 de damage par Insécateur
+Il reste 0pv a Sulfura
+Il reste 0pv a Insécateur
+Le Dresseur 2 a changé son Pokémon par : Voltorbe
+Voltorbe a subit 16 de damage par Insécateur
+Il reste 0pv a Voltorbe
+Il reste 0pv a Insécateur
+Voltorbe attaque le premier en infligeant 7
+Insécateur attaque le deuxième en infligeant 1
+Il reste 0pv a Voltorbe
+Il reste 0pv a Insécateur
+Le Dresseur 1 a changé son Pokémon par : Kicklee
+Le Dresseur 2 a changé son Pokémon par : Voltorbe
+Aucun n'a recu de dammage.
+Il reste 19pv a Kicklee
+Il reste 0pv a Voltorbe
+Le Dresseur 1 a changé son Pokémon par : Saquedeneu
+Saquedeneu a subit 1 de damage par Voltorbe
+Il reste 1pv a Saquedeneu
+Il reste 0pv a Voltorbe
+Le Dresseur 1 a changé son Pokémon par : Saquedeneu
+Saquedeneu a subit 8 de damage par Voltorbe
+Il reste 1pv a Saquedeneu
+Il reste 0pv a Voltorbe
+Le Dresseur 1 a changé son Pokémon par : Saquedeneu
+Le Dresseur 2 a changé son Pokémon par : Rhinocorne
+Aucun n'a recu de dammage.
+Il reste 1pv a Saquedeneu
+Il reste 0pv a Rhinocorne
+Le Dresseur 1 a changé son Pokémon par : Insécateur
+Insécateur a subit 3 de damage par Rhinocorne
+Il reste 0pv a Insécateur
+Il reste 0pv a Rhinocorne
+Le Dresseur 2 a changé son Pokémon par : Rhinocorne
+Rhinocorne a subit 1 de damage par Insécateur
+Il reste 0pv a Rhinocorne
+Il reste 0pv a Insécateur
+Machoc attaque le premier en infligeant 6
+Insécateur attaque le deuxième en infligeant 10
+Il reste 0pv a Machoc
+Il reste 0pv a Insécateur
+Le Dresseur 1 a changé son Pokémon par : Saquedeneu
+Saquedeneu a subit 9 de damage par Machoc
+Il reste 1pv a Saquedeneu
+Il reste 0pv a Machoc
+Le Dresseur 2 a changé son Pokémon par : Machoc
+Machoc a subit 10 de damage par Saquedeneu
+Il reste 0pv a Machoc
+Il reste 1pv a Saquedeneu
+Le Dresseur 1 a changé son Pokémon par : Kicklee
+Kicklee a subit 1 de damage par Voltorbe
+Il reste 19pv a Kicklee
+Il reste 0pv a Voltorbe
+Le Dresseur 2 a changé son Pokémon par : Voltorbe
+Voltorbe a subit 1 de damage par Kicklee
+Il reste 0pv a Voltorbe
+Il reste 19pv a Kicklee
+
+
+---------------------------------------------------------->
+
+
+Thu Jun 02 22:24:26 CEST 2022
+Le combat a durée : 57 s en 66 tours
+Le gagant est IA2
+Le perdant est IA1
+Le Dresseur 2 a changé son Pokémon par : Férosinge
+Férosinge a subit 5 de damage par Doduo
+Il reste 7pv a Férosinge
+Il reste 0pv a Doduo
+Le Dresseur 2 a changé son Pokémon par : Canarticho
+Canarticho a subit 6 de damage par Doduo
+Il reste 2pv a Canarticho
+Il reste 0pv a Doduo
+Le Dresseur 2 a changé son Pokémon par : Aspicot
+Aspicot a subit 6 de damage par Doduo
+Il reste 11pv a Aspicot
+Il reste 0pv a Doduo
+Le Dresseur 2 a changé son Pokémon par : Ponyta
+Ponyta a subit 6 de damage par Doduo
+Il reste 13pv a Ponyta
+Il reste 0pv a Doduo
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Le Dresseur 2 a changé son Pokémon par : Canarticho
+Aucun n'a recu de dammage.
+Il reste 0pv a Minidraco
+Il reste 2pv a Canarticho
+Canarticho attaque le premier en infligeant 1
+Minidraco attaque le deuxième en infligeant 0
+Il reste 2pv a Canarticho
+Il reste 0pv a Minidraco
+Le Dresseur 1 a changé son Pokémon par : Tadmorv
+Le Dresseur 2 a changé son Pokémon par : Ponyta
+Aucun n'a recu de dammage.
+Il reste 0pv a Tadmorv
+Il reste 13pv a Ponyta
+Le Dresseur 1 a changé son Pokémon par : Ptitard
+Ptitard a subit 3 de damage par Ponyta
+Il reste 0pv a Ptitard
+Il reste 13pv a Ponyta
+Le Dresseur 1 a changé son Pokémon par : Tadmorv
+Tadmorv a subit 7 de damage par Ponyta
+Il reste 0pv a Tadmorv
+Il reste 13pv a Ponyta
+Le Dresseur 1 a changé son Pokémon par : Leveinard
+Le Dresseur 2 a changé son Pokémon par : Ponyta
+Aucun n'a recu de dammage.
+Il reste 0pv a Leveinard
+Il reste 13pv a Ponyta
+Le Dresseur 2 a changé son Pokémon par : Smogo
+Smogo a subit 10 de damage par Leveinard
+Il reste 0pv a Smogo
+Il reste 0pv a Leveinard
 Le Dresseur 1 a changé son Pokémon par : Doduo
-Doduo a subit 11 de damage par Artikodin
+Le Dresseur 2 a changé son Pokémon par : Canarticho
+Aucun n'a recu de dammage.
 Il reste 0pv a Doduo
-Il reste 0pv a Artikodin
-Artikodin attaque le premier en infligeant 20
-Doduo attaque le deuxième en infligeant 17
-Il reste 0pv a Artikodin
-Il reste 0pv a Doduo
-Ptitard attaque le premier en infligeant 18
-M. Mime attaque le deuxième en infligeant 12
-Il reste 0pv a Ptitard
-Il reste 0pv a M. Mime
-Salamèche attaque le premier en infligeant 12
-Piafabec attaque le deuxième en infligeant 12
-Il reste 0pv a Salamèche
-Il reste 15pv a Piafabec
-Le Dresseur 1 a changé son Pokémon par : Kabuto
-Kabuto a subit 5 de damage par Salamèche
-Il reste 0pv a Kabuto
-Il reste 0pv a Salamèche
-Smogo attaque le premier en infligeant 14
-Kabuto attaque le deuxième en infligeant 12
-Il reste 0pv a Smogo
-Il reste 0pv a Kabuto
-Le Dresseur 2 a changé son Pokémon par : Ptitard
-Ptitard a subit 4 de damage par Kabuto
-Il reste 0pv a Ptitard
-Il reste 0pv a Kabuto
-Ptitard attaque le premier en infligeant 14
-Électhor attaque le deuxième en infligeant 14
-Il reste 0pv a Ptitard
-Il reste 0pv a Électhor
+Il reste 2pv a Canarticho
 Le Dresseur 1 a changé son Pokémon par : Doduo
-Doduo a subit 9 de damage par Ptitard
+Le Dresseur 2 a changé son Pokémon par : Canarticho
+Aucun n'a recu de dammage.
 Il reste 0pv a Doduo
-Il reste 0pv a Ptitard
-Le Dresseur 1 a changé son Pokémon par : Piafabec
-Piafabec a subit 4 de damage par Ptitard
-Il reste 15pv a Piafabec
-Il reste 0pv a Ptitard
-Artikodin attaque le premier en infligeant 11
-Doduo attaque le deuxième en infligeant 17
-Il reste 0pv a Artikodin
+Il reste 2pv a Canarticho
+Le Dresseur 2 a changé son Pokémon par : Ponyta
+Ponyta a subit 5 de damage par Doduo
+Il reste 13pv a Ponyta
 Il reste 0pv a Doduo
-Magicarpe attaque le premier en infligeant 15
-Électhor attaque le deuxième en infligeant 14
-Il reste 0pv a Magicarpe
-Il reste 0pv a Électhor
-Magicarpe attaque le premier en infligeant 15
-Électhor attaque le deuxième en infligeant 18
-Il reste 0pv a Magicarpe
-Il reste 0pv a Électhor
-Racaillou attaque le premier en infligeant 18
-M. Mime attaque le deuxième en infligeant 17
-Il reste 0pv a Racaillou
-Il reste 0pv a M. Mime
-Le Dresseur 1 a changé son Pokémon par : Kabuto
-Kabuto a subit 0 de damage par Racaillou
-Il reste 0pv a Kabuto
-Il reste 0pv a Racaillou
-Ptitard attaque le premier en infligeant 18
-M. Mime attaque le deuxième en infligeant 14
+Le Dresseur 1 a changé son Pokémon par : Leveinard
+Le Dresseur 2 a changé son Pokémon par : Canarticho
+Aucun n'a recu de dammage.
+Il reste 0pv a Leveinard
+Il reste 2pv a Canarticho
+Le Dresseur 1 a changé son Pokémon par : Tadmorv
+Le Dresseur 2 a changé son Pokémon par : Aspicot
+Aucun n'a recu de dammage.
+Il reste 0pv a Tadmorv
+Il reste 11pv a Aspicot
+Le Dresseur 1 a changé son Pokémon par : Leveinard
+Le Dresseur 2 a changé son Pokémon par : Amonita
+Aucun n'a recu de dammage.
+Il reste 0pv a Leveinard
+Il reste 0pv a Amonita
+Le Dresseur 1 a changé son Pokémon par : Ptitard
+Ptitard a subit 11 de damage par Amonita
 Il reste 0pv a Ptitard
-Il reste 0pv a M. Mime
-Le Dresseur 2 a changé son Pokémon par : Ptitard
-Ptitard a subit 0 de damage par M. Mime
+Il reste 0pv a Amonita
+Le Dresseur 1 a changé son Pokémon par : Ptitard
+Ptitard a subit 6 de damage par Amonita
 Il reste 0pv a Ptitard
-Il reste 0pv a M. Mime
-Ptitard attaque le premier en infligeant 4
-M. Mime attaque le deuxième en infligeant 6
-Il reste 0pv a Ptitard
-Il reste 0pv a M. Mime
-Le Dresseur 2 a changé son Pokémon par : Ptitard
-Ptitard a subit 0 de damage par M. Mime
-Il reste 0pv a Ptitard
-Il reste 0pv a M. Mime
-Magicarpe attaque le premier en infligeant 14
-M. Mime attaque le deuxième en infligeant 18
-Il reste 0pv a Magicarpe
-Il reste 0pv a M. Mime
-Le Dresseur 1 a changé son Pokémon par : Électhor
-Électhor a subit 5 de damage par Magicarpe
-Il reste 0pv a Électhor
-Il reste 0pv a Magicarpe
-Racaillou attaque le premier en infligeant 11
-Doduo attaque le deuxième en infligeant 18
-Il reste 0pv a Racaillou
-Il reste 0pv a Doduo
-Ptitard attaque le premier en infligeant 10
-Électhor attaque le deuxième en infligeant 8
-Il reste 0pv a Ptitard
-Il reste 0pv a Électhor
-Le Dresseur 1 a changé son Pokémon par : Électhor
-Électhor a subit 10 de damage par Ptitard
-Il reste 0pv a Électhor
-Il reste 0pv a Ptitard
-Le Dresseur 1 a changé son Pokémon par : M. Mime
-M. Mime a subit 9 de damage par Ptitard
-Il reste 0pv a M. Mime
-Il reste 0pv a Ptitard
-Smogo attaque le premier en infligeant 5
-M. Mime attaque le deuxième en infligeant 15
-Il reste 0pv a Smogo
-Il reste 0pv a M. Mime
-Le Dresseur 2 a changé son Pokémon par : Salamèche
-Salamèche a subit 9 de damage par M. Mime
-Il reste 0pv a Salamèche
-Il reste 0pv a M. Mime
-Smogo attaque le premier en infligeant 5
-M. Mime attaque le deuxième en infligeant 18
-Il reste 0pv a Smogo
-Il reste 0pv a M. Mime
-Artikodin attaque le premier en infligeant 17
-Kabuto attaque le deuxième en infligeant 17
-Il reste 0pv a Artikodin
-Il reste 0pv a Kabuto
-Le Dresseur 2 a changé son Pokémon par : Smogo
-Smogo a subit 5 de damage par Kabuto
-Il reste 0pv a Smogo
-Il reste 0pv a Kabuto
-Le Dresseur 2 a changé son Pokémon par : Smogo
-Smogo a subit 3 de damage par Kabuto
-Il reste 0pv a Smogo
-Il reste 0pv a Kabuto
-Ptitard attaque le premier en infligeant 15
-Piafabec attaque le deuxième en infligeant 8
-Il reste 0pv a Ptitard
-Il reste 15pv a Piafabec
-Le Dresseur 2 a changé son Pokémon par : Ptitard
-Ptitard a subit 5 de damage par Piafabec
-Il reste 0pv a Ptitard
-Il reste 15pv a Piafabec
-Le Dresseur 2 a changé son Pokémon par : Salamèche
-Salamèche a subit 0 de damage par Piafabec
-Il reste 0pv a Salamèche
-Il reste 15pv a Piafabec
-Magicarpe attaque le premier en infligeant 20
-Kabuto attaque le deuxième en infligeant 18
-Il reste 0pv a Magicarpe
-Il reste 0pv a Kabuto
-Le Dresseur 2 a changé son Pokémon par : Magicarpe
-Magicarpe a subit 5 de damage par Kabuto
-Il reste 0pv a Magicarpe
-Il reste 0pv a Kabuto
-Le Dresseur 2 a changé son Pokémon par : Salamèche
-Salamèche a subit 6 de damage par Kabuto
-Il reste 0pv a Salamèche
-Il reste 0pv a Kabuto
-Le Dresseur 2 a changé son Pokémon par : Magicarpe
-Magicarpe a subit 6 de damage par Kabuto
-Il reste 0pv a Magicarpe
-Il reste 0pv a Kabuto
-Le Dresseur 1 a changé son Pokémon par : Kabuto
-Kabuto a subit 5 de damage par Magicarpe
-Il reste 0pv a Kabuto
-Il reste 0pv a Magicarpe
-Le Dresseur 2 a changé son Pokémon par : Magicarpe
-Magicarpe a subit 3 de damage par Kabuto
-Il reste 0pv a Magicarpe
-Il reste 0pv a Kabuto
-Ptitard attaque le premier en infligeant 5
-M. Mime attaque le deuxième en infligeant 3
-Il reste 0pv a Ptitard
-Il reste 0pv a M. Mime
-Racaillou attaque le premier en infligeant 5
-M. Mime attaque le deuxième en infligeant 18
-Il reste 0pv a Racaillou
-Il reste 0pv a M. Mime
-Artikodin attaque le premier en infligeant 11
-Doduo attaque le deuxième en infligeant 17
-Il reste 0pv a Artikodin
-Il reste 0pv a Doduo
-Ptitard attaque le premier en infligeant 15
-Kabuto attaque le deuxième en infligeant 3
-Il reste 0pv a Ptitard
-Il reste 0pv a Kabuto
-Ptitard attaque le premier en infligeant 3
-Kabuto attaque le deuxième en infligeant 3
-Il reste 0pv a Ptitard
-Il reste 0pv a Kabuto
-Le Dresseur 2 a changé son Pokémon par : Smogo
-Smogo a subit 6 de damage par Kabuto
-Il reste 0pv a Smogo
-Il reste 0pv a Kabuto
-Smogo attaque le premier en infligeant 15
-Piafabec attaque le deuxième en infligeant 4
-Il reste 0pv a Smogo
-Il reste 15pv a Piafabec
-Artikodin attaque le premier en infligeant 5
-M. Mime attaque le deuxième en infligeant 17
-Il reste 0pv a Artikodin
-Il reste 0pv a M. Mime
+Il reste 0pv a Amonita
 Le Dresseur 1 a changé son Pokémon par : Doduo
-Doduo a subit 11 de damage par Artikodin
+Doduo a subit 4 de damage par Amonita
 Il reste 0pv a Doduo
-Il reste 0pv a Artikodin
+Il reste 0pv a Amonita
+Amonita attaque le premier en infligeant 11
+Doduo attaque le deuxième en infligeant 7
+Il reste 0pv a Amonita
+Il reste 0pv a Doduo
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Le Dresseur 2 a changé son Pokémon par : Férosinge
+Aucun n'a recu de dammage.
+Il reste 0pv a Minidraco
+Il reste 7pv a Férosinge
+Le Dresseur 1 a changé son Pokémon par : Tadmorv
+Tadmorv a subit 6 de damage par Férosinge
+Il reste 0pv a Tadmorv
+Il reste 7pv a Férosinge
+Le Dresseur 1 a changé son Pokémon par : Leveinard
 Le Dresseur 2 a changé son Pokémon par : Smogo
-Smogo a subit 4 de damage par Kabuto
+Aucun n'a recu de dammage.
+Il reste 0pv a Leveinard
 Il reste 0pv a Smogo
-Il reste 0pv a Kabuto
-Artikodin attaque le premier en infligeant 12
-Kabuto attaque le deuxième en infligeant 17
-Il reste 0pv a Artikodin
-Il reste 0pv a Kabuto
+Le Dresseur 1 a changé son Pokémon par : Doduo
+Le Dresseur 2 a changé son Pokémon par : Ponyta
+Aucun n'a recu de dammage.
+Il reste 0pv a Doduo
+Il reste 13pv a Ponyta
+Le Dresseur 1 a changé son Pokémon par : Tadmorv
+Le Dresseur 2 a changé son Pokémon par : Smogo
+Aucun n'a recu de dammage.
+Il reste 0pv a Tadmorv
+Il reste 0pv a Smogo
+Smogo attaque le premier en infligeant 4
+Tadmorv attaque le deuxième en infligeant 9
+Il reste 0pv a Smogo
+Il reste 0pv a Tadmorv
+Le Dresseur 1 a changé son Pokémon par : Goupix
+Goupix a subit 12 de damage par Smogo
+Il reste 0pv a Goupix
+Il reste 0pv a Smogo
+Le Dresseur 1 a changé son Pokémon par : Leveinard
+Leveinard a subit 15 de damage par Smogo
+Il reste 0pv a Leveinard
+Il reste 0pv a Smogo
+Smogo attaque le premier en infligeant 2
+Leveinard attaque le deuxième en infligeant 0
+Il reste 0pv a Smogo
+Il reste 0pv a Leveinard
+Le Dresseur 1 a changé son Pokémon par : Doduo
+Doduo a subit 3 de damage par Smogo
+Il reste 0pv a Doduo
+Il reste 0pv a Smogo
+Le Dresseur 2 a changé son Pokémon par : Amonita
+Amonita a subit 8 de damage par Minidraco
+Il reste 0pv a Amonita
+Il reste 0pv a Minidraco
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Minidraco a subit 7 de damage par Amonita
+Il reste 0pv a Minidraco
+Il reste 0pv a Amonita
+Le Dresseur 2 a changé son Pokémon par : Amonita
+Amonita a subit 3 de damage par Minidraco
+Il reste 0pv a Amonita
+Il reste 0pv a Minidraco
+Le Dresseur 1 a changé son Pokémon par : Goupix
+Goupix a subit 5 de damage par Smogo
+Il reste 0pv a Goupix
+Il reste 0pv a Smogo
+Le Dresseur 2 a changé son Pokémon par : Smogo
+Smogo a subit 9 de damage par Minidraco
+Il reste 0pv a Smogo
+Il reste 0pv a Minidraco
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Le Dresseur 2 a changé son Pokémon par : Férosinge
+Aucun n'a recu de dammage.
+Il reste 0pv a Minidraco
+Il reste 7pv a Férosinge
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Le Dresseur 2 a changé son Pokémon par : Canarticho
+Aucun n'a recu de dammage.
+Il reste 0pv a Minidraco
+Il reste 2pv a Canarticho
+Le Dresseur 2 a changé son Pokémon par : Canarticho
+Canarticho a subit 7 de damage par Minidraco
+Il reste 2pv a Canarticho
+Il reste 0pv a Minidraco
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Le Dresseur 2 a changé son Pokémon par : Aspicot
+Aucun n'a recu de dammage.
+Il reste 0pv a Minidraco
+Il reste 11pv a Aspicot
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Minidraco a subit 5 de damage par Aspicot
+Il reste 0pv a Minidraco
+Il reste 11pv a Aspicot
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Le Dresseur 2 a changé son Pokémon par : Canarticho
+Aucun n'a recu de dammage.
+Il reste 0pv a Minidraco
+Il reste 2pv a Canarticho
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Le Dresseur 2 a changé son Pokémon par : Aspicot
+Aucun n'a recu de dammage.
+Il reste 0pv a Minidraco
+Il reste 11pv a Aspicot
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Le Dresseur 2 a changé son Pokémon par : Aspicot
+Aucun n'a recu de dammage.
+Il reste 0pv a Minidraco
+Il reste 11pv a Aspicot
+Le Dresseur 2 a changé son Pokémon par : Férosinge
+Férosinge a subit 8 de damage par Minidraco
+Il reste 7pv a Férosinge
+Il reste 0pv a Minidraco
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Le Dresseur 2 a changé son Pokémon par : Ponyta
+Aucun n'a recu de dammage.
+Il reste 0pv a Minidraco
+Il reste 13pv a Ponyta
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Le Dresseur 2 a changé son Pokémon par : Ponyta
+Aucun n'a recu de dammage.
+Il reste 0pv a Minidraco
+Il reste 13pv a Ponyta
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Minidraco a subit 8 de damage par Ponyta
+Il reste 0pv a Minidraco
+Il reste 13pv a Ponyta
+Le Dresseur 2 a changé son Pokémon par : Canarticho
+Canarticho a subit 9 de damage par Minidraco
+Il reste 2pv a Canarticho
+Il reste 0pv a Minidraco
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Le Dresseur 2 a changé son Pokémon par : Aspicot
+Aucun n'a recu de dammage.
+Il reste 0pv a Minidraco
+Il reste 11pv a Aspicot
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Le Dresseur 2 a changé son Pokémon par : Canarticho
+Aucun n'a recu de dammage.
+Il reste 0pv a Minidraco
+Il reste 2pv a Canarticho
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Minidraco a subit 1 de damage par Canarticho
+Il reste 0pv a Minidraco
+Il reste 2pv a Canarticho
+Le Dresseur 2 a changé son Pokémon par : Aspicot
+Aspicot a subit 4 de damage par Minidraco
+Il reste 11pv a Aspicot
+Il reste 0pv a Minidraco
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Le Dresseur 2 a changé son Pokémon par : Férosinge
+Aucun n'a recu de dammage.
+Il reste 0pv a Minidraco
+Il reste 7pv a Férosinge
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Le Dresseur 2 a changé son Pokémon par : Canarticho
+Aucun n'a recu de dammage.
+Il reste 0pv a Minidraco
+Il reste 2pv a Canarticho
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Le Dresseur 2 a changé son Pokémon par : Férosinge
+Aucun n'a recu de dammage.
+Il reste 0pv a Minidraco
+Il reste 7pv a Férosinge
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Le Dresseur 2 a changé son Pokémon par : Ponyta
+Aucun n'a recu de dammage.
+Il reste 0pv a Minidraco
+Il reste 13pv a Ponyta
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Le Dresseur 2 a changé son Pokémon par : Aspicot
+Aucun n'a recu de dammage.
+Il reste 0pv a Minidraco
+Il reste 11pv a Aspicot
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Le Dresseur 2 a changé son Pokémon par : Aspicot
+Aucun n'a recu de dammage.
+Il reste 0pv a Minidraco
+Il reste 11pv a Aspicot
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Le Dresseur 2 a changé son Pokémon par : Férosinge
+Aucun n'a recu de dammage.
+Il reste 0pv a Minidraco
+Il reste 7pv a Férosinge
+Le Dresseur 2 a changé son Pokémon par : Ponyta
+Ponyta a subit 0 de damage par Minidraco
+Il reste 13pv a Ponyta
+Il reste 0pv a Minidraco
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Le Dresseur 2 a changé son Pokémon par : Ponyta
+Aucun n'a recu de dammage.
+Il reste 0pv a Minidraco
+Il reste 13pv a Ponyta
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Minidraco a subit 4 de damage par Ponyta
+Il reste 0pv a Minidraco
+Il reste 13pv a Ponyta
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Le Dresseur 2 a changé son Pokémon par : Aspicot
+Aucun n'a recu de dammage.
+Il reste 0pv a Minidraco
+Il reste 11pv a Aspicot
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Le Dresseur 2 a changé son Pokémon par : Ponyta
+Aucun n'a recu de dammage.
+Il reste 0pv a Minidraco
+Il reste 13pv a Ponyta
+Le Dresseur 1 a changé son Pokémon par : Minidraco
+Minidraco a subit 3 de damage par Ponyta
+Il reste 0pv a Minidraco
+Il reste 13pv a Ponyta
+
+
+---------------------------------------------------------->
+
+
+Thu Jun 02 22:25:49 CEST 2022
+Le combat a durée : 54 s en 61 tours
+Le gagant est IA1
+Le perdant est IA2
 Le Dresseur 2 a changé son Pokémon par : Salamèche
-Salamèche a subit 3 de damage par Kabuto
+Salamèche a subit 8 de damage par Tadmorv
 Il reste 0pv a Salamèche
-Il reste 0pv a Kabuto
-Magicarpe attaque le premier en infligeant 12
-Kabuto attaque le deuxième en infligeant 4
-Il reste 0pv a Magicarpe
-Il reste 0pv a Kabuto
+Il reste 0pv a Tadmorv
+Le Dresseur 1 a changé son Pokémon par : Aspicot
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Aucun n'a recu de dammage.
+Il reste 17pv a Aspicot
+Il reste 0pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Tadmorv
+Le Dresseur 2 a changé son Pokémon par : Noeunoeuf
+Aucun n'a recu de dammage.
+Il reste 0pv a Tadmorv
+Il reste 0pv a Noeunoeuf
+Le Dresseur 1 a changé son Pokémon par : Nidoran♂
+Nidoran♂ a subit 11 de damage par Noeunoeuf
+Il reste 17pv a Nidoran♂
+Il reste 0pv a Noeunoeuf
+Le Dresseur 1 a changé son Pokémon par : Ptéra
+Ptéra a subit 3 de damage par Noeunoeuf
+Il reste 0pv a Ptéra
+Il reste 0pv a Noeunoeuf
+Le Dresseur 1 a changé son Pokémon par : Tadmorv
+Le Dresseur 2 a changé son Pokémon par : Tygnon
+Aucun n'a recu de dammage.
+Il reste 0pv a Tadmorv
+Il reste 0pv a Tygnon
+Le Dresseur 1 a changé son Pokémon par : Tauros
+Le Dresseur 2 a changé son Pokémon par : Psykokwak
+Aucun n'a recu de dammage.
+Il reste 10pv a Tauros
+Il reste 0pv a Psykokwak
+Le Dresseur 1 a changé son Pokémon par : Nidoran♂
+Le Dresseur 2 a changé son Pokémon par : Psykokwak
+Aucun n'a recu de dammage.
+Il reste 17pv a Nidoran♂
+Il reste 0pv a Psykokwak
+Le Dresseur 1 a changé son Pokémon par : Nidoran♂
+Le Dresseur 2 a changé son Pokémon par : Noeunoeuf
+Aucun n'a recu de dammage.
+Il reste 17pv a Nidoran♂
+Il reste 0pv a Noeunoeuf
+Le Dresseur 1 a changé son Pokémon par : Tauros
+Tauros a subit 4 de damage par Noeunoeuf
+Il reste 10pv a Tauros
+Il reste 0pv a Noeunoeuf
+Le Dresseur 1 a changé son Pokémon par : Tauros
+Tauros a subit 16 de damage par Noeunoeuf
+Il reste 10pv a Tauros
+Il reste 0pv a Noeunoeuf
+Le Dresseur 1 a changé son Pokémon par : Mélofée
+Le Dresseur 2 a changé son Pokémon par : Tygnon
+Aucun n'a recu de dammage.
+Il reste 13pv a Mélofée
+Il reste 0pv a Tygnon
+Le Dresseur 2 a changé son Pokémon par : Psykokwak
+Psykokwak a subit 10 de damage par Mélofée
+Il reste 0pv a Psykokwak
+Il reste 13pv a Mélofée
+Mélofée attaque le premier en infligeant 5
+Psykokwak attaque le deuxième en infligeant 3
+Il reste 13pv a Mélofée
+Il reste 0pv a Psykokwak
+Le Dresseur 1 a changé son Pokémon par : Tauros
+Le Dresseur 2 a changé son Pokémon par : Tygnon
+Aucun n'a recu de dammage.
+Il reste 10pv a Tauros
+Il reste 0pv a Tygnon
+Le Dresseur 1 a changé son Pokémon par : Aspicot
+Le Dresseur 2 a changé son Pokémon par : Tygnon
+Aucun n'a recu de dammage.
+Il reste 17pv a Aspicot
+Il reste 0pv a Tygnon
+Le Dresseur 1 a changé son Pokémon par : Mélofée
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Aucun n'a recu de dammage.
+Il reste 13pv a Mélofée
+Il reste 0pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Ptéra
+Ptéra a subit 3 de damage par Roucool
+Il reste 0pv a Ptéra
+Il reste 0pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Nidoran♂
+Nidoran♂ a subit 4 de damage par Roucool
+Il reste 17pv a Nidoran♂
+Il reste 0pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Ptéra
+Ptéra a subit 12 de damage par Roucool
+Il reste 0pv a Ptéra
+Il reste 0pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Tadmorv
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Aucun n'a recu de dammage.
+Il reste 0pv a Tadmorv
+Il reste 0pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Tauros
+Le Dresseur 2 a changé son Pokémon par : Tygnon
+Aucun n'a recu de dammage.
+Il reste 10pv a Tauros
+Il reste 0pv a Tygnon
+Tygnon attaque le premier en infligeant 3
+Tauros attaque le deuxième en infligeant 11
+Il reste 0pv a Tygnon
+Il reste 10pv a Tauros
+Tygnon attaque le premier en infligeant 3
+Tauros attaque le deuxième en infligeant 5
+Il reste 0pv a Tygnon
+Il reste 10pv a Tauros
+Le Dresseur 1 a changé son Pokémon par : Mélofée
+Le Dresseur 2 a changé son Pokémon par : Tygnon
+Aucun n'a recu de dammage.
+Il reste 13pv a Mélofée
+Il reste 0pv a Tygnon
+Le Dresseur 1 a changé son Pokémon par : Aspicot
+Le Dresseur 2 a changé son Pokémon par : Fantominus
+Aucun n'a recu de dammage.
+Il reste 17pv a Aspicot
+Il reste 0pv a Fantominus
+Le Dresseur 1 a changé son Pokémon par : Tadmorv
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Aucun n'a recu de dammage.
+Il reste 0pv a Tadmorv
+Il reste 0pv a Roucool
+Le Dresseur 2 a changé son Pokémon par : Tygnon
+Tygnon a subit 1 de damage par Tadmorv
+Il reste 0pv a Tygnon
+Il reste 0pv a Tadmorv
+Le Dresseur 1 a changé son Pokémon par : Nidoran♂
+Nidoran♂ a subit 3 de damage par Tygnon
+Il reste 17pv a Nidoran♂
+Il reste 0pv a Tygnon
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Roucool a subit 3 de damage par Nidoran♂
+Il reste 0pv a Roucool
+Il reste 17pv a Nidoran♂
+Le Dresseur 1 a changé son Pokémon par : Nidoran♂
+Le Dresseur 2 a changé son Pokémon par : Noeunoeuf
+Aucun n'a recu de dammage.
+Il reste 17pv a Nidoran♂
+Il reste 0pv a Noeunoeuf
+Le Dresseur 1 a changé son Pokémon par : Tadmorv
+Tadmorv a subit 10 de damage par Noeunoeuf
+Il reste 0pv a Tadmorv
+Il reste 0pv a Noeunoeuf
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Roucool a subit 12 de damage par Tadmorv
+Il reste 0pv a Roucool
+Il reste 0pv a Tadmorv
+Le Dresseur 1 a changé son Pokémon par : Tadmorv
 Le Dresseur 2 a changé son Pokémon par : Salamèche
-Salamèche a subit 4 de damage par Kabuto
+Aucun n'a recu de dammage.
+Il reste 0pv a Tadmorv
 Il reste 0pv a Salamèche
-Il reste 0pv a Kabuto
-Magicarpe attaque le premier en infligeant 18
-M. Mime attaque le deuxième en infligeant 4
-Il reste 0pv a Magicarpe
-Il reste 0pv a M. Mime
-Magicarpe attaque le premier en infligeant 5
-M. Mime attaque le deuxième en infligeant 4
-Il reste 0pv a Magicarpe
-Il reste 0pv a M. Mime
-Racaillou attaque le premier en infligeant 17
-Piafabec attaque le deuxième en infligeant 18
-Il reste 0pv a Racaillou
-Il reste 15pv a Piafabec
-Le Dresseur 1 a changé son Pokémon par : M. Mime
-M. Mime a subit 11 de damage par Racaillou
-Il reste 0pv a M. Mime
-Il reste 0pv a Racaillou
-Artikodin attaque le premier en infligeant 2
-M. Mime attaque le deuxième en infligeant 17
-Il reste 0pv a Artikodin
-Il reste 0pv a M. Mime
-Salamèche attaque le premier en infligeant 12
-Kabuto attaque le deuxième en infligeant 5
-Il reste 0pv a Salamèche
-Il reste 0pv a Kabuto
+Le Dresseur 2 a changé son Pokémon par : Noeunoeuf
+Noeunoeuf a subit 12 de damage par Tadmorv
+Il reste 0pv a Noeunoeuf
+Il reste 0pv a Tadmorv
+Le Dresseur 1 a changé son Pokémon par : Tadmorv
+Tadmorv a subit 3 de damage par Noeunoeuf
+Il reste 0pv a Tadmorv
+Il reste 0pv a Noeunoeuf
+Noeunoeuf attaque le premier en infligeant 5
+Tadmorv attaque le deuxième en infligeant 6
+Il reste 0pv a Noeunoeuf
+Il reste 0pv a Tadmorv
+Le Dresseur 1 a changé son Pokémon par : Aspicot
+Le Dresseur 2 a changé son Pokémon par : Fantominus
+Aucun n'a recu de dammage.
+Il reste 17pv a Aspicot
+Il reste 0pv a Fantominus
+Le Dresseur 1 a changé son Pokémon par : Tauros
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Aucun n'a recu de dammage.
+Il reste 10pv a Tauros
+Il reste 0pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Nidoran♂
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Aucun n'a recu de dammage.
+Il reste 17pv a Nidoran♂
+Il reste 0pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Aspicot
+Le Dresseur 2 a changé son Pokémon par : Fantominus
+Aucun n'a recu de dammage.
+Il reste 17pv a Aspicot
+Il reste 0pv a Fantominus
+Le Dresseur 1 a changé son Pokémon par : Aspicot
 Le Dresseur 2 a changé son Pokémon par : Salamèche
-Salamèche a subit 5 de damage par Kabuto
+Aucun n'a recu de dammage.
+Il reste 17pv a Aspicot
 Il reste 0pv a Salamèche
-Il reste 0pv a Kabuto
-Le Dresseur 2 a changé son Pokémon par : Artikodin
-Artikodin a subit 0 de damage par Kabuto
-Il reste 0pv a Artikodin
-Il reste 0pv a Kabuto
-Le Dresseur 1 a changé son Pokémon par : M. Mime
-M. Mime a subit 2 de damage par Artikodin
-Il reste 0pv a M. Mime
-Il reste 0pv a Artikodin
-Racaillou attaque le premier en infligeant 12
-Kabuto attaque le deuxième en infligeant 18
-Il reste 0pv a Racaillou
-Il reste 0pv a Kabuto
-Racaillou attaque le premier en infligeant 20
-Piafabec attaque le deuxième en infligeant 18
-Il reste 0pv a Racaillou
-Il reste 15pv a Piafabec
-Racaillou attaque le premier en infligeant 20
-Piafabec attaque le deuxième en infligeant 18
-Il reste 0pv a Racaillou
-Il reste 15pv a Piafabec
-Artikodin attaque le premier en infligeant 20
-Piafabec attaque le deuxième en infligeant 17
-Il reste 0pv a Artikodin
-Il reste 15pv a Piafabec
-Racaillou attaque le premier en infligeant 12
-Kabuto attaque le deuxième en infligeant 18
-Il reste 0pv a Racaillou
-Il reste 0pv a Kabuto
-Artikodin attaque le premier en infligeant 12
-Kabuto attaque le deuxième en infligeant 17
-Il reste 0pv a Artikodin
-Il reste 0pv a Kabuto
-Racaillou attaque le premier en infligeant 12
-Kabuto attaque le deuxième en infligeant 18
-Il reste 0pv a Racaillou
-Il reste 0pv a Kabuto
-Racaillou attaque le premier en infligeant 0
-Kabuto attaque le deuxième en infligeant 0
-Il reste 0pv a Racaillou
-Il reste 0pv a Kabuto
-Racaillou attaque le premier en infligeant 12
-Kabuto attaque le deuxième en infligeant 18
-Il reste 0pv a Racaillou
-Il reste 0pv a Kabuto
-Racaillou attaque le premier en infligeant 12
-Kabuto attaque le deuxième en infligeant 18
-Il reste 0pv a Racaillou
-Il reste 0pv a Kabuto
-Artikodin attaque le premier en infligeant 12
-Kabuto attaque le deuxième en infligeant 17
-Il reste 0pv a Artikodin
-Il reste 0pv a Kabuto
-Artikodin attaque le premier en infligeant 20
-Piafabec attaque le deuxième en infligeant 17
-Il reste 0pv a Artikodin
-Il reste 15pv a Piafabec
-Le Dresseur 1 a changé son Pokémon par : Piafabec
-Piafabec a subit 5 de damage par Artikodin
-Il reste 15pv a Piafabec
-Il reste 0pv a Artikodin
-Artikodin attaque le premier en infligeant 15
-Piafabec attaque le deuxième en infligeant 17
-Il reste 0pv a Artikodin
-Il reste 15pv a Piafabec
-Racaillou attaque le premier en infligeant 15
-Piafabec attaque le deuxième en infligeant 18
-Il reste 0pv a Racaillou
-Il reste 15pv a Piafabec
-Le Dresseur 1 a changé son Pokémon par : Kabuto
-Kabuto a subit 10 de damage par Racaillou
-Il reste 0pv a Kabuto
-Il reste 0pv a Racaillou
-Artikodin attaque le premier en infligeant 15
-Piafabec attaque le deuxième en infligeant 17
-Il reste 0pv a Artikodin
-Il reste 15pv a Piafabec
-Le Dresseur 2 a changé son Pokémon par : Artikodin
-Artikodin a subit 3 de damage par Piafabec
-Il reste 0pv a Artikodin
-Il reste 15pv a Piafabec
-Le Dresseur 1 a changé son Pokémon par : Kabuto
-Kabuto a subit 2 de damage par Artikodin
-Il reste 0pv a Kabuto
-Il reste 0pv a Artikodin
-Le Dresseur 2 a changé son Pokémon par : Racaillou
-Racaillou a subit 7 de damage par Piafabec
-Il reste 0pv a Racaillou
-Il reste 15pv a Piafabec
-Artikodin attaque le premier en infligeant 15
-Piafabec attaque le deuxième en infligeant 14
-Il reste 0pv a Artikodin
-Il reste 15pv a Piafabec
-Le Dresseur 2 a changé son Pokémon par : Racaillou
-Racaillou a subit 3 de damage par Piafabec
-Il reste 0pv a Racaillou
-Il reste 15pv a Piafabec
-Racaillou attaque le premier en infligeant 15
-Piafabec attaque le deuxième en infligeant 8
-Il reste 0pv a Racaillou
-Il reste 15pv a Piafabec
-Racaillou attaque le premier en infligeant 15
-Piafabec attaque le deuxième en infligeant 8
-Il reste 0pv a Racaillou
-Il reste 15pv a Piafabec
-Artikodin attaque le premier en infligeant 15
-Piafabec attaque le deuxième en infligeant 14
-Il reste 0pv a Artikodin
-Il reste 15pv a Piafabec
-Le Dresseur 2 a changé son Pokémon par : Racaillou
-Racaillou a subit 8 de damage par Piafabec
-Il reste 0pv a Racaillou
-Il reste 15pv a Piafabec
-Le Dresseur 2 a changé son Pokémon par : Artikodin
-Artikodin a subit 7 de damage par Piafabec
-Il reste 0pv a Artikodin
-Il reste 15pv a Piafabec
-Artikodin attaque le premier en infligeant 15
-Piafabec attaque le deuxième en infligeant 7
-Il reste 0pv a Artikodin
-Il reste 15pv a Piafabec
-Le Dresseur 2 a changé son Pokémon par : Artikodin
-Artikodin a subit 4 de damage par Piafabec
-Il reste 0pv a Artikodin
-Il reste 15pv a Piafabec
-Le Dresseur 2 a changé son Pokémon par : Artikodin
-Artikodin a subit 3 de damage par Piafabec
-Il reste 0pv a Artikodin
-Il reste 15pv a Piafabec
+Le Dresseur 1 a changé son Pokémon par : Mélofée
+Mélofée a subit 5 de damage par Salamèche
+Il reste 13pv a Mélofée
+Il reste 0pv a Salamèche
+Le Dresseur 1 a changé son Pokémon par : Nidoran♂
+Le Dresseur 2 a changé son Pokémon par : Fantominus
+Aucun n'a recu de dammage.
+Il reste 17pv a Nidoran♂
+Il reste 0pv a Fantominus
+Le Dresseur 1 a changé son Pokémon par : Aspicot
+Le Dresseur 2 a changé son Pokémon par : Tygnon
+Aucun n'a recu de dammage.
+Il reste 17pv a Aspicot
+Il reste 0pv a Tygnon
+Le Dresseur 1 a changé son Pokémon par : Mélofée
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Aucun n'a recu de dammage.
+Il reste 13pv a Mélofée
+Il reste 0pv a Roucool
+Le Dresseur 2 a changé son Pokémon par : Tygnon
+Tygnon a subit 1 de damage par Mélofée
+Il reste 0pv a Tygnon
+Il reste 13pv a Mélofée
+Le Dresseur 2 a changé son Pokémon par : Fantominus
+Fantominus a subit 8 de damage par Mélofée
+Il reste 0pv a Fantominus
+Il reste 13pv a Mélofée
+Le Dresseur 2 a changé son Pokémon par : Fantominus
+Fantominus a subit 7 de damage par Mélofée
+Il reste 0pv a Fantominus
+Il reste 13pv a Mélofée
+Le Dresseur 2 a changé son Pokémon par : Salamèche
+Salamèche a subit 10 de damage par Mélofée
+Il reste 0pv a Salamèche
+Il reste 13pv a Mélofée
+Le Dresseur 1 a changé son Pokémon par : Aspicot
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Aucun n'a recu de dammage.
+Il reste 17pv a Aspicot
+Il reste 0pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Tauros
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Aucun n'a recu de dammage.
+Il reste 10pv a Tauros
+Il reste 0pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Tauros
+Le Dresseur 2 a changé son Pokémon par : Salamèche
+Aucun n'a recu de dammage.
+Il reste 10pv a Tauros
+Il reste 0pv a Salamèche
+Le Dresseur 1 a changé son Pokémon par : Tauros
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Aucun n'a recu de dammage.
+Il reste 10pv a Tauros
+Il reste 0pv a Roucool
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Roucool a subit 0 de damage par Tauros
+Il reste 0pv a Roucool
+Il reste 10pv a Tauros
+Le Dresseur 1 a changé son Pokémon par : Tauros
+Le Dresseur 2 a changé son Pokémon par : Salamèche
+Aucun n'a recu de dammage.
+Il reste 10pv a Tauros
+Il reste 0pv a Salamèche
+Le Dresseur 2 a changé son Pokémon par : Salamèche
+Salamèche a subit 10 de damage par Tauros
+Il reste 0pv a Salamèche
+Il reste 10pv a Tauros
+Le Dresseur 1 a changé son Pokémon par : Aspicot
+Le Dresseur 2 a changé son Pokémon par : Salamèche
+Aucun n'a recu de dammage.
+Il reste 17pv a Aspicot
+Il reste 0pv a Salamèche
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Roucool a subit 3 de damage par Aspicot
+Il reste 0pv a Roucool
+Il reste 17pv a Aspicot
+Le Dresseur 2 a changé son Pokémon par : Salamèche
+Salamèche a subit 6 de damage par Aspicot
+Il reste 0pv a Salamèche
+Il reste 17pv a Aspicot
+Salamèche attaque le premier en infligeant 1
+Aspicot attaque le deuxième en infligeant 1
+Il reste 0pv a Salamèche
+Il reste 17pv a Aspicot
+
+
+---------------------------------------------------------->
+
+
+Thu Jun 02 22:27:01 CEST 2022
+Le combat a durée : 44 s en 37 tours
+Le gagant est IA2
+Le perdant est IA1
+Le Dresseur 1 a changé son Pokémon par : Excelangue
+Le Dresseur 2 a changé son Pokémon par : Excelangue
+Aucun n'a recu de dammage.
+Il reste 0pv a Excelangue
+Il reste 0pv a Excelangue
+Le Dresseur 1 a changé son Pokémon par : Tentacool
+Tentacool a subit 6 de damage par Excelangue
+Il reste 0pv a Tentacool
+Il reste 0pv a Excelangue
+Le Dresseur 1 a changé son Pokémon par : Excelangue
+Excelangue a subit 9 de damage par Excelangue
+Il reste 0pv a Excelangue
+Il reste 0pv a Excelangue
+Le Dresseur 1 a changé son Pokémon par : Excelangue
+Excelangue a subit 11 de damage par Excelangue
+Il reste 0pv a Excelangue
+Il reste 0pv a Excelangue
+Le Dresseur 1 a changé son Pokémon par : Excelangue
+Le Dresseur 2 a changé son Pokémon par : Hypotrempe
+Aucun n'a recu de dammage.
+Il reste 0pv a Excelangue
+Il reste 17pv a Hypotrempe
+Le Dresseur 1 a changé son Pokémon par : Nidoran♂
+Nidoran♂ a subit 5 de damage par Hypotrempe
+Il reste 0pv a Nidoran♂
+Il reste 17pv a Hypotrempe
+Le Dresseur 2 a changé son Pokémon par : Excelangue
+Excelangue a subit 4 de damage par Nidoran♂
+Il reste 0pv a Excelangue
+Il reste 0pv a Nidoran♂
+Excelangue attaque le premier en infligeant 11
+Nidoran♂ attaque le deuxième en infligeant 4
+Il reste 0pv a Excelangue
+Il reste 0pv a Nidoran♂
+Le Dresseur 1 a changé son Pokémon par : Tentacool
+Le Dresseur 2 a changé son Pokémon par : Rattata
+Aucun n'a recu de dammage.
+Il reste 0pv a Tentacool
+Il reste 8pv a Rattata
+Le Dresseur 2 a changé son Pokémon par : Piafabec
+Piafabec a subit 3 de damage par Tentacool
+Il reste 5pv a Piafabec
+Il reste 0pv a Tentacool
+Le Dresseur 1 a changé son Pokémon par : Sulfura
+Le Dresseur 2 a changé son Pokémon par : Rattata
+Aucun n'a recu de dammage.
+Il reste 0pv a Sulfura
+Il reste 8pv a Rattata
+Le Dresseur 1 a changé son Pokémon par : Kicklee
+Kicklee a subit 1 de damage par Rattata
+Il reste 0pv a Kicklee
+Il reste 8pv a Rattata
+Le Dresseur 1 a changé son Pokémon par : Nidoran♂
+Le Dresseur 2 a changé son Pokémon par : Excelangue
+Aucun n'a recu de dammage.
+Il reste 0pv a Nidoran♂
+Il reste 0pv a Excelangue
+Excelangue attaque le premier en infligeant 6
+Nidoran♂ attaque le deuxième en infligeant 4
+Il reste 0pv a Excelangue
+Il reste 0pv a Nidoran♂
+Excelangue attaque le premier en infligeant 6
+Excelangue attaque le deuxième en infligeant 5
+Il reste 0pv a Excelangue
+Il reste 0pv a Excelangue
+Le Dresseur 1 a changé son Pokémon par : Stari
+Stari a subit 12 de damage par Roucool
+Il reste 0pv a Stari
+Il reste 11pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Tentacool
+Tentacool a subit 5 de damage par Roucool
+Il reste 0pv a Tentacool
+Il reste 11pv a Roucool
+Le Dresseur 2 a changé son Pokémon par : Rattata
+Rattata a subit 10 de damage par Tentacool
+Il reste 8pv a Rattata
+Il reste 0pv a Tentacool
+Le Dresseur 1 a changé son Pokémon par : Kicklee
+Kicklee a subit 11 de damage par Rattata
+Il reste 0pv a Kicklee
+Il reste 8pv a Rattata
+Le Dresseur 1 a changé son Pokémon par : Sulfura
+Le Dresseur 2 a changé son Pokémon par : Rattata
+Aucun n'a recu de dammage.
+Il reste 0pv a Sulfura
+Il reste 8pv a Rattata
+Le Dresseur 1 a changé son Pokémon par : Kicklee
+Le Dresseur 2 a changé son Pokémon par : Piafabec
+Aucun n'a recu de dammage.
+Il reste 0pv a Kicklee
+Il reste 5pv a Piafabec
+Le Dresseur 1 a changé son Pokémon par : Tentacool
+Tentacool a subit 9 de damage par Piafabec
+Il reste 0pv a Tentacool
+Il reste 5pv a Piafabec
+Le Dresseur 1 a changé son Pokémon par : Kicklee
+Kicklee a subit 4 de damage par Piafabec
+Il reste 0pv a Kicklee
+Il reste 5pv a Piafabec
+Le Dresseur 1 a changé son Pokémon par : Tentacool
+Le Dresseur 2 a changé son Pokémon par : Piafabec
+Aucun n'a recu de dammage.
+Il reste 0pv a Tentacool
+Il reste 5pv a Piafabec
+Le Dresseur 1 a changé son Pokémon par : Tentacool
+Le Dresseur 2 a changé son Pokémon par : Piafabec
+Aucun n'a recu de dammage.
+Il reste 0pv a Tentacool
+Il reste 5pv a Piafabec
+Le Dresseur 1 a changé son Pokémon par : Sulfura
+Sulfura a subit 10 de damage par Piafabec
+Il reste 0pv a Sulfura
+Il reste 5pv a Piafabec
+Le Dresseur 2 a changé son Pokémon par : Piafabec
+Piafabec a subit 7 de damage par Sulfura
+Il reste 5pv a Piafabec
+Il reste 0pv a Sulfura
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Roucool a subit 7 de damage par Sulfura
+Il reste 11pv a Roucool
+Il reste 0pv a Sulfura
+Le Dresseur 1 a changé son Pokémon par : Sulfura
+Le Dresseur 2 a changé son Pokémon par : Piafabec
+Aucun n'a recu de dammage.
+Il reste 0pv a Sulfura
+Il reste 5pv a Piafabec
+Le Dresseur 2 a changé son Pokémon par : Piafabec
+Piafabec a subit 3 de damage par Sulfura
+Il reste 5pv a Piafabec
+Il reste 0pv a Sulfura
+Le Dresseur 1 a changé son Pokémon par : Tentacool
+Le Dresseur 2 a changé son Pokémon par : Rattata
+Aucun n'a recu de dammage.
+Il reste 0pv a Tentacool
+Il reste 8pv a Rattata
+Le Dresseur 1 a changé son Pokémon par : Tentacool
+Tentacool a subit 3 de damage par Rattata
+Il reste 0pv a Tentacool
+Il reste 8pv a Rattata
+Le Dresseur 2 a changé son Pokémon par : Piafabec
+Piafabec a subit 3 de damage par Sulfura
+Il reste 5pv a Piafabec
+Il reste 0pv a Sulfura
+Le Dresseur 1 a changé son Pokémon par : Sulfura
+Le Dresseur 2 a changé son Pokémon par : Piafabec
+Aucun n'a recu de dammage.
+Il reste 0pv a Sulfura
+Il reste 5pv a Piafabec
+Le Dresseur 2 a changé son Pokémon par : Hypotrempe
+Hypotrempe a subit 11 de damage par Sulfura
+Il reste 17pv a Hypotrempe
+Il reste 0pv a Sulfura
+Le Dresseur 1 a changé son Pokémon par : Sulfura
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Aucun n'a recu de dammage.
+Il reste 0pv a Sulfura
+Il reste 11pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Sulfura
+Sulfura a subit 5 de damage par Roucool
+Il reste 0pv a Sulfura
+Il reste 11pv a Roucool
+
+
 ---------------------------------------------------------->
 
 

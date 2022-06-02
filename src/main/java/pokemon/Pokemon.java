@@ -29,7 +29,7 @@ public class Pokemon implements IPokemon {
     private double experience;
     private double pourcentagePV;
     private IEspece espece;
-    private ICapacite[] capacites = new ICapacite[4];
+    private final ICapacite[] capacites = new ICapacite[4];
     private IStat DV;
 
 
@@ -290,10 +290,13 @@ public class Pokemon implements IPokemon {
     @Override
     public void gagneExperienceDe(IPokemon pok) {
         this.experience = (1.5 * pok.getNiveau() * pok.getEspece().getBaseExp()) / 7;
+        int niveauActuel = this.niveau;
         while (peutChangerDeNiveau()) {
             this.niveau++;
             this.miseAjourStats();
         }
+        if (this.aChangeNiveau())
+            System.out.println(this.nom + " a gagné " + (this.niveau-niveauActuel) + " niveau(x) !");
     } //Met à jour l'exprérience de this suite à la défaite de pok
 
     private boolean peutChangerDeNiveau() {
