@@ -12,6 +12,8 @@ import interfaces.IAttaque;
 import interfaces.IPokemon;
 import interfaces.ITour;
 
+import static java.lang.Math.round;
+
 /**
  * @author Lacroix Baptiste
  */
@@ -30,48 +32,68 @@ public class Tour implements ITour {
         this.pokemon2 = pokemon2;
         this.attaque1 = attaque1;
         this.attaque2 = attaque2;
+        this.damageRecuPok1 = this.pokemon1.getStat().getPV();
+        this.damageRecuPok2 = this.pokemon2.getStat().getPV();
     }
 
     public void commence() {
         if (attaque1.getClass() == Echange.class && attaque2.getClass() != Echange.class) {
-            this.damageRecuPok1 = attaque2.calculeDommage(this.pokemon2, this.pokemon1);
-            this.pokemon1.getStat().setPV(this.pokemon1.getStat().getPV() - this.damageRecuPok1);
+            this.pokemon1.subitAttaqueDe(pokemon2, attaque2);
+            this.damageRecuPok1 -= this.pokemon1.getStat().getPV();
             this.echange1 = true;
+            System.out.println(this);
         } else if (attaque1.getClass() != Echange.class && attaque2.getClass() == Echange.class) {
-            this.damageRecuPok2 = attaque1.calculeDommage(this.pokemon1, this.pokemon2);
-            this.pokemon2.getStat().setPV(this.pokemon2.getStat().getPV() - this.damageRecuPok2);
+            this.pokemon2.subitAttaqueDe(pokemon1, attaque1);
+            this.damageRecuPok2 -= this.pokemon2.getStat().getPV();
             this.echange2 = true;
-        } else if (attaque1.getClass() != Echange.class && attaque2.getClass() != Echange.class) {
+            System.out.println(this);
+        } else if (attaque1.getClass() == Echange.class) {
+            System.out.println(this);
+        } else {
             // Si vitesses P1 > P2 alors P1 commence sinon P2
             if (this.pokemon1.getStat().getVitesse() > this.pokemon2.getStat().getVitesse()) {
-                this.damageRecuPok1 = attaque2.calculeDommage(this.pokemon2, this.pokemon1);
-                this.damageRecuPok2 = attaque1.calculeDommage(this.pokemon1, this.pokemon2);
-                this.pokemon2.getStat().setPV(this.pokemon2.getStat().getPV() - this.damageRecuPok1);
-                this.pokemon1.getStat().setPV(this.pokemon1.getStat().getPV() - this.damageRecuPok2);
+                this.pokemon2.subitAttaqueDe(pokemon1, attaque1);
+                this.pokemon1.subitAttaqueDe(pokemon2, attaque2);
+                this.damageRecuPok1 -= this.pokemon1.getStat().getPV();
+                this.damageRecuPok2 -= this.pokemon2.getStat().getPV();
+                System.out.println(this);
             } else {
-                this.pokemon1.getStat().setPV(this.pokemon1.getStat().getPV() - this.damageRecuPok2);
-                this.pokemon2.getStat().setPV(this.pokemon2.getStat().getPV() - this.damageRecuPok1);
+                this.pokemon1.subitAttaqueDe(pokemon2, attaque2);
+                this.pokemon2.subitAttaqueDe(pokemon1, attaque1);
+                this.damageRecuPok1 -= this.pokemon1.getStat().getPV();
+                this.damageRecuPok2 -= this.pokemon2.getStat().getPV();
+                System.out.println(this);
             }
         }
     }        //Lance un tour de combat
 
     public String toString() {
         if (echange1 && !echange2) {
-            return "Le Dresseur 1 a changé son Pokémon par : " + this.pokemon1 + "\n"
-                    + this.pokemon1 + " a subit " + this.damageRecuPok1 + " de damage par " + this.pokemon2;
+            return "Le Dresseur 1 a changé son Pokémon par : " + this.pokemon1.getNom() + "\n"
+                    + this.pokemon1.getNom() + " a subit " + this.damageRecuPok1 + " de damage par " + this.pokemon2.getNom()
+                    + "\nIl reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom()
+                    + "\nIl reste " + this.pokemon2.getStat().getPV() + "pv a " + this.pokemon2.getNom();
         } else if (!echange1 && echange2) {
-            return "Le Dresseur 2 a changé son Pokémon par : " + this.pokemon2 + "\n"
-                    + this.pokemon2 + " a subit " + this.damageRecuPok2 + " de damage par " + this.pokemon1;
-        } else if (echange1 && echange2) {
-            return "Le Dresseur 1 a changé son Pokémon par : " + this.pokemon1 + "\n"
-                    + "Le Dresseur 2 a changé son Pokémon par : " + this.pokemon2 + "\n"
-                    + "Aucun n'a recu de dammage.";
+            return "Le Dresseur 2 a changé son Pokémon par : " + this.pokemon2.getNom() + "\n"
+                    + this.pokemon2.getNom() + " a subit " + this.damageRecuPok2 + " de damage par " + this.pokemon1.getNom()
+                    + "\nIl reste " + this.pokemon2.getStat().getPV() + "pv a " + this.pokemon2.getNom()
+                    + "\nIl reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom();
+        } else if (echange1) {
+            return "Le Dresseur 1 a changé son Pokémon par : " + this.pokemon1.getNom() + "\n"
+                    + "Le Dresseur 2 a changé son Pokémon par : " + this.pokemon2.getNom() + "\n"
+                    + "Aucun n'a recu de dammage."
+                    + "\nIl reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom()
+                    + "\nIl reste " + this.pokemon2.getStat().getPV() + "pv a " + this.pokemon2.getNom();
         } else if (this.pokemon1.getStat().getVitesse() > this.pokemon2.getStat().getVitesse()) {
-            return this.pokemon1 + " attaque le premier en infligeant " + this.damageRecuPok2 + "\n"
-                    + this.pokemon2 + " attaque le deuxième en infligeant " + this.damageRecuPok1;
+            return this.pokemon1.getNom() + " attaque le premier en infligeant " + this.damageRecuPok2 + "\n"
+                    + this.pokemon2.getNom() + " attaque le deuxième en infligeant " + this.damageRecuPok1
+                    + "\nIl reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom()
+                    + "\nIl reste " + this.pokemon2.getStat().getPV() + "pv a " + this.pokemon2.getNom();
         } else {
-            return this.pokemon2 + " attaque le premier en infligeant " + this.damageRecuPok1 + "\n"
-                    + this.pokemon1 + " attaque le premier en infligeant " + this.damageRecuPok2;
+            return this.pokemon2.getNom() + " attaque le premier en infligeant " + this.damageRecuPok1 + "\n"
+                    + this.pokemon1.getNom() + " attaque le deuxième en infligeant " + this.damageRecuPok2
+                    + "\nIl reste " + this.pokemon2.getStat().getPV() + "pv a " + this.pokemon2.getNom()
+                    + "\nIl reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom();
         }
     }
 }

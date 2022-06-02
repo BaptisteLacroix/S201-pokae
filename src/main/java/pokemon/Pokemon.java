@@ -14,6 +14,7 @@ import interfaces.IAttaque;
 import interfaces.ICapacite;
 import statsPokemon.Stat;
 
+import java.util.Arrays;
 import java.util.Random;
 
 /**
@@ -42,11 +43,7 @@ public class Pokemon implements IPokemon {
         this.pourcentagePV = pourcentagePV;
         this.espece = espece;
         this.setDV();
-
-        while (peutChangerDeNiveau()) {
-            this.niveau++;
-            this.miseAjourStats();
-        }
+        this.miseAjourStats();
     }
 
     /**
@@ -96,7 +93,10 @@ public class Pokemon implements IPokemon {
     private void setDV() {
         Random rand = new Random();
         int[] lowWeight = new int[4];
-        int force, defense, vitesse, special;
+        int force;
+        int defense;
+        int vitesse;
+        int special;
         force = rand.nextInt(16);
         defense = rand.nextInt(16);
         vitesse = rand.nextInt(16);
@@ -255,7 +255,7 @@ public class Pokemon implements IPokemon {
     public void apprendCapacites(ICapacite[] caps) {
         for (int i = 0; i < caps.length; i ++) {
             for (ICapacite c : this.espece.getCapSet()) {
-                if (caps[i].getNom().equals(c.getNom())) {
+                if (caps[i].getNom().strip().equalsIgnoreCase(c.getNom().strip())) {
                     this.capacites[i] = caps[i];
                 }
             }
@@ -311,6 +311,10 @@ public class Pokemon implements IPokemon {
         if (atk instanceof ICapacite) {
             int degats = atk.calculeDommage(pok, this);
             this.stat.setPV(this.stat.getPV() - degats);
+            if (this.pourcentagePV - (100 * (double) degats / this.calculGainStatPV()) < 0)
+                this.pourcentagePV = 0;
+            else
+                this.pourcentagePV -= 100 * (double) degats / this.calculGainStatPV();
         }
     } //Met à jour les stats de this en tenant compte des dégats subits par l'attaque atk de pok
 

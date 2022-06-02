@@ -1,9 +1,12 @@
 package combat;
 
 import attaque.Echange;
-import dresseur.Dresseur;
+import dresseur.DresseurHuman;
+import dresseur.DresseurIA;
 import interfaces.*;
+import writingCSV.Chrono;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.charset.StandardCharsets;
@@ -22,21 +25,22 @@ public class Combat implements ICombat {
     int ko1 = 0;
     int ko2 = 0;
     private int nbrTours = 1;
+    private Random rand = new Random();
+    private Chrono chrono = new Chrono();
 
-    public Combat(IDresseur dresseur1, IPokemon pokemon1, IDresseur dresseur2, IPokemon pokemon2) {
+    public Combat(IDresseur dresseur1, IDresseur dresseur2) {
         this.dresseur1 = dresseur1;
         this.dresseur2 = dresseur2;
-        this.pokemon1 = pokemon1;
-        this.pokemon2 = pokemon2;
     }
 
     @Override
     public void commence() {
         this.pokemon1 = this.dresseur1.choisitCombattant();
         this.pokemon2 = this.dresseur2.choisitCombattant();
-        System.out.println("Début du combat !");
+        System.out.println("------------------ Début du combat ! ------------------");
+        this.chrono.start(); // démarrage du chrono
         while (this.ko1 != 6 && this.ko2 != 6) {
-            System.out.println("Début du tour : " + this.nbrTours);
+            System.out.println("<<<<<<<<<<<<<<<<<< Début du tour : " + this.nbrTours + " >>>>>>>>>>>>>>>>>");
             // Choix action Si echange ne fait rien si attaque check vitesse
             IAttaque attaque1 = this.dresseur1.choisitAttaque(this.pokemon1, this.pokemon2);
             // Choix action si echange ne fais rien si attaque check vitesse
@@ -45,11 +49,12 @@ public class Combat implements ICombat {
                 this.pokemon1 = ((Echange) attaque1).echangeCombattant();
             if (attaque2.getClass() == Echange.class)
                 this.pokemon2 = ((Echange) attaque2).echangeCombattant();
-            this.tableauTours.add(this.nouveauTour(pokemon1, attaque1, pokemon2, attaque2));
-            this.pokemon1.gagneExperienceDe(this.pokemon2);
-            this.pokemon2.gagneExperienceDe(this.pokemon1);
+            ITour tour = this.nouveauTour(pokemon1, attaque1, pokemon2, attaque2);
+            tour.commence();
+            this.tableauTours.add(tour);
             if (this.pokemon1.estEvanoui()) {
                 this.ko1++;
+                System.out.println(this.pokemon1.getNom() + " est évanoui !\nIl n'en reste plus que " + (6 - this.ko1));
                 if (this.ko1 == 6)
                     this.termine();
                 else
@@ -57,15 +62,20 @@ public class Combat implements ICombat {
             }
             if (this.pokemon2.estEvanoui()) {
                 this.ko2++;
+                System.out.println(this.pokemon2.getNom() + " est évanoui !\nIl n'en reste plus que " + (6 - this.ko2));
                 if (this.ko2 == 6)
                     this.termine();
                 else
                     this.pokemon2 = this.dresseur2.choisitCombattant();
             }
-            System.out.println("Fin du tour : " + this.nbrTours);
+            System.out.println("<<<<<<<<<<<<<<<<<< Fin du tour : " + this.nbrTours + " >>>>>>>>>>>>>>>>>\n");
+            this.chrono.stop(); // arrêt
+            System.out.println("Durée du combat  : " + this.chrono.getDureeTxt()); // affichage au format "1 h 26 min 32 s"
+            this.pokemon1.gagneExperienceDe(this.pokemon2);
+            this.pokemon2.gagneExperienceDe(this.pokemon1);
             this.nbrTours ++;
         }
-        System.out.println("Fin du combat !");
+        System.out.println("------------------ Fin du combat ! ------------------");
         this.dresseur1.soigneRanch();
         this.dresseur2.soigneRanch();
         this.changementNiveau(this.dresseur1, this.pokemon1);
@@ -73,13 +83,28 @@ public class Combat implements ICombat {
     } // lance le combat
 
     private void changementNiveau(IDresseur dresseur, IPokemon pokemon) {
-        if (pokemon.aChangeNiveau()) {
+        if (pokemon.aChangeNiveau() && dresseur.getClass() == DresseurHuman.class) {
             Scanner input = new Scanner(System.in);
-            System.out.println(dresseur + " voulez vous apprendre une nouvelle capacité ? (oui/non) ou (y/n) : ");
+            System.out.println(dresseur.getNom() + " voulez vous apprendre une nouvelle capacité ? (oui/non) ou (y/n) : ");
             String choix = input.next();
             if (choix.equals("oui") || choix.equals("y")) {
                 this.changeCap(dresseur, pokemon);
             }
+        } else if (pokemon.aChangeNiveau() && dresseur.getClass() == DresseurIA.class) {
+            if (this.rand.nextInt(2) == 0) {
+                System.out.println(dresseur.getNom() + " choisit d'apprendre une nouvelle capacité !");
+                this.changeCapIA(dresseur, pokemon);
+            }
+        }
+    }
+
+    private void changeCapIA(IDresseur dresseur, IPokemon pokemon) {
+        System.out.println(dresseur.getNom() + " choose a new capacity to learn (give the name) : ");
+        System.out.println(dresseur.getNom() + " choose the capacity you want to replace (give the number) : ");
+        try {
+            pokemon.remplaceCapacite(this.rand.nextInt(4), pokemon.getEspece().getCapSet()[this.rand.nextInt(pokemon.getEspece().getCapSet().length)]);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
@@ -125,12 +150,21 @@ public class Combat implements ICombat {
     public void termine() {
         Date date = new Date();
         try {
-            PrintWriter writer = new PrintWriter("./resources/log.txt", StandardCharsets.UTF_8);
+            PrintWriter writer = new PrintWriter(new FileWriter("log.txt", true));
             writer.println(date);
-            writer.println("Le combat a durée : " + this.nbrTours);
+            writer.println("Le combat a durée : " + this.chrono.getDureeTxt() + " en " + this.nbrTours + "tours");
+            if (this.ko1 == 6 && this.ko2 != 6) {
+                System.out.println("Le gagant est " + this.dresseur2.getNom() + "\nLe perdant est " + this.dresseur1.getNom());
+                writer.println("Le gagant est " + this.dresseur2.getNom() + "\nLe perdant est " + this.dresseur1.getNom());
+            }
+            else if (this.ko1 != 6 && this.ko2 == 6) {
+                System.out.println("Le gagant est " + this.dresseur1.getNom() + "\nLe perdant est " + this.dresseur2.getNom());
+                writer.println("Le gagant est " + this.dresseur1.getNom() + "\nLe perdant est " + this.dresseur2.getNom());
+            }
             for (ITour tour : this.tableauTours) {
                 writer.println(tour.toString());
             }
+            writer.println("---------------------------------------------------------->\n\n");
             writer.close();
         } catch (IOException e) {
             e.printStackTrace();

@@ -20,6 +20,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -114,6 +115,7 @@ public class Espece implements IEspece {
             while (reader.ready() && !trouve) {
                 Scanner scanner = new Scanner(reader.readLine()).useDelimiter(";");
                 String[] tab = scanner.nextLine().split(";");
+                // System.out.println(Arrays.toString(tab));
                 if (tab[0].equals(this.nom)) {
                     this.creatCap(tab);
                     trouve = true;
