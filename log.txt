@@ -2364,3 +2364,338 @@ Il reste 11pv a Roucool
 ---------------------------------------------------------->
 
 
+Thu Jun 02 22:59:56 CEST 2022
+Le combat a durée : 1 min 19 s en 74 tours
+Le gagant est IA2
+Le perdant est IA1
+Le Dresseur 1 a changé son Pokémon par : Poissirène
+Poissirène a subit 4 de damage par Porygon
+Il reste 0pv a Poissirène
+Il reste 0pv a Porygon
+Le Dresseur 1 a changé son Pokémon par : Caninos
+Le Dresseur 2 a changé son Pokémon par : Osselait
+Aucun n'a recu de dammage.
+Il reste 0pv a Caninos
+Il reste 0pv a Osselait
+Le Dresseur 1 a changé son Pokémon par : Ptitard
+Le Dresseur 2 a changé son Pokémon par : Osselait
+Aucun n'a recu de dammage.
+Il reste 0pv a Ptitard
+Il reste 0pv a Osselait
+Le Dresseur 1 a changé son Pokémon par : Chenipan
+Chenipan a subit 6 de damage par Osselait
+Il reste 0pv a Chenipan
+Il reste 0pv a Osselait
+Osselait attaque le premier en infligeant 4
+Chenipan attaque le deuxième en infligeant 4
+Il reste 0pv a Osselait
+Il reste 0pv a Chenipan
+Le Dresseur 2 a changé son Pokémon par : Canarticho
+Canarticho a subit 4 de damage par Chenipan
+Il reste 0pv a Canarticho
+Il reste 0pv a Chenipan
+Le Dresseur 1 a changé son Pokémon par : Ptitard
+Le Dresseur 2 a changé son Pokémon par : Stari
+Aucun n'a recu de dammage.
+Il reste 0pv a Ptitard
+Il reste 4pv a Stari
+Le Dresseur 1 a changé son Pokémon par : Poissirène
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Aucun n'a recu de dammage.
+Il reste 0pv a Poissirène
+Il reste 7pv a Roucool
+Le Dresseur 2 a changé son Pokémon par : Porygon
+Porygon a subit 7 de damage par Poissirène
+Il reste 0pv a Porygon
+Il reste 0pv a Poissirène
+Le Dresseur 1 a changé son Pokémon par : Caninos
+Le Dresseur 2 a changé son Pokémon par : Scarabrute
+Aucun n'a recu de dammage.
+Il reste 0pv a Caninos
+Il reste 0pv a Scarabrute
+Le Dresseur 1 a changé son Pokémon par : Magnéti
+Le Dresseur 2 a changé son Pokémon par : Canarticho
+Aucun n'a recu de dammage.
+Il reste 0pv a Magnéti
+Il reste 0pv a Canarticho
+Le Dresseur 2 a changé son Pokémon par : Stari
+Stari a subit 4 de damage par Magnéti
+Il reste 4pv a Stari
+Il reste 0pv a Magnéti
+Le Dresseur 1 a changé son Pokémon par : Caninos
+Caninos a subit 8 de damage par Stari
+Il reste 0pv a Caninos
+Il reste 4pv a Stari
+Le Dresseur 1 a changé son Pokémon par : Ptitard
+Ptitard a subit 9 de damage par Stari
+Il reste 0pv a Ptitard
+Il reste 4pv a Stari
+Le Dresseur 1 a changé son Pokémon par : Magnéti
+Le Dresseur 2 a changé son Pokémon par : Canarticho
+Aucun n'a recu de dammage.
+Il reste 0pv a Magnéti
+Il reste 0pv a Canarticho
+Le Dresseur 1 a changé son Pokémon par : Chenipan
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Aucun n'a recu de dammage.
+Il reste 0pv a Chenipan
+Il reste 7pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Ptitard
+Le Dresseur 2 a changé son Pokémon par : Canarticho
+Aucun n'a recu de dammage.
+Il reste 0pv a Ptitard
+Il reste 0pv a Canarticho
+Canarticho attaque le premier en infligeant 6
+Ptitard attaque le deuxième en infligeant 0
+Il reste 0pv a Canarticho
+Il reste 0pv a Ptitard
+Le Dresseur 1 a changé son Pokémon par : Magnéti
+Magnéti a subit 4 de damage par Canarticho
+Il reste 0pv a Magnéti
+Il reste 0pv a Canarticho
+Magnéti attaque le premier en infligeant 3
+Canarticho attaque le deuxième en infligeant 8
+Il reste 0pv a Magnéti
+Il reste 0pv a Canarticho
+Le Dresseur 2 a changé son Pokémon par : Canarticho
+Canarticho a subit 8 de damage par Magnéti
+Il reste 0pv a Canarticho
+Il reste 0pv a Magnéti
+Le Dresseur 1 a changé son Pokémon par : Rattata
+Le Dresseur 2 a changé son Pokémon par : Stari
+Aucun n'a recu de dammage.
+Il reste 0pv a Rattata
+Il reste 4pv a Stari
+Le Dresseur 1 a changé son Pokémon par : Poissirène
+Poissirène a subit 7 de damage par Stari
+Il reste 0pv a Poissirène
+Il reste 4pv a Stari
+Le Dresseur 1 a changé son Pokémon par : Caninos
+Le Dresseur 2 a changé son Pokémon par : Canarticho
+Aucun n'a recu de dammage.
+Il reste 0pv a Caninos
+Il reste 0pv a Canarticho
+Le Dresseur 1 a changé son Pokémon par : Rattata
+Le Dresseur 2 a changé son Pokémon par : Osselait
+Aucun n'a recu de dammage.
+Il reste 0pv a Rattata
+Il reste 0pv a Osselait
+Osselait attaque le premier en infligeant 4
+Rattata attaque le deuxième en infligeant 3
+Il reste 0pv a Osselait
+Il reste 0pv a Rattata
+Le Dresseur 1 a changé son Pokémon par : Poissirène
+Le Dresseur 2 a changé son Pokémon par : Porygon
+Aucun n'a recu de dammage.
+Il reste 0pv a Poissirène
+Il reste 0pv a Porygon
+Le Dresseur 2 a changé son Pokémon par : Scarabrute
+Scarabrute a subit 11 de damage par Poissirène
+Il reste 0pv a Scarabrute
+Il reste 0pv a Poissirène
+Le Dresseur 1 a changé son Pokémon par : Chenipan
+Le Dresseur 2 a changé son Pokémon par : Stari
+Aucun n'a recu de dammage.
+Il reste 0pv a Chenipan
+Il reste 4pv a Stari
+Le Dresseur 2 a changé son Pokémon par : Porygon
+Porygon a subit 4 de damage par Chenipan
+Il reste 0pv a Porygon
+Il reste 0pv a Chenipan
+Le Dresseur 2 a changé son Pokémon par : Canarticho
+Canarticho a subit 4 de damage par Chenipan
+Il reste 0pv a Canarticho
+Il reste 0pv a Chenipan
+Le Dresseur 1 a changé son Pokémon par : Magnéti
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Aucun n'a recu de dammage.
+Il reste 0pv a Magnéti
+Il reste 7pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Caninos
+Le Dresseur 2 a changé son Pokémon par : Osselait
+Aucun n'a recu de dammage.
+Il reste 0pv a Caninos
+Il reste 0pv a Osselait
+Le Dresseur 1 a changé son Pokémon par : Chenipan
+Le Dresseur 2 a changé son Pokémon par : Scarabrute
+Aucun n'a recu de dammage.
+Il reste 0pv a Chenipan
+Il reste 0pv a Scarabrute
+Le Dresseur 1 a changé son Pokémon par : Poissirène
+Le Dresseur 2 a changé son Pokémon par : Porygon
+Aucun n'a recu de dammage.
+Il reste 0pv a Poissirène
+Il reste 0pv a Porygon
+Le Dresseur 1 a changé son Pokémon par : Chenipan
+Chenipan a subit 5 de damage par Porygon
+Il reste 0pv a Chenipan
+Il reste 0pv a Porygon
+Le Dresseur 1 a changé son Pokémon par : Chenipan
+Chenipan a subit 8 de damage par Porygon
+Il reste 0pv a Chenipan
+Il reste 0pv a Porygon
+Le Dresseur 1 a changé son Pokémon par : Rattata
+Rattata a subit 5 de damage par Porygon
+Il reste 0pv a Rattata
+Il reste 0pv a Porygon
+Le Dresseur 1 a changé son Pokémon par : Rattata
+Rattata a subit 9 de damage par Porygon
+Il reste 0pv a Rattata
+Il reste 0pv a Porygon
+Le Dresseur 1 a changé son Pokémon par : Magnéti
+Le Dresseur 2 a changé son Pokémon par : Stari
+Aucun n'a recu de dammage.
+Il reste 0pv a Magnéti
+Il reste 4pv a Stari
+Le Dresseur 1 a changé son Pokémon par : Caninos
+Caninos a subit 12 de damage par Stari
+Il reste 0pv a Caninos
+Il reste 4pv a Stari
+Le Dresseur 2 a changé son Pokémon par : Scarabrute
+Scarabrute a subit 3 de damage par Caninos
+Il reste 0pv a Scarabrute
+Il reste 0pv a Caninos
+Le Dresseur 2 a changé son Pokémon par : Scarabrute
+Scarabrute a subit 5 de damage par Caninos
+Il reste 0pv a Scarabrute
+Il reste 0pv a Caninos
+Le Dresseur 1 a changé son Pokémon par : Caninos
+Le Dresseur 2 a changé son Pokémon par : Scarabrute
+Aucun n'a recu de dammage.
+Il reste 0pv a Caninos
+Il reste 0pv a Scarabrute
+Le Dresseur 2 a changé son Pokémon par : Porygon
+Porygon a subit 3 de damage par Caninos
+Il reste 0pv a Porygon
+Il reste 0pv a Caninos
+Le Dresseur 1 a changé son Pokémon par : Magnéti
+Magnéti a subit 5 de damage par Porygon
+Il reste 0pv a Magnéti
+Il reste 0pv a Porygon
+Le Dresseur 1 a changé son Pokémon par : Magnéti
+Le Dresseur 2 a changé son Pokémon par : Porygon
+Aucun n'a recu de dammage.
+Il reste 0pv a Magnéti
+Il reste 0pv a Porygon
+Le Dresseur 2 a changé son Pokémon par : Scarabrute
+Scarabrute a subit 7 de damage par Magnéti
+Il reste 0pv a Scarabrute
+Il reste 0pv a Magnéti
+Le Dresseur 1 a changé son Pokémon par : Magnéti
+Le Dresseur 2 a changé son Pokémon par : Porygon
+Aucun n'a recu de dammage.
+Il reste 0pv a Magnéti
+Il reste 0pv a Porygon
+Le Dresseur 1 a changé son Pokémon par : Poissirène
+Le Dresseur 2 a changé son Pokémon par : Osselait
+Aucun n'a recu de dammage.
+Il reste 0pv a Poissirène
+Il reste 0pv a Osselait
+Le Dresseur 1 a changé son Pokémon par : Rattata
+Le Dresseur 2 a changé son Pokémon par : Stari
+Aucun n'a recu de dammage.
+Il reste 0pv a Rattata
+Il reste 4pv a Stari
+Le Dresseur 1 a changé son Pokémon par : Chenipan
+Chenipan a subit 5 de damage par Stari
+Il reste 0pv a Chenipan
+Il reste 4pv a Stari
+Le Dresseur 2 a changé son Pokémon par : Stari
+Stari a subit 3 de damage par Caninos
+Il reste 4pv a Stari
+Il reste 0pv a Caninos
+Le Dresseur 1 a changé son Pokémon par : Rattata
+Le Dresseur 2 a changé son Pokémon par : Porygon
+Aucun n'a recu de dammage.
+Il reste 0pv a Rattata
+Il reste 0pv a Porygon
+Porygon attaque le premier en infligeant 1
+Rattata attaque le deuxième en infligeant 3
+Il reste 0pv a Porygon
+Il reste 0pv a Rattata
+Le Dresseur 1 a changé son Pokémon par : Poissirène
+Poissirène a subit 5 de damage par Porygon
+Il reste 0pv a Poissirène
+Il reste 0pv a Porygon
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Roucool a subit 10 de damage par Poissirène
+Il reste 7pv a Roucool
+Il reste 0pv a Poissirène
+Le Dresseur 1 a changé son Pokémon par : Magnéti
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Aucun n'a recu de dammage.
+Il reste 0pv a Magnéti
+Il reste 7pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Poissirène
+Le Dresseur 2 a changé son Pokémon par : Stari
+Aucun n'a recu de dammage.
+Il reste 0pv a Poissirène
+Il reste 4pv a Stari
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Roucool a subit 4 de damage par Poissirène
+Il reste 7pv a Roucool
+Il reste 0pv a Poissirène
+Le Dresseur 2 a changé son Pokémon par : Porygon
+Porygon a subit 6 de damage par Poissirène
+Il reste 0pv a Porygon
+Il reste 0pv a Poissirène
+Le Dresseur 1 a changé son Pokémon par : Poissirène
+Le Dresseur 2 a changé son Pokémon par : Osselait
+Aucun n'a recu de dammage.
+Il reste 0pv a Poissirène
+Il reste 0pv a Osselait
+Le Dresseur 1 a changé son Pokémon par : Poissirène
+Poissirène a subit 5 de damage par Osselait
+Il reste 0pv a Poissirène
+Il reste 0pv a Osselait
+Le Dresseur 2 a changé son Pokémon par : Stari
+Stari a subit 3 de damage par Magnéti
+Il reste 4pv a Stari
+Il reste 0pv a Magnéti
+Le Dresseur 1 a changé son Pokémon par : Magnéti
+Magnéti a subit 9 de damage par Stari
+Il reste 0pv a Magnéti
+Il reste 4pv a Stari
+Le Dresseur 2 a changé son Pokémon par : Osselait
+Osselait a subit 8 de damage par Magnéti
+Il reste 0pv a Osselait
+Il reste 0pv a Magnéti
+Osselait attaque le premier en infligeant 1
+Magnéti attaque le deuxième en infligeant 8
+Il reste 0pv a Osselait
+Il reste 0pv a Magnéti
+Le Dresseur 1 a changé son Pokémon par : Caninos
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Aucun n'a recu de dammage.
+Il reste 0pv a Caninos
+Il reste 7pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Caninos
+Le Dresseur 2 a changé son Pokémon par : Stari
+Aucun n'a recu de dammage.
+Il reste 0pv a Caninos
+Il reste 4pv a Stari
+Le Dresseur 1 a changé son Pokémon par : Rattata
+Rattata a subit 6 de damage par Stari
+Il reste 0pv a Rattata
+Il reste 4pv a Stari
+Stari attaque le premier en infligeant 5
+Caninos attaque le deuxième en infligeant 6
+Il reste 4pv a Stari
+Il reste 0pv a Caninos
+Le Dresseur 2 a changé son Pokémon par : Roucool
+Roucool a subit 5 de damage par Caninos
+Il reste 7pv a Roucool
+Il reste 0pv a Caninos
+Le Dresseur 1 a changé son Pokémon par : Caninos
+Caninos a subit 8 de damage par Roucool
+Il reste 0pv a Caninos
+Il reste 7pv a Roucool
+Le Dresseur 1 a changé son Pokémon par : Caninos
+Caninos a subit 5 de damage par Roucool
+Il reste 0pv a Caninos
+Il reste 7pv a Roucool
+
+
+---------------------------------------------------------->
+
+

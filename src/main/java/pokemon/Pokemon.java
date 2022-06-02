@@ -289,18 +289,18 @@ public class Pokemon implements IPokemon {
      */
     @Override
     public void gagneExperienceDe(IPokemon pok) {
+        this.ancien_niveau = this.niveau;
         this.experience = (1.5 * pok.getNiveau() * pok.getEspece().getBaseExp()) / 7;
-        int niveauActuel = this.niveau;
         while (peutChangerDeNiveau()) {
             this.niveau++;
             this.miseAjourStats();
         }
         if (this.aChangeNiveau())
-            System.out.println(this.nom + " a gagné " + (this.niveau-niveauActuel) + " niveau(x) !");
+            System.out.println(this.nom + " a gagné " + (this.niveau-this.ancien_niveau) + " niveau(x) !");
     } //Met à jour l'exprérience de this suite à la défaite de pok
 
     private boolean peutChangerDeNiveau() {
-        return this.experience >= (0.8 * Math.pow(this.niveau + 1, 3));
+        return this.experience >= (0.8 * Math.pow((double) this.niveau + 1, 3));
     }
 
     /**
