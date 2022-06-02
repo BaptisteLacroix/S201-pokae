@@ -12,12 +12,12 @@ import java.util.Scanner;
  * @author Lacroix Baptiste
  */
 
-public class Dresseur implements IDresseur {
+public class DresseurHuman implements IDresseur {
     private String nom;
     private IPokemon[] ranch;
     private int niveau = 0;
 
-    public Dresseur(String nom) {
+    public DresseurHuman(String nom) {
         this.nom = nom;
         Pokedex pokedex = new Pokedex();
         this.ranch = pokedex.getRanch();

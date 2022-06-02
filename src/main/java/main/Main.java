@@ -1,10 +1,10 @@
 package main;
 
-import attaque.Capacite;
-import dresseur.Dresseur;
+import combat.Combat;
+import dresseur.DresseurHuman;
+import attaque.Strategy;
+import dresseur.DresseurIA;
 import interfaces.*;
-import statsPokemon.Categorie;
-import statsPokemon.Type;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -18,60 +18,63 @@ public class Main {
      * et les dommages qu'il causerait à un autre Pokémon.
      */
     public static void main(String[] args) throws Exception {
-        Random rand = new Random();
-        Dresseur baptiste = new Dresseur("Baptiste");
-        Dresseur IA = new Dresseur("IA");
-        for (IPokemon pokemon : baptiste.getRanch()) {
-            ICapacite[] capacites = pokemon.getEspece().getCapSet();
-            ICapacite[] capacitesApp = new ICapacite[4];
-            int counter = 0;
-            for (int i = 0; i < 4; i ++) {
-                Scanner input = new Scanner(System.in);  // Create a Scanner object
-                System.out.println(Arrays.toString(capacites));
-                System.out.print(baptiste.getNom() + " choose a new capacity to learn (give the name) : ");
-                String choixCapacite = input.next();  // Read user input
-                System.out.println(counter);
-                for (ICapacite cap : capacites) {
-                    if (cap.getNom().equals(choixCapacite)) {
-                        capacitesApp[counter] = cap;
-                        counter ++;
-                    }
-                }
-            }
-            System.out.println("\n" + Arrays.toString(capacitesApp));
-            pokemon.apprendCapacites(capacitesApp);
-            System.out.println(pokemon.getNom() + " capacités apprises : " + Arrays.toString(pokemon.getCapacitesApprises()));
-        }
+        DresseurIA IA1 = new DresseurIA("Baptiste");
+        DresseurIA IA2 = new DresseurIA("IA");
+        // for (IPokemon pokemon : baptiste.getRanch()) {
+        //     ICapacite[] capacites = pokemon.getEspece().getCapSet();
+        //     ICapacite[] capacitesApp = new ICapacite[4];
+        //     int counter = 0;
+        //     System.out.println("Capcités disponilbes : ");
+        //     for (ICapacite cap : capacites) {
+        //         System.out.printf("%-32s", "nom : " + cap.getNom() + " | précision : " + cap.getPrecision() + " | puissance : "
+        //                 + cap.getPuissance() + " | PP : " + cap.getPuissance() + " | catégorie : " + cap.getCategorie() + " | type : " + cap.getType() + "\n");
+        //     }
+        //     System.out.println();
+        //     for (int i = 0; i < 4; i++) {
+        //         Scanner input = new Scanner(System.in);  // Create a Scanner object
+        //         System.out.print(baptiste.getNom() + " choose a new capacity to learn for your pokemon " + pokemon.getNom() +" (give the name) : ");
+        //         String choixCapacite = input.nextLine();  // Read user input
+        //         for (ICapacite cap : capacites) {
+        //             if (cap.getNom().equals(choixCapacite)) {
+        //                 capacitesApp[counter] = cap;
+        //                 counter++;
+        //             }
+        //         }
+        //     }
+        //     pokemon.apprendCapacites(capacitesApp);
+        //     affichage(pokemon);
+        // }
 
-        for (IPokemon pokemon : IA.getRanch()) {
+        choixIA(IA1);
+        choixIA(IA2);
+
+        //////////////////////////////////////////////////////////
+
+        ICombat combat = new Combat(IA1, IA2);
+        combat.commence();
+    }
+
+    private static void choixIA(DresseurIA dresseur) {
+        Random rand = new Random();
+        for (IPokemon pokemon : dresseur.getRanch()) {
             ICapacite[] capacites = pokemon.getEspece().getCapSet();
-            System.out.println(Arrays.toString(capacites));
-            System.out.println(IA.getNom() + " choose a new capacity to learn (give the name) : ");
+            System.out.println(dresseur.getNom() + " choose a new capacity to learn " + pokemon.getNom() + " (give the name) : ");
             ICapacite[] capacitesApp = new ICapacite[4];
-            for (int i = 0; i < 5; i ++) {
+            for (int i = 0; i < 4; i++) {
                 capacitesApp[i] = capacites[rand.nextInt(capacites.length)];
             }
             pokemon.apprendCapacites(capacitesApp);
-            System.out.println(pokemon.getNom() + " capacités apprises : " + Arrays.toString(pokemon.getCapacitesApprises()));
+            affichage(pokemon);
         }
     }
 
-    /**
-     * Il crée les quatre capacités du pokémon puis les enseigne au pokémon
-     *
-     * @param pokemon2  le pokémon qui apprendra les mouvements
-     * @param capacite2 la gamme d'ICapacite
-     */
-    private static void createCapacite(IPokemon pokemon2, ICapacite[] capacite2) {
-        capacite2[0] = new Capacite("Écras'Face", 1.00, 40,
-                35, Categorie.Physique, Type.Normal);
-        capacite2[1] = new Capacite("Poing Karaté", 1.00, 50,
-                25, Categorie.Physique, Type.Normal);
-        capacite2[2] = new Capacite("Poing Feu", 1.00, 75,
-                15, Categorie.Physique, Type.Feu);
-        capacite2[3] = new Capacite("Guillotine", 0.30, -1,
-                5, Categorie.Physique, Type.Normal);
-        System.out.println("[Apprentissage des capacités]");
-        pokemon2.apprendCapacites(capacite2);
+    private static void affichage(IPokemon pokemon) {
+        System.out.println("\n" + pokemon.getNom() + " capacités apprises : ");
+        ICapacite[] capacite = pokemon.getCapacitesApprises();
+        for (ICapacite caps : capacite) {
+            System.out.printf("%-32s", "nom : " + caps.getNom() + " | précision : " + caps.getPrecision() + " | puissance : "
+                    + caps.getPuissance() + " | PP : " + caps.getPuissance() + " | catégorie : " + caps.getCategorie() + " | type : " + caps.getType() + "\n");
+        }
+        System.out.println("\n");
     }
 }

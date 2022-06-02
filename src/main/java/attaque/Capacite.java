@@ -234,7 +234,6 @@ public class Capacite implements ICapacite {
                 "nom='" + nom + '\'' +
                 ", precision=" + precision +
                 ", puissance=" + puissance +
-                ", PP_base=" + PP_base +
                 ", PP=" + PP +
                 ", categorie=" + categorie +
                 ", type=" + type +
