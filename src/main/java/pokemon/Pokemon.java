@@ -32,13 +32,13 @@ public class Pokemon implements IPokemon {
     private IStat DV;
 
 
-    public Pokemon(int id, String nom, int niveau, double experience, double pourcentagePV, IEspece espece) {
+    public Pokemon(int id, String nom, int niveau, double pourcentagePV, IEspece espece) {
         this.id = id;
         this.nom = nom;
         this.ancien_niveau = niveau;
         this.niveau = niveau;
         this.stat = this.copyStats(espece.getBaseStat());
-        this.experience = experience;
+        this.experience = 0;
         this.pourcentagePV = pourcentagePV;
         this.espece = espece;
         this.setDV();

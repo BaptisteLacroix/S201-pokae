@@ -1,13 +1,16 @@
 package dresseur;
 
-import interfaces.IAttaque;
-import interfaces.ICapacite;
-import interfaces.IDresseur;
-import interfaces.IPokemon;
+import attaque.Echange;
+import interfaces.*;
 import pokedex.Pokedex;
 
 import java.util.Arrays;
 import java.util.Scanner;
+
+
+/**
+ * @author Lacroix Baptiste
+ */
 
 public class Dresseur implements IDresseur {
     private String nom;
@@ -25,6 +28,10 @@ public class Dresseur implements IDresseur {
     public String getNom() {
         return this.nom;
     }//Nom du dresseur
+
+    public IPokemon[] getRanch() {
+        return this.ranch;
+    }
 
     @Override
     public int getNiveau() {
@@ -79,7 +86,7 @@ public class Dresseur implements IDresseur {
         IPokemon pokemon = null;
         System.out.println(pok.toString());
         Scanner input = new Scanner(System.in);  // Create a Scanner object
-        System.out.println(this.nom + " choose a pokemon who is gonna fight against " + pok.getNom() +" : ");
+        System.out.println(this.nom + " choose a pokemon who is gonna fight against " + pok.getNom() + " : ");
         System.out.println("Your ranch : " + Arrays.toString(this.ranch));
         String choixPokemon = input.next();  // Read user input
         for (IPokemon p : ranch) {
@@ -91,7 +98,7 @@ public class Dresseur implements IDresseur {
 
     @Override
     public IAttaque choisitAttaque(IPokemon attaquant, IPokemon defenseur) {
-        IAttaque attaque = null;
+        ICapacite attaque = null;
         System.out.println(defenseur.toString());
         Scanner input = new Scanner(System.in);  // Create a Scanner object
         System.out.println(this.nom + " what attack do you want to use (capacity 1) or (change 2) : ");
@@ -107,7 +114,9 @@ public class Dresseur implements IDresseur {
             }
             return attaque;
         } else {
-            throw new UnsupportedOperationException(); // Change de Pokemon
+            IEchange echange = new Echange(attaquant);
+            echange.setPokemon(this.choisitCombattantContre(defenseur));
+            return echange; // Change de Pokemon
         }
     } //Choisit l'attaque à utiliser contre le pokemon defenseur
 }

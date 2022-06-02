@@ -1,12 +1,14 @@
 package main;
 
 import attaque.Capacite;
+import dresseur.Dresseur;
 import interfaces.*;
-import pokedex.Pokedex;
 import statsPokemon.Categorie;
 import statsPokemon.Type;
 
 import java.util.Arrays;
+import java.util.Random;
+import java.util.Scanner;
 
 public class Main {
 
@@ -16,74 +18,42 @@ public class Main {
      * et les dommages qu'il causerait à un autre Pokémon.
      */
     public static void main(String[] args) throws Exception {
-        // Pokedex
-        System.out.println("\n\n----------- Pokedex -----------\n\n");
-        Pokedex p = new Pokedex();
-        System.out.println("[Ranch en cours de création]");
-        p.engendreRanch();
-        System.out.println("Information à propos de l'espèce Bulbizarre : " + p.getInfo("Bulbizarre").getNom());
-        System.out.println("Information à propos de l'espèce Bulbizarre : " + Arrays.toString(p.getInfo("Bulbizarre").getTypes()));
-        IType typeA = Type.Insecte;
-        IType typeD = Type.Sol;
-        System.out.println("Efficacité entre Type Insecte et Type Plante : " + p.getEfficacite(typeA, Type.Plante));
-        System.out.println("Nom de la capacité Ecras'Face : " + p.getCapacite("Écras'Face").getNom());
-        System.out.println("Nom de la capacité qui a pour id 1 : " + p.getCapacite(1).getNom());
+        Random rand = new Random();
+        Dresseur baptiste = new Dresseur("Baptiste");
+        Dresseur IA = new Dresseur("IA");
+        for (IPokemon pokemon : baptiste.getRanch()) {
+            ICapacite[] capacites = pokemon.getEspece().getCapSet();
+            ICapacite[] capacitesApp = new ICapacite[4];
+            int counter = 0;
+            for (int i = 0; i < 4; i ++) {
+                Scanner input = new Scanner(System.in);  // Create a Scanner object
+                System.out.println(Arrays.toString(capacites));
+                System.out.print(baptiste.getNom() + " choose a new capacity to learn (give the name) : ");
+                String choixCapacite = input.next();  // Read user input
+                System.out.println(counter);
+                for (ICapacite cap : capacites) {
+                    if (cap.getNom().equals(choixCapacite)) {
+                        capacitesApp[counter] = cap;
+                        counter ++;
+                    }
+                }
+            }
+            System.out.println("\n" + Arrays.toString(capacitesApp));
+            pokemon.apprendCapacites(capacitesApp);
+            System.out.println(pokemon.getNom() + " capacités apprises : " + Arrays.toString(pokemon.getCapacitesApprises()));
+        }
 
-
-        // Pokemon
-        System.out.println("\n\n----------- Pokemon -----------\n\n");
-        System.out.println("[Affichage du ranch du joueur]");
-        System.out.println(Arrays.toString(p.getRanch()));
-        IPokemon pokemon = p.getRanch()[0];
-        System.out.println("\nAffichage de l'espèce du Pokemon : " + pokemon.getEspece());
-        System.out.println("Affichage permettant de savoir si le pokémon est pret pour mutation : " + pokemon.peutMuter());
-        System.out.println("Affichage pour savoir si le Pokémon a changé de niveau : " + pokemon.aChangeNiveau());
-        System.out.println("Affichage pour savoir si le Pokémon est évanoui : " + pokemon.estEvanoui());
-
-        ICapacite[] capacite = new Capacite[4];
-        System.out.println("\n[Création des capacités]");
-        createCapacite(pokemon, capacite);
-        System.out.println("\n[Affichage des capacités apprises par le Pokémon]");
-        System.out.println(Arrays.toString(pokemon.getCapacitesApprises()));
-        System.out.println("\n[Remplacement de la capacité 1 par la 0]");
-        pokemon.remplaceCapacite(1, capacite[0]);
-        System.out.println("\n[Affichage des capacités apprises par le Pokémon suite au changement de capacité]");
-        System.out.println(Arrays.toString(pokemon.getCapacitesApprises()));
-
-        System.out.println("\nNom Pokemon : " + pokemon.getNom());
-        System.out.println("Stat Pokemon : " + pokemon.getStat());
-        System.out.println("\n[Le Pokémon perd ses PV il ne lui en reste plus que 10]");
-        pokemon.getStat().setPV(10);
-        System.out.println("Affichage des PV suite à sa perte de vie : " + pokemon.getStat().getPV());
-        System.out.println("[Le Pokémon se fait soigner]");
-        pokemon.soigne();
-        System.out.println("Affichage des PV suite à sa guérison: " + pokemon.getStat().getPV());
-
-
-        // Espèce
-        System.out.println("\n\n----------- Espèce -----------\n\n");
-        System.out.println("Stat de l'espèce : " + pokemon.getEspece().getBaseStat());
-        System.out.println("Ev de l'espèce : " + pokemon.getEspece().getGainsStat());
-        System.out.println("Expérience de base de l'espèce : " + pokemon.getEspece().getBaseExp());
-        System.out.println("\n[Recherche du nom des capacités possibles à l'apprentisssage]");
-        System.out.println(Arrays.toString(Arrays.stream(pokemon.getEspece().getCapSet()).toArray()));
-        System.out.println("Type de cette espèce : " + Arrays.toString(pokemon.getEspece().getTypes()));
-        System.out.println("Recherche d'une possible évolution : " + pokemon.getEspece().getEvolution(pokemon.getNiveau()));
-
-        // Capacité
-        System.out.println("\n\n----------- Capacité -----------\n\n");
-        IPokemon pokemon2 = p.getRanch()[1];
-        ICapacite[] capacite2 = new Capacite[4];
-        System.out.println("[Création des capacités]");
-        createCapacite(pokemon2, capacite2);
-        System.out.println("\n[Affichage des capacités apprises par le Pokémon 2]");
-        System.out.println(Arrays.toString(pokemon2.getCapacitesApprises()));
-        System.out.println("\nNom de la première capacité du Pokémon 1: " + capacite[0].getNom());
-        System.out.println("Nom de la première capacité du Pokémon 2: " + capacite2[1].getNom());
-        System.out.println("Précision de la première capacité du Pokémon 1: " + capacite[0].getPrecision());
-        System.out.println("Précision de la première capacité du Pokémon 2: " + capacite2[1].getPrecision());
-
-        System.out.println("Dégats infligé par Pokémon1 à Pokémon 2 : " + capacite[0].calculeDommage(pokemon, pokemon2));
+        for (IPokemon pokemon : IA.getRanch()) {
+            ICapacite[] capacites = pokemon.getEspece().getCapSet();
+            System.out.println(Arrays.toString(capacites));
+            System.out.println(IA.getNom() + " choose a new capacity to learn (give the name) : ");
+            ICapacite[] capacitesApp = new ICapacite[4];
+            for (int i = 0; i < 5; i ++) {
+                capacitesApp[i] = capacites[rand.nextInt(capacites.length)];
+            }
+            pokemon.apprendCapacites(capacitesApp);
+            System.out.println(pokemon.getNom() + " capacités apprises : " + Arrays.toString(pokemon.getCapacitesApprises()));
+        }
     }
 
     /**

@@ -28,11 +28,11 @@ public class WritingMovesIntoJSON {
         FileWriter file = new FileWriter("listeCapacitesEspecesWLVL.json");
         JSONObject containerPrincipal = new JSONObject(); // (Objet) Conteneur princiapl ->  { Pokemon [
         JSONArray listeContainerSecondaire = new JSONArray();  // (Liste) Contient une liste de conteneurs secondaires
-        while (id < 4) {
+        while (id < 152) {
             String[] infoP = this.getAllURLPokemon(id);
             System.out.println("id : " + id + " Pokemon : " + infoP[1]);
             Map<String, String> dictionnaire = this.recupMoves(infoP[0]);
-            System.out.println("dictionnaire en sortie : " + dictionnaire);
+            // System.out.println("dictionnaire en sortie : " + dictionnaire);
 
             JSONObject containerTertiaire = new JSONObject(); // (Objet -> Liste) Conteneur tertiaire -> nom : dsds, moves [ {
             JSONArray listeContainerQuatrieme = new JSONArray(); // (Liste) Contient une liste de 2 éléments dont un conteneur et une liste
@@ -105,17 +105,21 @@ public class WritingMovesIntoJSON {
      */
     private Map<String, String> recupMoves(String url) {
         Map<String, String> dictionnaire = new HashMap<>();
-        List<String> moveName = new ArrayList<>();
+        Map<Integer, String> moveName = new HashMap<>();
         List<String> lvl = new ArrayList<>();
+        List<Integer> counter = new ArrayList<>();
         try {
             JSONObject obj = requestHTTP(url);
             JSONArray modules = (JSONArray) obj.get("moves");
+            int id = 0;
             for (Object m : modules) {
                 JSONObject jsonObj = (JSONObject) m;
                 JSONObject obj2 = (JSONObject) new JSONParser().parse(String.valueOf(jsonObj.get("move")));
-                moveName.add(this.recupFrenchMoves((String) obj2.get("url")));
+                moveName.put(id, this.recupFrenchMoves((String) obj2.get("url")));
+                id ++;
             }
             modules = (JSONArray) obj.get("moves");
+            id = 0;
             for (Object m : modules) {
                 JSONObject jsonObj = (JSONObject) m;
                 JSONArray obj2 = (JSONArray) new JSONParser().parse(String.valueOf(jsonObj.get("version_group_details")));
@@ -126,16 +130,22 @@ public class WritingMovesIntoJSON {
                     // System.out.println("equals : " + jsonObj3.get("name").equals("red-blue"));
                     if (jsonObj3.get("name").equals("red-blue")) {
                         JSONObject ob3 = (JSONObject) obj2.get(0);
+                        // System.out.println("OB3 : " + ob3.get("level_learned_at"));
                         lvl.add(Long.toString((Long) ob3.get("level_learned_at")));
+                        // System.out.println(lvl);
+                        counter.add(id);
                     }
                 }
+                id ++;
             }
         } catch (ParseException | IOException e) {
             e.printStackTrace();
         }
-        System.out.println(moveName.size() + " -> " + lvl.size());
-        for (int i = 0; i < moveName.size(); i++) {
-            dictionnaire.put(moveName.get(i), lvl.get(i));
+        // System.out.println(moveName.size() + " -> " + lvl.size());
+
+        for (int i = 0; i < lvl.size(); i ++) {
+            // System.out.println("moveName.get(counter.get(i)) : " + moveName.get(counter.get(i)) + " -> lvl.get(i) : " + lvl.get(i));
+            dictionnaire.put(moveName.get(counter.get(i)), lvl.get(i));
         }
         return dictionnaire;
     }
