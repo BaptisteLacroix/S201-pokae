@@ -48,22 +48,21 @@ public class Tour implements ITour {
             this.echange2 = true;
             System.out.println(this);
         } else if (attaque1.getClass() == Echange.class) {
+            this.echange1 = true;
+            this.echange2 = true;
             System.out.println(this);
         } else {
             // Si vitesses P1 > P2 alors P1 commence sinon P2
             if (this.pokemon1.getStat().getVitesse() > this.pokemon2.getStat().getVitesse()) {
                 this.pokemon2.subitAttaqueDe(pokemon1, attaque1);
                 this.pokemon1.subitAttaqueDe(pokemon2, attaque2);
-                this.damageRecuPok1 -= this.pokemon1.getStat().getPV();
-                this.damageRecuPok2 -= this.pokemon2.getStat().getPV();
-                System.out.println(this);
             } else {
                 this.pokemon1.subitAttaqueDe(pokemon2, attaque2);
                 this.pokemon2.subitAttaqueDe(pokemon1, attaque1);
-                this.damageRecuPok1 -= this.pokemon1.getStat().getPV();
-                this.damageRecuPok2 -= this.pokemon2.getStat().getPV();
-                System.out.println(this);
             }
+            this.damageRecuPok1 -= this.pokemon1.getStat().getPV();
+            this.damageRecuPok2 -= this.pokemon2.getStat().getPV();
+            System.out.println(this);
         }
     }        //Lance un tour de combat
 
@@ -78,7 +77,7 @@ public class Tour implements ITour {
                     + this.pokemon2.getNom() + " a subit " + this.damageRecuPok2 + " de damage par " + this.pokemon1.getNom()
                     + "\nIl reste " + this.pokemon2.getStat().getPV() + "pv a " + this.pokemon2.getNom()
                     + "\nIl reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom();
-        } else if (echange1) {
+        } else if (echange1 && echange2) {
             return "Le Dresseur 1 a changé son Pokémon par : " + this.pokemon1.getNom() + "\n"
                     + "Le Dresseur 2 a changé son Pokémon par : " + this.pokemon2.getNom() + "\n"
                     + "Aucun n'a recu de dammage."

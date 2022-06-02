@@ -54,7 +54,8 @@ public class Combat implements ICombat {
             this.tableauTours.add(tour);
             if (this.pokemon1.estEvanoui()) {
                 this.ko1++;
-                System.out.println(this.pokemon1.getNom() + " est évanoui !\nIl n'en reste plus que " + (6 - this.ko1));
+                System.out.println(this.pokemon1.getNom() + " est évanoui !\nIl ne reste plus que " + (6 - this.ko1) + " pokémons dans le ranch de " +
+                        this.dresseur1.getNom() + " encore en vie");
                 if (this.ko1 == 6)
                     this.termine();
                 else
@@ -62,27 +63,40 @@ public class Combat implements ICombat {
             }
             if (this.pokemon2.estEvanoui()) {
                 this.ko2++;
-                System.out.println(this.pokemon2.getNom() + " est évanoui !\nIl n'en reste plus que " + (6 - this.ko2));
+                System.out.println(this.pokemon2.getNom() + " est évanoui !\nIl ne reste plus que " + (6 - this.ko2) + " pokémons dans le ranch de " +
+                        this.dresseur2.getNom() + " encore en vie");
                 if (this.ko2 == 6)
                     this.termine();
                 else
                     this.pokemon2 = this.dresseur2.choisitCombattant();
             }
             System.out.println("<<<<<<<<<<<<<<<<<< Fin du tour : " + this.nbrTours + " >>>>>>>>>>>>>>>>>\n");
-            this.chrono.stop(); // arrêt
-            System.out.println("Durée du combat  : " + this.chrono.getDureeTxt()); // affichage au format "1 h 26 min 32 s"
             this.pokemon1.gagneExperienceDe(this.pokemon2);
             this.pokemon2.gagneExperienceDe(this.pokemon1);
             this.nbrTours ++;
         }
         System.out.println("------------------ Fin du combat ! ------------------");
+        System.out.println("Durée du combat  : " + this.chrono.getDureeTxt() + "\n"); // affichage au format "1 h 26 min 32 s"
         this.dresseur1.soigneRanch();
         this.dresseur2.soigneRanch();
-        this.changementNiveau(this.dresseur1, this.pokemon1);
-        this.changementNiveau(this.dresseur2, this.pokemon2);
+        for(int i = 0; i < 6; i ++) {
+            this.dresseur1.getPokemon(i).getCapacitesApprises()[0].resetPP();
+            this.dresseur1.getPokemon(i).getCapacitesApprises()[1].resetPP();
+            this.dresseur1.getPokemon(i).getCapacitesApprises()[2].resetPP();
+            this.dresseur1.getPokemon(i).getCapacitesApprises()[3].resetPP();
+            this.changementNiveau(this.dresseur1, this.dresseur1.getPokemon(i));
+
+            this.dresseur2.getPokemon(i).getCapacitesApprises()[0].resetPP();
+            this.dresseur2.getPokemon(i).getCapacitesApprises()[1].resetPP();
+            this.dresseur2.getPokemon(i).getCapacitesApprises()[2].resetPP();
+            this.dresseur2.getPokemon(i).getCapacitesApprises()[3].resetPP();
+            this.changementNiveau(this.dresseur2, this.dresseur2.getPokemon(i));
+        }
+
     } // lance le combat
 
     private void changementNiveau(IDresseur dresseur, IPokemon pokemon) {
+        System.out.println("in -> " + pokemon.aChangeNiveau());
         if (pokemon.aChangeNiveau() && dresseur.getClass() == DresseurHuman.class) {
             Scanner input = new Scanner(System.in);
             System.out.println(dresseur.getNom() + " voulez vous apprendre une nouvelle capacité ? (oui/non) ou (y/n) : ");
@@ -152,7 +166,8 @@ public class Combat implements ICombat {
         try {
             PrintWriter writer = new PrintWriter(new FileWriter("log.txt", true));
             writer.println(date);
-            writer.println("Le combat a durée : " + this.chrono.getDureeTxt() + " en " + this.nbrTours + "tours");
+            this.chrono.stop(); // arrêt
+            writer.println("Le combat a durée : " + this.chrono.getDureeTxt() + " en " + this.nbrTours + " tours");
             if (this.ko1 == 6 && this.ko2 != 6) {
                 System.out.println("Le gagant est " + this.dresseur2.getNom() + "\nLe perdant est " + this.dresseur1.getNom());
                 writer.println("Le gagant est " + this.dresseur2.getNom() + "\nLe perdant est " + this.dresseur1.getNom());
@@ -164,7 +179,7 @@ public class Combat implements ICombat {
             for (ITour tour : this.tableauTours) {
                 writer.println(tour.toString());
             }
-            writer.println("---------------------------------------------------------->\n\n");
+            writer.println("\n\n---------------------------------------------------------->\n\n");
             writer.close();
         } catch (IOException e) {
             e.printStackTrace();
