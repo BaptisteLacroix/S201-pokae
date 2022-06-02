@@ -29,8 +29,9 @@ public class Capacite implements ICapacite {
     private ICategorie categorie;
     private IType type;
     private Random rand = new Random();
+    // private int niveau;
 
-    public Capacite(String nom, double precision, int puissance, int PP, ICategorie categorie, IType type) {
+    public Capacite(String nom, double precision, int puissance, int PP, ICategorie categorie, IType type/*, int niveau*/) {
         this.nom = nom;
         this.precision = precision;
         this.puissance = puissance;
@@ -38,6 +39,7 @@ public class Capacite implements ICapacite {
         this.PP = PP;
         this.categorie = categorie;
         this.type = type;
+        // this.niveau = niveau; TODO
     }
 
     /**

@@ -16,18 +16,22 @@ import interfaces.IPokemon;
  * Correspond à l'échange du Pokemon du combat avec un autre Pokemon du ranch
  */
 public class Echange implements IEchange {
-	private IPokemon newPokemon;
+	private IPokemon pokemon;
+
+	public Echange(IPokemon pokemon) {
+		this.pokemon = pokemon;
+	}
 
 	@Override
 	public void setPokemon(IPokemon pok) //choisit le Pokemon remplaçant
 	{
-		this.newPokemon = pok;
+		this.pokemon = pok;
 	}
 
 	@Override
 	public IPokemon echangeCombattant()  //active le remplacement (et renvoie l'ancien pokemon)
 	{
-		throw new UnsupportedOperationException();
+		return this.pokemon;
 	}
 
 	@Override
