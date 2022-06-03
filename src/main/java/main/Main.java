@@ -1,5 +1,6 @@
 package main;
 
+import attaque.Capacite;
 import combat.Combat;
 import dresseur.DresseurIA;
 import interfaces.*;
@@ -26,6 +27,13 @@ public class Main {
         chrono.start();
         DresseurIA IA2 = new DresseurIA("IA2");
         chrono.stop();
+
+        DresseurIA dresseurIA1 = new DresseurIA("dresseurIA1");
+        DresseurIA dresseurIA2 = new DresseurIA("dresseurIA2");
+        DresseurIA dresseurIA3 = new DresseurIA("dresseurIA3");
+        DresseurIA dresseurIA4 = new DresseurIA("dresseurIA4");
+        DresseurIA dresseurIA5 = new DresseurIA("dresseurIA5");
+
         System.out.println("chrono : " + chrono.getDureeTxt());
         // for (IPokemon pokemon : baptiste.getRanch()) {
         //     ICapacite[] capacites = pokemon.getEspece().getCapSet();
@@ -55,14 +63,29 @@ public class Main {
         choixIA(IA1);
         choixIA(IA2);
 
+
+        choixIA(dresseurIA1);
+        choixIA(dresseurIA2);
+        choixIA(dresseurIA3);
+        choixIA(dresseurIA4);
+        choixIA(dresseurIA5);
+
         //////////////////////////////////////////////////////////
 
         ICombat combat = new Combat(IA1, IA2);
-        int i;
-        for (i = 0; i < 5; i ++)
-            combat.commence();
+        ICombat combat1 = new Combat(dresseurIA1, dresseurIA2);
+        ICombat combat2 = new Combat(dresseurIA3, dresseurIA4);
+        ICombat combat3 = new Combat(dresseurIA5, dresseurIA3);
+        combat.commence();
+        combat1.commence();
+        combat2.commence();
+        combat3.commence();
+        // int i;
+        // for (i = 0; i < 5; i ++)
+        //     combat.commence();
         chrono2.stop();
-        System.out.println("durée total pour " + i + " combats : " + chrono2.getDureeTxt());
+        // System.out.println("durée total pour " + i + " combats : " + chrono2.getDureeTxt());
+        System.out.println("durée total pour les combats : " + chrono2.getDureeTxt());
     }
 
     private static void choixIA(DresseurIA dresseur) {
@@ -71,9 +94,11 @@ public class Main {
             ICapacite[] capacites = pokemon.getEspece().getCapSet();
             ICapacite[] capacitesApp = new ICapacite[4];
             for (int i = 0; i < 4; i++) {
-                int random = rand.nextInt(capacites.length);
-                System.out.println(dresseur.getNom() + " choose a new capacity to learn for " + pokemon.getNom() + " : " + capacites[random].getNom());
-                capacitesApp[i] = capacites[random];
+                Capacite random = (Capacite) capacites[rand.nextInt(capacites.length)];
+                while (pokemon.getNiveau() < random.getNiveau())
+                    random = (Capacite) capacites[rand.nextInt(capacites.length)];
+                System.out.println(dresseur.getNom() + " choose a new capacity to learn for " + pokemon.getNom() + " : " + random.getNom());
+                capacitesApp[i] = random;
             }
             System.out.println();
             pokemon.apprendCapacites(capacitesApp);
