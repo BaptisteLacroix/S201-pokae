@@ -7,6 +7,7 @@
  */
 package pokemon;
 
+import attaque.Capacite;
 import interfaces.IEspece;
 import interfaces.IPokemon;
 import interfaces.IStat;
@@ -254,7 +255,8 @@ public class Pokemon implements IPokemon {
     public void apprendCapacites(ICapacite[] caps) {
         for (int i = 0; i < caps.length; i ++) {
             for (ICapacite c : this.espece.getCapSet()) {
-                if (caps[i].getNom().strip().equalsIgnoreCase(c.getNom().strip())) {
+                Capacite capacite = (Capacite) c;
+                if (caps[i].getNom().strip().equalsIgnoreCase(c.getNom().strip()) && this.niveau >= capacite.getNiveau()) {
                     this.capacites[i] = caps[i];
                 }
             }
@@ -274,7 +276,8 @@ public class Pokemon implements IPokemon {
         if (i < 0 || i > 4)
             throw new UnsupportedOperationException();
         for (ICapacite c : this.espece.getCapSet()) {
-            if (cap.getNom().equals(c.getNom())) {
+            Capacite capacite = (Capacite) c;
+            if (cap.getNom().equals(c.getNom()) && this.niveau >= capacite.getNiveau()) {
                 this.capacites[i] = cap;
             }
         }

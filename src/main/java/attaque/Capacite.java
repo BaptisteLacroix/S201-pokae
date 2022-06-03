@@ -146,6 +146,10 @@ public class Capacite implements ICapacite {
         }
     }
 
+    public int getNiveau() {
+        return niveau;
+    }
+
     /**
      * Cette fonction diminue le PP de 1.
      */
