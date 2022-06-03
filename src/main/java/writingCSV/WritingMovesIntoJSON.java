@@ -21,7 +21,8 @@ public class WritingMovesIntoJSON {
     }
 
     /**
-     * Il prend le nom du pokémon et le nom des mouvements qui lui sont associés et les écrit dans un fichier csv
+     * Cette fonction crée un fichier JSON contenant la liste de tous les coups de tous les Pokémon, avec leur niveau
+     * d'acquisition
      */
     public void writeIntoJson() throws IOException {
         int id = 1;
@@ -98,10 +99,11 @@ public class WritingMovesIntoJSON {
     }
 
     /**
-     * Il prend une URL en paramètre et renvoie une liste de chaînes
+     * Il prend une URL comme paramètre et renvoie une Map<String, String> contenant le nom du mouvement comme clé et le
+     * niveau auquel le mouvement est appris comme valeur
      *
      * @param url l'url du pokémon
-     * @return Une liste des Moves
+     * @return Une Map avec le nom du coup comme clé et le niveau auquel le pokémon l'apprend comme valeur.
      */
     private Map<String, String> recupMoves(String url) {
         Map<String, String> dictionnaire = new HashMap<>();

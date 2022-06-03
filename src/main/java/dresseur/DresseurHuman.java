@@ -24,15 +24,26 @@ public class DresseurHuman implements IDresseur {
         this.getNiveau();
     }
 
+    /**
+     * Une méthode qui renvoie le nom du formateur.
+     */
     @Override
     public String getNom() {
         return this.nom;
     }//Nom du dresseur
 
+    /**
+     * Cette fonction renvoie le tableau ranch.
+     *
+     * @return Le tableau du ranch.
+     */
     public IPokemon[] getRanch() {
         return this.ranch;
     }
 
+    /**
+     * C'est une méthode qui renvoie le niveau du formateur.
+     */
     @Override
     public int getNiveau() {
         this.niveau = 0;
@@ -42,11 +53,21 @@ public class DresseurHuman implements IDresseur {
         return this.niveau;
     }//Niveau du dresseur
 
+    /**
+     * C'est une méthode qui retourne le ième pokémon du ranch.
+     */
     @Override
     public IPokemon getPokemon(int i) {
         return ranch[i];
     }//Récupère le i-eme Pokemon du Ranch
 
+
+    /**
+     * Donne au pokemon pok les capacites caps
+     *
+     * @param pok  pokemonn a qui on va enseigner les capacités
+     * @param caps tableau de capacités a enseigner
+     */
     @Override
     public void enseigne(IPokemon pok, ICapacite[] caps) {
         ICapacite[] capSet = pok.getEspece().getCapSet();
@@ -61,6 +82,9 @@ public class DresseurHuman implements IDresseur {
         }
     }//Donne au pokemon pok les capacites caps
 
+    /**
+     * C'est une méthode qui soigne tous les pokémons du ranch.
+     */
     @Override
     public void soigneRanch() {
         for (IPokemon p : this.ranch) {
@@ -68,12 +92,18 @@ public class DresseurHuman implements IDresseur {
         }
     } //Redonne à tous les pokemon du Ranch leur PV max
 
+
+    /**
+     * Cette méthode est utilisée pour choisir le premier pokémon qui combattra.
+     *
+     * @return Pokemon qui combattra
+     */
     @Override
     public IPokemon choisitCombattant() {
         IPokemon pok = null;
         Scanner input = new Scanner(System.in);  // Create a Scanner object
         for (IPokemon pokemon : this.ranch)
-            System.out.printf("%-32s", "nom : " + pokemon.getNom() + " | stats : " + pokemon.getStat() +  " | PourcentagePV : " + pokemon.getPourcentagePV() + "\n");
+            System.out.printf("%-32s", "nom : " + pokemon.getNom() + " | stats : " + pokemon.getStat() + " | PourcentagePV : " + pokemon.getPourcentagePV() + "\n");
         System.out.println(this.nom + " Give the name of the Pokemon that will fight : ");
         String choixPokemon = input.nextLine();  // Read user input
         for (IPokemon p : this.ranch) {
@@ -83,6 +113,12 @@ public class DresseurHuman implements IDresseur {
         return pok;
     } //Choisit le premier Pokemon pour combattre
 
+    /**
+     * Cette méthode est utilisée pour choisir le pokémon qui combattra le pokémon adverse.
+     *
+     * @param pok pokemon de l'adversaire
+     * @return Pokemon qui combattra
+     */
     @Override
     public IPokemon choisitCombattantContre(IPokemon pok) {
         IPokemon pokemon = null;
@@ -98,6 +134,14 @@ public class DresseurHuman implements IDresseur {
         return pokemon;
     } //Choisit le Pokemon pour combattre contre pok
 
+
+    /**
+     * Cette méthode permet de choisir l'attaque qui sera utilisée contre le pokémon défenseur.
+     *
+     * @param attaquant pokemon de l'attaquant
+     * @param defenseur pokemon du defenseur
+     * @return Une Instance de Attaque
+     */
     @Override
     public IAttaque choisitAttaque(IPokemon attaquant, IPokemon defenseur) {
         ICapacite attaque = null;

@@ -32,6 +32,10 @@ public class Combat implements ICombat {
         this.dresseur2 = dresseur2;
     }
 
+    /**
+     * Cette méthode est la méthode principale de la classe de combat. C'est celui qui sera appelé pour commencer le
+     * combat.
+     */
     @Override
     public void commence() {
         this.pokemon1 = this.dresseur1.choisitCombattant();
@@ -62,6 +66,10 @@ public class Combat implements ICombat {
         this.finCombat();
     } // lance le combat
 
+    /**
+     * Si le pokémon est assommé, le nombre de pokémons assommés est incrémenté, et si le nombre de pokémons assommés est
+     * de 6, la bataille est terminée
+     */
     private void afterTour() {
         if (this.pokemon1.estEvanoui()) {
             this.ko1++;
@@ -85,6 +93,9 @@ public class Combat implements ICombat {
         }
     }
 
+    /**
+     * Il réinitialise le PP et soigne tous les Pokémon des deux dresseurs et vérifie s'ils ont monté de niveau
+     */
     private void finCombat() {
         this.dresseur1.soigneRanch();
         this.dresseur2.soigneRanch();
@@ -103,6 +114,12 @@ public class Combat implements ICombat {
         }
     }
 
+    /**
+     * Il permet au joueur de changer le mouvement d'un pokémon s'il a augmenté de niveau
+     *
+     * @param dresseur l'entraîneur
+     * @param pokemon le pokémon qui vient de monter de niveau
+     */
     private void changementNiveau(IDresseur dresseur, IPokemon pokemon) {
         if (pokemon.aChangeNiveau() && dresseur.getClass() == DresseurHuman.class) {
             Scanner input = new Scanner(System.in);
@@ -117,6 +134,12 @@ public class Combat implements ICombat {
         }
     }
 
+    /**
+     * Il choisit au hasard une capacité à remplacer et une capacité à apprendre
+     *
+     * @param dresseur le dresseur qui va changer la capacité de son pokémon
+     * @param pokemon le pokémon qui va apprendre une nouvelle capacité
+     */
     private void changeCapIA(IDresseur dresseur, IPokemon pokemon) {
         try {
             int capR = this.rand.nextInt(4);
@@ -129,6 +152,13 @@ public class Combat implements ICombat {
         }
     }
 
+    /**
+     * Il permet au joueur de choisir une nouvelle capacité à apprendre et de remplacer une des capacités déjà apprises par
+     * le pokémon
+     *
+     * @param dresseur le formateur qui change la capacité
+     * @param pokemon le pokémon dont vous voulez changer la capacité
+     */
     private void changeCap(IDresseur dresseur, IPokemon pokemon) {
         ICapacite[] capacites = pokemon.getEspece().getCapSet();
         Scanner input = new Scanner(System.in);  // Create a Scanner object
@@ -152,21 +182,38 @@ public class Combat implements ICombat {
         }
     }
 
+    /**
+     * Un getter pour le premier dresseur.
+     */
     @Override
     public IDresseur getDresseur1() {
         return dresseur1;
     } //Récupère le premier dresseur
 
+    /**
+     * Un getter pour le deuxième entraîneur.
+     */
     @Override
     public IDresseur getDresseur2() {
         return dresseur2;
     } //Récupère le second dresseur
 
+    /**
+     * Une méthode qui crée un nouveau tour du combat.
+     * @param pok1 pokemon du dresseur 1
+     * @param atk1 attaque du dresseur 1
+     * @param pok2 pokemon du dresseur 2
+     * @param atk2 attaque du dresseur 2
+     * @return une instance de Tour
+     */
     @Override
     public ITour nouveauTour(IPokemon pok1, IAttaque atk1, IPokemon pok2, IAttaque atk2) {
         return new Tour(pok1, atk1, pok2, atk2);
     } //Crée un tour du combat
 
+    /**
+     * Écriture des logs de chaque tour dans un fichier
+     */
     @Override
     public void termine() {
         Date date = new Date();

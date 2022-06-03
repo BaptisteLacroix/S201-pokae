@@ -16,11 +16,15 @@ import statsPokemon.Categorie;
 import statsPokemon.Stat;
 import statsPokemon.Type;
 
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -115,7 +119,6 @@ public class Espece implements IEspece {
             while (reader.ready() && !trouve) {
                 Scanner scanner = new Scanner(reader.readLine()).useDelimiter(";");
                 String[] tab = scanner.nextLine().split(";");
-                // System.out.println(Arrays.toString(tab));
                 if (tab[0].equals(this.nom)) {
                     this.creatCap(tab);
                     trouve = true;
@@ -145,7 +148,7 @@ public class Espece implements IEspece {
                     String[] tab = scanner.nextLine().split(";");
                     if (tab[0].equals(tableau[i])) {
                         cap.add(new Capacite(tab[0], Double.parseDouble(tab[2]), Integer.parseInt(tab[1]),
-                                Integer.parseInt(tab[3]), Categorie.valueOf(tab[5]), conversionStringType(tab[6])));
+                                Integer.parseInt(tab[3]), Categorie.valueOf(tab[5]), conversionStringType(tab[6])/*, TODO : this.getLvlCap(tab[0])*/));
                     }
                 }
             } catch (IOException e) {
@@ -159,6 +162,42 @@ public class Espece implements IEspece {
             }
         }
     }
+
+    /* TODO :
+     * Il lit un fichier JSON et renvoie le niveau auquel un Pokémon peut apprendre un mouvement
+     *
+     * @param name Le nom du déménagement.
+     * @return Le niveau du pokémon auquel il apprend le mouvement.
+     *
+    private int getLvlCap(String name) {
+        int lvl = 0;
+        try {
+            JSONParser parser = new JSONParser();
+            JSONObject obj = (JSONObject) parser.parse(new FileReader("./resources/listeCapacitesEspecesWLVL.json"));
+            JSONArray modules = (JSONArray) obj.get("Pokemon");
+            for (Object m : modules) {
+                JSONObject jsonObj = (JSONObject) m;
+                System.out.println("jsonObj.get(name) -> " + jsonObj.get("name"));
+                System.out.println("this.nom -> " + this.nom);
+                if (jsonObj.get("name").equals(this.nom)) {
+                    JSONArray jsonArray = (JSONArray) jsonObj.get("moves");
+                    for (Object m2 : jsonArray) {
+                        JSONObject element = (JSONObject) m2;
+                        System.out.println("element.get(move) -> " + jsonObj.get("name"));
+                        System.out.println("name -> " + name);
+                        if (element.get("move").equals(name)) {
+                            lvl = (int) element.get("lvl");
+                        }
+                    }
+                }
+            }
+        } catch (IOException | ParseException e) {
+            e.printStackTrace();
+        }
+        System.out.println("NOM Espece : " + this.nom + " ---> NOM Cap : " + name + " -----> lvl : " + lvl);
+        return lvl;
+    }
+     */
 
     /**
      * Une méthode qui renvoie l'ensemble des capacités disponibles pour cette espèce.

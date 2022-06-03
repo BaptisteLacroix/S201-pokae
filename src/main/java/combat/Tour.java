@@ -11,7 +11,6 @@ import attaque.Echange;
 import interfaces.IAttaque;
 import interfaces.IPokemon;
 import interfaces.ITour;
-import writingCSV.Chrono;
 
 
 /**
@@ -36,6 +35,9 @@ public class Tour implements ITour {
         this.damageRecuPok2 = this.pokemon2.getStat().getPV();
     }
 
+    /**
+     * La méthode permet de Lancer un tour de combat
+     */
     @Override
     public void commence() {
         if (attaque1.getClass() == Echange.class && attaque2.getClass() != Echange.class) {
@@ -67,6 +69,11 @@ public class Tour implements ITour {
         }
     }        //Lance un tour de combat
 
+    /**
+     * Cette fonction permet d'imprimer le résultat du combat
+     *
+     * @return La méthode toString() est renvoyée.
+     */
     @Override
     public String toString() {
         if (echange1 && !echange2) {
@@ -86,6 +93,12 @@ public class Tour implements ITour {
         }
     }
 
+    /**
+     * Cette fonction permet d'afficher le résultat de l'échange du premier joueur
+     *
+     * @return La méthode renvoie une chaîne contenant le nom du pokémon qui a été modifié, les dégâts que le pokémon a
+     * reçus et les hp restants du pokémon.
+     */
     private String echange1check() {
         if (this.pokemon1.estEvanoui()) {
             return "Le Dresseur 1 a changé son Pokémon par : " + this.pokemon1.getNom() + "\n"
@@ -100,6 +113,12 @@ public class Tour implements ITour {
         }
     }
 
+    /**
+     * Cette fonction permet d'afficher le message lorsque le joueur 2 change de pokémon
+     *
+     * @return La méthode renvoie une chaîne contenant le nom du pokémon qui a été modifié, les dégâts que le pokémon a
+     * subis et le pv restant du pokémon.
+     */
     private String echange2check() {
         if (this.pokemon2.estEvanoui()) {
             return "Le Dresseur 2 a changé son Pokémon par : " + this.pokemon2.getNom() + "\n"
@@ -114,6 +133,12 @@ public class Tour implements ITour {
         }
     }
 
+    /**
+     * Il imprime le résultat du combat entre deux pokemon
+     *
+     * @return La méthode renvoie une chaîne contenant le nom du pokémon, les dégâts reçus par l'adversaire et les PV
+     * restants du pokémon.
+     */
     private String printWhoIsKo1() {
         if (this.pokemon1.estEvanoui() && !this.pokemon2.estEvanoui()) {
             return this.pokemon1.getNom() + " attaque le premier en infligeant " + this.damageRecuPok2 + "\n"
@@ -138,6 +163,13 @@ public class Tour implements ITour {
         }
     }
 
+    /**
+     * Il imprime qui est ko et qui ne l'est pas
+     *
+     * @return La méthode renvoie une chaîne contenant le nom du pokémon qui attaque en premier, les dégâts qu'il inflige,
+     * le nom du pokémon qui attaque en second, les dégâts qu'il inflige et les PV restants du pokémon qui attaque en
+     * premier et en second.
+     */
     private String printWhoIsKo2() {
         if (this.pokemon1.estEvanoui() && !this.pokemon2.estEvanoui()) {
             return this.pokemon2.getNom() + " attaque le premier en infligeant " + this.damageRecuPok1 + "\n"
