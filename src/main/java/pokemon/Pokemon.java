@@ -28,25 +28,21 @@ public class Pokemon implements IPokemon {
     private double experience;
     private double pourcentagePV;
     private IEspece espece;
-    private ICapacite[] capacites = new ICapacite[4];
+    private final ICapacite[] capacites = new ICapacite[4];
     private IStat DV;
 
 
-    public Pokemon(int id, String nom, int niveau, double experience, double pourcentagePV, IEspece espece) {
+    public Pokemon(int id, String nom, int niveau, double pourcentagePV, IEspece espece) {
         this.id = id;
         this.nom = nom;
         this.ancien_niveau = niveau;
         this.niveau = niveau;
         this.stat = this.copyStats(espece.getBaseStat());
-        this.experience = experience;
+        this.experience = 0;
         this.pourcentagePV = pourcentagePV;
         this.espece = espece;
         this.setDV();
-
-        while (peutChangerDeNiveau()) {
-            this.niveau++;
-            this.miseAjourStats();
-        }
+        this.miseAjourStats();
     }
 
     /**
@@ -96,7 +92,10 @@ public class Pokemon implements IPokemon {
     private void setDV() {
         Random rand = new Random();
         int[] lowWeight = new int[4];
-        int force, defense, vitesse, special;
+        int force;
+        int defense;
+        int vitesse;
+        int special;
         force = rand.nextInt(16);
         defense = rand.nextInt(16);
         vitesse = rand.nextInt(16);
@@ -255,7 +254,7 @@ public class Pokemon implements IPokemon {
     public void apprendCapacites(ICapacite[] caps) {
         for (int i = 0; i < caps.length; i ++) {
             for (ICapacite c : this.espece.getCapSet()) {
-                if (caps[i].getNom().equals(c.getNom())) {
+                if (caps[i].getNom().strip().equalsIgnoreCase(c.getNom().strip())) {
                     this.capacites[i] = caps[i];
                 }
             }
@@ -291,13 +290,16 @@ public class Pokemon implements IPokemon {
     public void gagneExperienceDe(IPokemon pok) {
         this.experience = (1.5 * pok.getNiveau() * pok.getEspece().getBaseExp()) / 7;
         while (peutChangerDeNiveau()) {
+            this.ancien_niveau = this.niveau;
             this.niveau++;
             this.miseAjourStats();
         }
+        if (this.aChangeNiveau())
+            System.out.println(this.nom + " a gagné " + (this.niveau-this.ancien_niveau) + " niveau(x) !");
     } //Met à jour l'exprérience de this suite à la défaite de pok
 
     private boolean peutChangerDeNiveau() {
-        return this.experience >= (0.8 * Math.pow(this.niveau + 1, 3));
+        return this.experience >= (0.8 * Math.pow((double) this.niveau + 1, 3));
     }
 
     /**
@@ -311,6 +313,10 @@ public class Pokemon implements IPokemon {
         if (atk instanceof ICapacite) {
             int degats = atk.calculeDommage(pok, this);
             this.stat.setPV(this.stat.getPV() - degats);
+            if (this.pourcentagePV - (100 * (double) degats / this.calculGainStatPV()) < 0)
+                this.pourcentagePV = 0;
+            else
+                this.pourcentagePV -= 100 * (double) degats / this.calculGainStatPV();
         }
     } //Met à jour les stats de this en tenant compte des dégats subits par l'attaque atk de pok
 
@@ -358,6 +364,12 @@ public class Pokemon implements IPokemon {
         this.stat.setPV(this.calculGainStatPV());
     }       // Remet les PV au maximum
 
+    /**
+     * Il renvoie une chaîne contenant le nom, le niveau, les statistiques, le pourcentage de HP, l'espèce et le DV du
+     * Pokémon.
+     *
+     * @return Le nom, le niveau, les statistiques, le pourcentage de HP, l'espèce et le DV du Pokémon.
+     */
     @Override
     public String toString() {
         return "Pokemon{" +

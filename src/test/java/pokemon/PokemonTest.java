@@ -22,7 +22,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
 
         // Stat
         Assert.assertEquals(15, pokemon.getStat().getPV());
@@ -43,7 +43,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
 
         // Experience
         Assert.assertTrue(Math.abs(64 - pokemon.getExperience()) <= 0.00000001);
@@ -60,7 +60,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
 
         // Niveau
         Assert.assertEquals(4, pokemon.getNiveau());
@@ -77,7 +77,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
 
         // id
         Assert.assertEquals(1, pokemon.getId());
@@ -94,7 +94,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
 
         // Nom
         Assert.assertEquals("Bulbizarre", pokemon.getNom());
@@ -113,7 +113,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
 
         // Pourcentage
         Assert.assertTrue(Math.abs(100.0 - pokemon.getPourcentagePV()) <= 0.00000001);
@@ -130,7 +130,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
 
         // Espece
         Assert.assertEquals(espece, pokemon.getEspece());
@@ -147,7 +147,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
 
         ICapacite[] capacite = new Capacite[4];
         capacite[0] = new Capacite("Écras'Face", 1.00, 40,
@@ -197,33 +197,39 @@ public class PokemonTest {
      * Il teste si la fonction remplacerCapacite() fonctionne
      */
     @Test
-    public void testRemplaceCapacite() throws Exception {
-        IType[] type = new IType[2];
-        type[0] = Type.Plante;
-        type[1] = Type.Poison;
-        IStat stats = new Stat(45, 49, 49, 65, 45);
-        IStat evstats = new Stat(0, 0, 0, 1, 0);
-        IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 64, 100.0, espece);
+    public void testRemplaceCapacite() {
+        try {
 
-        ICapacite[] capacite = new Capacite[4];
-        capacite[0] = new Capacite("Écras'Face", 1.00, 40,
-                35, Categorie.Physique, Type.Normal);
 
-        capacite[1] = new Capacite("Poing Karaté", 1.00, 50,
-                25, Categorie.Physique, Type.Normal);
+            IType[] type = new IType[2];
+            type[0] = Type.Plante;
+            type[1] = Type.Poison;
+            IStat stats = new Stat(45, 49, 49, 65, 45);
+            IStat evstats = new Stat(0, 0, 0, 1, 0);
+            IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
+            IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
 
-        capacite[2] = new Capacite("Poing Feu", 1.00, 75,
-                15, Categorie.Physique, Type.Feu);
+            ICapacite[] capacite = new Capacite[4];
+            capacite[0] = new Capacite("Écras'Face", 1.00, 40,
+                    35, Categorie.Physique, Type.Normal);
 
-        capacite[3] = new Capacite("Guillotine", 0.30, -1,
-                5, Categorie.Physique, Type.Normal);
+            capacite[1] = new Capacite("Poing Karaté", 1.00, 50,
+                    25, Categorie.Physique, Type.Normal);
 
-        pokemon.apprendCapacites(capacite);
-        pokemon.remplaceCapacite(1, capacite[0]);
+            capacite[2] = new Capacite("Poing Feu", 1.00, 75,
+                    15, Categorie.Physique, Type.Feu);
 
-        Assert.assertEquals(capacite[1], pokemon.getCapacitesApprises()[1]);
-        Assert.assertEquals(capacite[0], pokemon.getCapacitesApprises()[1]);
+            capacite[3] = new Capacite("Guillotine", 0.30, -1,
+                    5, Categorie.Physique, Type.Normal);
+
+            pokemon.apprendCapacites(capacite);
+            pokemon.remplaceCapacite(1, capacite[0]);
+
+            Assert.assertEquals(capacite[1], pokemon.getCapacitesApprises()[1]);
+            Assert.assertEquals(capacite[0], pokemon.getCapacitesApprises()[1]);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     /**
@@ -237,7 +243,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
 
         Assert.assertFalse(pokemon.estEvanoui());
     }
@@ -253,7 +259,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
 
         Assert.assertTrue(pokemon.aChangeNiveau());
     }
@@ -269,7 +275,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
 
         Assert.assertTrue(pokemon.peutMuter());
     }
@@ -285,7 +291,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
 
         System.out.println("Stat Pokemon : " + pokemon.getStat());
         pokemon.getStat().setPV(10);

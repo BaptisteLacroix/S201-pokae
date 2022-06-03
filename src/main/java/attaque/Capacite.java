@@ -7,10 +7,13 @@
  */
 package attaque;
 
-
-import interfaces.*;
+import interfaces.ICapacite;
+import interfaces.ICategorie;
+import interfaces.IType;
+import interfaces.IPokemon;
 import pokedex.Pokedex;
 import statsPokemon.Type;
+import other.Chrono;
 
 import java.util.Random;
 
@@ -18,7 +21,7 @@ import java.util.Random;
  * @author Lacroix Baptiste
  * Une capacité est un type d'attaque que le pokemon peut utilser
  */
-public class Capacite extends Attaque implements ICapacite {
+public class Capacite implements ICapacite {
     private String nom;
     private double precision;
     private int puissance;
@@ -27,9 +30,10 @@ public class Capacite extends Attaque implements ICapacite {
     private ICategorie categorie;
     private IType type;
     private Random rand = new Random();
+    private final Chrono chrono = new Chrono();
+    // TODO : private int niveau;
 
-    public Capacite(String nom, double precision, int puissance, int PP, ICategorie categorie, IType type) {
-        super(new Capacite(nom, precision, puissance, PP, categorie, type));
+    public Capacite(String nom, double precision, int puissance, int PP, ICategorie categorie, IType type/*,TODO : int niveau*/) {
         this.nom = nom;
         this.precision = precision;
         this.puissance = puissance;
@@ -37,6 +41,7 @@ public class Capacite extends Attaque implements ICapacite {
         this.PP = PP;
         this.categorie = categorie;
         this.type = type;
+        // TODO : this.niveau = niveau;
     }
 
     /**
@@ -52,28 +57,39 @@ public class Capacite extends Attaque implements ICapacite {
             this.utilise();
             return 0;
         }
-
         int damage = this.caseAttack(lanceur, receveur);
-
         if (damage == -1) {
             this.utilise();
+            chrono.start();
             double eff = new Pokedex().getEfficacite(this.type, receveur.getEspece().getTypes()[0]);
+            chrono.stop();
+            System.out.println(" -------------------- > eff 0 -> 0.2 : " + chrono.getDureeTxt());
+            chrono.start();
             double eff2 = new Pokedex().getEfficacite(this.type, receveur.getEspece().getTypes()[1]);
+            chrono.stop();
+            System.out.println(" -------------------- > eff2 0 -> 0.3 : " + chrono.getDureeTxt());
             double pparenthese = lanceur.getNiveau() * 0.4 + 2;
             double numerateur = pparenthese * lanceur.getStat().getForce() * this.puissance;
-            double denominateur = receveur.getStat().getDefense() * 50;
+            double denominateur = (double) receveur.getStat().getDefense() * 50;
             double fraction = numerateur / denominateur + 2;
-
             if (this.type == lanceur.getEspece().getTypes()[0] || this.type == lanceur.getEspece().getTypes()[1]) {
                 double CM = (eff * eff2) * 1.5 * (0.85 + (1 - 0.85) * rand.nextDouble());
                 return (int) Math.round(fraction * CM);
             }
-
             double CM = (eff * eff2) * (0.85 + (1 - 0.85) * rand.nextDouble());
             return (int) Math.round(fraction * CM);
-        } else return damage;
+        } else  {
+            return damage;
+        }
     }
 
+    /**
+     * Il calcule les dommages causés par un mouvement
+     *
+     * @param lanceur le pokémon qui utilise l'attaque
+     * @param receveur le pokémon attaqué
+     * @return Les dégâts que l'attaque fera.
+     */
     private int caseAttack(IPokemon lanceur, IPokemon receveur) {
         switch (this.puissance) {
             case -1:
@@ -231,7 +247,6 @@ public class Capacite extends Attaque implements ICapacite {
                 "nom='" + nom + '\'' +
                 ", precision=" + precision +
                 ", puissance=" + puissance +
-                ", PP_base=" + PP_base +
                 ", PP=" + PP +
                 ", categorie=" + categorie +
                 ", type=" + type +

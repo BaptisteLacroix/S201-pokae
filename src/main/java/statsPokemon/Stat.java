@@ -11,7 +11,6 @@ import interfaces.IStat;
 
 /**
  * @author Lacroix baptiste and Vidal Théo
- *
  */
 public class Stat implements IStat {
     private int pv;
@@ -36,9 +35,8 @@ public class Stat implements IStat {
      */
     @Override
     public void setPV(int pv) {
-        this.pv = pv;
+        this.pv = Math.max(pv, 0);
     }
-
 
 
     /**
@@ -141,12 +139,6 @@ public class Stat implements IStat {
 
     @Override
     public String toString() {
-        return "Stat{" +
-                "pv=" + pv +
-                ", force=" + force +
-                ", defense=" + defense +
-                ", special=" + special +
-                ", vitesse=" + vitesse +
-                '}';
+        return "Stat{" + "pv=" + pv + ", force=" + force + ", defense=" + defense + ", special=" + special + ", vitesse=" + vitesse + '}';
     }
 }

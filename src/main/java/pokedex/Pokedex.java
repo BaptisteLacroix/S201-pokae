@@ -247,7 +247,7 @@ public class Pokedex implements IPokedex {
                     IStat stats = new Stat(pv, force, defense, special, vitesse);
                     IStat evstats = new Stat(evPV, evForce, evDefense, evSpecial, evVitesse);
                     IEspece espece = new Espece(stats, nom, niveau, expbase, evstats, types);
-                    this.dico.put(id, new Pokemon(id, nom, niveau, expbase, 100.0, espece));
+                    this.dico.put(id, new Pokemon(id, nom, niveau, 100.0, espece));
                 }
             }
             reader.close();
