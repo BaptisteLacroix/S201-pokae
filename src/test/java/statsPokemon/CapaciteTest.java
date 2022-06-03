@@ -20,16 +20,19 @@ public class CapaciteTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 4, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 100.0, espece);
 
         ICapacite[] capacite = new Capacite[4];
-        capacite[0] = new Capacite("Écras'Face", 1.00, 40,
+        capacite[0] = new Capacite("Plaquage", 1.00, 40,
                 35, Categorie.Physique, Type.Normal, 0);
-        capacite[1] = new Capacite("Poing Karaté", 1.00, 50,
+
+        capacite[1] = new Capacite("Damoclès", 1.00, 50,
                 25, Categorie.Physique, Type.Normal, 0);
-        capacite[2] = new Capacite("Poing Feu", 1.00, 75,
+
+        capacite[2] = new Capacite("Méga-Sangsu", 1.00, 75,
                 15, Categorie.Physique, Type.Feu, 0);
-        capacite[3] = new Capacite("Guillotine", 0.30, -1,
+
+        capacite[3] = new Capacite("Patience", 0.30, -1,
                 5, Categorie.Physique, Type.Normal, 0);
 
         pokemon.apprendCapacites(capacite);
@@ -49,16 +52,19 @@ public class CapaciteTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 100.0, espece);
 
         ICapacite[] capacite = new Capacite[4];
-        capacite[0] = new Capacite("Écras'Face", 1.00, 40,
+        capacite[0] = new Capacite("Plaquage", 1.00, 40,
                 35, Categorie.Physique, Type.Normal, 0);
-        capacite[1] = new Capacite("Poing Karaté", 1.00, 50,
+
+        capacite[1] = new Capacite("Damoclès", 1.00, 50,
                 25, Categorie.Physique, Type.Normal, 0);
-        capacite[2] = new Capacite("Poing Feu", 1.00, 75,
+
+        capacite[2] = new Capacite("Méga-Sangsu", 1.00, 75,
                 15, Categorie.Physique, Type.Feu, 0);
-        capacite[3] = new Capacite("Guillotine", 0.30, -1,
+
+        capacite[3] = new Capacite("Patience", 0.30, -1,
                 5, Categorie.Physique, Type.Normal, 0);
 
         pokemon.apprendCapacites(capacite);
@@ -80,16 +86,19 @@ public class CapaciteTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 100.0, espece);
 
         ICapacite[] capacite = new Capacite[4];
-        capacite[0] = new Capacite("Écras'Face", 1.00, 40,
+        capacite[0] = new Capacite("Plaquage", 1.00, 40,
                 35, Categorie.Physique, Type.Normal, 0);
-        capacite[1] = new Capacite("Poing Karaté", 1.00, 50,
+
+        capacite[1] = new Capacite("Damoclès", 1.00, 50,
                 25, Categorie.Physique, Type.Normal, 0);
-        capacite[2] = new Capacite("Poing Feu", 1.00, 75,
+
+        capacite[2] = new Capacite("Méga-Sangsu", 1.00, 75,
                 15, Categorie.Physique, Type.Feu, 0);
-        capacite[3] = new Capacite("Guillotine", 0.30, -1,
+
+        capacite[3] = new Capacite("Patience", 0.30, -1,
                 5, Categorie.Physique, Type.Normal, 0);
 
         pokemon.apprendCapacites(capacite);
@@ -107,16 +116,19 @@ public class CapaciteTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 100.0, espece);
 
         ICapacite[] capacite = new Capacite[4];
-        capacite[0] = new Capacite("Écras'Face", 1.00, 40,
+        capacite[0] = new Capacite("Plaquage", 1.00, 40,
                 35, Categorie.Physique, Type.Normal, 0);
-        capacite[1] = new Capacite("Poing Karaté", 1.00, 50,
+
+        capacite[1] = new Capacite("Damoclès", 1.00, 50,
                 25, Categorie.Physique, Type.Normal, 0);
-        capacite[2] = new Capacite("Poing Feu", 1.00, 75,
+
+        capacite[2] = new Capacite("Méga-Sangsu", 1.00, 75,
                 15, Categorie.Physique, Type.Feu, 0);
-        capacite[3] = new Capacite("Guillotine", 0.30, -1,
+
+        capacite[3] = new Capacite("Patience", 0.30, -1,
                 5, Categorie.Physique, Type.Normal, 0);
 
         pokemon.apprendCapacites(capacite);
