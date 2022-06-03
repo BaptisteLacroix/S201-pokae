@@ -289,9 +289,9 @@ public class Pokemon implements IPokemon {
      */
     @Override
     public void gagneExperienceDe(IPokemon pok) {
-        this.ancien_niveau = this.niveau;
         this.experience = (1.5 * pok.getNiveau() * pok.getEspece().getBaseExp()) / 7;
         while (peutChangerDeNiveau()) {
+            this.ancien_niveau = this.niveau;
             this.niveau++;
             this.miseAjourStats();
         }
