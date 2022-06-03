@@ -8,11 +8,9 @@
 7;Carapuce;44;48;65;50;43;66;0;0;1;0;0;Eau;;1;16;Carabaffe;0
 8;Carabaffe;59;63;80;65;58;143;0;0;1;1;0;Eau;;16;36;Tortank;0
 9;Tortank;79;83;100;85;78;210;0;0;0;3;0;Eau;;36;0;;0
-10;Chenipan;45;30;35;20;45;53;1;0;0;0;0;Insecte;;1;7;Chrysacier;0
-11;Chrysacier;50;20;55;25;30;72;0;0;2;0;0;Insecte;;7;10;Papilusion;0
+10;Chenipan;45;30;35;20;45;53;1;0;0;0;0;Insecte;;1;7;;0
 12;Papilusion;60;45;50;80;70;160;0;0;0;3;0;Insecte;Vol;10;0;;0
-13;Aspicot;40;35;30;20;50;52;0;0;0;0;1;Insecte;Poison;1;7;Coconfort;0
-14;Coconfort;45;25;50;25;35;71;0;0;2;0;0;Insecte;Poison;7;10;Dardargnan;0
+13;Aspicot;40;35;30;20;50;52;0;0;0;0;1;Insecte;Poison;1;7;;0
 15;Dardargnan;65;80;40;45;75;159;0;2;0;1;0;Insecte;Poison;10;0;;0
 16;Roucool;40;45;40;35;56;55;0;0;0;0;1;Normal;Vol;1;18;Roucoups;0
 17;Roucoups;63;60;55;50;71;113;0;0;0;0;2;Normal;Vol;18;36;Roucarnage;0
@@ -130,7 +128,6 @@
 129;Magicarpe;20;10;55;20;80;20;0;0;0;0;1;Eau;;1;20;Léviator;0
 130;Léviator;95;125;79;100;81;214;0;2;0;0;0;Eau;Vol;20;0;;0
 131;Lokhlass;130;85;80;95;60;219;2;0;0;0;0;Eau;;1;0;;0
-132;Métamorph;48;48;48;48;48;61;1;0;0;0;0;Eau;Glace;1;0;;0
 133;Évoli;55;55;50;65;55;92;0;0;0;1;0;Normal;;1;21;Aquali;0
 134;Aquali;130;65;60;110;65;196;2;0;0;0;0;Eau;;21;21;Voltali;0
 135;Voltali;65;65;60;110;130;197;0;0;0;0;2;Electrik;;21;21;Pyroli;0
