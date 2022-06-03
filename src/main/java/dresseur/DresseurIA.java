@@ -16,7 +16,7 @@ public class DresseurIA implements IDresseur {
         Pokedex pokedex = new Pokedex();
         this.ranch = pokedex.getRanch();
         this.strategy = new Strategy(this.ranch);
-        this.getNiveau();
+        this.setNiveau();
     }
 
     @Override
@@ -28,12 +28,15 @@ public class DresseurIA implements IDresseur {
         return this.ranch;
     }
 
-    @Override
-    public int getNiveau() {
+    public void setNiveau() {
         this.niveau = 0;
         for (IPokemon p : ranch) {
             this.niveau += p.getNiveau();
         }
+    }
+
+    @Override
+    public int getNiveau() {
         return this.niveau;
     }//Niveau du dresseur
 
@@ -58,6 +61,7 @@ public class DresseurIA implements IDresseur {
 
     @Override
     public void soigneRanch() {
+        this.setNiveau();
         for (IPokemon p : this.ranch) {
             p.soigne();
         }

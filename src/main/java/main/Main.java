@@ -1,14 +1,10 @@
 package main;
 
 import combat.Combat;
-import dresseur.DresseurHuman;
-import attaque.Strategy;
 import dresseur.DresseurIA;
 import interfaces.*;
 
-import java.util.Arrays;
 import java.util.Random;
-import java.util.Scanner;
 
 public class Main {
 
@@ -17,7 +13,7 @@ public class Main {
      * Il crée un Pokedex, crée un Pokémon, crée un Capacite, puis imprime le nom du Pokémon, son espèce, ses statistiques
      * et les dommages qu'il causerait à un autre Pokémon.
      */
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         // DresseurHuman baptiste = new DresseurHuman("Baptiste");
         DresseurIA IA1 = new DresseurIA("IA1");
         DresseurIA IA2 = new DresseurIA("IA2");
