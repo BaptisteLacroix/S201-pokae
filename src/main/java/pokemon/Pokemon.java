@@ -13,9 +13,7 @@ import interfaces.IStat;
 import interfaces.IAttaque;
 import interfaces.ICapacite;
 import statsPokemon.Stat;
-import writingCSV.Chrono;
 
-import java.util.Arrays;
 import java.util.Random;
 
 /**
@@ -366,6 +364,12 @@ public class Pokemon implements IPokemon {
         this.stat.setPV(this.calculGainStatPV());
     }       // Remet les PV au maximum
 
+    /**
+     * Il renvoie une chaîne contenant le nom, le niveau, les statistiques, le pourcentage de HP, l'espèce et le DV du
+     * Pokémon.
+     *
+     * @return Le nom, le niveau, les statistiques, le pourcentage de HP, l'espèce et le DV du Pokémon.
+     */
     @Override
     public String toString() {
         return "Pokemon{" +

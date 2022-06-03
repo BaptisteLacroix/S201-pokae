@@ -1,4 +1,4 @@
-package writingCSV;
+package other;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -24,54 +24,58 @@ public class WritingMovesIntoJSON {
      * Cette fonction crée un fichier JSON contenant la liste de tous les coups de tous les Pokémon, avec leur niveau
      * d'acquisition
      */
-    public void writeIntoJson() throws IOException {
+    public void writeIntoJson() {
         int id = 1;
-        FileWriter file = new FileWriter("listeCapacitesEspecesWLVL.json");
-        JSONObject containerPrincipal = new JSONObject(); // (Objet) Conteneur princiapl ->  { Pokemon [
-        JSONArray listeContainerSecondaire = new JSONArray();  // (Liste) Contient une liste de conteneurs secondaires
-        while (id < 152) {
-            String[] infoP = this.getAllURLPokemon(id);
-            System.out.println("id : " + id + " Pokemon : " + infoP[1]);
-            Map<String, String> dictionnaire = this.recupMoves(infoP[0]);
-            // System.out.println("dictionnaire en sortie : " + dictionnaire);
-
-            JSONObject containerTertiaire = new JSONObject(); // (Objet -> Liste) Conteneur tertiaire -> nom : dsds, moves [ {
-            JSONArray listeContainerQuatrieme = new JSONArray(); // (Liste) Contient une liste de 2 éléments dont un conteneur et une liste
-            JSONObject containerQuatrieme; // (Objet -> Liste) Conteneur tertiaire -> nom : dsds, moves [ {
-
-            for (Map.Entry<String, String> values : dictionnaire.entrySet()) {
-                try {
-                    FileReader fileCap = new FileReader("./resources/listeCapacites.csv");
-                    BufferedReader reader = new BufferedReader(fileCap);
-                    reader.readLine();
-                    while (reader.ready()) {
-                        Scanner scanner = new Scanner(reader.readLine()).useDelimiter(";");
-                        String[] tab = scanner.nextLine().split(";");
-                        if (tab[0].equals(values.getKey())) {
-                            containerQuatrieme = new JSONObject();
-                            containerQuatrieme.put("lvl", values.getValue());
-                            containerQuatrieme.put("move", values.getKey());
-                            listeContainerQuatrieme.add(containerQuatrieme);
-                        }
-                    }
-                    fileCap.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-            containerTertiaire.put("moves", listeContainerQuatrieme);
-            containerTertiaire.put("nom", infoP[1]);
-            listeContainerSecondaire.add(containerTertiaire);
-            id++;
-        }
         try {
-            containerPrincipal.put("Pokemon", listeContainerSecondaire);
-            System.out.println("JSON file created : " + containerPrincipal);
-            file.write(containerPrincipal.toJSONString());
-        } catch (IOException e) {
-            e.printStackTrace();
+            FileWriter file = new FileWriter("listeCapacitesEspecesWLVL.json");
+            JSONObject containerPrincipal = new JSONObject(); // (Objet) Conteneur princiapl ->  { Pokemon [
+            JSONArray listeContainerSecondaire = new JSONArray();  // (Liste) Contient une liste de conteneurs secondaires
+            while (id < 152) {
+                String[] infoP = this.getAllURLPokemon(id);
+                System.out.println("id : " + id + " Pokemon : " + infoP[1]);
+                Map<String, String> dictionnaire = this.recupMoves(infoP[0]);
+                // System.out.println("dictionnaire en sortie : " + dictionnaire);
+
+                JSONObject containerTertiaire = new JSONObject(); // (Objet -> Liste) Conteneur tertiaire -> nom : dsds, moves [ {
+                JSONArray listeContainerQuatrieme = new JSONArray(); // (Liste) Contient une liste de 2 éléments dont un conteneur et une liste
+                JSONObject containerQuatrieme; // (Objet -> Liste) Conteneur tertiaire -> nom : dsds, moves [ {
+
+                for (Map.Entry<String, String> values : dictionnaire.entrySet()) {
+                    try {
+                        FileReader fileCap = new FileReader("./resources/listeCapacites.csv");
+                        BufferedReader reader = new BufferedReader(fileCap);
+                        reader.readLine();
+                        while (reader.ready()) {
+                            Scanner scanner = new Scanner(reader.readLine()).useDelimiter(";");
+                            String[] tab = scanner.nextLine().split(";");
+                            if (tab[0].equals(values.getKey())) {
+                                containerQuatrieme = new JSONObject();
+                                containerQuatrieme.put("lvl", values.getValue());
+                                containerQuatrieme.put("move", values.getKey());
+                                listeContainerQuatrieme.add(containerQuatrieme);
+                            }
+                        }
+                        fileCap.close();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+                containerTertiaire.put("moves", listeContainerQuatrieme);
+                containerTertiaire.put("nom", infoP[1]);
+                listeContainerSecondaire.add(containerTertiaire);
+                id++;
+            }
+            try {
+                containerPrincipal.put("Pokemon", listeContainerSecondaire);
+                System.out.println("JSON file created : " + containerPrincipal);
+                file.write(containerPrincipal.toJSONString());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            file.close();
+        } catch (IOException e1) {
+            e1.printStackTrace();
         }
-        file.close();
     }
 
     /**
@@ -118,7 +122,7 @@ public class WritingMovesIntoJSON {
                 JSONObject jsonObj = (JSONObject) m;
                 JSONObject obj2 = (JSONObject) new JSONParser().parse(String.valueOf(jsonObj.get("move")));
                 moveName.put(id, this.recupFrenchMoves((String) obj2.get("url")));
-                id ++;
+                id++;
             }
             modules = (JSONArray) obj.get("moves");
             id = 0;
@@ -138,14 +142,14 @@ public class WritingMovesIntoJSON {
                         counter.add(id);
                     }
                 }
-                id ++;
+                id++;
             }
         } catch (ParseException | IOException e) {
             e.printStackTrace();
         }
         // System.out.println(moveName.size() + " -> " + lvl.size());
 
-        for (int i = 0; i < lvl.size(); i ++) {
+        for (int i = 0; i < lvl.size(); i++) {
             // System.out.println("moveName.get(counter.get(i)) : " + moveName.get(counter.get(i)) + " -> lvl.get(i) : " + lvl.get(i));
             dictionnaire.put(moveName.get(counter.get(i)), lvl.get(i));
         }

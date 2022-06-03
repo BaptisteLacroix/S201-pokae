@@ -13,7 +13,7 @@ import interfaces.IType;
 import interfaces.IPokemon;
 import pokedex.Pokedex;
 import statsPokemon.Type;
-import writingCSV.Chrono;
+import other.Chrono;
 
 import java.util.Random;
 

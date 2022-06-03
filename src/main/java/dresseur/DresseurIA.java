@@ -46,6 +46,9 @@ public class DresseurIA implements IDresseur {
         }
     }
 
+    /**
+     * C'est une méthode qui renvoie le niveau du formateur.
+     */
     @Override
     public int getNiveau() {
         this.niveau = 0;
