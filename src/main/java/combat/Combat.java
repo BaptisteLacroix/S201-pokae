@@ -1,5 +1,6 @@
 package combat;
 
+import attaque.Capacite;
 import attaque.Echange;
 import dresseur.DresseurHuman;
 import dresseur.DresseurIA;
@@ -77,9 +78,9 @@ public class Combat implements ICombat {
         this.ko1 = 0;
         this.ko2 = 0;
         if (this.pokemon1.estEvanoui()) {
-            for (int i = 0; i < 6; i ++) {
+            for (int i = 0; i < 6; i++) {
                 if (this.dresseur1.getPokemon(i).estEvanoui()) {
-                    this.ko1 ++;
+                    this.ko1++;
                 }
             }
             System.out.println("Il ne reste plus que " + (6 - this.ko1) + " pokémons dans le ranch de " +
@@ -92,9 +93,9 @@ public class Combat implements ICombat {
         }
         if (this.pokemon2.estEvanoui()) {
 
-            for (int i = 0; i < 6; i ++) {
+            for (int i = 0; i < 6; i++) {
                 if (this.dresseur2.getPokemon(i).estEvanoui()) {
-                    this.ko2 ++;
+                    this.ko2++;
                 }
             }
 
@@ -133,7 +134,7 @@ public class Combat implements ICombat {
      * Il permet au joueur de changer le mouvement d'un pokémon s'il a augmenté de niveau
      *
      * @param dresseur l'entraîneur
-     * @param pokemon le pokémon qui vient de monter de niveau
+     * @param pokemon  le pokémon qui vient de monter de niveau
      */
     private void changementNiveau(IDresseur dresseur, IPokemon pokemon) {
         if (pokemon.aChangeNiveau() && dresseur.getClass() == DresseurHuman.class) {
@@ -153,12 +154,14 @@ public class Combat implements ICombat {
      * Il choisit au hasard une capacité à remplacer et une capacité à apprendre
      *
      * @param dresseur le dresseur qui va changer la capacité de son pokémon
-     * @param pokemon le pokémon qui va apprendre une nouvelle capacité
+     * @param pokemon  le pokémon qui va apprendre une nouvelle capacité
      */
     private void changeCapIA(IDresseur dresseur, IPokemon pokemon) {
         try {
             int capR = this.rand.nextInt(4);
-            ICapacite capA = pokemon.getEspece().getCapSet()[this.rand.nextInt(pokemon.getEspece().getCapSet().length)];
+            Capacite capA = (Capacite) pokemon.getEspece().getCapSet()[this.rand.nextInt(pokemon.getEspece().getCapSet().length)];
+            while (pokemon.getNiveau() < capA.getNiveau())
+                capA = (Capacite) pokemon.getEspece().getCapSet()[this.rand.nextInt(pokemon.getEspece().getCapSet().length)];
             System.out.println(dresseur.getNom() + " choose a new capacity to learn " + capA.getNom());
             System.out.println(dresseur.getNom() + " choose to replace the capacity " + pokemon.getCapacitesApprises()[capR].getNom() + "\n");
             pokemon.remplaceCapacite(capR, capA);
@@ -172,7 +175,7 @@ public class Combat implements ICombat {
      * le pokémon
      *
      * @param dresseur le formateur qui change la capacité
-     * @param pokemon le pokémon dont vous voulez changer la capacité
+     * @param pokemon  le pokémon dont vous voulez changer la capacité
      */
     private void changeCap(IDresseur dresseur, IPokemon pokemon) {
         ICapacite[] capacites = pokemon.getEspece().getCapSet();
@@ -215,6 +218,7 @@ public class Combat implements ICombat {
 
     /**
      * Une méthode qui crée un nouveau tour du combat.
+     *
      * @param pok1 pokemon du dresseur 1
      * @param atk1 attaque du dresseur 1
      * @param pok2 pokemon du dresseur 2
