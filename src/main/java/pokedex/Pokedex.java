@@ -15,8 +15,6 @@ import interfaces.IStat;
 import interfaces.IType;
 import pokemon.Espece;
 import pokemon.Pokemon;
-import attaque.Capacite;
-import statsPokemon.Categorie;
 import statsPokemon.Stat;
 import statsPokemon.Type;
 
@@ -31,10 +29,6 @@ import java.util.*;
 public class Pokedex implements IPokedex {
     private final Map<Integer, IPokemon> dico = new HashMap<>();
     private final IPokemon[] ranch = new IPokemon[6];
-
-    public Pokedex() {
-        this.engendreRanch();
-    }
 
     /**
      * Il génère une équipe aléatoire de 6 pokemons
@@ -167,8 +161,8 @@ public class Pokedex implements IPokedex {
                 Scanner scanner = new Scanner(reader.readLine()).useDelimiter(";");
                 String[] tab = scanner.nextLine().split(";");
                 if (tab[0].equals(nomCapacite)) {
-                    capacite = new Capacite(tab[0], Double.parseDouble(tab[2]), Integer.parseInt(tab[1]),
-                            Integer.parseInt(tab[3]), Categorie.valueOf(tab[5]), conversionStringType(tab[6]));
+                    // capacite = new Capacite(tab[0], Double.parseDouble(tab[2]), Integer.parseInt(tab[1]),
+                    //         Integer.parseInt(tab[3]), Categorie.valueOf(tab[5]), conversionStringType(tab[6]));
                     trouve = true;
                 }
             }
@@ -197,8 +191,8 @@ public class Pokedex implements IPokedex {
                 Scanner scanner = new Scanner(reader.readLine()).useDelimiter(";");
                 String[] tab = scanner.nextLine().split(";");
                 if (Integer.parseInt(tab[4]) == nunCapacite) {
-                    capacite = new Capacite(tab[0], Double.parseDouble(tab[2]), Integer.parseInt(tab[1]),
-                            Integer.parseInt(tab[3]), Categorie.valueOf(tab[5]), conversionStringType(tab[6]));
+                    // capacite = new Capacite(tab[0], Double.parseDouble(tab[2]), Integer.parseInt(tab[1]),
+                    //         Integer.parseInt(tab[3]), Categorie.valueOf(tab[5]), conversionStringType(tab[6]));
                     trouve = true;
                 }
             }

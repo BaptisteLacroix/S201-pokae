@@ -151,16 +151,16 @@ public class PokemonTest {
 
         ICapacite[] capacite = new Capacite[4];
         capacite[0] = new Capacite("Écras'Face", 1.00, 40,
-                35, Categorie.Physique, Type.Normal);
+                35, Categorie.Physique, Type.Normal, 0);
 
         capacite[1] = new Capacite("Poing Karaté", 1.00, 50,
-                25, Categorie.Physique, Type.Normal);
+                25, Categorie.Physique, Type.Normal, 0);
 
         capacite[2] = new Capacite("Poing Feu", 1.00, 75,
-                15, Categorie.Physique, Type.Feu);
+                15, Categorie.Physique, Type.Feu, 0);
 
         capacite[3] = new Capacite("Guillotine", 0.30, -1,
-                5, Categorie.Physique, Type.Normal);
+                5, Categorie.Physique, Type.Normal, 0);
 
         pokemon.apprendCapacites(capacite);
 
@@ -169,16 +169,16 @@ public class PokemonTest {
         }
 
         capacite[0] = new Capacite("Coupe-Vent", 1.00, 40,
-                35, Categorie.Physique, Type.Normal);
+                35, Categorie.Physique, Type.Normal, 0);
 
         capacite[1] = new Capacite("Coupe", 1.00, 50,
-                25, Categorie.Physique, Type.Normal);
+                25, Categorie.Physique, Type.Normal, 0);
 
         capacite[2] = new Capacite("Étreinte", 1.00, 75,
-                15, Categorie.Physique, Type.Feu);
+                15, Categorie.Physique, Type.Feu, 0);
 
         capacite[3] = new Capacite("Fouet Lianes", 0.30, -1,
-                5, Categorie.Physique, Type.Normal);
+                5, Categorie.Physique, Type.Normal, 0);
 
         pokemon.apprendCapacites(capacite);
 
@@ -211,16 +211,16 @@ public class PokemonTest {
 
             ICapacite[] capacite = new Capacite[4];
             capacite[0] = new Capacite("Écras'Face", 1.00, 40,
-                    35, Categorie.Physique, Type.Normal);
+                    35, Categorie.Physique, Type.Normal, 0);
 
             capacite[1] = new Capacite("Poing Karaté", 1.00, 50,
-                    25, Categorie.Physique, Type.Normal);
+                    25, Categorie.Physique, Type.Normal, 0);
 
             capacite[2] = new Capacite("Poing Feu", 1.00, 75,
-                    15, Categorie.Physique, Type.Feu);
+                    15, Categorie.Physique, Type.Feu, 0);
 
             capacite[3] = new Capacite("Guillotine", 0.30, -1,
-                    5, Categorie.Physique, Type.Normal);
+                    5, Categorie.Physique, Type.Normal, 0);
 
             pokemon.apprendCapacites(capacite);
             pokemon.remplaceCapacite(1, capacite[0]);
