@@ -19,7 +19,9 @@ public class Strategy implements IStrategy {
     public IPokemon choisitCombattant() {
         IPokemon pokemon = this.ranch[this.rand.nextInt(this.ranch.length)];
         while (pokemon.estEvanoui()) {
-            pokemon = this.ranch[this.rand.nextInt(this.ranch.length)];
+            int random = this.rand.nextInt(this.ranch.length);
+            // System.out.println("random : " + random + " ------> taille : " + this.ranch.length);
+            pokemon = this.ranch[random];
         }
         return pokemon;
     }

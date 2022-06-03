@@ -67,6 +67,7 @@ public class Combat implements ICombat {
             this.ko1++;
             System.out.println("Il ne reste plus que " + (6 - this.ko1) + " pokémons dans le ranch de " +
                     this.dresseur1.getNom() + " encore en vie");
+            System.out.println("ko1 : " + this.ko1);
             if (this.ko1 == 6)
                 this.termine();
             else
@@ -76,6 +77,7 @@ public class Combat implements ICombat {
             this.ko2++;
             System.out.println("Il ne reste plus que " + (6 - this.ko2) + " pokémons dans le ranch de " +
                     this.dresseur2.getNom() + " encore en vie");
+            System.out.println("ko2 : " + this.ko2);
             if (this.ko2 == 6)
                 this.termine();
             else
@@ -102,7 +104,6 @@ public class Combat implements ICombat {
     }
 
     private void changementNiveau(IDresseur dresseur, IPokemon pokemon) {
-        System.out.println("in -> " + pokemon.aChangeNiveau());
         if (pokemon.aChangeNiveau() && dresseur.getClass() == DresseurHuman.class) {
             Scanner input = new Scanner(System.in);
             System.out.println(dresseur.getNom() + " voulez vous apprendre une nouvelle capacité ? (oui/non) ou (y/n) : ");
@@ -117,10 +118,12 @@ public class Combat implements ICombat {
     }
 
     private void changeCapIA(IDresseur dresseur, IPokemon pokemon) {
-        System.out.println(dresseur.getNom() + " choose a new capacity to learn (give the name) : ");
-        System.out.println(dresseur.getNom() + " choose the capacity you want to replace (give the number) : ");
         try {
-            pokemon.remplaceCapacite(this.rand.nextInt(4), pokemon.getEspece().getCapSet()[this.rand.nextInt(pokemon.getEspece().getCapSet().length)]);
+            int capR = this.rand.nextInt(4);
+            ICapacite capA = pokemon.getEspece().getCapSet()[this.rand.nextInt(pokemon.getEspece().getCapSet().length)];
+            System.out.println(dresseur.getNom() + " choose a new capacity to learn " + capA.getNom());
+            System.out.println(dresseur.getNom() + " choose to replace the capacity " + pokemon.getCapacitesApprises()[capR].getNom() + "\n");
+            pokemon.remplaceCapacite(capR, capA);
         } catch (Exception e) {
             e.printStackTrace();
         }

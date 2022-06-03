@@ -59,7 +59,7 @@ public class Chrono {
     }
 
     public String getDureeTxt() {
-        return timeToHMS(getDureeSec());
+        return timeToHMS(getDureeSec()) + " " + getDureeMs() + " ms";
     }
 
     public static String timeToHMS(long tempsS) {

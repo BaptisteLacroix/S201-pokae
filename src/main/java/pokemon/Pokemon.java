@@ -13,6 +13,7 @@ import interfaces.IStat;
 import interfaces.IAttaque;
 import interfaces.ICapacite;
 import statsPokemon.Stat;
+import writingCSV.Chrono;
 
 import java.util.Arrays;
 import java.util.Random;
