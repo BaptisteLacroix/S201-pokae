@@ -20,7 +20,7 @@ public class DresseurHuman implements IDresseur {
     public DresseurHuman(String nom) {
         this.nom = nom;
         Pokedex pokedex = new Pokedex();
-        this.ranch = pokedex.getRanch();
+        this.ranch = pokedex.engendreRanch();
         this.getNiveau();
     }
 

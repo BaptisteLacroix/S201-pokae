@@ -21,9 +21,9 @@ public class Combat implements ICombat {
     private IPokemon pokemon1;
     private final IDresseur dresseur2;
     private IPokemon pokemon2;
-    int ko1 = 0;
-    int ko2 = 0;
-    private int nbrTours = 1;
+    int ko1;
+    int ko2;
+    private int nbrTours;
     private final Random rand = new Random();
     private final Chrono chrono = new Chrono();
 
@@ -38,12 +38,15 @@ public class Combat implements ICombat {
      */
     @Override
     public void commence() {
+        this.nbrTours = 1;
+        this.ko1 = 0;
+        this.ko2 = 0;
         this.pokemon1 = this.dresseur1.choisitCombattant();
         this.pokemon2 = this.dresseur2.choisitCombattant();
-        System.out.println("------------------ Début du combat ! ------------------");
+        System.out.println("\n\n\n\n\n\n------------------ Début du combat ! ------------------");
         this.chrono.start(); // démarrage du chrono
         while (this.ko1 != 6 && this.ko2 != 6) {
-            System.out.println("\n\n\n\n\n\n<<<<<<<<<<<<<<<<<< Début du tour : " + this.nbrTours + " >>>>>>>>>>>>>>>>>");
+            System.out.println("\n\n\n\n<<<<<<<<<<<<<<<<<< Début du tour : " + this.nbrTours + " >>>>>>>>>>>>>>>>>");
             // Choix action Si echange ne fait rien si attaque check vitesse
             IAttaque attaque1 = this.dresseur1.choisitAttaque(this.pokemon1, this.pokemon2);
             // Choix action si echange ne fais rien si attaque check vitesse
@@ -71,21 +74,33 @@ public class Combat implements ICombat {
      * de 6, la bataille est terminée
      */
     private void afterTour() {
+        this.ko1 = 0;
+        this.ko2 = 0;
         if (this.pokemon1.estEvanoui()) {
-            this.ko1++;
+            for (int i = 0; i < 6; i ++) {
+                if (this.dresseur1.getPokemon(i).estEvanoui()) {
+                    this.ko1 ++;
+                }
+            }
             System.out.println("Il ne reste plus que " + (6 - this.ko1) + " pokémons dans le ranch de " +
                     this.dresseur1.getNom() + " encore en vie");
-            System.out.println("ko1 : " + this.ko1);
+
             if (this.ko1 == 6)
                 this.termine();
             else
                 this.pokemon1 = this.dresseur1.choisitCombattant();
         }
         if (this.pokemon2.estEvanoui()) {
-            this.ko2++;
+
+            for (int i = 0; i < 6; i ++) {
+                if (this.dresseur2.getPokemon(i).estEvanoui()) {
+                    this.ko2 ++;
+                }
+            }
+
             System.out.println("Il ne reste plus que " + (6 - this.ko2) + " pokémons dans le ranch de " +
                     this.dresseur2.getNom() + " encore en vie");
-            System.out.println("ko2 : " + this.ko2);
+
             if (this.ko2 == 6)
                 this.termine();
             else
@@ -225,10 +240,10 @@ public class Combat implements ICombat {
             writer.println("Le combat a durée : " + this.chrono.getDureeTxt() + " en " + this.nbrTours + " tours");
             if (this.ko1 == 6 && this.ko2 != 6) {
                 System.out.println("Le gagant est " + this.dresseur2.getNom() + "\nLe perdant est " + this.dresseur1.getNom());
-                writer.println("Le gagant est " + this.dresseur2.getNom() + "\nLe perdant est " + this.dresseur1.getNom() + "\n");
+                writer.println("Le gagnant est " + this.dresseur2.getNom() + "\nLe perdant est " + this.dresseur1.getNom() + "\n");
             } else if (this.ko1 != 6 && this.ko2 == 6) {
                 System.out.println("Le gagant est " + this.dresseur1.getNom() + "\nLe perdant est " + this.dresseur2.getNom());
-                writer.println("Le gagant est " + this.dresseur1.getNom() + "\nLe perdant est " + this.dresseur2.getNom() + "\n");
+                writer.println("Le gagnant est " + this.dresseur1.getNom() + "\nLe perdant est " + this.dresseur2.getNom() + "\n");
             }
             int i = 1;
             for (String tour : this.tableauTours) {

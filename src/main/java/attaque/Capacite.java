@@ -13,7 +13,6 @@ import interfaces.IType;
 import interfaces.IPokemon;
 import pokedex.Pokedex;
 import statsPokemon.Type;
-import other.Chrono;
 
 import java.util.Random;
 
@@ -30,10 +29,9 @@ public class Capacite implements ICapacite {
     private ICategorie categorie;
     private IType type;
     private Random rand = new Random();
-    private final Chrono chrono = new Chrono();
-    // TODO : private int niveau;
+    private int niveau;
 
-    public Capacite(String nom, double precision, int puissance, int PP, ICategorie categorie, IType type/*,TODO : int niveau*/) {
+    public Capacite(String nom, double precision, int puissance, int PP, ICategorie categorie, IType type, int niveau) {
         this.nom = nom;
         this.precision = precision;
         this.puissance = puissance;
@@ -41,7 +39,7 @@ public class Capacite implements ICapacite {
         this.PP = PP;
         this.categorie = categorie;
         this.type = type;
-        // TODO : this.niveau = niveau;
+        this.niveau = niveau;
     }
 
     /**
@@ -60,14 +58,8 @@ public class Capacite implements ICapacite {
         int damage = this.caseAttack(lanceur, receveur);
         if (damage == -1) {
             this.utilise();
-            chrono.start();
             double eff = new Pokedex().getEfficacite(this.type, receveur.getEspece().getTypes()[0]);
-            chrono.stop();
-            System.out.println(" -------------------- > eff 0 -> 0.2 : " + chrono.getDureeTxt());
-            chrono.start();
             double eff2 = new Pokedex().getEfficacite(this.type, receveur.getEspece().getTypes()[1]);
-            chrono.stop();
-            System.out.println(" -------------------- > eff2 0 -> 0.3 : " + chrono.getDureeTxt());
             double pparenthese = lanceur.getNiveau() * 0.4 + 2;
             double numerateur = pparenthese * lanceur.getStat().getForce() * this.puissance;
             double denominateur = (double) receveur.getStat().getDefense() * 50;
@@ -250,6 +242,7 @@ public class Capacite implements ICapacite {
                 ", PP=" + PP +
                 ", categorie=" + categorie +
                 ", type=" + type +
+                ", niveau=" + niveau +
                 '}';
     }
 }

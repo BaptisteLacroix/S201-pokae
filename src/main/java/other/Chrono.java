@@ -78,7 +78,7 @@ public class Chrono {
      * @return La durée de la chanson en millisecondes.
      */
     public long getDureeMs() {
-        return duree;
+        return duree % 1000;
     }
 
     /**
@@ -104,7 +104,6 @@ public class Chrono {
         int h = (int) (tempsS / 3600);
         int m = (int) ((tempsS % 3600) / 60);
         int s = (int) (tempsS % 60);
-        int ms = (int) (tempsS);
 
         String r = "";
 
@@ -116,9 +115,6 @@ public class Chrono {
         }
         if (s > 0) {
             r += s + " s";
-        }
-        if (h <= 0 && m <= 0 && s <= 0) {
-            r += ms + " ms";
         }
 
         return r;

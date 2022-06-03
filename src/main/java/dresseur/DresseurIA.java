@@ -14,7 +14,7 @@ public class DresseurIA implements IDresseur {
     public DresseurIA(String nom) {
         this.nom = nom;
         Pokedex pokedex = new Pokedex();
-        this.ranch = pokedex.getRanch();
+        this.ranch = pokedex.engendreRanch();
         this.strategy = new Strategy(this.ranch);
         this.setNiveau();
     }
