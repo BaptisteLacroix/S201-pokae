@@ -19,7 +19,6 @@ import attaque.Capacite;
 import statsPokemon.Categorie;
 import statsPokemon.Stat;
 import statsPokemon.Type;
-import writingCSV.Chrono;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

@@ -12,6 +12,7 @@ public class Main {
      * Ceci est une méthode qui illustre le fonctionnement des différentes classes
      * Il crée un Pokedex, crée un Pokémon, crée un Capacite, puis imprime le nom du Pokémon, son espèce, ses statistiques
      * et les dommages qu'il causerait à un autre Pokémon.
+     * @param args main param
      */
     public static void main(String[] args) {
         // DresseurHuman baptiste = new DresseurHuman("Baptiste");

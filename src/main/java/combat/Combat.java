@@ -4,7 +4,7 @@ import attaque.Echange;
 import dresseur.DresseurHuman;
 import dresseur.DresseurIA;
 import interfaces.*;
-import writingCSV.Chrono;
+import other.Chrono;
 
 import java.io.FileWriter;
 import java.io.IOException;
