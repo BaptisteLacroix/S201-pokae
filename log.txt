@@ -10096,3 +10096,348 @@ Il reste 13pv a Salamèche
 ---------------------------------------------------------->
 
 
+
+------------------ Début du combat ! ------------------
+
+Fri Jun 03 20:06:11 CEST 2022
+Le combat a durée : 45 s 45766 ms en 44 tours
+Le gagant est IA2
+Le perdant est IA1
+
+<<<<<<<<<<<<<<<<<< Début du tour : 1 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Goupix
+Le Dresseur 2 a changé son Pokémon par : Salamèche
+Aucun n'a recu de dammage.
+Il reste 12pv a Goupix
+Il reste 12pv a Salamèche
+<<<<<<<<<<<<<<<<<< Fin du tour : 1 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 2 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Psykokwak
+Le Dresseur 2 a changé son Pokémon par : Kangourex
+Aucun n'a recu de dammage.
+Il reste 12pv a Psykokwak
+Il reste 13pv a Kangourex
+<<<<<<<<<<<<<<<<<< Fin du tour : 2 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 3 >>>>>>>>>>>>>>>>>
+Le Dresseur 2 a changé son Pokémon par : Kangourex
+Kangourex a subit 10 de damage par Psykokwak
+Il reste 5pv a Kangourex
+Il reste 14pv a Psykokwak
+<<<<<<<<<<<<<<<<<< Fin du tour : 3 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 4 >>>>>>>>>>>>>>>>>
+Psykokwak attaque le premier en infligeant 5
+Kangourex attaque le deuxième en infligeant 6
+Il reste 11pv a Psykokwak
+Kangourex est ko !
+<<<<<<<<<<<<<<<<<< Fin du tour : 4 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 5 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Psykokwak
+Le Dresseur 2 a changé son Pokémon par : Hypotrempe
+Aucun n'a recu de dammage.
+Il reste 11pv a Psykokwak
+Il reste 12pv a Hypotrempe
+<<<<<<<<<<<<<<<<<< Fin du tour : 5 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 6 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Férosinge
+Le Dresseur 2 a changé son Pokémon par : Nidoran♀
+Aucun n'a recu de dammage.
+Il reste 12pv a Férosinge
+Il reste 15pv a Nidoran♀
+<<<<<<<<<<<<<<<<<< Fin du tour : 6 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 7 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Roucool
+Le Dresseur 2 a changé son Pokémon par : Hypotrempe
+Aucun n'a recu de dammage.
+Il reste 12pv a Roucool
+Il reste 15pv a Hypotrempe
+<<<<<<<<<<<<<<<<<< Fin du tour : 7 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 8 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Kicklee
+Le Dresseur 2 a changé son Pokémon par : Nidoran♀
+Aucun n'a recu de dammage.
+Il reste 12pv a Kicklee
+Il reste 15pv a Nidoran♀
+<<<<<<<<<<<<<<<<<< Fin du tour : 8 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 9 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Kangourex
+Le Dresseur 2 a changé son Pokémon par : Rondoudou
+Aucun n'a recu de dammage.
+Il reste 13pv a Kangourex
+Il reste 13pv a Rondoudou
+<<<<<<<<<<<<<<<<<< Fin du tour : 9 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 10 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Goupix
+Le Dresseur 2 a changé son Pokémon par : Salamèche
+Aucun n'a recu de dammage.
+Il reste 12pv a Goupix
+Il reste 14pv a Salamèche
+<<<<<<<<<<<<<<<<<< Fin du tour : 10 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 11 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Kicklee
+Le Dresseur 2 a changé son Pokémon par : Hypotrempe
+Aucun n'a recu de dammage.
+Il reste 14pv a Kicklee
+Il reste 15pv a Hypotrempe
+<<<<<<<<<<<<<<<<<< Fin du tour : 11 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 12 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Kangourex
+Kangourex a subit 13 de damage par Hypotrempe
+Kangourex est ko !
+Il reste 17pv a Hypotrempe
+<<<<<<<<<<<<<<<<<< Fin du tour : 12 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 13 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Kicklee
+Le Dresseur 2 a changé son Pokémon par : Hypotrempe
+Aucun n'a recu de dammage.
+Il reste 15pv a Kicklee
+Il reste 17pv a Hypotrempe
+<<<<<<<<<<<<<<<<<< Fin du tour : 13 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 14 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Férosinge
+Le Dresseur 2 a changé son Pokémon par : Nidoran♀
+Aucun n'a recu de dammage.
+Il reste 14pv a Férosinge
+Il reste 15pv a Nidoran♀
+<<<<<<<<<<<<<<<<<< Fin du tour : 14 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 15 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Psykokwak
+Psykokwak a subit 3 de damage par Nidoran♀
+Il reste 8pv a Psykokwak
+Il reste 15pv a Nidoran♀
+<<<<<<<<<<<<<<<<<< Fin du tour : 15 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 16 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Psykokwak
+Le Dresseur 2 a changé son Pokémon par : Salamèche
+Aucun n'a recu de dammage.
+Il reste 8pv a Psykokwak
+Il reste 14pv a Salamèche
+<<<<<<<<<<<<<<<<<< Fin du tour : 16 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 17 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Roucool
+Roucool a subit 8 de damage par Salamèche
+Il reste 7pv a Roucool
+Il reste 15pv a Salamèche
+<<<<<<<<<<<<<<<<<< Fin du tour : 17 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 18 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Kicklee
+Le Dresseur 2 a changé son Pokémon par : Rondoudou
+Aucun n'a recu de dammage.
+Il reste 15pv a Kicklee
+Il reste 15pv a Rondoudou
+<<<<<<<<<<<<<<<<<< Fin du tour : 18 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 19 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Goupix
+Le Dresseur 2 a changé son Pokémon par : Rondoudou
+Aucun n'a recu de dammage.
+Il reste 14pv a Goupix
+Il reste 17pv a Rondoudou
+<<<<<<<<<<<<<<<<<< Fin du tour : 19 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 20 >>>>>>>>>>>>>>>>>
+Le Dresseur 2 a changé son Pokémon par : Nidoran♀
+Nidoran♀ a subit 9 de damage par Goupix
+Il reste 6pv a Nidoran♀
+Il reste 15pv a Goupix
+<<<<<<<<<<<<<<<<<< Fin du tour : 20 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 21 >>>>>>>>>>>>>>>>>
+Le Dresseur 2 a changé son Pokémon par : Abra
+Abra a subit 5 de damage par Goupix
+Il reste 7pv a Abra
+Il reste 15pv a Goupix
+<<<<<<<<<<<<<<<<<< Fin du tour : 21 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 22 >>>>>>>>>>>>>>>>>
+Abra attaque le premier en infligeant 6
+Goupix attaque le deuxième en infligeant 4
+Il reste 11pv a Abra
+Il reste 9pv a Goupix
+<<<<<<<<<<<<<<<<<< Fin du tour : 22 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 23 >>>>>>>>>>>>>>>>>
+Le Dresseur 2 a changé son Pokémon par : Abra
+Abra a subit 1 de damage par Goupix
+Il reste 10pv a Abra
+Il reste 9pv a Goupix
+<<<<<<<<<<<<<<<<<< Fin du tour : 23 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 24 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Férosinge
+Le Dresseur 2 a changé son Pokémon par : Rondoudou
+Aucun n'a recu de dammage.
+Il reste 14pv a Férosinge
+Il reste 17pv a Rondoudou
+<<<<<<<<<<<<<<<<<< Fin du tour : 24 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 25 >>>>>>>>>>>>>>>>>
+Le Dresseur 2 a changé son Pokémon par : Hypotrempe
+Hypotrempe a subit 3 de damage par Férosinge
+Il reste 14pv a Hypotrempe
+Il reste 15pv a Férosinge
+<<<<<<<<<<<<<<<<<< Fin du tour : 25 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 26 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Roucool
+Le Dresseur 2 a changé son Pokémon par : Hypotrempe
+Aucun n'a recu de dammage.
+Il reste 7pv a Roucool
+Il reste 14pv a Hypotrempe
+<<<<<<<<<<<<<<<<<< Fin du tour : 26 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 27 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Férosinge
+Le Dresseur 2 a changé son Pokémon par : Rondoudou
+Aucun n'a recu de dammage.
+Il reste 15pv a Férosinge
+Il reste 17pv a Rondoudou
+<<<<<<<<<<<<<<<<<< Fin du tour : 27 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 28 >>>>>>>>>>>>>>>>>
+Le Dresseur 2 a changé son Pokémon par : Hypotrempe
+Hypotrempe a subit 6 de damage par Férosinge
+Il reste 8pv a Hypotrempe
+Il reste 15pv a Férosinge
+<<<<<<<<<<<<<<<<<< Fin du tour : 28 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 29 >>>>>>>>>>>>>>>>>
+Le Dresseur 2 a changé son Pokémon par : Hypotrempe
+Hypotrempe a subit 3 de damage par Férosinge
+Il reste 5pv a Hypotrempe
+Il reste 15pv a Férosinge
+<<<<<<<<<<<<<<<<<< Fin du tour : 29 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 30 >>>>>>>>>>>>>>>>>
+Hypotrempe attaque le premier en infligeant 3
+Férosinge attaque le deuxième en infligeant 3
+Il reste 2pv a Hypotrempe
+Il reste 12pv a Férosinge
+<<<<<<<<<<<<<<<<<< Fin du tour : 30 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 31 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Goupix
+Le Dresseur 2 a changé son Pokémon par : Rondoudou
+Aucun n'a recu de dammage.
+Il reste 9pv a Goupix
+Il reste 17pv a Rondoudou
+<<<<<<<<<<<<<<<<<< Fin du tour : 31 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 32 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Goupix
+Le Dresseur 2 a changé son Pokémon par : Hypotrempe
+Aucun n'a recu de dammage.
+Il reste 9pv a Goupix
+Il reste 2pv a Hypotrempe
+<<<<<<<<<<<<<<<<<< Fin du tour : 32 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 33 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Kicklee
+Le Dresseur 2 a changé son Pokémon par : Salamèche
+Aucun n'a recu de dammage.
+Il reste 15pv a Kicklee
+Il reste 15pv a Salamèche
+<<<<<<<<<<<<<<<<<< Fin du tour : 33 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 34 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Férosinge
+Férosinge a subit 11 de damage par Salamèche
+Il reste 1pv a Férosinge
+Il reste 17pv a Salamèche
+<<<<<<<<<<<<<<<<<< Fin du tour : 34 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 35 >>>>>>>>>>>>>>>>>
+Salamèche attaque le premier en infligeant 1
+Férosinge attaque le deuxième en infligeant 9
+Il reste 8pv a Salamèche
+Férosinge est ko !
+<<<<<<<<<<<<<<<<<< Fin du tour : 35 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 36 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Psykokwak
+Psykokwak a subit 8 de damage par Salamèche
+Psykokwak est ko !
+Il reste 8pv a Salamèche
+<<<<<<<<<<<<<<<<<< Fin du tour : 36 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 37 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Goupix
+Goupix a subit 6 de damage par Salamèche
+Il reste 3pv a Goupix
+Il reste 8pv a Salamèche
+<<<<<<<<<<<<<<<<<< Fin du tour : 37 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 38 >>>>>>>>>>>>>>>>>
+Le Dresseur 2 a changé son Pokémon par : Hypotrempe
+Hypotrempe a subit 2 de damage par Goupix
+Hypotrempe est ko !
+Il reste 3pv a Goupix
+<<<<<<<<<<<<<<<<<< Fin du tour : 38 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 39 >>>>>>>>>>>>>>>>>
+Le Dresseur 2 a changé son Pokémon par : Salamèche
+Salamèche a subit 7 de damage par Goupix
+Il reste 1pv a Salamèche
+Il reste 3pv a Goupix
+<<<<<<<<<<<<<<<<<< Fin du tour : 39 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 40 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Kicklee
+Le Dresseur 2 a changé son Pokémon par : Salamèche
+Aucun n'a recu de dammage.
+Il reste 15pv a Kicklee
+Il reste 1pv a Salamèche
+<<<<<<<<<<<<<<<<<< Fin du tour : 40 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 41 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Kicklee
+Kicklee a subit 10 de damage par Salamèche
+Il reste 5pv a Kicklee
+Il reste 1pv a Salamèche
+<<<<<<<<<<<<<<<<<< Fin du tour : 41 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 42 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Roucool
+Roucool a subit 7 de damage par Salamèche
+Roucool est ko !
+Il reste 1pv a Salamèche
+<<<<<<<<<<<<<<<<<< Fin du tour : 42 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 43 >>>>>>>>>>>>>>>>>
+Salamèche attaque le premier en infligeant 5
+Kicklee attaque le deuxième en infligeant 1
+Kicklee est ko !
+Salamèche est ko !
+<<<<<<<<<<<<<<<<<< Fin du tour : 43 >>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<< Début du tour : 44 >>>>>>>>>>>>>>>>>
+Le Dresseur 1 a changé son Pokémon par : Goupix
+Goupix a subit 3 de damage par Abra
+Goupix est ko !
+Il reste 10pv a Abra
+<<<<<<<<<<<<<<<<<< Fin du tour : 44 >>>>>>>>>>>>>>>>>
+
+
+------------------ Fin du combat ! ------------------
+
+
+
+---------------------------------------------------------->
+
+

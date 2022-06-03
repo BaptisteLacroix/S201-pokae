@@ -8,6 +8,10 @@ public class Chrono {
     private long pauseFin = 0;
     private long duree = 0;
 
+    /**
+     * La fonction start() définit l'heure de début sur l'heure actuelle et définit l'heure de fin, l'heure de début de la
+     * pause, l'heure de fin de la pause et la durée sur 0
+     */
     public void start() {
         tempsDepart = System.currentTimeMillis();
         tempsFin = 0;
@@ -16,6 +20,9 @@ public class Chrono {
         duree = 0;
     }
 
+    /**
+     * Permet de mettre en pause le chronomètre
+     */
     public void pause() {
         if (tempsDepart == 0) {
             return;
@@ -23,6 +30,9 @@ public class Chrono {
         pauseDepart = System.currentTimeMillis();
     }
 
+    /**
+     * permet continuer le chronomètre ayant été mis en pause
+     */
     public void resume() {
         if (tempsDepart == 0) {
             return;
@@ -38,6 +48,9 @@ public class Chrono {
         duree = 0;
     }
 
+    /**
+     * Permet d'arréter le chronomètre
+     */
     public void stop() {
         if (tempsDepart == 0) {
             return;
@@ -50,18 +63,39 @@ public class Chrono {
         pauseFin = 0;
     }
 
+    /**
+     * Il renvoie la durée en secondes
+     *
+     * @return La durée en secondes.
+     */
     public long getDureeSec() {
         return duree / 1000;
     }
 
+    /**
+     * Il renvoie la durée en millisecondes
+     *
+     * @return La durée de la chanson en millisecondes.
+     */
     public long getDureeMs() {
         return duree;
     }
 
+    /**
+     * renvoie le temps sous format txt HH:MM:SS:MS
+     *
+     * @return Le temps en heures, minutes et secondes, plus les millisecondes.
+     */
     public String getDureeTxt() {
         return timeToHMS(getDureeSec()) + " " + getDureeMs() + " ms";
     }
 
+    /**
+     * Prend un certain nombre de secondes et renvoie une chaîne de la forme "1 h 26 min 3 s"
+     *
+     * @param tempsS le temps en secondes
+     * @return Un string
+     */
     public static String timeToHMS(long tempsS) {
 
         // IN : (long) temps en secondes
@@ -84,7 +118,7 @@ public class Chrono {
             r += s + " s";
         }
         if (h <= 0 && m <= 0 && s <= 0) {
-            r += ms + " s";
+            r += ms + " ms";
         }
 
         return r;

@@ -31,9 +31,9 @@ public class Capacite implements ICapacite {
     private IType type;
     private Random rand = new Random();
     private final Chrono chrono = new Chrono();
-    // private int niveau;
+    // TODO : private int niveau;
 
-    public Capacite(String nom, double precision, int puissance, int PP, ICategorie categorie, IType type/*, int niveau*/) {
+    public Capacite(String nom, double precision, int puissance, int PP, ICategorie categorie, IType type/*,TODO : int niveau*/) {
         this.nom = nom;
         this.precision = precision;
         this.puissance = puissance;
@@ -41,7 +41,7 @@ public class Capacite implements ICapacite {
         this.PP = PP;
         this.categorie = categorie;
         this.type = type;
-        // this.niveau = niveau; TODO
+        // TODO : this.niveau = niveau;
     }
 
     /**
@@ -83,6 +83,13 @@ public class Capacite implements ICapacite {
         }
     }
 
+    /**
+     * Il calcule les dommages causés par un mouvement
+     *
+     * @param lanceur le pokémon qui utilise l'attaque
+     * @param receveur le pokémon attaqué
+     * @return Les dégâts que l'attaque fera.
+     */
     private int caseAttack(IPokemon lanceur, IPokemon receveur) {
         switch (this.puissance) {
             case -1:
