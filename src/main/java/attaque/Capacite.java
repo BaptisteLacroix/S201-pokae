@@ -13,6 +13,7 @@ import interfaces.IType;
 import interfaces.IPokemon;
 import pokedex.Pokedex;
 import statsPokemon.Type;
+import writingCSV.Chrono;
 
 import java.util.Random;
 
@@ -29,6 +30,7 @@ public class Capacite implements ICapacite {
     private ICategorie categorie;
     private IType type;
     private Random rand = new Random();
+    private final Chrono chrono = new Chrono();
     // private int niveau;
 
     public Capacite(String nom, double precision, int puissance, int PP, ICategorie categorie, IType type/*, int niveau*/) {
@@ -55,26 +57,30 @@ public class Capacite implements ICapacite {
             this.utilise();
             return 0;
         }
-
         int damage = this.caseAttack(lanceur, receveur);
-
         if (damage == -1) {
             this.utilise();
+            chrono.start();
             double eff = new Pokedex().getEfficacite(this.type, receveur.getEspece().getTypes()[0]);
+            chrono.stop();
+            System.out.println(" -------------------- > eff 0 -> 0.2 : " + chrono.getDureeTxt());
+            chrono.start();
             double eff2 = new Pokedex().getEfficacite(this.type, receveur.getEspece().getTypes()[1]);
+            chrono.stop();
+            System.out.println(" -------------------- > eff2 0 -> 0.3 : " + chrono.getDureeTxt());
             double pparenthese = lanceur.getNiveau() * 0.4 + 2;
             double numerateur = pparenthese * lanceur.getStat().getForce() * this.puissance;
-            double denominateur = receveur.getStat().getDefense() * 50;
+            double denominateur = (double) receveur.getStat().getDefense() * 50;
             double fraction = numerateur / denominateur + 2;
-
             if (this.type == lanceur.getEspece().getTypes()[0] || this.type == lanceur.getEspece().getTypes()[1]) {
                 double CM = (eff * eff2) * 1.5 * (0.85 + (1 - 0.85) * rand.nextDouble());
                 return (int) Math.round(fraction * CM);
             }
-
             double CM = (eff * eff2) * (0.85 + (1 - 0.85) * rand.nextDouble());
             return (int) Math.round(fraction * CM);
-        } else return damage;
+        } else  {
+            return damage;
+        }
     }
 
     private int caseAttack(IPokemon lanceur, IPokemon receveur) {

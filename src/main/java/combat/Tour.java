@@ -11,6 +11,7 @@ import attaque.Echange;
 import interfaces.IAttaque;
 import interfaces.IPokemon;
 import interfaces.ITour;
+import writingCSV.Chrono;
 
 
 /**
@@ -101,10 +102,10 @@ public class Tour implements ITour {
 
     private String echange2check() {
         if (this.pokemon2.estEvanoui()) {
-            return "Le Dresseur 1 a changé son Pokémon par : " + this.pokemon1.getNom() + "\n"
-                    + this.pokemon1.getNom() + " a subit " + this.damageRecuPok1 + " de damage par " + this.pokemon2.getNom()
+            return "Le Dresseur 2 a changé son Pokémon par : " + this.pokemon2.getNom() + "\n"
+                    + this.pokemon2.getNom() + " a subit " + this.damageRecuPok2 + " de damage par " + this.pokemon1.getNom()
                     + "\n" + this.pokemon2.getNom() + " est ko !"
-                    + "\nIl reste " + this.pokemon2.getStat().getPV() + "pv a " + this.pokemon2.getNom();
+                    + "\nIl reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom();
         } else {
             return "Le Dresseur 2 a changé son Pokémon par : " + this.pokemon2.getNom() + "\n"
                     + this.pokemon2.getNom() + " a subit " + this.damageRecuPok2 + " de damage par " + this.pokemon1.getNom()
@@ -115,25 +116,26 @@ public class Tour implements ITour {
 
     private String printWhoIsKo1() {
         if (this.pokemon1.estEvanoui() && !this.pokemon2.estEvanoui()) {
-            return "Le Dresseur 1 a changé son Pokémon par : " + this.pokemon1.getNom() + "\n"
-                    + this.pokemon1.getNom() + " a subit " + this.damageRecuPok1 + " de damage par " + this.pokemon2.getNom()
+            return this.pokemon1.getNom() + " attaque le premier en infligeant " + this.damageRecuPok2 + "\n"
+                    + this.pokemon2.getNom() + " attaque le deuxième en infligeant " + this.damageRecuPok1
                     + "\n" + this.pokemon1.getNom() + " est ko !"
                     + "\nIl reste " + this.pokemon2.getStat().getPV() + "pv a " + this.pokemon2.getNom();
         } else if (this.pokemon2.estEvanoui() && !this.pokemon1.estEvanoui()) {
-            return "Le Dresseur 1 a changé son Pokémon par : " + this.pokemon1.getNom() + "\n"
-                    + this.pokemon1.getNom() + " a subit " + this.damageRecuPok1 + " de damage par " + this.pokemon2.getNom()
-                    + "\n" + this.pokemon2.getNom() + " est ko !"
-                    + "\nIl reste " + this.pokemon2.getStat().getPV() + "pv a " + this.pokemon2.getNom();
+            return this.pokemon1.getNom() + " attaque le premier en infligeant " + this.damageRecuPok2 + "\n"
+                    + this.pokemon2.getNom() + " attaque le deuxième en infligeant " + this.damageRecuPok1
+                    + "\nIl reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom()
+                    + "\n" + this.pokemon2.getNom() + " est ko !";
         } else if (this.pokemon1.estEvanoui() && this.pokemon2.estEvanoui()) {
-            return "Le Dresseur 1 a changé son Pokémon par : " + this.pokemon1.getNom() + "\n"
-                    + this.pokemon1.getNom() + " a subit " + this.damageRecuPok1 + " de damage par " + this.pokemon2.getNom()
+            return this.pokemon1.getNom() + " attaque le premier en infligeant " + this.damageRecuPok2 + "\n"
+                    + this.pokemon2.getNom() + " attaque le deuxième en infligeant " + this.damageRecuPok1
                     + "\n" + this.pokemon1.getNom() + " est ko !"
                     + "\n" + this.pokemon2.getNom() + " est ko !";
-        } else
+        } else {
             return this.pokemon1.getNom() + " attaque le premier en infligeant " + this.damageRecuPok2 + "\n"
                     + this.pokemon2.getNom() + " attaque le deuxième en infligeant " + this.damageRecuPok1
                     + "\nIl reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom()
                     + "\nIl reste " + this.pokemon2.getStat().getPV() + "pv a " + this.pokemon2.getNom();
+        }
     }
 
     private String printWhoIsKo2() {
@@ -148,14 +150,15 @@ public class Tour implements ITour {
                     + "\n" + this.pokemon2.getNom() + " est ko !"
                     + "\nIl reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom();
         } else if (this.pokemon1.estEvanoui() && this.pokemon2.estEvanoui()) {
-            return "Le Dresseur 1 a changé son Pokémon par : " + this.pokemon1.getNom() + "\n"
-                    + this.pokemon1.getNom() + " a subit " + this.damageRecuPok1 + " de damage par " + this.pokemon2.getNom()
+            return this.pokemon2.getNom() + " attaque le premier en infligeant " + this.damageRecuPok1 + "\n"
+                    + this.pokemon1.getNom() + " attaque le deuxième en infligeant " + this.damageRecuPok2
                     + "\n" + this.pokemon1.getNom() + " est ko !"
                     + "\n" + this.pokemon2.getNom() + " est ko !";
-        } else
+        } else {
             return this.pokemon2.getNom() + " attaque le premier en infligeant " + this.damageRecuPok1 + "\n"
                     + this.pokemon1.getNom() + " attaque le deuxième en infligeant " + this.damageRecuPok2
                     + "\nIl reste " + this.pokemon2.getStat().getPV() + "pv a " + this.pokemon2.getNom()
                     + "\nIl reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom();
+        }
     }
 }

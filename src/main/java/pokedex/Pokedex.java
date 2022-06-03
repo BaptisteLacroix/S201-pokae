@@ -19,6 +19,7 @@ import attaque.Capacite;
 import statsPokemon.Categorie;
 import statsPokemon.Stat;
 import statsPokemon.Type;
+import writingCSV.Chrono;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -31,6 +32,7 @@ import java.util.*;
 public class Pokedex implements IPokedex {
     private final Map<Integer, IPokemon> dico = new HashMap<>();
     private final IPokemon[] ranch = new IPokemon[6];
+    private final Chrono chrono = new Chrono();
 
     public Pokedex() {
         this.engendreRanch();
@@ -120,8 +122,7 @@ public class Pokedex implements IPokedex {
                     if (defense.getNom().equals(tab[i]))
                         nbrD = i;
                 }
-                eff = this.foundEfficacite(nbrA, nbrD, reader);
-            }
+                eff = this.foundEfficacite(nbrA, nbrD, reader);}
             file.close();
         } catch (IOException e) {
             e.printStackTrace();
