@@ -14,7 +14,7 @@ import java.util.*;
 
 
 /**
- * @author Lacroix Baptiste
+ * @author Lacroix Baptiste and Vidal Théo
  */
 public class Combat implements ICombat {
     private final List<String> tableauTours = new ArrayList<>();
@@ -238,26 +238,25 @@ public class Combat implements ICombat {
         Date date = new Date();
         try {
             PrintWriter writer = new PrintWriter(new FileWriter("log.txt", true));
-            writer.println("\n------------------ Début du combat ! ------------------\n");
-            writer.println(date);
+            writer.println("\n" + date + " : ------------------ Début du combat ! ------------------\n");
             this.chrono.stop(); // arrêt
-            writer.println("Le combat a durée : " + this.chrono.getDureeTxt() + " en " + this.nbrTours + " tours");
+            writer.println(date + " : Le combat a durée : " + this.chrono.getDureeTxt() + " en " + this.nbrTours + " tours");
             if (this.ko1 == 6 && this.ko2 != 6) {
                 System.out.println("Le gagant est " + this.dresseur2.getNom() + "\nLe perdant est " + this.dresseur1.getNom());
-                writer.println("Le gagnant est " + this.dresseur2.getNom() + "\nLe perdant est " + this.dresseur1.getNom() + "\n");
+                writer.println(date + " : Le gagnant est " + this.dresseur2.getNom() + "\n" + date + " : Le perdant est " + this.dresseur1.getNom() + "\n");
             } else if (this.ko1 != 6 && this.ko2 == 6) {
                 System.out.println("Le gagant est " + this.dresseur1.getNom() + "\nLe perdant est " + this.dresseur2.getNom());
-                writer.println("Le gagnant est " + this.dresseur1.getNom() + "\nLe perdant est " + this.dresseur2.getNom() + "\n");
+                writer.println(date + " : Le gagnant est " + this.dresseur1.getNom() + "\n" + date + " : Le perdant est " + this.dresseur2.getNom() + "\n");
             }
             int i = 1;
             for (String tour : this.tableauTours) {
-                writer.println("<<<<<<<<<<<<<<<<<< Début du tour : " + i + " >>>>>>>>>>>>>>>>>");
+                writer.println(date + " : <<<<<<<<<<<<<<<<<< Début du tour : " + i + " >>>>>>>>>>>>>>>>>");
                 writer.println(tour);
-                writer.println("<<<<<<<<<<<<<<<<<< Fin du tour : " + i + " >>>>>>>>>>>>>>>>>\n");
+                writer.println(date + " : <<<<<<<<<<<<<<<<<< Fin du tour : " + i + " >>>>>>>>>>>>>>>>>\n");
                 i++;
             }
-            writer.println("\n------------------ Fin du combat ! ------------------\n");
-            writer.println("\n\n---------------------------------------------------------->\n\n");
+            writer.println("\n" + date + " : ------------------ Fin du combat ! ------------------\n");
+            writer.println("\n\n" + date + " : ---------------------------------------------------------->\n\n");
             writer.close();
         } catch (IOException e) {
             e.printStackTrace();

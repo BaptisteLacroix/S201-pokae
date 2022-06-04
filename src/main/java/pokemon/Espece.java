@@ -30,7 +30,7 @@ import java.util.Scanner;
 
 
 /**
- * @author Lacroix baptiste and Vidal Théo
+ * @author Lacroix Baptiste and Vidal Théo
  */
 public class Espece implements IEspece {
     private final IStat baseStat;
@@ -191,7 +191,6 @@ public class Espece implements IEspece {
         } catch (IOException | ParseException e) {
             e.printStackTrace();
         }
-        // System.out.println("NOM Espece : " + this.nom + " ---> NOM Cap : " + name + " -----> lvl : " + lvl);
         return lvl;
     }
 

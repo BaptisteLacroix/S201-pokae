@@ -9,13 +9,11 @@ import java.util.Scanner;
 
 
 /**
- * @author Lacroix Baptiste
+ * @author Lacroix Baptiste and Vidal Théo
  */
-
 public class DresseurHuman implements IDresseur {
-    private String nom;
-    private IPokemon[] ranch;
-    private int niveau = 0;
+    private final String nom;
+    private final IPokemon[] ranch;
 
     public DresseurHuman(String nom) {
         this.nom = nom;
@@ -46,11 +44,11 @@ public class DresseurHuman implements IDresseur {
      */
     @Override
     public int getNiveau() {
-        this.niveau = 0;
+        int niveau = 0;
         for (IPokemon p : ranch) {
-            this.niveau += p.getNiveau();
+            niveau += p.getNiveau();
         }
-        return this.niveau;
+        return niveau;
     }//Niveau du dresseur
 
     /**

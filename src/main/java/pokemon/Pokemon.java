@@ -15,10 +15,11 @@ import interfaces.IAttaque;
 import interfaces.ICapacite;
 import statsPokemon.Stat;
 
+import java.util.Date;
 import java.util.Random;
 
 /**
- * @author Lacroix baptiste and Vidal Théo
+ * @author Lacroix Baptiste and Vidal Théo
  */
 public class Pokemon implements IPokemon {
     private final int id;
@@ -31,7 +32,7 @@ public class Pokemon implements IPokemon {
     private IEspece espece;
     private final ICapacite[] capacites = new ICapacite[4];
     private IStat DV;
-
+    private Date date = new Date();
 
     public Pokemon(int id, String nom, int niveau, double pourcentagePV, IEspece espece) {
         this.id = id;
@@ -67,17 +68,19 @@ public class Pokemon implements IPokemon {
         this.stat.setSpecial(calculGainStat(this.stat.getSpecial(), this.espece.getGainsStat().getSpecial(), espece.getGainsStat().getSpecial()));
         this.stat.setVitesse(calculGainStat(this.stat.getVitesse(), this.espece.getGainsStat().getVitesse(), espece.getGainsStat().getVitesse()));
     }
+
     /**
      * Calcule le gain de statistiques gagné par un pokémon lorsqu'il monte de niveau
      *
      * @param stat La statistique de base du Pokémon.
-     * @param dv La statistique de base du Pokémon.
-     * @param ev Valeur d'effort
+     * @param dv   La statistique de base du Pokémon.
+     * @param ev   Valeur d'effort
      * @return Le gain d'une stat.
      */
     private int calculGainStat(int stat, int dv, int ev) {
         return (int) Math.round(((2 * (stat + dv) + ev / 4.0) * niveau) / 100 + 5);
     }
+
     /**
      * Calcule la quantité de HP gagnée par un Pokémon lorsqu'il monte de niveau
      *
@@ -253,7 +256,7 @@ public class Pokemon implements IPokemon {
      */
     @Override
     public void apprendCapacites(ICapacite[] caps) {
-        for (int i = 0; i < caps.length; i ++) {
+        for (int i = 0; i < caps.length; i++) {
             for (ICapacite c : this.espece.getCapSet()) {
                 Capacite capacite = (Capacite) c;
                 if (caps[i].getNom().strip().equalsIgnoreCase(c.getNom().strip()) && this.niveau >= capacite.getNiveau()) {
@@ -298,7 +301,7 @@ public class Pokemon implements IPokemon {
             this.miseAjourStats();
         }
         if (this.aChangeNiveau())
-            System.out.println(this.nom + " a gagné " + (this.niveau-this.ancien_niveau) + " niveau(x) !");
+            System.out.println(this.nom + " a gagné " + (this.niveau - this.ancien_niveau) + " niveau(x) !");
     } //Met à jour l'exprérience de this suite à la défaite de pok
 
     private boolean peutChangerDeNiveau() {

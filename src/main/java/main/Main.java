@@ -8,6 +8,9 @@ import other.Chrono;
 
 import java.util.Random;
 
+/**
+ * @author Lacroix Baptiste and Vidal Théo
+ */
 public class Main {
     /**
      * Ceci est une méthode qui illustre le fonctionnement des différentes classes

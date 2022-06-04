@@ -8,7 +8,7 @@ import statsPokemon.Type;
 
 public class PokedexTest {
 
-    private Pokedex pokedex = new Pokedex();
+    private final Pokedex pokedex = new Pokedex();
 
     /**
      * Il teste que la méthode `getRanch()` de la classe `Pokedex` renvoie un tableau de 6 objets `IPokemon`

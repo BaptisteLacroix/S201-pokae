@@ -10,6 +10,9 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.*;
 
+/**
+ * @author Lacroix Baptiste and Vidal Théo
+ */
 public class WritingMovesIntoJSON {
     public static void main(String[] args) throws IOException {
         WritingMovesIntoJSON writingMovesWLVL = new WritingMovesIntoJSON();
