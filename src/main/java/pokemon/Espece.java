@@ -7,18 +7,30 @@
  */
 package pokemon;
 
-import interfaces.*;
-import combat.Capacite;
+import attaque.Capacite;
+import interfaces.ICapacite;
+import interfaces.IEspece;
+import interfaces.IStat;
+import interfaces.IType;
 import statsPokemon.Categorie;
 import statsPokemon.Stat;
 import statsPokemon.Type;
 
-import java.io.*;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 
 /**
- * @author Lacroix Baptiste
+ * @author Lacroix Baptiste and Vidal Théo
  */
 public class Espece implements IEspece {
     private final IStat baseStat;
@@ -124,6 +136,7 @@ public class Espece implements IEspece {
      * @param tableau le tableau de chaînes contenant le nom, le type et les capacités du pokémon.
      */
     private void creatCap(String[] tableau) {
+
         boolean trouve = false;
         List<ICapacite> cap = new ArrayList<>();
         for (int i = 1; i < tableau.length; i++) {
@@ -136,7 +149,7 @@ public class Espece implements IEspece {
                     String[] tab = scanner.nextLine().split(";");
                     if (tab[0].equals(tableau[i])) {
                         cap.add(new Capacite(tab[0], Double.parseDouble(tab[2]), Integer.parseInt(tab[1]),
-                                Integer.parseInt(tab[3]), Categorie.valueOf(tab[5]), conversionStringType(tab[6])));
+                                Integer.parseInt(tab[3]), Categorie.valueOf(tab[5]), conversionStringType(tab[6]), this.getLvlCap(tab[0])));
                     }
                 }
             } catch (IOException e) {
@@ -149,6 +162,36 @@ public class Espece implements IEspece {
                 this.capSet[i] = cap.get(i);
             }
         }
+    }
+
+    /**
+     * Il lit un fichier JSON et renvoie le niveau auquel un Pokémon peut apprendre un mouvement
+     *
+     * @param name Le nom du déménagement.
+     * @return Le niveau du pokémon auquel il apprend le mouvement.
+     */
+    private int getLvlCap(String name) {
+        int lvl = 0;
+        try {
+            JSONParser parser = new JSONParser();
+            JSONObject obj = (JSONObject) parser.parse(new FileReader("./resources/listeCapacitesEspecesWLVL.json"));
+            JSONArray modules = (JSONArray) obj.get("Pokemon");
+            for (Object m : modules) {
+                JSONObject jsonObj = (JSONObject) m;
+                if (jsonObj.get("nom").equals(this.nom)) {
+                    JSONArray jsonArray2 = (JSONArray) jsonObj.get("moves");
+                    for (Object m3 : jsonArray2) {
+                        JSONObject element = (JSONObject) m3;
+                        if (element.get("move").equals(name)) {
+                            lvl = Integer.parseInt((String) element.get("lvl"));
+                        }
+                    }
+                }
+            }
+        } catch (IOException | ParseException e) {
+            e.printStackTrace();
+        }
+        return lvl;
     }
 
     /**
