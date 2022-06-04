@@ -1,15 +1,15 @@
 package attaque;
 
-import interfaces.IAttaque;
-import interfaces.IEchange;
-import interfaces.IPokemon;
-import interfaces.IStrategy;
+import interfaces.*;
 
 import java.util.Random;
 
+/**
+ * @author Lacroix Baptiste and Vidal Théo
+ */
 public class Strategy implements IStrategy {
-    private IPokemon[] ranch;
-    private Random rand = new Random();
+    private final IPokemon[] ranch;
+    private final Random rand = new Random();
 
     public Strategy(IPokemon[] ranch) {
         this.ranch = ranch;
@@ -57,7 +57,11 @@ public class Strategy implements IStrategy {
     public IAttaque choisitAttaque(IPokemon attaquant, IPokemon defenseur) {
         int choixAttaque = rand.nextInt(2 + 1) + 1;  // Read user input
         if (choixAttaque == 1) {
-            return attaquant.getCapacitesApprises()[this.rand.nextInt(4)];
+            ICapacite random = attaquant.getCapacitesApprises()[this.rand.nextInt(4)];
+            while (random == null) {
+                random = attaquant.getCapacitesApprises()[this.rand.nextInt(4)];
+            }
+            return random;
         } else {
             IEchange echange = new Echange(attaquant);
             echange.setPokemon(this.choisitCombattantContre(defenseur));

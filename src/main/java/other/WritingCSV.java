@@ -13,6 +13,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * @author Lacroix Baptiste and Vidal Théo
+ */
 public class WritingCSV {
     /**
      * Il prend le nom du pokémon et le nom des mouvements qui lui sont associés et les écrit dans un fichier csv

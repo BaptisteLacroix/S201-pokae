@@ -12,7 +12,7 @@ import interfaces.ICategorie;
 import java.util.Objects;
 
 /**
- * @author Lacroix baptiste and Vidal Théo
+ * @author Lacroix Baptiste and Vidal Théo
  * Il s'agit de la catégorie d'une capacité :
  *  - soit Physique
  *  - soit Special

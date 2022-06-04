@@ -8,14 +8,14 @@ import statsPokemon.Type;
 
 public class PokedexTest {
 
-    private Pokedex pokedex = new Pokedex();
+    private final Pokedex pokedex = new Pokedex();
 
     /**
      * Il teste que la méthode `getRanch()` de la classe `Pokedex` renvoie un tableau de 6 objets `IPokemon`
      */
     @Test
     public void engendreRanch() {
-        IPokemon[] p = pokedex.getRanch();
+        IPokemon[] p = pokedex.engendreRanch();
         for (IPokemon pok : p) {
             Assert.assertNotNull(pok);
         }
@@ -48,7 +48,7 @@ public class PokedexTest {
      */
     @Test
     public void getCapacite() {
-        Assert.assertEquals(pokedex.getCapacite("Écras'Face").getNom(), "Écras'Face");
-        Assert.assertEquals(pokedex.getCapacite(1).getNom(), "Écras'Face");
+        Assert.assertEquals("Écras'Face", pokedex.getCapacite("Écras'Face").getNom());
+        Assert.assertEquals("Écras'Face", pokedex.getCapacite(1).getNom());
     }
 }
