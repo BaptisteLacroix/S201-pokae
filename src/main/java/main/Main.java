@@ -2,11 +2,13 @@ package main;
 
 import attaque.Capacite;
 import combat.Combat;
+import dresseur.DresseurHuman;
 import dresseur.DresseurIA;
 import interfaces.*;
 import other.Chrono;
 
 import java.util.Random;
+import java.util.Scanner;
 
 /**
  * @author Lacroix Baptiste and Vidal Théo
@@ -22,7 +24,7 @@ public class Main {
     public static void main(String[] args) {
         Chrono chrono = new Chrono();
         Chrono chrono2 = new Chrono();
-        // DresseurHuman baptiste = new DresseurHuman("Baptiste");
+        DresseurHuman baptiste = new DresseurHuman("Baptiste");
         chrono.start();
         DresseurIA IA1 = new DresseurIA("IA1");
         chrono.stop();
@@ -32,30 +34,30 @@ public class Main {
         chrono.stop();
 
         System.out.println("chrono : " + chrono.getDureeTxt());
-        // for (IPokemon pokemon : baptiste.getRanch()) {
-        //     ICapacite[] capacites = pokemon.getEspece().getCapSet();
-        //     ICapacite[] capacitesApp = new ICapacite[4];
-        //     int counter = 0;
-        //     System.out.println("Capcités disponilbes : ");
-        //     for (ICapacite cap : capacites) {
-        //         System.out.printf("%-32s", "nom : " + cap.getNom() + " | précision : " + cap.getPrecision() + " | puissance : "
-        //                 + cap.getPuissance() + " | PP : " + cap.getPuissance() + " | catégorie : " + cap.getCategorie() + " | type : " + cap.getType() + "\n");
-        //     }
-        //     System.out.println();
-        //     for (int i = 0; i < 4; i++) {
-        //         Scanner input = new Scanner(System.in);  // Create a Scanner object
-        //         System.out.print(baptiste.getNom() + " choose a new capacity to learn for your pokemon " + pokemon.getNom() +" (give the name) : ");
-        //         String choixCapacite = input.nextLine();  // Read user input
-        //         for (ICapacite cap : capacites) {
-        //             if (cap.getNom().equals(choixCapacite)) {
-        //                 capacitesApp[counter] = cap;
-        //                 counter++;
-        //             }
-        //         }
-        //     }
-        //     pokemon.apprendCapacites(capacitesApp);
-        //     affichage(pokemon);
-        // }
+        for (IPokemon pokemon : baptiste.getRanch()) {
+            ICapacite[] capacites = pokemon.getEspece().getCapSet();
+            ICapacite[] capacitesApp = new ICapacite[4];
+            int counter = 0;
+            System.out.println("Capcités disponilbes : ");
+            for (ICapacite cap : capacites) {
+                System.out.printf("%-32s", "nom : " + cap.getNom() + " | précision : " + cap.getPrecision() + " | puissance : "
+                        + cap.getPuissance() + " | PP : " + cap.getPuissance() + " | catégorie : " + cap.getCategorie() + " | type : " + cap.getType() + "\n");
+            }
+            System.out.println();
+            for (int i = 0; i < 4; i++) {
+                Scanner input = new Scanner(System.in);  // Create a Scanner object
+                System.out.print(baptiste.getNom() + " choose a new capacity to learn for your pokemon " + pokemon.getNom() +" (give the name) : ");
+                String choixCapacite = input.nextLine();  // Read user input
+                for (ICapacite cap : capacites) {
+                    if (cap.getNom().equals(choixCapacite)) {
+                        capacitesApp[counter] = cap;
+                        counter++;
+                    }
+                }
+            }
+            pokemon.apprendCapacites(capacitesApp);
+            affichage(pokemon);
+        }
         chrono2.start();
         choixIA(IA1);
         choixIA(IA2);
@@ -68,6 +70,9 @@ public class Main {
             combat.commence();
         chrono2.stop();
         System.out.println("durée total pour " + i + " combats : " + chrono2.getDureeTxt());
+
+        combat = new Combat(IA1, baptiste);
+        combat.commence();
     }
 
     /**
