@@ -7,6 +7,7 @@
  */
 package pokedex;
 
+import attaque.Capacite;
 import interfaces.IPokedex;
 import interfaces.IEspece;
 import interfaces.IPokemon;
@@ -15,6 +16,7 @@ import interfaces.IStat;
 import interfaces.IType;
 import pokemon.Espece;
 import pokemon.Pokemon;
+import statsPokemon.Categorie;
 import statsPokemon.Stat;
 import statsPokemon.Type;
 
@@ -161,8 +163,8 @@ public class Pokedex implements IPokedex {
                 Scanner scanner = new Scanner(reader.readLine()).useDelimiter(";");
                 String[] tab = scanner.nextLine().split(";");
                 if (tab[0].equals(nomCapacite)) {
-                    // capacite = new Capacite(tab[0], Double.parseDouble(tab[2]), Integer.parseInt(tab[1]),
-                    //         Integer.parseInt(tab[3]), Categorie.valueOf(tab[5]), conversionStringType(tab[6]));
+                    capacite = new Capacite(tab[0], Double.parseDouble(tab[2]), Integer.parseInt(tab[1]),
+                            Integer.parseInt(tab[3]), Categorie.valueOf(tab[5]), conversionStringType(tab[6]), 0);
                     trouve = true;
                 }
             }
@@ -191,8 +193,8 @@ public class Pokedex implements IPokedex {
                 Scanner scanner = new Scanner(reader.readLine()).useDelimiter(";");
                 String[] tab = scanner.nextLine().split(";");
                 if (Integer.parseInt(tab[4]) == nunCapacite) {
-                    // capacite = new Capacite(tab[0], Double.parseDouble(tab[2]), Integer.parseInt(tab[1]),
-                    //         Integer.parseInt(tab[3]), Categorie.valueOf(tab[5]), conversionStringType(tab[6]));
+                    capacite = new Capacite(tab[0], Double.parseDouble(tab[2]), Integer.parseInt(tab[1]),
+                            Integer.parseInt(tab[3]), Categorie.valueOf(tab[5]), conversionStringType(tab[6]), 0);
                     trouve = true;
                 }
             }

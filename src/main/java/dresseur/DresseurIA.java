@@ -4,12 +4,14 @@ import attaque.Strategy;
 import interfaces.*;
 import pokedex.Pokedex;
 
-
+/**
+ * @author Lacroix Baptiste and Vidal Théo
+ */
 public class DresseurIA implements IDresseur {
-    private String nom;
-    private IPokemon[] ranch;
+    private final String nom;
+    private final IPokemon[] ranch;
     private int niveau = 0;
-    private IStrategy strategy;
+    private final IStrategy strategy;
 
     public DresseurIA(String nom) {
         this.nom = nom;

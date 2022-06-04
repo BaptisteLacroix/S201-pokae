@@ -2,12 +2,14 @@ package attaque;
 
 import interfaces.*;
 
-import java.util.Arrays;
 import java.util.Random;
 
+/**
+ * @author Lacroix Baptiste and Vidal Théo
+ */
 public class Strategy implements IStrategy {
-    private IPokemon[] ranch;
-    private Random rand = new Random();
+    private final IPokemon[] ranch;
+    private final Random rand = new Random();
 
     public Strategy(IPokemon[] ranch) {
         this.ranch = ranch;
