@@ -7,6 +7,7 @@
  */
 package pokemon;
 
+import attaque.Capacite;
 import interfaces.IEspece;
 import interfaces.IPokemon;
 import interfaces.IStat;
@@ -14,10 +15,11 @@ import interfaces.IAttaque;
 import interfaces.ICapacite;
 import statsPokemon.Stat;
 
+import java.util.Date;
 import java.util.Random;
 
 /**
- * @author Lacroix Baptiste
+ * @author Lacroix Baptiste and Vidal Théo
  */
 public class Pokemon implements IPokemon {
     private final int id;
@@ -28,25 +30,21 @@ public class Pokemon implements IPokemon {
     private double experience;
     private double pourcentagePV;
     private IEspece espece;
-    private ICapacite[] capacites = new ICapacite[4];
+    private final ICapacite[] capacites = new ICapacite[4];
     private IStat DV;
+    private Date date = new Date();
 
-
-    public Pokemon(int id, String nom, int niveau, double experience, double pourcentagePV, IEspece espece) {
+    public Pokemon(int id, String nom, int niveau, double pourcentagePV, IEspece espece) {
         this.id = id;
         this.nom = nom;
         this.ancien_niveau = niveau;
         this.niveau = niveau;
         this.stat = this.copyStats(espece.getBaseStat());
-        this.experience = experience;
+        this.experience = 0;
         this.pourcentagePV = pourcentagePV;
         this.espece = espece;
         this.setDV();
-
-        while (peutChangerDeNiveau()) {
-            this.niveau++;
-            this.miseAjourStats();
-        }
+        this.miseAjourStats();
     }
 
     /**
@@ -70,17 +68,19 @@ public class Pokemon implements IPokemon {
         this.stat.setSpecial(calculGainStat(this.stat.getSpecial(), this.espece.getGainsStat().getSpecial(), espece.getGainsStat().getSpecial()));
         this.stat.setVitesse(calculGainStat(this.stat.getVitesse(), this.espece.getGainsStat().getVitesse(), espece.getGainsStat().getVitesse()));
     }
+
     /**
      * Calcule le gain de statistiques gagné par un pokémon lorsqu'il monte de niveau
      *
      * @param stat La statistique de base du Pokémon.
-     * @param dv La statistique de base du Pokémon.
-     * @param ev Valeur d'effort
+     * @param dv   La statistique de base du Pokémon.
+     * @param ev   Valeur d'effort
      * @return Le gain d'une stat.
      */
     private int calculGainStat(int stat, int dv, int ev) {
         return (int) Math.round(((2 * (stat + dv) + ev / 4.0) * niveau) / 100 + 5);
     }
+
     /**
      * Calcule la quantité de HP gagnée par un Pokémon lorsqu'il monte de niveau
      *
@@ -96,7 +96,10 @@ public class Pokemon implements IPokemon {
     private void setDV() {
         Random rand = new Random();
         int[] lowWeight = new int[4];
-        int force, defense, vitesse, special;
+        int force;
+        int defense;
+        int vitesse;
+        int special;
         force = rand.nextInt(16);
         defense = rand.nextInt(16);
         vitesse = rand.nextInt(16);
@@ -253,9 +256,10 @@ public class Pokemon implements IPokemon {
      */
     @Override
     public void apprendCapacites(ICapacite[] caps) {
-        for (int i = 0; i < caps.length; i ++) {
+        for (int i = 0; i < caps.length; i++) {
             for (ICapacite c : this.espece.getCapSet()) {
-                if (caps[i].getNom().equals(c.getNom())) {
+                Capacite capacite = (Capacite) c;
+                if (caps[i].getNom().strip().equalsIgnoreCase(c.getNom().strip()) && this.niveau >= capacite.getNiveau()) {
                     this.capacites[i] = caps[i];
                 }
             }
@@ -275,7 +279,8 @@ public class Pokemon implements IPokemon {
         if (i < 0 || i > 4)
             throw new UnsupportedOperationException();
         for (ICapacite c : this.espece.getCapSet()) {
-            if (cap.getNom().equals(c.getNom())) {
+            Capacite capacite = (Capacite) c;
+            if (cap.getNom().equals(c.getNom()) && this.niveau >= capacite.getNiveau()) {
                 this.capacites[i] = cap;
             }
         }
@@ -291,13 +296,16 @@ public class Pokemon implements IPokemon {
     public void gagneExperienceDe(IPokemon pok) {
         this.experience = (1.5 * pok.getNiveau() * pok.getEspece().getBaseExp()) / 7;
         while (peutChangerDeNiveau()) {
+            this.ancien_niveau = this.niveau;
             this.niveau++;
             this.miseAjourStats();
         }
+        if (this.aChangeNiveau())
+            System.out.println(this.nom + " a gagné " + (this.niveau - this.ancien_niveau) + " niveau(x) !");
     } //Met à jour l'exprérience de this suite à la défaite de pok
 
     private boolean peutChangerDeNiveau() {
-        return this.experience >= (0.8 * Math.pow(this.niveau + 1, 3));
+        return this.experience >= (0.8 * Math.pow((double) this.niveau + 1, 3));
     }
 
     /**
@@ -311,6 +319,10 @@ public class Pokemon implements IPokemon {
         if (atk instanceof ICapacite) {
             int degats = atk.calculeDommage(pok, this);
             this.stat.setPV(this.stat.getPV() - degats);
+            if (this.pourcentagePV - (100 * (double) degats / this.calculGainStatPV()) < 0)
+                this.pourcentagePV = 0;
+            else
+                this.pourcentagePV -= 100 * (double) degats / this.calculGainStatPV();
         }
     } //Met à jour les stats de this en tenant compte des dégats subits par l'attaque atk de pok
 
@@ -321,7 +333,7 @@ public class Pokemon implements IPokemon {
      */
     @Override
     public boolean estEvanoui() {
-        return this.stat.getPV() == 0;
+        return this.stat.getPV() <= 0;
     }        //renvoie true si les pointes de vie du pokemon sont 0
 
 
@@ -357,4 +369,22 @@ public class Pokemon implements IPokemon {
     public void soigne() {
         this.stat.setPV(this.calculGainStatPV());
     }       // Remet les PV au maximum
+
+    /**
+     * Il renvoie une chaîne contenant le nom, le niveau, les statistiques, le pourcentage de HP, l'espèce et le DV du
+     * Pokémon.
+     *
+     * @return Le nom, le niveau, les statistiques, le pourcentage de HP, l'espèce et le DV du Pokémon.
+     */
+    @Override
+    public String toString() {
+        return "Pokemon{" +
+                "nom='" + nom + '\'' +
+                ", niveau=" + niveau +
+                ", stat=" + stat +
+                ", pourcentagePV=" + pourcentagePV +
+                ", espece=" + espece +
+                ", DV=" + DV +
+                '}';
+    }
 }
