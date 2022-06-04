@@ -28,12 +28,6 @@ public class Main {
         DresseurIA IA2 = new DresseurIA("IA2");
         chrono.stop();
 
-        DresseurIA dresseurIA1 = new DresseurIA("dresseurIA1");
-        DresseurIA dresseurIA2 = new DresseurIA("dresseurIA2");
-        DresseurIA dresseurIA3 = new DresseurIA("dresseurIA3");
-        DresseurIA dresseurIA4 = new DresseurIA("dresseurIA4");
-        DresseurIA dresseurIA5 = new DresseurIA("dresseurIA5");
-
         System.out.println("chrono : " + chrono.getDureeTxt());
         // for (IPokemon pokemon : baptiste.getRanch()) {
         //     ICapacite[] capacites = pokemon.getEspece().getCapSet();
@@ -63,31 +57,21 @@ public class Main {
         choixIA(IA1);
         choixIA(IA2);
 
-
-        choixIA(dresseurIA1);
-        choixIA(dresseurIA2);
-        choixIA(dresseurIA3);
-        choixIA(dresseurIA4);
-        choixIA(dresseurIA5);
-
         //////////////////////////////////////////////////////////
 
         ICombat combat = new Combat(IA1, IA2);
-        ICombat combat1 = new Combat(dresseurIA1, dresseurIA2);
-        ICombat combat2 = new Combat(dresseurIA3, dresseurIA4);
-        ICombat combat3 = new Combat(dresseurIA5, dresseurIA3);
-        combat.commence();
-        combat1.commence();
-        combat2.commence();
-        combat3.commence();
-        // int i;
-        // for (i = 0; i < 5; i ++)
-        //     combat.commence();
+        int i;
+        for (i = 0; i < 2; i ++)
+            combat.commence();
         chrono2.stop();
-        // System.out.println("durée total pour " + i + " combats : " + chrono2.getDureeTxt());
-        System.out.println("durée total pour les combats : " + chrono2.getDureeTxt());
+        System.out.println("durée total pour " + i + " combats : " + chrono2.getDureeTxt());
     }
 
+    /**
+     * Il choisit une capacité aléatoire pour chaque pokémon du dresseur
+     *
+     * @param dresseur l'entraîneur
+     */
     private static void choixIA(DresseurIA dresseur) {
         Random rand = new Random();
         for (IPokemon pokemon : dresseur.getRanch()) {
@@ -106,6 +90,11 @@ public class Main {
         }
     }
 
+    /**
+     * Il affiche le nom du pokémon et ses capacités apprises
+     *
+     * @param pokemon le pokémon que vous voulez afficher
+     */
     private static void affichage(IPokemon pokemon) {
         System.out.println("\n" + pokemon.getNom() + " capacités apprises : ");
         ICapacite[] capacite = pokemon.getCapacitesApprises();

@@ -2,7 +2,6 @@ package combat;
 
 import attaque.Echange;
 import dresseur.DresseurIA;
-import interfaces.ITour;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -12,6 +11,8 @@ public class TestCombat {
     private Echange echange1 = new Echange(IA1.getPokemon(1));
     private Echange echange2 = new Echange(IA2.getPokemon(1));
     private Combat combat = new Combat(IA1, IA2);
+
+
 
     @Test
     public void testNouveauTour() {
