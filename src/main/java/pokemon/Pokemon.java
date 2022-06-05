@@ -15,6 +15,9 @@ import interfaces.IAttaque;
 import interfaces.ICapacite;
 import statsPokemon.Stat;
 
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Date;
 import java.util.Random;
 
@@ -32,7 +35,8 @@ public class Pokemon implements IPokemon {
     private IEspece espece;
     private final ICapacite[] capacites = new ICapacite[4];
     private IStat DV;
-    private Date date = new Date();
+    private final Date date = new Date();
+    private final Random rand = new Random();
 
     public Pokemon(int id, String nom, int niveau, double pourcentagePV, IEspece espece) {
         this.id = id;
@@ -62,11 +66,13 @@ public class Pokemon implements IPokemon {
      * Il met à jour les stats du pokémon
      */
     private void miseAjourStats() {
+        this.writeLogs("mise a jour des Statistiques du Pokémon.");
         this.stat.setPV(calculGainStatPV());
         this.stat.setForce(calculGainStat(this.stat.getForce(), this.espece.getGainsStat().getForce(), espece.getGainsStat().getForce()));
         this.stat.setDefense(calculGainStat(this.stat.getDefense(), this.espece.getGainsStat().getDefense(), espece.getGainsStat().getDefense()));
         this.stat.setSpecial(calculGainStat(this.stat.getSpecial(), this.espece.getGainsStat().getSpecial(), espece.getGainsStat().getSpecial()));
         this.stat.setVitesse(calculGainStat(this.stat.getVitesse(), this.espece.getGainsStat().getVitesse(), espece.getGainsStat().getVitesse()));
+        this.writeLogs("mise a jour terminé.");
     }
 
     /**
@@ -94,7 +100,6 @@ public class Pokemon implements IPokemon {
      * Création du DV du Pokémon lors de sa création
      */
     private void setDV() {
-        Random rand = new Random();
         int[] lowWeight = new int[4];
         int force;
         int defense;
@@ -386,5 +391,20 @@ public class Pokemon implements IPokemon {
                 ", espece=" + espece +
                 ", DV=" + DV +
                 '}';
+    }
+
+    /**
+     * Il écrit la date et le texte dans un fichier appelé log.txt
+     *
+     * @param texte le texte à écrire dans le fichier journal
+     */
+    private void writeLogs(String texte) {
+        try {
+            PrintWriter writer = new PrintWriter(new FileWriter("log.txt", true));
+            writer.println(date + " : " + texte);
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
