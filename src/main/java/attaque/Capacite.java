@@ -240,13 +240,13 @@ public class Capacite implements ICapacite {
     @Override
     public String toString() {
         return "Capacite{" +
-                "nom='" + nom + '\'' +
-                ", precision=" + precision +
-                ", puissance=" + puissance +
-                ", PP=" + PP +
-                ", categorie=" + categorie +
-                ", type=" + type +
-                ", niveau=" + niveau +
+                "nom : '" + nom + '\'' +
+                ", precision : " + precision +
+                ", puissance : " + puissance +
+                ", PP : " + PP +
+                ", categorie : " + categorie +
+                ", type : " + type +
+                ", niveau nécessaire : " + niveau +
                 '}';
     }
 }

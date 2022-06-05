@@ -4,7 +4,11 @@ import attaque.Echange;
 import interfaces.*;
 import pokedex.Pokedex;
 
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.Scanner;
 
 
@@ -17,8 +21,11 @@ public class DresseurHuman implements IDresseur {
 
     public DresseurHuman(String nom) {
         this.nom = nom;
+        this.writeLogs("création du dresseur.");
         Pokedex pokedex = new Pokedex();
+        this.writeLogs("création du ranch.");
         this.ranch = pokedex.engendreRanch();
+        this.writeLogs("génération du ranch terminé.");
         this.getNiveau();
     }
 
@@ -163,4 +170,20 @@ public class DresseurHuman implements IDresseur {
             return echange; // Change de Pokemon
         }
     } //Choisit l'attaque à utiliser contre le pokemon defenseur
+    
+    /**
+     * Il écrit la date et le texte dans un fichier appelé log.txt
+     *
+     * @param texte le texte à écrire dans le fichier journal
+     */
+    private void writeLogs(String texte) {
+        Date date = new Date();
+        try {
+            PrintWriter writer = new PrintWriter(new FileWriter("log.txt", true));
+            writer.println(date + " : " + texte);
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }

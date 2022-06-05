@@ -4,6 +4,11 @@ import attaque.Strategy;
 import interfaces.*;
 import pokedex.Pokedex;
 
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Date;
+
 /**
  * @author Lacroix Baptiste and Vidal Théo
  */
@@ -15,8 +20,11 @@ public class DresseurIA implements IDresseur {
 
     public DresseurIA(String nom) {
         this.nom = nom;
+        this.writeLogs("création du dresseur.");
         Pokedex pokedex = new Pokedex();
+        this.writeLogs("création du ranch.");
         this.ranch = pokedex.engendreRanch();
+        this.writeLogs("génération du ranch terminé.");
         this.strategy = new Strategy(this.ranch);
         this.setNiveau();
     }
@@ -130,5 +138,21 @@ public class DresseurIA implements IDresseur {
     @Override
     public IAttaque choisitAttaque(IPokemon attaquant, IPokemon defenseur) {
         return this.strategy.choisitAttaque(attaquant, defenseur);
+    }
+
+    /**
+     * Il écrit la date et le texte dans un fichier appelé log.txt
+     *
+     * @param texte le texte à écrire dans le fichier journal
+     */
+    private void writeLogs(String texte) {
+        Date date = new Date();
+        try {
+            PrintWriter writer = new PrintWriter(new FileWriter("log.txt", true));
+            writer.println(date + " : " + texte);
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

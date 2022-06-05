@@ -24,7 +24,10 @@ public class Main {
     public static void main(String[] args) {
         Chrono chrono = new Chrono();
         Chrono chrono2 = new Chrono();
+        chrono.start();
         DresseurHuman baptiste = new DresseurHuman("Baptiste");
+        chrono.stop();
+        System.out.println("chrono : " + chrono.getDureeTxt());
         chrono.start();
         DresseurIA IA1 = new DresseurIA("IA1");
         chrono.stop();
@@ -32,16 +35,15 @@ public class Main {
         chrono.start();
         DresseurIA IA2 = new DresseurIA("IA2");
         chrono.stop();
-
         System.out.println("chrono : " + chrono.getDureeTxt());
+
         for (IPokemon pokemon : baptiste.getRanch()) {
             ICapacite[] capacites = pokemon.getEspece().getCapSet();
             ICapacite[] capacitesApp = new ICapacite[4];
             int counter = 0;
             System.out.println("Capcités disponilbes : ");
             for (ICapacite cap : capacites) {
-                System.out.printf("%-32s", "nom : " + cap.getNom() + " | précision : " + cap.getPrecision() + " | puissance : "
-                        + cap.getPuissance() + " | PP : " + cap.getPuissance() + " | catégorie : " + cap.getCategorie() + " | type : " + cap.getType() + "\n");
+                System.out.printf("%-32s", cap.toString() + "\n");
             }
             System.out.println();
             for (int i = 0; i < 4; i++) {
@@ -66,7 +68,7 @@ public class Main {
 
         ICombat combat = new Combat(IA1, IA2);
         int i;
-        for (i = 0; i < 2; i ++)
+        for (i = 0; i < 5; i ++)
             combat.commence();
         chrono2.stop();
         System.out.println("durée total pour " + i + " combats : " + chrono2.getDureeTxt());
