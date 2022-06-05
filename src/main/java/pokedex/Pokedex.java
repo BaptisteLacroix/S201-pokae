@@ -20,9 +20,7 @@ import statsPokemon.Categorie;
 import statsPokemon.Stat;
 import statsPokemon.Type;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.*;
 
 /**
@@ -31,6 +29,7 @@ import java.util.*;
 public class Pokedex implements IPokedex {
     private final Map<Integer, IPokemon> dico = new HashMap<>();
     private final IPokemon[] ranch = new IPokemon[6];
+    private final Random rand = new Random();
 
     /**
      * Il génère une équipe aléatoire de 6 pokemons
@@ -39,7 +38,7 @@ public class Pokedex implements IPokedex {
      */
     @Override
     public IPokemon[] engendreRanch() {
-        Random rand = new Random();
+        this.writeLogs("génération du Pokedex.");
         IPokemon pokemon;
         this.initializeFromCSV();
         for (int i = 0; i < 6; i++) {
@@ -47,6 +46,7 @@ public class Pokedex implements IPokedex {
             while (pokemon == null) {
                 pokemon = dico.get(rand.nextInt(151));
             }
+            this.writeLogs("ajout du Pokémon " + pokemon.getNom() + " au ranch.");
             this.ranch[i] = pokemon;
         }
         return this.ranch;
@@ -303,5 +303,21 @@ public class Pokedex implements IPokedex {
      */
     public IPokemon[] getRanch() {
         return ranch;
+    }
+
+    /**
+     * Il écrit la date et le texte dans un fichier appelé log.txt
+     *
+     * @param texte le texte à écrire dans le fichier journal
+     */
+    private void writeLogs(String texte) {
+        Date date = new Date();
+        try {
+            PrintWriter writer = new PrintWriter(new FileWriter("log.txt", true));
+            writer.println(date + " : " + texte);
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
