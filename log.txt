@@ -1,1285 +1,1487 @@
+Sun Jun 05 12:29:46 CEST 2022 : création du dresseur.
+Sun Jun 05 12:29:46 CEST 2022 : création du ranch.
+Sun Jun 05 12:29:46 CEST 2022 : génération du Pokedex.
+Sun Jun 05 12:29:46 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:46 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:46 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:46 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:46 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:46 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:46 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:46 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:46 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:46 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:46 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:46 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:46 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:46 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:46 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:46 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:46 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:46 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:46 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:46 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:46 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:46 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:46 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:46 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:46 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:46 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:46 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:46 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:46 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:46 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:46 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:46 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:46 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:46 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:46 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:46 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:46 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:46 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:46 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:46 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:46 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:46 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:46 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:46 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:46 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:46 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:46 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:47 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:48 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:49 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:49 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:49 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:49 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:49 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:49 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:49 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:49 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:49 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:49 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:49 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:49 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:49 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:49 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:49 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:49 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:49 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:49 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:49 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:49 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:50 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:50 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:50 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:50 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:50 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:50 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:50 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:50 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:50 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:50 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:50 CEST 2022 : ajout du Pokémon Noeunoeuf au ranch.
+Sun Jun 05 12:29:50 CEST 2022 : ajout du Pokémon Onix au ranch.
+Sun Jun 05 12:29:50 CEST 2022 : ajout du Pokémon Paras au ranch.
+Sun Jun 05 12:29:50 CEST 2022 : ajout du Pokémon Excelangue au ranch.
+Sun Jun 05 12:29:50 CEST 2022 : ajout du Pokémon Mimitoss au ranch.
+Sun Jun 05 12:29:50 CEST 2022 : ajout du Pokémon Kicklee au ranch.
+Sun Jun 05 12:29:50 CEST 2022 : génération du ranch terminé.
+Sun Jun 05 12:29:50 CEST 2022 : création du dresseur.
+Sun Jun 05 12:29:50 CEST 2022 : création du ranch.
+Sun Jun 05 12:29:50 CEST 2022 : génération du Pokedex.
+Sun Jun 05 12:29:50 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:50 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:50 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:50 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:50 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:50 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:50 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:50 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:50 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:51 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:52 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:53 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:53 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:53 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:53 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:53 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:53 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:53 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:53 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:53 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:53 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:53 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:53 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:53 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:53 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:53 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:53 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:53 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:53 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : création de l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 05 12:29:54 CEST 2022 : génération terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : ajout du Pokémon Kabuto au ranch.
+Sun Jun 05 12:29:54 CEST 2022 : ajout du Pokémon Mewtwo au ranch.
+Sun Jun 05 12:29:54 CEST 2022 : ajout du Pokémon Ramoloss au ranch.
+Sun Jun 05 12:29:54 CEST 2022 : ajout du Pokémon Insécateur au ranch.
+Sun Jun 05 12:29:54 CEST 2022 : ajout du Pokémon Nidoran♀ au ranch.
+Sun Jun 05 12:29:54 CEST 2022 : ajout du Pokémon Fantominus au ranch.
+Sun Jun 05 12:29:54 CEST 2022 : génération du ranch terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:51 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:53 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:54 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:52 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:48 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 05 12:29:47 CEST 2022 : mise a jour terminé.
+
+Sun Jun 05 12:29:55 CEST 2022 : ------------------ Début du combat ! ------------------
+
+Sun Jun 05 12:29:55 CEST 2022 : Le combat a durée :  136 ms en 74 tours
+Sun Jun 05 12:29:55 CEST 2022 : Le gagnant est IA1
+Sun Jun 05 12:29:55 CEST 2022 : Le perdant est IA2
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 1 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:54 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Excelangue
+Sun Jun 05 12:29:54 CEST 2022 : Excelangue a subit 4 de damage par Ramoloss
+Sun Jun 05 12:29:54 CEST 2022 : Il reste 9pv a Excelangue
+Sun Jun 05 12:29:54 CEST 2022 : Il reste 13pv a Ramoloss
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 1 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 2 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Ramoloss attaque le premier en infligeant 9
+Sun Jun 05 12:29:55 CEST 2022 : Excelangue attaque le deuxième en infligeant 8
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 7pv a Ramoloss
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 3pv a Excelangue
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 2 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 3 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Mewtwo
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 12pv a Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 13pv a Mewtwo
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 3 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 4 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Mewtwo attaque le premier en infligeant 7
+Sun Jun 05 12:29:55 CEST 2022 : Mimitoss attaque le deuxième en infligeant 6
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 8pv a Mewtwo
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 7pv a Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 4 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 5 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Kicklee
+Sun Jun 05 12:29:55 CEST 2022 : Kicklee a subit 3 de damage par Mewtwo
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 9pv a Kicklee
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 15pv a Mewtwo
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 5 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 6 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Excelangue
+Sun Jun 05 12:29:55 CEST 2022 : Excelangue a subit 4 de damage par Mewtwo
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 11pv a Excelangue
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 18pv a Mewtwo
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 6 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 7 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Noeunoeuf
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Fantominus
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 12pv a Noeunoeuf
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 12pv a Fantominus
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 7 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 8 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Insécateur
+Sun Jun 05 12:29:55 CEST 2022 : Insécateur a subit 0 de damage par Noeunoeuf
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 12pv a Insécateur
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 12pv a Noeunoeuf
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 8 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 9 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Noeunoeuf
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Mewtwo
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 14pv a Noeunoeuf
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 18pv a Mewtwo
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 9 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 10 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Mewtwo attaque le premier en infligeant 3
+Sun Jun 05 12:29:55 CEST 2022 : Noeunoeuf attaque le deuxième en infligeant 8
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 10pv a Mewtwo
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 17pv a Noeunoeuf
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 10 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 11 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Fantominus
+Sun Jun 05 12:29:55 CEST 2022 : Fantominus a subit 10 de damage par Noeunoeuf
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 4pv a Fantominus
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 17pv a Noeunoeuf
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 11 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 12 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Onix
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Ramoloss
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 12pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 16pv a Ramoloss
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 12 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 13 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Insécateur
+Sun Jun 05 12:29:55 CEST 2022 : Insécateur a subit 8 de damage par Onix
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 7pv a Insécateur
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 17pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 13 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 14 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Nidoran♀
+Sun Jun 05 12:29:55 CEST 2022 : Nidoran♀ a subit 0 de damage par Onix
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 12pv a Nidoran♀
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 17pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 14 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 15 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Paras
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Nidoran♀
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 12pv a Paras
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 17pv a Nidoran♀
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 15 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 16 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Excelangue
+Sun Jun 05 12:29:55 CEST 2022 : Excelangue a subit 9 de damage par Nidoran♀
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 11pv a Excelangue
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 17pv a Nidoran♀
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 16 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 17 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Insécateur
+Sun Jun 05 12:29:55 CEST 2022 : Insécateur a subit 11 de damage par Excelangue
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 5pv a Insécateur
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 11pv a Excelangue
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 17 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 18 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Onix
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Ramoloss
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 17pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 16pv a Ramoloss
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 18 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 19 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Kabuto a subit 7 de damage par Onix
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 5pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 17pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 19 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 20 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Insécateur
+Sun Jun 05 12:29:55 CEST 2022 : Insécateur a subit 9 de damage par Onix
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 8pv a Insécateur
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 17pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 20 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 21 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Insécateur attaque le premier en infligeant 1
+Sun Jun 05 12:29:55 CEST 2022 : Onix attaque le deuxième en infligeant 5
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 3pv a Insécateur
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 17pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 21 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 22 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Excelangue
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Ramoloss
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 11pv a Excelangue
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 16pv a Ramoloss
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 22 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 23 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Kicklee
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Ramoloss
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 18pv a Kicklee
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 18pv a Ramoloss
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 23 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 24 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Ramoloss attaque le premier en infligeant 5
+Sun Jun 05 12:29:55 CEST 2022 : Kicklee attaque le deuxième en infligeant 9
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 9pv a Ramoloss
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 13pv a Kicklee
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 24 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 25 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Excelangue
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 11pv a Excelangue
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 17pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 25 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 26 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Paras
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 15pv a Paras
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 18pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 26 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 27 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Kicklee
+Sun Jun 05 12:29:55 CEST 2022 : Kicklee a subit 4 de damage par Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 9pv a Kicklee
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 18pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 27 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 28 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Nidoran♀
+Sun Jun 05 12:29:55 CEST 2022 : Nidoran♀ a subit 9 de damage par Kicklee
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 9pv a Nidoran♀
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 9pv a Kicklee
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 28 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 29 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Nidoran♀ attaque le premier en infligeant 9
+Sun Jun 05 12:29:55 CEST 2022 : Kicklee attaque le deuxième en infligeant 8
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 1pv a Nidoran♀
+Sun Jun 05 12:29:55 CEST 2022 : Kicklee est ko !
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 29 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 30 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Paras
+Sun Jun 05 12:29:55 CEST 2022 : Paras a subit 10 de damage par Nidoran♀
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 7pv a Paras
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 1pv a Nidoran♀
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 30 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 31 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Noeunoeuf
+Sun Jun 05 12:29:55 CEST 2022 : Noeunoeuf a subit 3 de damage par Nidoran♀
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 14pv a Noeunoeuf
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 1pv a Nidoran♀
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 31 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 32 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Nidoran♀ attaque le premier en infligeant 10
+Sun Jun 05 12:29:55 CEST 2022 : Noeunoeuf attaque le deuxième en infligeant 1
+Sun Jun 05 12:29:55 CEST 2022 : Nidoran♀ est ko !
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 4pv a Noeunoeuf
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 32 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 33 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Paras
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Fantominus
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 7pv a Paras
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 16pv a Fantominus
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 33 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 34 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Onix
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Ramoloss
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 17pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 9pv a Ramoloss
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 34 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 35 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Onix
+Sun Jun 05 12:29:55 CEST 2022 : Onix a subit 5 de damage par Ramoloss
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 12pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 9pv a Ramoloss
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 35 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 36 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Noeunoeuf
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 4pv a Noeunoeuf
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 18pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 36 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 37 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Excelangue
+Sun Jun 05 12:29:55 CEST 2022 : Excelangue a subit 3 de damage par Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 8pv a Excelangue
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 18pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 37 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 38 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Onix
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 12pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 18pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 38 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 39 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Ramoloss
+Sun Jun 05 12:29:55 CEST 2022 : Ramoloss a subit 5 de damage par Onix
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 4pv a Ramoloss
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 12pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 39 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 40 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Onix
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Insécateur
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 12pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 3pv a Insécateur
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 40 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 41 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Noeunoeuf
+Sun Jun 05 12:29:55 CEST 2022 : Noeunoeuf a subit 1 de damage par Insécateur
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 3pv a Noeunoeuf
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 3pv a Insécateur
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 41 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 42 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Onix
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Fantominus
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 12pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 16pv a Fantominus
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 42 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 43 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Excelangue
+Sun Jun 05 12:29:55 CEST 2022 : Excelangue a subit 7 de damage par Fantominus
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 1pv a Excelangue
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 16pv a Fantominus
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 43 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 44 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Noeunoeuf
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Insécateur
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 3pv a Noeunoeuf
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 3pv a Insécateur
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 44 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 45 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Paras
+Sun Jun 05 12:29:55 CEST 2022 : Paras a subit 7 de damage par Insécateur
+Sun Jun 05 12:29:55 CEST 2022 : Paras est ko !
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 3pv a Insécateur
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 45 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 46 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Mewtwo
+Sun Jun 05 12:29:55 CEST 2022 : Mewtwo a subit 8 de damage par Onix
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 2pv a Mewtwo
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 12pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 46 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 47 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Onix
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Insécateur
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 19pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 3pv a Insécateur
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 47 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 48 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Excelangue
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Mewtwo
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 1pv a Excelangue
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 2pv a Mewtwo
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 48 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 49 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Noeunoeuf
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Mewtwo
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 3pv a Noeunoeuf
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 2pv a Mewtwo
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 49 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 50 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : Mimitoss a subit 10 de damage par Mewtwo
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 7pv a Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 2pv a Mewtwo
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 50 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 51 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Ramoloss
+Sun Jun 05 12:29:55 CEST 2022 : Ramoloss a subit 4 de damage par Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : Ramoloss est ko !
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 19pv a Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 51 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 52 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Onix
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 19pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 18pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 52 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 53 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Insécateur
+Sun Jun 05 12:29:55 CEST 2022 : Insécateur a subit 3 de damage par Onix
+Sun Jun 05 12:29:55 CEST 2022 : Insécateur est ko !
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 19pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 53 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 54 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Excelangue
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Mewtwo
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 1pv a Excelangue
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 2pv a Mewtwo
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 54 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 55 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Mewtwo attaque le premier en infligeant 1
+Sun Jun 05 12:29:55 CEST 2022 : Excelangue attaque le deuxième en infligeant 2
+Sun Jun 05 12:29:55 CEST 2022 : Excelangue est ko !
+Sun Jun 05 12:29:55 CEST 2022 : Mewtwo est ko !
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 55 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 56 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Fantominus
+Sun Jun 05 12:29:55 CEST 2022 : Fantominus a subit 12 de damage par Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 6pv a Fantominus
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 19pv a Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 56 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 57 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Fantominus
+Sun Jun 05 12:29:55 CEST 2022 : Fantominus a subit 6 de damage par Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : Fantominus est ko !
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 19pv a Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 57 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 58 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Noeunoeuf
+Sun Jun 05 12:29:55 CEST 2022 : Noeunoeuf a subit 3 de damage par Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Noeunoeuf est ko !
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 18pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 58 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 59 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Kabuto attaque le premier en infligeant 3
+Sun Jun 05 12:29:55 CEST 2022 : Onix attaque le deuxième en infligeant 5
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 13pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 16pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 59 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 60 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Kabuto a subit 0 de damage par Onix
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 13pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 16pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 60 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 61 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Onix
+Sun Jun 05 12:29:55 CEST 2022 : Onix a subit 3 de damage par Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 13pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 13pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 61 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 62 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 19pv a Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 13pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 62 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 63 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 19pv a Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 13pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 63 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 64 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Onix
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 13pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 13pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 64 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 65 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Onix
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 13pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 13pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 65 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 66 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Kabuto a subit 5 de damage par Onix
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 8pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 13pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 66 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 67 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 19pv a Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 8pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 67 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 68 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Onix
+Sun Jun 05 12:29:55 CEST 2022 : Onix a subit 5 de damage par Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 8pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 8pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 68 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 69 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : Mimitoss a subit 5 de damage par Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 14pv a Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 8pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 69 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 70 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Onix
+Sun Jun 05 12:29:55 CEST 2022 : Onix a subit 3 de damage par Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 5pv a Onix
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 8pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 70 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 71 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Aucun n'a recu de dammage.
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 14pv a Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 8pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 71 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 72 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : Mimitoss a subit 5 de damage par Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 9pv a Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 8pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 72 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 73 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : Mimitoss a subit 5 de damage par Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 4pv a Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 8pv a Kabuto
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 73 >>>>>>>>>>>>>>>>>
+
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 74 >>>>>>>>>>>>>>>>>
+Sun Jun 05 12:29:55 CEST 2022 : Kabuto attaque le premier en infligeant 3
+Sun Jun 05 12:29:55 CEST 2022 : Mimitoss attaque le deuxième en infligeant 8
+Sun Jun 05 12:29:55 CEST 2022 : Kabuto est ko !
+Sun Jun 05 12:29:55 CEST 2022 : Il reste 1pv a Mimitoss
+Sun Jun 05 12:29:55 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 74 >>>>>>>>>>>>>>>>>
+
+
+Sun Jun 05 12:29:55 CEST 2022 : ------------------ Fin du combat ! ------------------
+
+
+
+Sun Jun 05 12:29:55 CEST 2022 : ---------------------------------------------------------->
 
-Sat Jun 04 18:53:41 CEST 2022 : ------------------ Début du combat ! ------------------
-
-Sat Jun 04 18:53:41 CEST 2022 : Le combat a durée :  113 ms en 61 tours
-Sat Jun 04 18:53:41 CEST 2022 : Le gagnant est IA1
-Sat Jun 04 18:53:41 CEST 2022 : Le perdant est IA2
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 1 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Mewtwo a subit 2 de damage par Onix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 11pv a Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 1 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 2 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Mélofée a subit 6 de damage par Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 6pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 14pv a Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 2 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 3 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 17pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 3 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 4 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Artikodin a subit 7 de damage par Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 6pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 17pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 4 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 5 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Onix a subit 5 de damage par Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 15pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 5 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 6 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Goupix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Goupix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 6 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 7 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 14pv a Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 7 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 8 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Soporifik a subit 1 de damage par Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 11pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 8 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 9 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Artikodin a subit 5 de damage par Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 9 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 10 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Doduo a subit 6 de damage par Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 6pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 10 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 11 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Mewtwo a subit 15 de damage par Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Mewtwo est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 11 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 12 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 17pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 12 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 13 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Artikodin a subit 0 de damage par Onix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 17pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 13 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 14 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Goupix
-Sat Jun 04 18:53:41 CEST 2022 : Goupix a subit 11 de damage par Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Goupix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 14 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 15 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 15 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 16 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 16 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 17 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Férosinge a subit 6 de damage par Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 11pv a Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 17 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 18 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Magnéti a subit 16 de damage par Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 18 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 19 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Goupix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Goupix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 19 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 20 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Élektek a subit 1 de damage par Goupix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 14pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Goupix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 20 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 21 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Mélofée a subit 6 de damage par Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 14pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 21 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 22 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Goupix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 15pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Goupix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 22 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 23 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Artikodin a subit 11 de damage par Goupix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Goupix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 23 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 24 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Stari a subit 7 de damage par Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 11pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 24 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 25 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 25 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 26 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Goupix
-Sat Jun 04 18:53:41 CEST 2022 : Goupix a subit 9 de damage par Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 9pv a Goupix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 26 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 27 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Mélofée a subit 12 de damage par Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Mélofée est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 27 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 28 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Goupix attaque le premier en infligeant 1
-Sat Jun 04 18:53:41 CEST 2022 : Magnéti attaque le deuxième en infligeant 9
-Sat Jun 04 18:53:41 CEST 2022 : Magnéti est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Goupix est ko !
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 28 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 29 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Férosinge a subit 9 de damage par Onix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 17pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 29 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 30 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 30 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 31 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Onix a subit 6 de damage par Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 11pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 31 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 32 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 14pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 32 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 33 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Soporifik a subit 7 de damage par Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 10pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 33 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 34 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 16pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 11pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 34 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 35 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 35 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 36 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 11pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 36 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 37 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Stari a subit 4 de damage par Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 7pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 37 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 38 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Stari a subit 6 de damage par Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 38 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 39 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Férosinge a subit 2 de damage par Stari
-Sat Jun 04 18:53:41 CEST 2022 : Férosinge est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 39 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 40 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 10pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 40 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 41 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 10pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 41 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 42 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 10pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 42 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 43 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Onix a subit 8 de damage par Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 10pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 43 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 44 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 16pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 44 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 45 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Stari attaque le premier en infligeant 9
-Sat Jun 04 18:53:41 CEST 2022 : Élektek attaque le deuxième en infligeant 1
-Sat Jun 04 18:53:41 CEST 2022 : Stari est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 7pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 45 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 46 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Artikodin a subit 1 de damage par Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Artikodin est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 46 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 47 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 10pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 47 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 48 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Doduo a subit 8 de damage par Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 10pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 10pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 48 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 49 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 7pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 10pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 49 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 50 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Doduo a subit 7 de damage par Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 7pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 50 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 51 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Élektek a subit 5 de damage par Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 51 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 52 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 52 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 53 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 53 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 54 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Doduo a subit 3 de damage par Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Doduo est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 54 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 55 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 55 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 56 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 10pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 56 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 57 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Soporifik a subit 1 de damage par Onix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 9pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 57 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 58 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 9pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 58 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 59 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 9pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 59 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 60 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Soporifik a subit 9 de damage par Onix
-Sat Jun 04 18:53:41 CEST 2022 : Soporifik est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 60 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 61 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Onix a subit 3 de damage par Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Onix est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 61 >>>>>>>>>>>>>>>>>
-
-
-Sat Jun 04 18:53:41 CEST 2022 : ------------------ Fin du combat ! ------------------
-
-
-
-Sat Jun 04 18:53:41 CEST 2022 : ---------------------------------------------------------->
-
-
-
-Sat Jun 04 18:53:41 CEST 2022 : ------------------ Début du combat ! ------------------
-
-Sat Jun 04 18:53:41 CEST 2022 : Le combat a durée :  26 ms en 47 tours
-Sat Jun 04 18:53:41 CEST 2022 : Le gagnant est IA1
-Sat Jun 04 18:53:41 CEST 2022 : Le perdant est IA2
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 1 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Mewtwo a subit 2 de damage par Onix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 11pv a Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 1 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 2 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Mélofée a subit 6 de damage par Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 6pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 14pv a Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 2 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 3 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 17pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 3 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 4 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Artikodin a subit 7 de damage par Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 6pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 17pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 4 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 5 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Onix a subit 5 de damage par Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 15pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 5 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 6 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Goupix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Goupix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 6 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 7 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 14pv a Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 7 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 8 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Soporifik a subit 1 de damage par Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 11pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 8 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 9 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Artikodin a subit 5 de damage par Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 9 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 10 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Doduo a subit 6 de damage par Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 6pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 10 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 11 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Mewtwo a subit 15 de damage par Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Mewtwo est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 11 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 12 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 17pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 12 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 13 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Artikodin a subit 0 de damage par Onix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 17pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 13 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 14 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Goupix
-Sat Jun 04 18:53:41 CEST 2022 : Goupix a subit 11 de damage par Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Goupix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 14 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 15 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 15 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 16 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 16 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 17 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Férosinge a subit 6 de damage par Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 11pv a Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 17 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 18 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Magnéti a subit 16 de damage par Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 18 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 19 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Goupix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Goupix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 19 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 20 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Élektek a subit 1 de damage par Goupix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 14pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Goupix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 20 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 21 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Mélofée a subit 6 de damage par Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 14pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 21 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 22 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Goupix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 15pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Goupix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 22 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 23 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Artikodin a subit 11 de damage par Goupix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Goupix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 23 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 24 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Stari a subit 7 de damage par Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 11pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 24 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 25 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 25 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 26 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Goupix
-Sat Jun 04 18:53:41 CEST 2022 : Goupix a subit 9 de damage par Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 9pv a Goupix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 26 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 27 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Mélofée a subit 12 de damage par Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Mélofée est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 27 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 28 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Goupix attaque le premier en infligeant 1
-Sat Jun 04 18:53:41 CEST 2022 : Magnéti attaque le deuxième en infligeant 9
-Sat Jun 04 18:53:41 CEST 2022 : Magnéti est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Goupix est ko !
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 28 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 29 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Férosinge a subit 9 de damage par Onix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 17pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 29 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 30 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 30 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 31 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Onix a subit 6 de damage par Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 11pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 31 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 32 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 14pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 32 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 33 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Soporifik a subit 7 de damage par Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 10pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 33 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 34 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 16pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 11pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 34 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 35 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 35 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 36 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 11pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 36 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 37 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Stari a subit 4 de damage par Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 7pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 37 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 38 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Stari a subit 6 de damage par Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 38 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 39 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Férosinge a subit 2 de damage par Stari
-Sat Jun 04 18:53:41 CEST 2022 : Férosinge est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 39 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 40 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 10pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 40 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 41 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 10pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 41 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 42 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 10pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 42 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 43 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Onix a subit 8 de damage par Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 10pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 43 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 44 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 16pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 44 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 45 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Stari attaque le premier en infligeant 9
-Sat Jun 04 18:53:41 CEST 2022 : Élektek attaque le deuxième en infligeant 1
-Sat Jun 04 18:53:41 CEST 2022 : Stari est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 7pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 45 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 46 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Artikodin a subit 1 de damage par Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Artikodin est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 46 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 47 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 10pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 47 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 48 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Doduo a subit 8 de damage par Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 10pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 10pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 48 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 49 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 7pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 10pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 49 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 50 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Doduo a subit 7 de damage par Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 7pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 50 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 51 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Élektek a subit 5 de damage par Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 51 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 52 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 52 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 53 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 53 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 54 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Doduo a subit 3 de damage par Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Doduo est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 54 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 55 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 55 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 56 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 10pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 56 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 57 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Soporifik a subit 1 de damage par Onix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 9pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 57 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 58 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 9pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 58 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 59 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 9pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 59 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 60 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Soporifik a subit 9 de damage par Onix
-Sat Jun 04 18:53:41 CEST 2022 : Soporifik est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 60 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 61 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Onix a subit 3 de damage par Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Onix est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 61 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 62 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 15pv a Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 18pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 62 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 63 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Mélofée attaque le premier en infligeant 9
-Sat Jun 04 18:53:41 CEST 2022 : Férosinge attaque le deuxième en infligeant 10
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 8pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 6pv a Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 63 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 64 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Goupix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 14pv a Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 16pv a Goupix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 64 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 65 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 15pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 16pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 65 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 66 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Goupix
-Sat Jun 04 18:53:41 CEST 2022 : Goupix a subit 9 de damage par Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 7pv a Goupix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 15pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 66 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 67 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 15pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 8pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 67 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 68 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Goupix
-Sat Jun 04 18:53:41 CEST 2022 : Goupix a subit 7 de damage par Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Goupix est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 15pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 68 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 69 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 15pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 8pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 69 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 70 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Artikodin a subit 1 de damage par Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 14pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 8pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 70 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 71 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Soporifik a subit 10 de damage par Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 5pv a Soporifik
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 8pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 71 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 72 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Mélofée attaque le premier en infligeant 5
-Sat Jun 04 18:53:41 CEST 2022 : Soporifik attaque le deuxième en infligeant 5
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Soporifik est ko !
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 72 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 73 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 15pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 16pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 73 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 74 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 14pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Mélofée
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 74 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 75 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Mélofée attaque le premier en infligeant 1
-Sat Jun 04 18:53:41 CEST 2022 : Artikodin attaque le deuxième en infligeant 3
-Sat Jun 04 18:53:41 CEST 2022 : Mélofée est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 13pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 75 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 76 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Doduo attaque le premier en infligeant 5
-Sat Jun 04 18:53:41 CEST 2022 : Artikodin attaque le deuxième en infligeant 5
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 11pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 8pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 76 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 77 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 15pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 16pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 77 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 78 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 8pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 16pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 78 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 79 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Férosinge a subit 4 de damage par Onix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 16pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 79 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 80 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Onix a subit 9 de damage par Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 7pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 80 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 81 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 14pv a Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 11pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 81 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 82 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Stari a subit 8 de damage par Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 8pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 16pv a Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 82 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 83 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 8pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 7pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 83 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 84 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Onix attaque le premier en infligeant 1
-Sat Jun 04 18:53:41 CEST 2022 : Artikodin attaque le deuxième en infligeant 6
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 7pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 84 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 85 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 16pv a Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 11pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 85 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 86 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Doduo attaque le premier en infligeant 7
-Sat Jun 04 18:53:41 CEST 2022 : Mewtwo attaque le deuxième en infligeant 8
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 9pv a Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 86 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 87 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 9pv a Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 8pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 87 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 88 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Élektek a subit 3 de damage par Stari
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 12pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 8pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 88 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 89 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Magnéti a subit 8 de damage par Stari
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 7pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 8pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 89 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 90 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Magnéti a subit 3 de damage par Stari
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 4pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 8pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 90 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 91 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Élektek a subit 3 de damage par Stari
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 9pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 8pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 91 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 92 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 4pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 8pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 92 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 93 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 93 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 94 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Élektek a subit 0 de damage par Onix
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 9pv a Élektek
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 94 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 95 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 8pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 95 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 96 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Doduo a subit 0 de damage par Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 96 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 97 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 97 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 98 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Onix
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 7pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 1pv a Onix
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 98 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 99 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Onix attaque le premier en infligeant 0
-Sat Jun 04 18:53:41 CEST 2022 : Artikodin attaque le deuxième en infligeant 1
-Sat Jun 04 18:53:41 CEST 2022 : Onix est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 7pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 99 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 100 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Stari a subit 6 de damage par Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 7pv a Artikodin
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 100 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 101 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Férosinge
-Sat Jun 04 18:53:41 CEST 2022 : Férosinge a subit 2 de damage par Stari
-Sat Jun 04 18:53:41 CEST 2022 : Férosinge est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 101 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 102 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 4pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 102 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 103 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 4pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Stari
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 103 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 104 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Stari
-Sat Jun 04 18:53:41 CEST 2022 : Stari a subit 2 de damage par Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Stari est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 4pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 104 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 105 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Mewtwo a subit 7 de damage par Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 105 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 106 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 2pv a Mewtwo
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 106 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 107 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 1 a changé son Pokémon par : Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Aucun n'a recu de dammage.
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 4pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 3pv a Doduo
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 107 >>>>>>>>>>>>>>>>>
-
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 108 >>>>>>>>>>>>>>>>>
-Sat Jun 04 18:53:41 CEST 2022 : Le Dresseur 2 a changé son Pokémon par : Doduo
-Sat Jun 04 18:53:41 CEST 2022 : Doduo a subit 3 de damage par Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : Doduo est ko !
-Sat Jun 04 18:53:41 CEST 2022 : Il reste 4pv a Magnéti
-Sat Jun 04 18:53:41 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 108 >>>>>>>>>>>>>>>>>
-
-
-Sat Jun 04 18:53:41 CEST 2022 : ------------------ Fin du combat ! ------------------
-
-
-
-Sat Jun 04 18:53:41 CEST 2022 : ---------------------------------------------------------->
+
