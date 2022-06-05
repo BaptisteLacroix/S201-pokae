@@ -21,10 +21,9 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
@@ -43,13 +42,16 @@ public class Espece implements IEspece {
 
 
     public Espece(IStat baseIStat, String nom, int niveauDepart, int baseExp, IStat gainsStat, IType[] types) {
+        this.writeLogs("création de l'espèce.");
         this.baseStat = baseIStat;
         this.nom = nom;
         this.niveauDepart = niveauDepart;
         this.baseExp = baseExp;
         this.gainsStat = gainsStat;
         this.types = types;
+        this.writeLogs("génération des capacités disponibles pour l'espèce.");
         this.setCapSet();
+        this.writeLogs("génération terminé.");
     }
 
 
@@ -301,4 +303,19 @@ public class Espece implements IEspece {
         }
     }
 
+    /**
+     * Il écrit la date et le texte passé en paramètre dans un fichier appelé log.txt
+     *
+     * @param texte le texte à écrire dans le fichier journal
+     */
+    private void writeLogs(String texte) {
+        Date date = new Date();
+        try {
+            PrintWriter writer = new PrintWriter(new FileWriter("log.txt", true));
+            writer.println(date + " : " + texte);
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
