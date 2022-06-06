@@ -1,3 +1,10 @@
+/**
+ * Université Côte d'Azur
+ * IUT Côte d'Azur
+ * Département Informatique
+ *
+ * @date DresseurHuman.java
+ */
 package dresseur;
 
 import attaque.Echange;
@@ -14,11 +21,22 @@ import java.util.Scanner;
 
 /**
  * @author Lacroix Baptiste and Vidal Théo
+ * Classe qui gère la création d'un dresseur humain. Implémente IDresseur.
  */
 public class DresseurHuman implements IDresseur {
+    /**
+     * Nom du Dresseur Humain
+     */
     private final String nom;
+    /**
+     * Contient les Pokémons du dresseur Humain
+     */
     private final IPokemon[] ranch;
 
+    /**
+     * Constructeur du Dresseur Humain
+     * @param nom Nom du dresseur Humain
+     */
     public DresseurHuman(String nom) {
         this.nom = nom;
         this.writeLogs("création du dresseur.");
@@ -26,7 +44,6 @@ public class DresseurHuman implements IDresseur {
         this.writeLogs("création du ranch.");
         this.ranch = pokedex.engendreRanch();
         this.writeLogs("génération du ranch terminé.");
-        this.getNiveau();
     }
 
     /**
@@ -49,14 +66,13 @@ public class DresseurHuman implements IDresseur {
     /**
      * C'est une méthode qui renvoie le niveau du formateur.
      */
-    @Override
     public int getNiveau() {
         int niveau = 0;
         for (IPokemon p : ranch) {
             niveau += p.getNiveau();
         }
         return niveau;
-    }//Niveau du dresseur
+    } //Niveau du dresseur
 
     /**
      * C'est une méthode qui retourne le ième pokémon du ranch.
@@ -170,7 +186,7 @@ public class DresseurHuman implements IDresseur {
             return echange; // Change de Pokemon
         }
     } //Choisit l'attaque à utiliser contre le pokemon defenseur
-    
+
     /**
      * Il écrit la date et le texte dans un fichier appelé log.txt
      *
