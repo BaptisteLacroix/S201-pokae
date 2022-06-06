@@ -30,7 +30,7 @@ public enum Categorie implements ICategorie {
     /**
      * Nom de la Categorie
      */
-    private String nom;
+    private final String nom;
 
     /**
      * Constructeur de la Categorie
