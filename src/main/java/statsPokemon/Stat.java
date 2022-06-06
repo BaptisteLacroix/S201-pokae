@@ -10,8 +10,9 @@ package statsPokemon;
 import interfaces.IStat;
 
 /**
- * @author Lacroix Baptiste and Vidal Théo
  * Classe qui contient les stats. Implémente IStat
+ *
+ * @author Lacroix Baptiste and Vidal Théo
  */
 public class Stat implements IStat {
     /**
@@ -37,8 +38,9 @@ public class Stat implements IStat {
 
     /**
      * COnstructeur de Stat
-     * @param pv stat pv
-     * @param force stat force
+     *
+     * @param pv      stat pv
+     * @param force   stat force
      * @param defense stat defense
      * @param special stat special
      * @param vitesse stat vitesse

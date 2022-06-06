@@ -11,9 +11,14 @@ import java.net.URL;
 import java.util.*;
 
 /**
- * @author Lacroix Baptiste and Vidal Théo
+ * Classe permettant d'écrire dans un JSON les capacités ainsi que leur niveau d'acquisition pour chaques espèces
+ *
+ * @author Lacroix Baptiste
  */
 public class WritingMovesIntoJSON {
+    /**
+     * Il écrit les mouvements dans un fichier JSON
+     */
     public static void main(String[] args) throws IOException {
         WritingMovesIntoJSON writingMovesWLVL = new WritingMovesIntoJSON();
         Chrono chrono = new Chrono();
