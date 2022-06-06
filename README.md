@@ -45,6 +45,11 @@ L’implémentation et la réalisation du programme, les interactions entre les 
 
 La répartition des taches, certains choix stratégiques et algorithmiques sur l’implémentation des données, la mise en forme des documents annexes et JavaDoc ont été majoritairement gérés par Théo Vidal.
 
+### Tester le programme
+
+Pour tester le programme rien de plus simple allez dans votre IDE favoris puis exécutez la classe Main.java
+Si vous avez besoins de plus d'informations n'hésitez pas à consulter la documentation [Intellij](https://www.jetbrains.com/help/idea/runningapplications.html) ou [Éclipse](https://www.tutorialspoint.com/eclipse/eclipse_running_program.htm) 
+
 # Contribuer
 
 [Lien de contribution](./docs/CONTRIBUTING.md)
