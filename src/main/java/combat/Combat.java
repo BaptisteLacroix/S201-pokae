@@ -1,3 +1,9 @@
+/**
+ * Université Côte d'Azur
+ * IUT Côte d'Azur
+ * Département Informatique
+ * @date Combat.java
+ */
 package combat;
 
 import attaque.Capacite;
@@ -15,19 +21,55 @@ import java.util.*;
 
 /**
  * @author Lacroix Baptiste and Vidal Théo
+ * Classe qui gère les combats entre dresseurs (IA,Humain) implémente ICombat
  */
 public class Combat implements ICombat {
+    /**
+     * Liste contenant le toString() de chaque Tour.
+     */
     private final List<String> tableauTours = new ArrayList<>();
+    /**
+     * C'est le premier Dresseur rentré en paramètre dans le constructeur
+     */
     private final IDresseur dresseur1;
+    /**
+     * C'est le Pokémon actuel du Dresseur 1
+     */
     private IPokemon pokemon1;
+    /**
+     * C'est le deuxième Dresseur rentré en paramètre dans le constructeur
+     */
     private final IDresseur dresseur2;
+    /**
+     * C'est le Pokémon actuel du Dresseur 2
+     */
     private IPokemon pokemon2;
+    /**
+     * Nombre de Pokémons ko du dresseur 1
+     */
     int ko1;
+    /**
+     * Nombre de Pokémons ko du dresseur 2
+     */
     int ko2;
+    /**
+     * Nombre de Tours passé
+     */
     private int nbrTours;
+    /**
+     * Objet Random perméttant de générer un nombre aléatoire.
+     */
     private final Random rand = new Random();
+    /**
+     * Objet Chrono permettant de chronométrer le temps d'éxecution.
+     */
     private final Chrono chrono = new Chrono();
 
+    /**
+     * Constructeur du Combat
+     * @param dresseur1 premier dresseur à combattre
+     * @param dresseur2 deuxième dresseur à combattre
+     */
     public Combat(IDresseur dresseur1, IDresseur dresseur2) {
         this.dresseur1 = dresseur1;
         this.dresseur2 = dresseur2;
