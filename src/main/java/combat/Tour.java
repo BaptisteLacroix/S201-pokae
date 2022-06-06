@@ -3,7 +3,7 @@
  * IUT Côte d'Azur
  * Département Informatique
  *
- * @date ITour.java
+ * @date Tour.java
  */
 package combat;
 
@@ -16,19 +16,56 @@ import java.util.Date;
 
 
 /**
- * @author Lacroix Baptiste and Vidal Théo
+ * Classe qui gère l'issue d'un tour entre les différentes attaques. Implémente ITour
+ *
+ * @author Lacroix Baptiste and Vidal
  */
 public class Tour implements ITour {
+    /**
+     * Pokémon du dresseur 1
+     */
     private final IPokemon pokemon1;
+    /**
+     * Type d'Attaque du dresseur 1
+     */
     private final IAttaque attaque1;
+    /**
+     * Pokémon du dresseur 2
+     */
     private final IPokemon pokemon2;
+    /**
+     * Type d'Attaque du dresseur 2
+     */
     private final IAttaque attaque2;
+    /**
+     * Permet de savoir si le dresseur 1 a fait un echange
+     */
     private boolean echange1 = false;
+    /**
+     * Permet de savoir si le dresseur 1 a fait un echange
+     */
     private boolean echange2 = false;
+    /**
+     * Permet de savoir combien de damage a recu le pokémon du dresseur 1
+     */
     private int damageRecuPok1;
+    /**
+     * Permet de savoir combien de damage a recu le pokémon du dresseur 2
+     */
     private int damageRecuPok2;
+    /**
+     * Objet Date qui permet de connaître la date au moment de l'appel de la classe
+     */
     private final Date date = new Date();
 
+    /**
+     * Constructeur du Tour
+     *
+     * @param pokemon1 Pokémon du dresseur 1 qui combattra
+     * @param attaque1 Type d'Attaque à appliquer
+     * @param pokemon2 Pokémon du dresseur 2 qui combattra
+     * @param attaque2 Type d'Attaque à appliquer
+     */
     public Tour(IPokemon pokemon1, IAttaque attaque1, IPokemon pokemon2, IAttaque attaque2) {
         this.pokemon1 = pokemon1;
         this.pokemon2 = pokemon2;
@@ -83,7 +120,7 @@ public class Tour implements ITour {
             return this.echange1check();
         } else if (!echange1 && echange2) {
             return this.echange2check();
-        } else if (echange1 && echange2) {
+        } else if (echange1) {
             return date + " : Le Dresseur 1 a changé son Pokémon par : " + this.pokemon1.getNom() + "\n"
                     + date + " : Le Dresseur 2 a changé son Pokémon par : " + this.pokemon2.getNom() + "\n"
                     + date + " : Aucun n'a recu de dammage." + "\n"
@@ -111,8 +148,8 @@ public class Tour implements ITour {
         } else {
             return date + " : Le Dresseur 1 a changé son Pokémon par : " + this.pokemon1.getNom() + "\n"
                     + date + " : " + this.pokemon1.getNom() + " a subit " + this.damageRecuPok1 + " de damage par " + this.pokemon2.getNom() + "\n"
-                    + date + " : " +  "Il reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom() + "\n"
-                    + date + " : " +  "Il reste " + this.pokemon2.getStat().getPV() + "pv a " + this.pokemon2.getNom();
+                    + date + " : " + "Il reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom() + "\n"
+                    + date + " : " + "Il reste " + this.pokemon2.getStat().getPV() + "pv a " + this.pokemon2.getNom();
         }
     }
 
@@ -127,7 +164,7 @@ public class Tour implements ITour {
             return date + " : Le Dresseur 2 a changé son Pokémon par : " + this.pokemon2.getNom() + "\n"
                     + date + " : " + this.pokemon2.getNom() + " a subit " + this.damageRecuPok2 + " de damage par " + this.pokemon1.getNom() + "\n"
                     + date + " : " + this.pokemon2.getNom() + " est ko !" + "\n"
-                    + date + " : " +  "Il reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom();
+                    + date + " : " + "Il reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom();
         } else {
             return date + " : Le Dresseur 2 a changé son Pokémon par : " + this.pokemon2.getNom() + "\n"
                     + date + " : " + this.pokemon2.getNom() + " a subit " + this.damageRecuPok2 + " de damage par " + this.pokemon1.getNom() + "\n"
@@ -146,7 +183,7 @@ public class Tour implements ITour {
         if (this.pokemon1.estEvanoui() && !this.pokemon2.estEvanoui()) {
             return date + " : " + this.pokemon1.getNom() + " attaque le premier en infligeant " + this.damageRecuPok2 + "\n"
                     + date + " : " + this.pokemon2.getNom() + " attaque le deuxième en infligeant " + this.damageRecuPok1 + "\n"
-                    + date + " : "  + this.pokemon1.getNom() + " est ko !" + "\n"
+                    + date + " : " + this.pokemon1.getNom() + " est ko !" + "\n"
                     + date + " : " + "Il reste " + this.pokemon2.getStat().getPV() + "pv a " + this.pokemon2.getNom();
         } else if (this.pokemon2.estEvanoui() && !this.pokemon1.estEvanoui()) {
             return date + " : " + this.pokemon1.getNom() + " attaque le premier en infligeant " + this.damageRecuPok2 + "\n"

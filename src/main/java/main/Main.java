@@ -11,6 +11,8 @@ import java.util.Random;
 import java.util.Scanner;
 
 /**
+ * Classe permettant de tester le programme
+ *
  * @author Lacroix Baptiste and Vidal Théo
  */
 public class Main {
@@ -48,7 +50,7 @@ public class Main {
             System.out.println();
             for (int i = 0; i < 4; i++) {
                 Scanner input = new Scanner(System.in);  // Create a Scanner object
-                System.out.print(baptiste.getNom() + " choose a new capacity to learn for your pokemon " + pokemon.getNom() +" (give the name) : ");
+                System.out.print(baptiste.getNom() + " choose a new capacity to learn for your pokemon " + pokemon.getNom() + " (give the name) : ");
                 String choixCapacite = input.nextLine();  // Read user input
                 for (ICapacite cap : capacites) {
                     if (cap.getNom().equals(choixCapacite)) {
@@ -68,7 +70,7 @@ public class Main {
 
         ICombat combat = new Combat(IA1, IA2);
         int i;
-        for (i = 0; i < 5; i ++)
+        for (i = 0; i < 5; i++)
             combat.commence();
         chrono2.stop();
         System.out.println("durée total pour " + i + " combats : " + chrono2.getDureeTxt());

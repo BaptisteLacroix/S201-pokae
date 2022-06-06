@@ -9,6 +9,9 @@ import statsPokemon.Stat;
 import statsPokemon.Type;
 
 
+/**
+ * Une classe qui est utilisée pour tester la classe Pokemon.
+ */
 public class PokemonTest {
 
     /**
@@ -22,7 +25,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, espece);
 
         // Stat
         System.out.println(pokemon.getStat());
@@ -44,7 +47,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, espece);
 
         // Experience
         Assert.assertTrue(Math.abs(pokemon.getExperience() - pokemon.getExperience()) <= 0.00000001);
@@ -61,7 +64,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, espece);
 
         // Niveau
         Assert.assertEquals(1, pokemon.getNiveau());
@@ -78,7 +81,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, espece);
 
         // id
         Assert.assertEquals(1, pokemon.getId());
@@ -95,7 +98,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, espece);
 
         // Nom
         Assert.assertEquals("Bulbizarre", pokemon.getNom());
@@ -114,7 +117,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, espece);
 
         // Pourcentage
         Assert.assertTrue(Math.abs(100.0 - pokemon.getPourcentagePV()) <= 0.00000001);
@@ -131,7 +134,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, espece);
 
         // Espece
         Assert.assertEquals(espece, pokemon.getEspece());
@@ -148,7 +151,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, espece);
 
         ICapacite[] capacite = new Capacite[4];
         capacite[0] = new Capacite("Écras'Face", 1.00, 40,
@@ -206,7 +209,7 @@ public class PokemonTest {
             IStat stats = new Stat(45, 49, 49, 65, 45);
             IStat evstats = new Stat(0, 0, 0, 1, 0);
             IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-            IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 100.0, espece);
+            IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, espece);
 
             ICapacite[] capacite = new Capacite[4];
             capacite[0] = new Capacite("Plaquage", 1.00, 40,
@@ -242,7 +245,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, espece);
 
         Assert.assertFalse(pokemon.estEvanoui());
     }
@@ -258,7 +261,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, espece);
 
         Assert.assertFalse(pokemon.aChangeNiveau());
     }
@@ -274,7 +277,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 64, espece);
 
         Assert.assertFalse(pokemon.peutMuter());
     }
@@ -290,7 +293,7 @@ public class PokemonTest {
         IStat stats = new Stat(45, 49, 49, 65, 45);
         IStat evstats = new Stat(0, 0, 0, 1, 0);
         IEspece espece = new Espece(stats, "Bulbizarre", 1, 64, evstats, type);
-        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, 100.0, espece);
+        IPokemon pokemon = new Pokemon(1, "Bulbizarre", 1, espece);
         System.out.println("Stat Pokemon : " + pokemon.getStat());
         pokemon.getStat().setPV(10);
         System.out.println("[Le Pokémon se fait soigner]");
