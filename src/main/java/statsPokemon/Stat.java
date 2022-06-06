@@ -3,22 +3,48 @@
  * IUT Côte d'Azur
  * Département Informatique
  *
- * @date IStat.java
+ * @date Stat.java
  */
 package statsPokemon;
 
 import interfaces.IStat;
 
 /**
+ * Classe qui contient les stats. Implémente IStat
+ *
  * @author Lacroix Baptiste and Vidal Théo
  */
 public class Stat implements IStat {
+    /**
+     * STat de PV
+     */
     private int pv;
+    /**
+     * Stat de force
+     */
     private int force;
+    /**
+     * STat de defense
+     */
     private int defense;
+    /**
+     * Stat du type special
+     */
     private int special;
+    /**
+     * Stat de vitesse
+     */
     private int vitesse;
 
+    /**
+     * COnstructeur de Stat
+     *
+     * @param pv      stat pv
+     * @param force   stat force
+     * @param defense stat defense
+     * @param special stat special
+     * @param vitesse stat vitesse
+     */
     public Stat(int pv, int force, int defense, int special, int vitesse) {
         this.pv = pv;
         this.force = force;

@@ -3,7 +3,7 @@
  * IUT Côte d'Azur
  * Département Informatique
  *
- * @date IPokemon.java
+ * @date Pokemon.java
  */
 package pokemon;
 
@@ -22,30 +22,76 @@ import java.util.Date;
 import java.util.Random;
 
 /**
+ * Classe générant un Pokémon avec toutes ses spécificités. implément IPokemon
+ *
  * @author Lacroix Baptiste and Vidal Théo
  */
 public class Pokemon implements IPokemon {
+    /**
+     * id du Pokémon
+     */
     private final int id;
+    /**
+     * Nom du Pokemon
+     */
     private final String nom;
+    /**
+     * Permet de connaître l'ancien niveau avant évolution
+     */
     private int ancien_niveau;
+    /**
+     * Niveau du Pokémon
+     */
     private int niveau;
+    /**
+     * Stat du Pokémon
+     */
     private IStat stat;
+    /**
+     * Expérience du Pokémon
+     */
     private double experience;
+    /**
+     * Pourcentage de PV du Pokémon
+     */
     private double pourcentagePV;
+    /**
+     * Espece du Pokémon
+     */
     private IEspece espece;
+    /**
+     * Tableau de Capacités apprisent par le Pokémon
+     */
     private final ICapacite[] capacites = new ICapacite[4];
+    /**
+     * Dv du Pokémon
+     */
     private IStat DV;
+    /**
+     * Objet Date qui permet au moment de l'appel connaitre la date et l'heure
+     */
     private final Date date = new Date();
+    /**
+     * Objet Random qui permet de générer des nombres aléatoire
+     */
     private final Random rand = new Random();
 
-    public Pokemon(int id, String nom, int niveau, double pourcentagePV, IEspece espece) {
+    /**
+     * Construteur du Pokémon
+     *
+     * @param id     id du Pokémon
+     * @param nom    nom du Pokémon
+     * @param niveau niveau du Pokémon
+     * @param espece Espece du Pokémon
+     */
+    public Pokemon(int id, String nom, int niveau, IEspece espece) {
         this.id = id;
         this.nom = nom;
         this.ancien_niveau = niveau;
         this.niveau = niveau;
         this.stat = this.copyStats(espece.getBaseStat());
         this.experience = 0;
-        this.pourcentagePV = pourcentagePV;
+        this.pourcentagePV = 100.0;
         this.espece = espece;
         this.setDV();
         this.miseAjourStats();

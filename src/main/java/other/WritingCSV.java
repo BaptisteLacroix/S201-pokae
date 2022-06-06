@@ -14,7 +14,9 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * @author Lacroix Baptiste and Vidal Théo
+ * Classe permettant d'écrire dans un csv les capacités disponibles pour chaque espèce
+ *
+ * @author Lacroix Baptiste
  */
 public class WritingCSV {
     /**

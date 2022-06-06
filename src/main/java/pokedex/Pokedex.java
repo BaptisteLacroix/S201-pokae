@@ -3,7 +3,7 @@
  * IUT Côte d'Azur
  * Département Informatique
  *
- * @date IPokedex.java
+ * @date Pokedex.java
  */
 package pokedex;
 
@@ -24,11 +24,22 @@ import java.io.*;
 import java.util.*;
 
 /**
+ * Une Classe qui se charge de générer le Pokedex. Implémente IPokedex
+ *
  * @author Lacroix baptiste and Vidal Théo
  */
 public class Pokedex implements IPokedex {
+    /**
+     * Dictionnaire contenant un entier et le pokémon correspondant.
+     */
     private final Map<Integer, IPokemon> dico = new HashMap<>();
+    /**
+     * Contient les Pokémons choisit aléatoirement
+     */
     private final IPokemon[] ranch = new IPokemon[6];
+    /**
+     * Objet Random perméttant de générer un nombre aléatoire.
+     */
     private final Random rand = new Random();
 
     /**
@@ -243,7 +254,7 @@ public class Pokedex implements IPokedex {
                     IStat stats = new Stat(pv, force, defense, special, vitesse);
                     IStat evstats = new Stat(evPV, evForce, evDefense, evSpecial, evVitesse);
                     IEspece espece = new Espece(stats, nom, niveau, expbase, evstats, types);
-                    this.dico.put(id, new Pokemon(id, nom, niveau, 100.0, espece));
+                    this.dico.put(id, new Pokemon(id, nom, niveau, espece));
                 }
             }
             reader.close();

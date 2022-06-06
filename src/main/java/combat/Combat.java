@@ -1,3 +1,10 @@
+/**
+ * Université Côte d'Azur
+ * IUT Côte d'Azur
+ * Département Informatique
+ *
+ * @date Combat.java
+ */
 package combat;
 
 import attaque.Capacite;
@@ -14,20 +21,58 @@ import java.util.*;
 
 
 /**
+ * Classe qui gère les combats entre dresseurs (IA,Humain) implémente ICombat
+ *
  * @author Lacroix Baptiste and Vidal Théo
  */
 public class Combat implements ICombat {
+    /**
+     * Liste contenant le toString() de chaque Tour.
+     */
     private final List<String> tableauTours = new ArrayList<>();
+    /**
+     * C'est le premier Dresseur rentré en paramètre dans le constructeur
+     */
     private final IDresseur dresseur1;
+    /**
+     * C'est le Pokémon actuel du Dresseur 1
+     */
     private IPokemon pokemon1;
+    /**
+     * C'est le deuxième Dresseur rentré en paramètre dans le constructeur
+     */
     private final IDresseur dresseur2;
+    /**
+     * C'est le Pokémon actuel du Dresseur 2
+     */
     private IPokemon pokemon2;
+    /**
+     * Nombre de Pokémons ko du dresseur 1
+     */
     int ko1;
+    /**
+     * Nombre de Pokémons ko du dresseur 2
+     */
     int ko2;
+    /**
+     * Nombre de Tours passé
+     */
     private int nbrTours;
+    /**
+     * Objet Random perméttant de générer un nombre aléatoire.
+     */
     private final Random rand = new Random();
+    /**
+     * Objet Chrono permettant de chronométrer le temps d'éxecution.
+     */
     private final Chrono chrono = new Chrono();
 
+    /**
+     * Constructeur du Combat
+     *
+     * @param dresseur1 premier dresseur à combattre
+     * @param dresseur2 deuxième dresseur à combattre
+     */
     public Combat(IDresseur dresseur1, IDresseur dresseur2) {
         this.dresseur1 = dresseur1;
         this.dresseur2 = dresseur2;
@@ -52,10 +97,8 @@ public class Combat implements ICombat {
             IAttaque attaque1 = this.dresseur1.choisitAttaque(this.pokemon1, this.pokemon2);
             // Choix action si echange ne fais rien si attaque check vitesse
             IAttaque attaque2 = this.dresseur2.choisitAttaque(this.pokemon2, this.pokemon1);
-            if (attaque1.getClass() == Echange.class)
-                this.pokemon1 = ((Echange) attaque1).echangeCombattant();
-            if (attaque2.getClass() == Echange.class)
-                this.pokemon2 = ((Echange) attaque2).echangeCombattant();
+            if (attaque1.getClass() == Echange.class) this.pokemon1 = ((Echange) attaque1).echangeCombattant();
+            if (attaque2.getClass() == Echange.class) this.pokemon2 = ((Echange) attaque2).echangeCombattant();
             ITour tour = this.nouveauTour(pokemon1, attaque1, pokemon2, attaque2);
             tour.commence();
             this.tableauTours.add(tour.toString());
@@ -83,13 +126,10 @@ public class Combat implements ICombat {
                     this.ko1++;
                 }
             }
-            System.out.println("Il ne reste plus que " + (6 - this.ko1) + " pokémons dans le ranch de " +
-                    this.dresseur1.getNom() + " encore en vie");
+            System.out.println("Il ne reste plus que " + (6 - this.ko1) + " pokémons dans le ranch de " + this.dresseur1.getNom() + " encore en vie");
 
-            if (this.ko1 == 6)
-                this.termine();
-            else
-                this.pokemon1 = this.dresseur1.choisitCombattant();
+            if (this.ko1 == 6) this.termine();
+            else this.pokemon1 = this.dresseur1.choisitCombattant();
         }
         if (this.pokemon2.estEvanoui()) {
 
@@ -99,13 +139,10 @@ public class Combat implements ICombat {
                 }
             }
 
-            System.out.println("Il ne reste plus que " + (6 - this.ko2) + " pokémons dans le ranch de " +
-                    this.dresseur2.getNom() + " encore en vie");
+            System.out.println("Il ne reste plus que " + (6 - this.ko2) + " pokémons dans le ranch de " + this.dresseur2.getNom() + " encore en vie");
 
-            if (this.ko2 == 6)
-                this.termine();
-            else
-                this.pokemon2 = this.dresseur2.choisitCombattant();
+            if (this.ko2 == 6) this.termine();
+            else this.pokemon2 = this.dresseur2.choisitCombattant();
         }
     }
 

@@ -1,3 +1,10 @@
+/**
+ * Université Côte d'Azur
+ * IUT Côte d'Azur
+ * Département Informatique
+ *
+ * @date DresseurIA.java
+ */
 package dresseur;
 
 import attaque.Strategy;
@@ -10,14 +17,30 @@ import java.io.PrintWriter;
 import java.util.Date;
 
 /**
+ * Classe qui gère la création d'un dresseur IA. Implémente IDresseur
+ * Un DresseurIA possède une référence sur une IStrategy à qui il délègue la prise de décision.
+ *
  * @author Lacroix Baptiste and Vidal Théo
  */
 public class DresseurIA implements IDresseur {
+    /**
+     * Nom du Pokémon
+     */
     private final String nom;
+    /**
+     * Contient les Pokémons du dresseur IA
+     */
     private final IPokemon[] ranch;
-    private int niveau = 0;
+    /**
+     * Référence vers l'Objet IStrategy
+     */
     private final IStrategy strategy;
 
+    /**
+     * Constructeur du Dresseur IA
+     *
+     * @param nom Niom du dresseur IA
+     */
     public DresseurIA(String nom) {
         this.nom = nom;
         this.writeLogs("création du dresseur.");
@@ -26,7 +49,6 @@ public class DresseurIA implements IDresseur {
         this.ranch = pokedex.engendreRanch();
         this.writeLogs("génération du ranch terminé.");
         this.strategy = new Strategy(this.ranch);
-        this.setNiveau();
     }
 
     /**
@@ -49,24 +71,13 @@ public class DresseurIA implements IDresseur {
     /**
      * C'est une méthode qui renvoie le niveau du formateur.
      */
-    public void setNiveau() {
-        this.niveau = 0;
-        for (IPokemon p : ranch) {
-            this.niveau += p.getNiveau();
-        }
-    }
-
-    /**
-     * C'est une méthode qui renvoie le niveau du formateur.
-     */
-    @Override
     public int getNiveau() {
-        this.niveau = 0;
+        int niveau = 0;
         for (IPokemon p : ranch) {
-            this.niveau += p.getNiveau();
+            niveau += p.getNiveau();
         }
-        return this.niveau;
-    }//Niveau du dresseur
+        return niveau;
+    }
 
     /**
      * C'est une méthode qui retourne le ième pokémon du ranch.
@@ -101,7 +112,6 @@ public class DresseurIA implements IDresseur {
      */
     @Override
     public void soigneRanch() {
-        this.setNiveau();
         for (IPokemon p : this.ranch) {
             p.soigne();
         }
