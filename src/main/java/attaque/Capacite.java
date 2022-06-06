@@ -3,7 +3,7 @@
  * IUT Côte d'Azur
  * Département Informatique
  *
- * @date ICapacite.java
+ * @date Capacite.java
  */
 package attaque;
 
@@ -21,16 +21,54 @@ import java.util.Random;
  * Une capacité est un type d'attaque que le pokemon peut utilser
  */
 public class Capacite implements ICapacite {
+    /**
+     * Nom de la Capacité.
+     */
     private final String nom;
+    /**
+     * Précision de la Capacité.
+     */
     private final double precision;
+    /**
+     * Puissance de la Capacité.
+     */
     private final int puissance;
+    /**
+     * PP de base de la Capacité.
+     */
     private final int PP_base;
+    /**
+     * PP actuel de la Capacité.
+     */
     private int PP;
+    /**
+     * Catégorie de la Capacité.
+     */
     private final ICategorie categorie;
+    /**
+     * Type de la Capacité.
+     */
     private final IType type;
+    /**
+     * Objet Random perméttant de générer un nombre aléatoire.
+     */
     private final Random rand = new Random();
+    /**
+     * Niveau nécessaire pour apprendre la Capacité.
+     */
     private final int niveau;
 
+    /**
+     * Constructeur de la Capacité
+     *
+     * @param nom       nom de la capacité
+     * @param precision précision de la capacité
+     * @param puissance puissance de la capacité
+     * @param PP        PP de la capacité
+     * @param categorie catégorie de la capacité
+     * @param type      type de la capacité
+     * @param niveau    niveau de nécessaire de la capacité
+     */
     public Capacite(String nom, double precision, int puissance, int PP, ICategorie categorie, IType type, int niveau) {
         this.nom = nom;
         this.precision = precision;
@@ -70,7 +108,7 @@ public class Capacite implements ICapacite {
             }
             double CM = (eff * eff2) * (0.85 + (1 - 0.85) * rand.nextDouble());
             return (int) Math.round(fraction * CM);
-        } else  {
+        } else {
             return damage;
         }
     }
@@ -78,7 +116,7 @@ public class Capacite implements ICapacite {
     /**
      * Il calcule les dommages causés par un mouvement
      *
-     * @param lanceur le pokémon qui utilise l'attaque
+     * @param lanceur  le pokémon qui utilise l'attaque
      * @param receveur le pokémon attaqué
      * @return Les dégâts que l'attaque fera.
      */
