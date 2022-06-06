@@ -22,6 +22,8 @@ import java.util.Date;
 import java.util.Random;
 
 /**
+ * Classe générant un Pokémon avec toutes ses spécificités. implément IPokemon
+ *
  * @author Lacroix Baptiste and Vidal Théo
  */
 public class Pokemon implements IPokemon {
@@ -76,8 +78,9 @@ public class Pokemon implements IPokemon {
 
     /**
      * Construteur du Pokémon
-     * @param id id du Pokémon
-     * @param nom nom du Pokémon
+     *
+     * @param id     id du Pokémon
+     * @param nom    nom du Pokémon
      * @param niveau niveau du Pokémon
      * @param espece Espece du Pokémon
      */

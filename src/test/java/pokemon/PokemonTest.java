@@ -9,6 +9,9 @@ import statsPokemon.Stat;
 import statsPokemon.Type;
 
 
+/**
+ * Une classe qui est utilisée pour tester la classe Pokemon.
+ */
 public class PokemonTest {
 
     /**

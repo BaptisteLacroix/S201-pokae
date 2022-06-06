@@ -29,8 +29,9 @@ import java.util.Scanner;
 
 
 /**
+ * Classe générant une espèce avec toutes ses spécificités. Implément IEspece
+ *
  * @author Lacroix Baptiste and Vidal Théo
- * Classe générant une espèce avec toutes ses spécificités. implément Espece
  */
 public class Espece implements IEspece {
     /**
@@ -65,12 +66,13 @@ public class Espece implements IEspece {
 
     /**
      * Constructeur de l'Espece
-     * @param baseIStat Base de stats de l'Espece
-     * @param nom Nom de l'Espece
+     *
+     * @param baseIStat    Base de stats de l'Espece
+     * @param nom          Nom de l'Espece
      * @param niveauDepart Niveau de base de l'Espece
-     * @param baseExp Expérience de base de l'Espece
-     * @param gainsStat Stats Ev de l'Espece
-     * @param types Types de l'Espece
+     * @param baseExp      Expérience de base de l'Espece
+     * @param gainsStat    Stats Ev de l'Espece
+     * @param types        Types de l'Espece
      */
     public Espece(IStat baseIStat, String nom, int niveauDepart, int baseExp, IStat gainsStat, IType[] types) {
         this.writeLogs("création de l'espèce.");

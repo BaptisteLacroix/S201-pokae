@@ -12,13 +12,20 @@ import interfaces.ICategorie;
 import java.util.Objects;
 
 /**
- * @author Lacroix Baptiste and Vidal Théo
  * Il s'agit de la catégorie d'une capacité :
- *  - soit Physique
- *  - soit Special
+ * - soit Physique
+ * - soit Special
+ *
+ * @author Lacroix Baptiste and Vidal Théo
  */
 public enum Categorie implements ICategorie {
+    /**
+     * Catégorie de type Physique
+     */
     Physique("Physique"),
+    /**
+     * Catégorie de type Special
+     */
     Special("Special");
     /**
      * Nom de la Categorie
@@ -27,6 +34,7 @@ public enum Categorie implements ICategorie {
 
     /**
      * Constructeur de la Categorie
+     *
      * @param nom nom de la Catégorie
      */
     Categorie(String nom) {

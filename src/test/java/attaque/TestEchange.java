@@ -4,10 +4,23 @@ import dresseur.DresseurIA;
 import org.junit.Assert;
 import org.junit.Test;
 
+/**
+ * Une classe qui est utilisée pour tester la classe Echange.
+ */
 public class TestEchange {
-    private final DresseurIA IA = new DresseurIA("IA1");
-    private Echange echange = new Echange(IA.getPokemon(1));
 
+    /**
+     * Créer un nouvel objet DresseurIA de nom "IA1" et l'affecter à la variable IA.
+     */
+    private final DresseurIA IA = new DresseurIA("IA1");
+    /**
+     * Création d'une nouvelle instance de la classe Echange.
+     */
+    private final Echange echange = new Echange(IA.getPokemon(1));
+
+    /**
+     * Cette fonction teste l'échange de pokemon entre le joueur et l'IA
+     */
     @Test
     public void testEchangePokemon() {
         echange.setPokemon(IA.getPokemon(0));
@@ -15,6 +28,9 @@ public class TestEchange {
         Assert.assertEquals(IA.getPokemon(0), echange.echangeCombattant());
     }
 
+    /**
+     * >Cette fonction teste le calcul des dommages de la classe d'échange
+     */
     @Test
     public void testCalculeDommage() {
         Assert.assertEquals(0, echange.calculeDommage(IA.getPokemon(1), IA.getPokemon(0)));
