@@ -48,7 +48,7 @@ La répartition des taches, certains choix stratégiques et algorithmiques sur l
 ### Tester le programme
 
 Pour tester le programme rien de plus simple allez dans votre IDE favoris puis exécutez la classe Main.java
-Si vous avez besoins de plus d'informations n'hésitez pas à consulter la documentation [Intellij](https://www.jetbrains.com/help/idea/runningapplications.html) ou [Éclipse](https://www.tutorialspoint.com/eclipse/eclipse_running_program.htm) 
+Si vous avez besoins de plus d'informations n'hésitez pas à consulter la documentation [Intellij](https://www.jetbrains.com/help/idea/running-applications.html) ou [Éclipse](https://www.tutorialspoint.com/eclipse/eclipse_running_program.htm) 
 
 # Contribuer
 
