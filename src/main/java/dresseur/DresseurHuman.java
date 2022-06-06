@@ -20,8 +20,9 @@ import java.util.Scanner;
 
 
 /**
- * @author Lacroix Baptiste and Vidal Théo
  * Classe qui gère la création d'un dresseur humain. Implémente IDresseur.
+ *
+ * @author Lacroix Baptiste and Vidal Théo
  */
 public class DresseurHuman implements IDresseur {
     /**
@@ -35,6 +36,7 @@ public class DresseurHuman implements IDresseur {
 
     /**
      * Constructeur du Dresseur Humain
+     *
      * @param nom Nom du dresseur Humain
      */
     public DresseurHuman(String nom) {

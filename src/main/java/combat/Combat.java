@@ -2,6 +2,7 @@
  * Université Côte d'Azur
  * IUT Côte d'Azur
  * Département Informatique
+ *
  * @date Combat.java
  */
 package combat;
@@ -20,8 +21,9 @@ import java.util.*;
 
 
 /**
- * @author Lacroix Baptiste and Vidal Théo
  * Classe qui gère les combats entre dresseurs (IA,Humain) implémente ICombat
+ *
+ * @author Lacroix Baptiste and Vidal Théo
  */
 public class Combat implements ICombat {
     /**
@@ -67,6 +69,7 @@ public class Combat implements ICombat {
 
     /**
      * Constructeur du Combat
+     *
      * @param dresseur1 premier dresseur à combattre
      * @param dresseur2 deuxième dresseur à combattre
      */
@@ -94,10 +97,8 @@ public class Combat implements ICombat {
             IAttaque attaque1 = this.dresseur1.choisitAttaque(this.pokemon1, this.pokemon2);
             // Choix action si echange ne fais rien si attaque check vitesse
             IAttaque attaque2 = this.dresseur2.choisitAttaque(this.pokemon2, this.pokemon1);
-            if (attaque1.getClass() == Echange.class)
-                this.pokemon1 = ((Echange) attaque1).echangeCombattant();
-            if (attaque2.getClass() == Echange.class)
-                this.pokemon2 = ((Echange) attaque2).echangeCombattant();
+            if (attaque1.getClass() == Echange.class) this.pokemon1 = ((Echange) attaque1).echangeCombattant();
+            if (attaque2.getClass() == Echange.class) this.pokemon2 = ((Echange) attaque2).echangeCombattant();
             ITour tour = this.nouveauTour(pokemon1, attaque1, pokemon2, attaque2);
             tour.commence();
             this.tableauTours.add(tour.toString());
@@ -125,13 +126,10 @@ public class Combat implements ICombat {
                     this.ko1++;
                 }
             }
-            System.out.println("Il ne reste plus que " + (6 - this.ko1) + " pokémons dans le ranch de " +
-                    this.dresseur1.getNom() + " encore en vie");
+            System.out.println("Il ne reste plus que " + (6 - this.ko1) + " pokémons dans le ranch de " + this.dresseur1.getNom() + " encore en vie");
 
-            if (this.ko1 == 6)
-                this.termine();
-            else
-                this.pokemon1 = this.dresseur1.choisitCombattant();
+            if (this.ko1 == 6) this.termine();
+            else this.pokemon1 = this.dresseur1.choisitCombattant();
         }
         if (this.pokemon2.estEvanoui()) {
 
@@ -141,13 +139,10 @@ public class Combat implements ICombat {
                 }
             }
 
-            System.out.println("Il ne reste plus que " + (6 - this.ko2) + " pokémons dans le ranch de " +
-                    this.dresseur2.getNom() + " encore en vie");
+            System.out.println("Il ne reste plus que " + (6 - this.ko2) + " pokémons dans le ranch de " + this.dresseur2.getNom() + " encore en vie");
 
-            if (this.ko2 == 6)
-                this.termine();
-            else
-                this.pokemon2 = this.dresseur2.choisitCombattant();
+            if (this.ko2 == 6) this.termine();
+            else this.pokemon2 = this.dresseur2.choisitCombattant();
         }
     }
 

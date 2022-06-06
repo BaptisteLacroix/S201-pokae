@@ -1,11 +1,30 @@
 package other;
 
+/**
+ * Classe permettant de chronométrer
+ */
 public class Chrono {
 
+    /**
+     * Temps de départ
+     */
     private long tempsDepart = 0;
+    /**
+     * Temps de fin
+     */
     private long tempsFin = 0;
+    /**
+     * Temps mis en pause
+     */
     private long pauseDepart = 0;
+    /**
+     * fin de la pause
+     *
+     */
     private long pauseFin = 0;
+    /**
+     * Durée du chronomètre
+     */
     private long duree = 0;
 
     /**

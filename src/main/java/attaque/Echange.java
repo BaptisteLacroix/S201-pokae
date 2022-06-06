@@ -11,9 +11,10 @@ import interfaces.IEchange;
 import interfaces.IPokemon;
 
 /**
- * @author Lacroix baptiste and Vidal Théo
  * C'est un autre type d'attaque
  * Correspond à l'échange du Pokemon du combat avec un autre Pokemon du ranch
+ *
+ * @author Lacroix baptiste and Vidal Théo
  */
 public class Echange implements IEchange {
     /**
@@ -23,6 +24,7 @@ public class Echange implements IEchange {
 
     /**
      * Constructeur de l'attaque Echange
+     *
      * @param pokemon Pokémon actuel
      */
     public Echange(IPokemon pokemon) {
@@ -54,7 +56,7 @@ public class Echange implements IEchange {
     /**
      * Cette fonction renvoie 0, car lors d'un échange, il n'y a 0 damage effectué.
      *
-     * @param lanceur Le pokémon qui utilise le mouvement
+     * @param lanceur  Le pokémon qui utilise le mouvement
      * @param receveur Le pokémon qui reçoit l'attaque.
      * @return 0
      */

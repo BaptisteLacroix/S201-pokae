@@ -17,8 +17,9 @@ import statsPokemon.Type;
 import java.util.Random;
 
 /**
- * @author Lacroix Baptiste and Vidal Théo
  * Une capacité est un type d'attaque que le pokemon peut utilser
+ *
+ * @author Lacroix Baptiste and Vidal Théo
  */
 public class Capacite implements ICapacite {
     /**
@@ -184,6 +185,11 @@ public class Capacite implements ICapacite {
         }
     }
 
+    /**
+     * Cette fonction renvoie la valeur de la variable niveau
+     *
+     * @return La valeur de la variable niveau.
+     */
     public int getNiveau() {
         return niveau;
     }

@@ -24,8 +24,9 @@ import java.io.*;
 import java.util.*;
 
 /**
- * @author Lacroix baptiste and Vidal Théo
  * Une Classe qui se charge de générer le Pokedex. Implémente IPokedex
+ *
+ * @author Lacroix baptiste and Vidal Théo
  */
 public class Pokedex implements IPokedex {
     /**
