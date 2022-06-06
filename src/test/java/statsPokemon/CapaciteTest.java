@@ -7,6 +7,9 @@ import org.junit.Test;
 import pokemon.Espece;
 import pokemon.Pokemon;
 
+/**
+ * Une classe qui est utilisée pour tester la classe Capacite.
+ */
 public class CapaciteTest {
 
     /**

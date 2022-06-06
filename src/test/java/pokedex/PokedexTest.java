@@ -6,8 +6,14 @@ import org.junit.Assert;
 import org.junit.Test;
 import statsPokemon.Type;
 
+/**
+ * Une classe qui est utilisée pour tester la classe Pokedex.
+ */
 public class PokedexTest {
 
+    /**
+     * Création d'une nouvelle instance de la classe Pokedex.
+     */
     private final Pokedex pokedex = new Pokedex();
 
     /**

@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"attaque"},{"l":"combat"},{"l":"dresseur"},{"l":"interfaces"},{"l":"main"},{"l":"other"},{"l":"pokedex"},{"l":"pokemon"},{"l":"statsPokemon"}]
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"attaque"},{"l":"combat"},{"l":"dresseur"},{"l":"interfaces"},{"l":"main"},{"l":"other"},{"l":"pokedex"},{"l":"pokemon"},{"l":"statsPokemon"}];updateSearchResults();

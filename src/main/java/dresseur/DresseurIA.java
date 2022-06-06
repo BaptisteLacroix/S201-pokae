@@ -17,9 +17,10 @@ import java.io.PrintWriter;
 import java.util.Date;
 
 /**
- * @author Lacroix Baptiste and Vidal Théo
  * Classe qui gère la création d'un dresseur IA. Implémente IDresseur
  * Un DresseurIA possède une référence sur une IStrategy à qui il délègue la prise de décision.
+ *
+ * @author Lacroix Baptiste and Vidal Théo
  */
 public class DresseurIA implements IDresseur {
     /**
@@ -37,6 +38,7 @@ public class DresseurIA implements IDresseur {
 
     /**
      * Constructeur du Dresseur IA
+     *
      * @param nom Niom du dresseur IA
      */
     public DresseurIA(String nom) {
