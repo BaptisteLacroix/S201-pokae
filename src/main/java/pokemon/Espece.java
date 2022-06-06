@@ -3,7 +3,7 @@
  * IUT Côte d'Azur
  * Département Informatique
  *
- * @date IEspece.java
+ * @date Espece.java
  */
 package pokemon;
 
@@ -30,17 +30,48 @@ import java.util.Scanner;
 
 /**
  * @author Lacroix Baptiste and Vidal Théo
+ * Classe générant une espèce avec toutes ses spécificités. implément Espece
  */
 public class Espece implements IEspece {
+    /**
+     * Objet IStat contenant les stats de base de l'espèce
+     */
     private final IStat baseStat;
+    /**
+     * Nom de l'Espece
+     */
     private final String nom;
+    /**
+     * Niveau de base de l'Espece
+     */
     private final int niveauDepart;
+    /**
+     * Expérience de base d'une Espèce
+     */
     private final int baseExp;
+    /**
+     * Objet IStat contenant les EV de l'Espece
+     */
     private final IStat gainsStat; //  Stats EV
+    /**
+     * Tableau de ICapacite contenant les capacités disponible pour cette Espece
+     */
     private ICapacite[] capSet;
+    /**
+     * Tableau de IType contenant les types de l'Espece
+     */
     private final IType[] types;
 
 
+    /**
+     * Constructeur de l'Espece
+     * @param baseIStat Base de stats de l'Espece
+     * @param nom Nom de l'Espece
+     * @param niveauDepart Niveau de base de l'Espece
+     * @param baseExp Expérience de base de l'Espece
+     * @param gainsStat Stats Ev de l'Espece
+     * @param types Types de l'Espece
+     */
     public Espece(IStat baseIStat, String nom, int niveauDepart, int baseExp, IStat gainsStat, IType[] types) {
         this.writeLogs("création de l'espèce.");
         this.baseStat = baseIStat;
