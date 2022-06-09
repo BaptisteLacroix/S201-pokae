@@ -90,7 +90,7 @@ public class Pokemon implements IPokemon {
         this.ancien_niveau = niveau;
         this.niveau = niveau;
         this.stat = this.copyStats(espece.getBaseStat());
-        this.experience = 0;
+        this.experience = 0.0;
         this.pourcentagePV = 100.0;
         this.espece = espece;
         this.setDV();
@@ -113,7 +113,10 @@ public class Pokemon implements IPokemon {
      */
     private void miseAjourStats() {
         this.writeLogs("mise a jour des Statistiques du Pokémon.");
-        this.stat.setPV(calculGainStatPV());
+        if (this.niveau == 1)
+            this.stat.setPV(calculGainStatPV());
+        else
+            this.stat.setPV(calculGainStatPV() - this.stat.getPV());
         this.stat.setForce(calculGainStat(this.stat.getForce(), this.espece.getGainsStat().getForce(), espece.getGainsStat().getForce()));
         this.stat.setDefense(calculGainStat(this.stat.getDefense(), this.espece.getGainsStat().getDefense(), espece.getGainsStat().getDefense()));
         this.stat.setSpecial(calculGainStat(this.stat.getSpecial(), this.espece.getGainsStat().getSpecial(), espece.getGainsStat().getSpecial()));
@@ -346,13 +349,15 @@ public class Pokemon implements IPokemon {
     @Override
     public void gagneExperienceDe(IPokemon pok) {
         this.experience = (1.5 * pok.getNiveau() * pok.getEspece().getBaseExp()) / 7;
+        int cmp = 0;
         while (peutChangerDeNiveau()) {
+            cmp ++;
             this.ancien_niveau = this.niveau;
             this.niveau++;
             this.miseAjourStats();
         }
-        if (this.aChangeNiveau())
-            System.out.println(this.nom + " a gagné " + (this.niveau - this.ancien_niveau) + " niveau(x) !");
+        // if (this.aChangeNiveau())
+        //     System.out.println("\n" + this.nom + " a gagné " + cmp + " niveau(x) ! Il est maintenant lvl : " + this.niveau + "\n");
     } //Met à jour l'exprérience de this suite à la défaite de pok
 
     private boolean peutChangerDeNiveau() {

@@ -1,8 +1,10 @@
 package attaque;
 
 import dresseur.DresseurIA;
+import interfaces.IPokedex;
 import org.junit.Assert;
 import org.junit.Test;
+import pokedex.Pokedex;
 
 /**
  * Une classe qui est utilisée pour tester la classe Echange.
@@ -12,7 +14,8 @@ public class TestEchange {
     /**
      * Créer un nouvel objet DresseurIA de nom "IA1" et l'affecter à la variable IA.
      */
-    private final DresseurIA IA = new DresseurIA("IA1");
+    private IPokedex pokedex = new Pokedex();
+    private final DresseurIA IA = new DresseurIA("IA1", pokedex);
     /**
      * Création d'une nouvelle instance de la classe Echange.
      */

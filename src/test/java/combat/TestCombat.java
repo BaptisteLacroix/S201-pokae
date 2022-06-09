@@ -2,8 +2,10 @@ package combat;
 
 import attaque.Echange;
 import dresseur.DresseurIA;
+import interfaces.IPokedex;
 import org.junit.Assert;
 import org.junit.Test;
+import pokedex.Pokedex;
 
 /**
  * Une classe qui est utilisée pour tester la classe Combat.
@@ -12,11 +14,12 @@ public class TestCombat {
     /**
      * Il crée un nouvel objet de type `DresseurIA` avec le nom "IA1".
      */
-    private final DresseurIA IA1 = new DresseurIA("IA1");
+    private IPokedex pokedex = new Pokedex();
+    private final DresseurIA IA1 = new DresseurIA("IA1", pokedex);
     /**
      * Création d'un nouvel objet DresseurIA avec le nom "IA2".
      */
-    private final DresseurIA IA2 = new DresseurIA("IA2");
+    private final DresseurIA IA2 = new DresseurIA("IA2", pokedex);
     /**
      * Création d'un nouvel objet de type `Echange` avec le pokémon de `IA1`.
      */

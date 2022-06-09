@@ -2,8 +2,10 @@ package dresseur;
 
 import attaque.Capacite;
 import attaque.Echange;
+import interfaces.IPokedex;
 import org.junit.Assert;
 import org.junit.Test;
+import pokedex.Pokedex;
 
 /**
  * Une classe qui est utilisée pour tester la classe DresseurHuman.
@@ -12,7 +14,8 @@ public class TestDresseurHuman {
     /**
      * Créer un nouvel objet DresseurHuman et l'affecter à la variable human.
      */
-    private final DresseurHuman human = new DresseurHuman("IA1");
+    private IPokedex pokedex = new Pokedex();
+    private final DresseurHuman human = new DresseurHuman("IA1", pokedex);
 
     /**
      * Testez que la fonction getRanch() renvoie un tableau non nul de longueur 6.

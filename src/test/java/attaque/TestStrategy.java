@@ -1,8 +1,10 @@
 package attaque;
 
 import dresseur.DresseurIA;
+import interfaces.IPokedex;
 import org.junit.Assert;
 import org.junit.Test;
+import pokedex.Pokedex;
 import pokemon.Pokemon;
 
 /**
@@ -12,7 +14,8 @@ public class TestStrategy {
     /**
      * Créer un nouvel objet DresseurIA et l'affecter à la variable IA.
      */
-    private final DresseurIA IA = new DresseurIA("IA1");
+    private IPokedex pokedex = new Pokedex();
+    private final DresseurIA IA = new DresseurIA("IA1", pokedex);
 
     /**
      * Test que la fonction chositCombattant renvoie bien un Type Pokemon

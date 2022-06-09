@@ -39,10 +39,9 @@ public class DresseurHuman implements IDresseur {
      *
      * @param nom Nom du dresseur Humain
      */
-    public DresseurHuman(String nom) {
+    public DresseurHuman(String nom, IPokedex pokedex) {
         this.nom = nom;
         this.writeLogs("création du dresseur.");
-        Pokedex pokedex = new Pokedex();
         this.writeLogs("création du ranch.");
         this.ranch = pokedex.engendreRanch();
         this.writeLogs("génération du ranch terminé.");

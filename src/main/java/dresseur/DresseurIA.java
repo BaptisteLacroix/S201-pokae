@@ -9,7 +9,6 @@ package dresseur;
 
 import attaque.Strategy;
 import interfaces.*;
-import pokedex.Pokedex;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -41,10 +40,9 @@ public class DresseurIA implements IDresseur {
      *
      * @param nom Niom du dresseur IA
      */
-    public DresseurIA(String nom) {
+    public DresseurIA(String nom, IPokedex pokedex) {
         this.nom = nom;
         this.writeLogs("création du dresseur.");
-        Pokedex pokedex = new Pokedex();
         this.writeLogs("création du ranch.");
         this.ranch = pokedex.engendreRanch();
         this.writeLogs("génération du ranch terminé.");
