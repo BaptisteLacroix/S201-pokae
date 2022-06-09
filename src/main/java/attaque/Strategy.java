@@ -7,7 +7,6 @@
  */
 package attaque;
 
-import dresseur.DresseurIA;
 import interfaces.*;
 
 import java.util.Random;
@@ -90,60 +89,6 @@ public class Strategy implements IStrategy {
             IEchange echange = new Echange(attaquant);
             echange.setPokemon(this.choisitCombattantContre(defenseur));
             return echange; // Change de Pokemon
-        }
-    }
-
-    public static void main(String[] args) {
-        DresseurIA dresseurIA1 = new DresseurIA("IA1");
-        DresseurIA dresseurIA2 = new DresseurIA("IA2");
-        choixIA(dresseurIA1);
-        choixIA(dresseurIA2);
-        for (int i = 0; i < 5; i ++)
-            System.out.println(Strategy.F(i, dresseurIA1.getPokemon(0), dresseurIA2, dresseurIA2.getPokemon(0)));
-    }
-
-    private static int F(int X, IPokemon pokemonA, IDresseur dresseurD, IPokemon pokemonD) {
-        if (X == 1) return 1;
-        else if (X == 0) return 0;
-        else {
-            int max = 0;
-            ICapacite[] listeCoupsPossiblesCapacitesAttaquant = pokemonA.getCapacitesApprises();
-            ICapacite[] listeCoupsPossiblesCapacitesDefenseur = pokemonD.getCapacitesApprises();
-            IPokemon[] ranchD = new IPokemon[6];
-            for (int i = 0; i < 6; i ++)
-                ranchD[i] = dresseurD.getPokemon(i);
-            for (ICapacite c_1 : listeCoupsPossiblesCapacitesAttaquant) {
-                int min = 1;
-                for (ICapacite c_2 : listeCoupsPossiblesCapacitesDefenseur) {
-                    int val = c_1.calculeDommage(pokemonA, pokemonD) + c_2.calculeDommage(pokemonA, pokemonD);
-                    System.out.println("val : " + val);
-                    System.out.println("Math.min(min, val) : " + Math.min(min, val));
-                    min = Math.min(min, val);
-                    System.out.println("min : " + min);
-                    System.out.println("max = Math.max(min, max) : " + Math.max(min, max));
-                    max = Math.max(min, max);
-                    System.out.println("max : " + max + "\n");
-                }
-            }
-            return max;
-        }
-    }
-
-    private static void choixIA(DresseurIA dresseur) {
-        Random rand = new Random();
-        for (IPokemon pokemon : dresseur.getRanch()) {
-            ICapacite[] capacites = pokemon.getEspece().getCapSet();
-            ICapacite[] capacitesApp = new ICapacite[4];
-            for (int i = 0; i < 4; i++) {
-                Capacite random = (Capacite) capacites[rand.nextInt(capacites.length)];
-                while (pokemon.getNiveau() < random.getNiveau())
-                    random = (Capacite) capacites[rand.nextInt(capacites.length)];
-                System.out.println(dresseur.getNom() + " choose a new capacity to learn for " + pokemon.getNom() + " : " + random.getNom());
-                capacitesApp[i] = random;
-            }
-            System.out.println();
-            pokemon.apprendCapacites(capacitesApp);
-            // affichage(pokemon);
         }
     }
 }

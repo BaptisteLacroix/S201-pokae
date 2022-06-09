@@ -36,7 +36,7 @@ public class Pokedex implements IPokedex {
     /**
      * Contient les Pokémons choisit aléatoirement
      */
-    private final IPokemon[] ranch = new IPokemon[6];
+    private IPokemon[] ranch = new IPokemon[6];
     /**
      * Objet Random perméttant de générer un nombre aléatoire.
      */
@@ -49,16 +49,18 @@ public class Pokedex implements IPokedex {
      */
     @Override
     public IPokemon[] engendreRanch() {
+        this.ranch = new IPokemon[6];
         this.writeLogs("génération du Pokedex.");
         IPokemon pokemon;
-        this.initializeFromCSV();
+        if (this.dico.isEmpty())
+            this.initializeFromCSV();
         for (int i = 0; i < 6; i++) {
             pokemon = dico.get(rand.nextInt(151));
             while (pokemon == null) {
                 pokemon = dico.get(rand.nextInt(151));
             }
             this.writeLogs("ajout du Pokémon " + pokemon.getNom() + " au ranch.");
-            this.ranch[i] = pokemon;
+            this.ranch[i] = new Pokemon(pokemon.getId(), pokemon.getNom(), pokemon.getNiveau(), pokemon.getEspece());
         }
         return this.ranch;
     }           //Renvoie un tableau de 6 Pokemon au hasard

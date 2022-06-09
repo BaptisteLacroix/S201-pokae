@@ -103,9 +103,7 @@ public class Combat implements ICombat {
             tour.commence();
             this.tableauTours.add(tour.toString());
             this.afterTour();
-            this.pokemon1.gagneExperienceDe(this.pokemon2);
-            this.pokemon2.gagneExperienceDe(this.pokemon1);
-            System.out.println("<<<<<<<<<<<<<<<<<< Fin du tour : " + this.nbrTours + " >>>>>>>>>>>>>>>>>\n");
+            System.out.println("<<<<<<<<<<<<<<<<<< Fin du tour : " + this.nbrTours + " >>>>>>>>>>>>>>>>>>>\n");
             this.nbrTours++;
         }
         System.out.println("------------------ Fin du combat ! ------------------");
@@ -127,19 +125,19 @@ public class Combat implements ICombat {
                 }
             }
             System.out.println("Il ne reste plus que " + (6 - this.ko1) + " pokémons dans le ranch de " + this.dresseur1.getNom() + " encore en vie");
+            this.pokemon2.gagneExperienceDe(this.pokemon1);
 
             if (this.ko1 == 6) this.termine();
             else this.pokemon1 = this.dresseur1.choisitCombattant();
         }
         if (this.pokemon2.estEvanoui()) {
-
             for (int i = 0; i < 6; i++) {
                 if (this.dresseur2.getPokemon(i).estEvanoui()) {
                     this.ko2++;
                 }
             }
-
             System.out.println("Il ne reste plus que " + (6 - this.ko2) + " pokémons dans le ranch de " + this.dresseur2.getNom() + " encore en vie");
+            this.pokemon1.gagneExperienceDe(this.pokemon2);
 
             if (this.ko2 == 6) this.termine();
             else this.pokemon2 = this.dresseur2.choisitCombattant();
