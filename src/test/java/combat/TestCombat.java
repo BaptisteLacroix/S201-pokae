@@ -9,12 +9,18 @@ import pokedex.Pokedex;
 
 /**
  * Une classe qui est utilisée pour tester la classe Combat.
+ *
+ * @author Lacroix baptiste and Vidal Théo
  */
 public class TestCombat {
+
     /**
-     * Il crée un nouvel objet de type `DresseurIA` avec le nom "IA1".
+     * Il crée un nouvel objet de type `Pokedex` et l'affecte à la variable `pokedex`.
      */
     private IPokedex pokedex = new Pokedex();
+    /**
+     * Création d'un nouvel objet DresseurIA avec le nom "IA1".
+     */
     private final DresseurIA IA1 = new DresseurIA("IA1", pokedex);
     /**
      * Création d'un nouvel objet DresseurIA avec le nom "IA2".

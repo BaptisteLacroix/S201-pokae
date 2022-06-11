@@ -8,6 +8,8 @@ import pokedex.Pokedex;
 
 /**
  * Une classe qui est utilisée pour tester la classe Echange.
+ *
+ * @author Lacroix baptiste and Vidal Théo
  */
 public class TestEchange {
 

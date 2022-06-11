@@ -7,6 +7,8 @@ import pokedex.Pokedex;
 
 /**
  * Une classe qui est utilisée pour tester la classe DresseurIA.
+ *
+ * @author Lacroix baptiste and Vidal Théo
  */
 public class TestDresseurIA {
     /**
