@@ -102,6 +102,8 @@ public class DresseurIA implements IDresseur {
         }
         if (cmp == 4) {
             pok.apprendCapacites(caps);
+        } else {
+            throw new NullPointerException("Erreur ! Il manque des capacités.");
         }
     }//Donne au pokemon pok les capacites caps
 

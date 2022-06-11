@@ -9,7 +9,6 @@ package dresseur;
 
 import attaque.Echange;
 import interfaces.*;
-import pokedex.Pokedex;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -101,6 +100,8 @@ public class DresseurHuman implements IDresseur {
         }
         if (cmp == 4) {
             pok.apprendCapacites(caps);
+        } else {
+            throw new NullPointerException("Erreur ! Il manque des capacités.");
         }
     }//Donne au pokemon pok les capacites caps
 
@@ -180,6 +181,8 @@ public class DresseurHuman implements IDresseur {
                 if (p.getNom().equals(choixCap))
                     attaque = p;
             }
+            if (attaque == null)
+                throw new NullPointerException("Erreur ! Le nom de la capacité est inexistante.");
             return attaque;
         } else {
             IEchange echange = new Echange(attaquant);

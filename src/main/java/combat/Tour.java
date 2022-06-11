@@ -126,8 +126,8 @@ public class Tour implements ITour {
             return date + " : Le Dresseur 1 a changé son Pokémon par : " + this.pokemon1.getNom() + " (lvl : " + this.pokemon1.getNiveau() + ")\n"
                     + date + " : Le Dresseur 2 a changé son Pokémon par : " + this.pokemon2.getNom() + " (lvl : " + this.pokemon2.getNiveau() + ")\n"
                     + date + " : Aucun n'a reçu de damage." + "\n"
-                    + date + " : Il reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom() + "\n"
-                    + date + " : Il reste " + this.pokemon2.getStat().getPV() + "pv a " + this.pokemon2.getNom();
+                    + date + " : Il reste " + this.pokemon1.getPourcentagePV() + "% a " + this.pokemon1.getNom() + "\n"
+                    + date + " : Il reste " + this.pokemon2.getPourcentagePV() + "% a " + this.pokemon2.getNom();
         } else if (this.pokemon1.getStat().getVitesse() > this.pokemon2.getStat().getVitesse()) {
             return this.printWhoIsKo1();
         } else {
@@ -146,12 +146,12 @@ public class Tour implements ITour {
             return date + " : Le Dresseur 1 a changé son Pokémon par : " + this.pokemon1.getNom() + " (lvl : " + this.pokemon1.getNiveau() + ")\n"
                     + date + " : " + this.pokemon1.getNom() + " a subit " + this.damageRecuPok1 + " de damage par " + this.pokemon2.getNom() + " (lvl : " + this.pokemon2.getNiveau() + ")\n"
                     + date + " : " + this.pokemon1.getNom() + " est ko !" + "\n"
-                    + date + " : " + "Il reste " + this.pokemon2.getStat().getPV() + "pv a " + this.pokemon2.getNom();
+                    + date + " : " + "Il reste " + this.pokemon2.getPourcentagePV() + "% a " + this.pokemon2.getNom();
         } else {
             return date + " : Le Dresseur 1 a changé son Pokémon par : " + this.pokemon1.getNom() + " (lvl : " + this.pokemon1.getNiveau() + ")\n"
                     + date + " : " + this.pokemon1.getNom() + " a subit " + this.damageRecuPok1 + " de damage par " + this.pokemon2.getNom() + " (lvl : " + this.pokemon2.getNiveau() + ")\n"
-                    + date + " : " + "Il reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom() + "\n"
-                    + date + " : " + "Il reste " + this.pokemon2.getStat().getPV() + "pv a " + this.pokemon2.getNom();
+                    + date + " : " + "Il reste " + this.pokemon1.getPourcentagePV() + "% a " + this.pokemon1.getNom() + "\n"
+                    + date + " : " + "Il reste " + this.pokemon2.getPourcentagePV() + "% a " + this.pokemon2.getNom();
         }
     }
 
@@ -167,12 +167,12 @@ public class Tour implements ITour {
                     + date + " : " + this.pokemon2.getNom() + " a subit " + this.damageRecuPok2 + " de damage par " + this.pokemon1.getNom() +
                     " (lvl : " + this.pokemon1.getNiveau() + ")\n"
                     + date + " : " + this.pokemon2.getNom() + " est ko !" + "\n"
-                    + date + " : " + "Il reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom();
+                    + date + " : " + "Il reste " + this.pokemon1.getPourcentagePV() + "% a " + this.pokemon1.getNom();
         } else {
             return date + " : Le Dresseur 2 a changé son Pokémon par : " + this.pokemon2.getNom() + " (lvl : " + this.pokemon2.getNiveau() + ")\n"
                     + date + " : " + this.pokemon2.getNom() + " a subit " + this.damageRecuPok2 + " de damage par " + this.pokemon1.getNom() + " (lvl : " + this.pokemon1.getNiveau() + ")\n"
-                    + date + " : " + "Il reste " + this.pokemon2.getStat().getPV() + "pv a " + this.pokemon2.getNom() + "\n"
-                    + date + " : " + "Il reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom();
+                    + date + " : " + "Il reste " + this.pokemon2.getPourcentagePV() + "% a " + this.pokemon2.getNom() + "\n"
+                    + date + " : " + "Il reste " + this.pokemon1.getPourcentagePV() + "% a " + this.pokemon1.getNom();
         }
     }
 
@@ -184,23 +184,23 @@ public class Tour implements ITour {
      */
     private String printWhoIsKo1() {
         if (this.pokemon1.estEvanoui() && !this.pokemon2.estEvanoui()) {
-            return date + " : " + this.pokemon1.getNom() + " attaque le premier en infligeant " + this.damageRecuPok2 + " (lvl : " + this.pokemon1.getNiveau() + ")\n"
-                    + date + " : " + this.pokemon2.getNom() + " attaque le deuxième en infligeant " + this.damageRecuPok1 + " (lvl : " + this.pokemon2.getNiveau() + ")\n"
+            return date + " : " + this.pokemon1.getNom() + " attaque le premier en infligeant " + this.damageRecuPok2 + " de damage (lvl : " + this.pokemon1.getNiveau() + ")\n"
+                    + date + " : " + this.pokemon2.getNom() + " attaque le deuxième en infligeant " + this.damageRecuPok1 + " de damage (lvl : " + this.pokemon2.getNiveau() + ")\n"
                     + date + " : " + this.pokemon1.getNom() + " est ko !" + "\n"
-                    + date + " : " + "Il reste " + this.pokemon2.getStat().getPV() + "pv a " + this.pokemon2.getNom();
+                    + date + " : " + "Il reste " + this.pokemon2.getPourcentagePV() + "% a " + this.pokemon2.getNom();
         } else if (this.pokemon2.estEvanoui() && !this.pokemon1.estEvanoui()) {
-            return date + " : " + this.pokemon1.getNom() + " attaque le premier en infligeant " + this.damageRecuPok2 + " (lvl : " + this.pokemon1.getNiveau() + ")\n"
-                    + date + " : " + "Il reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom() + "\n"
+            return date + " : " + this.pokemon1.getNom() + " attaque le premier en infligeant " + this.damageRecuPok2 + " de damage (lvl : " + this.pokemon1.getNiveau() + ")\n"
+                    + date + " : " + "Il reste " + this.pokemon1.getPourcentagePV() + "% a " + this.pokemon1.getNom() + "\n"
                     + date + " : " + this.pokemon2.getNom() + " est ko !";
         } else if (this.pokemon1.estEvanoui() && this.pokemon2.estEvanoui()) {
-            return date + " : " + this.pokemon1.getNom() + " attaque le premier en infligeant " + this.damageRecuPok2 + " (lvl : " + this.pokemon1.getNiveau() + ")\n"
+            return date + " : " + this.pokemon1.getNom() + " attaque le premier en infligeant " + this.damageRecuPok2 + " de damage (lvl : " + this.pokemon1.getNiveau() + ")\n"
                     + date + " : " + this.pokemon2.getNom() + " est ko ! \n"
-                    + date + " : " + "Il reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom();
+                    + date + " : " + "Il reste " + this.pokemon1.getPourcentagePV() + "% a " + this.pokemon1.getNom();
         } else {
-            return date + " : " + this.pokemon1.getNom() + " attaque le premier en infligeant " + this.damageRecuPok2 + " (lvl : " + this.pokemon1.getNiveau() + ")\n"
-                    + date + " : " + this.pokemon2.getNom() + " attaque le deuxième en infligeant " + this.damageRecuPok1 + " (lvl : " + this.pokemon2.getNiveau() + ")\n"
-                    + date + " : " + "Il reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom() + "\n"
-                    + date + " : " + "Il reste " + this.pokemon2.getStat().getPV() + "pv a " + this.pokemon2.getNom();
+            return date + " : " + this.pokemon1.getNom() + " attaque le premier en infligeant " + this.damageRecuPok2 + " de damage (lvl : " + this.pokemon1.getNiveau() + ")\n"
+                    + date + " : " + this.pokemon2.getNom() + " attaque le deuxième en infligeant " + this.damageRecuPok1 + " de damage (lvl : " + this.pokemon2.getNiveau() + ")\n"
+                    + date + " : " + "Il reste " + this.pokemon1.getPourcentagePV() + "% a " + this.pokemon1.getNom() + "\n"
+                    + date + " : " + "Il reste " + this.pokemon2.getPourcentagePV() + "% a " + this.pokemon2.getNom();
         }
     }
 
@@ -213,23 +213,23 @@ public class Tour implements ITour {
      */
     private String printWhoIsKo2() {
         if (this.pokemon1.estEvanoui() && !this.pokemon2.estEvanoui()) {
-            return date + " : " + this.pokemon2.getNom() + " attaque le premier en infligeant " + this.damageRecuPok1 + " (lvl : " + this.pokemon2.getNiveau() + ")\n"
-                    + date + " : " + "Il reste " + this.pokemon2.getStat().getPV() + "pv a " + this.pokemon2.getNom() + "\n"
+            return date + " : " + this.pokemon2.getNom() + " attaque le premier en infligeant " + this.damageRecuPok1 + " de damage (lvl : " + this.pokemon2.getNiveau() + ")\n"
+                    + date + " : " + "Il reste " + this.pokemon2.getPourcentagePV() + "% a " + this.pokemon2.getNom() + "\n"
                     + date + " : " + this.pokemon1.getNom() + " est ko !";
         } else if (this.pokemon2.estEvanoui() && !this.pokemon1.estEvanoui()) {
-            return date + " : " + this.pokemon2.getNom() + " attaque le premier en infligeant " + this.damageRecuPok1 + " (lvl : " + this.pokemon2.getNiveau() + ")\n"
-                    + date + " : " + this.pokemon1.getNom() + " attaque le deuxième en infligeant " + this.damageRecuPok2 + " (lvl : " + this.pokemon1.getNiveau() + ")\n"
+            return date + " : " + this.pokemon2.getNom() + " attaque le premier en infligeant " + this.damageRecuPok1 + " de damage (lvl : " + this.pokemon2.getNiveau() + ")\n"
+                    + date + " : " + this.pokemon1.getNom() + " attaque le deuxième en infligeant " + this.damageRecuPok2 + " de damage (lvl : " + this.pokemon1.getNiveau() + ")\n"
                     + date + " : " + this.pokemon2.getNom() + " est ko !" + "\n"
-                    + date + " : " + "Il reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom();
+                    + date + " : " + "Il reste " + this.pokemon1.getPourcentagePV() + "% a " + this.pokemon1.getNom();
         } else if (this.pokemon1.estEvanoui() && this.pokemon2.estEvanoui()) {
-            return date + " : " + this.pokemon2.getNom() + " attaque le premier en infligeant " + this.damageRecuPok1 + " (lvl : " + this.pokemon2.getNiveau() + ")\n"
+            return date + " : " + this.pokemon2.getNom() + " attaque le premier en infligeant " + this.damageRecuPok1 + " de damage (lvl : " + this.pokemon2.getNiveau() + ")\n"
                     + date + " : " + this.pokemon1.getNom() + " est ko !" + "\n"
-                    + date + " : " + "Il reste " + this.pokemon2.getStat().getPV() + "pv a " + this.pokemon2.getNom();
+                    + date + " : " + "Il reste " + this.pokemon2.getPourcentagePV() + "% a " + this.pokemon2.getNom();
         } else {
-            return date + " : " + this.pokemon2.getNom() + " attaque le premier en infligeant " + this.damageRecuPok1 + " (lvl : " + this.pokemon2.getNiveau() + ")\n"
-                    + date + " : " + this.pokemon1.getNom() + " attaque le deuxième en infligeant " + this.damageRecuPok2 + " (lvl : " + this.pokemon1.getNiveau() + ")\n"
-                    + date + " : " + "Il reste " + this.pokemon2.getStat().getPV() + "pv a " + this.pokemon2.getNom() + "\n"
-                    + date + " : " + "Il reste " + this.pokemon1.getStat().getPV() + "pv a " + this.pokemon1.getNom();
+            return date + " : " + this.pokemon2.getNom() + " attaque le premier en infligeant " + this.damageRecuPok1 + " de damage (lvl : " + this.pokemon2.getNiveau() + ")\n"
+                    + date + " : " + this.pokemon1.getNom() + " attaque le deuxième en infligeant " + this.damageRecuPok2 + " de damage (lvl : " + this.pokemon1.getNiveau() + ")\n"
+                    + date + " : " + "Il reste " + this.pokemon2.getPourcentagePV() + "% a " + this.pokemon2.getNom() + "\n"
+                    + date + " : " + "Il reste " + this.pokemon1.getPourcentagePV() + "% a " + this.pokemon1.getNom();
         }
     }
 }

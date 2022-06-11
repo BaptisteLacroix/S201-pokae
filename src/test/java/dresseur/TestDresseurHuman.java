@@ -9,6 +9,8 @@ import pokedex.Pokedex;
 
 /**
  * Une classe qui est utilisée pour tester la classe DresseurHuman.
+ *
+ * @author Lacroix baptiste and Vidal Théo
  */
 public class TestDresseurHuman {
     /**

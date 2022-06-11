@@ -79,6 +79,21 @@ public class Combat implements ICombat {
     }
 
     /**
+     * Il retourne vrai si tous les mouvements du pokémon ont 0 PP
+     *
+     * @param pokemon le pokémon qui va être utilisé
+     * @return Un booléen
+     */
+    private boolean restePP(IPokemon pokemon) {
+        int cmp = 0;
+        for (ICapacite cap : pokemon.getCapacitesApprises()) {
+            if (cap.getPP() == 0)
+                cmp++;
+        }
+        return cmp == 4;
+    }
+
+    /**
      * Cette méthode est la méthode principale de la classe de combat. C'est celui qui sera appelé pour commencer le
      * combat.
      */
@@ -95,8 +110,12 @@ public class Combat implements ICombat {
             System.out.println("\n\n\n\n<<<<<<<<<<<<<<<<<< Début du tour : " + this.nbrTours + " >>>>>>>>>>>>>>>>>");
             // Choix action Si echange ne fait rien si attaque check vitesse
             IAttaque attaque1 = this.dresseur1.choisitAttaque(this.pokemon1, this.pokemon2);
+            if (this.restePP(this.pokemon1))
+                this.pokemon1.getStat().setPV(0);
             // Choix action si echange ne fais rien si attaque check vitesse
             IAttaque attaque2 = this.dresseur2.choisitAttaque(this.pokemon2, this.pokemon1);
+            if (this.restePP(this.pokemon2))
+                this.pokemon2.getStat().setPV(0);
             if (attaque1.getClass() == Echange.class) this.pokemon1 = ((Echange) attaque1).echangeCombattant();
             if (attaque2.getClass() == Echange.class) this.pokemon2 = ((Echange) attaque2).echangeCombattant();
             ITour tour = this.nouveauTour(pokemon1, attaque1, pokemon2, attaque2);
@@ -112,12 +131,26 @@ public class Combat implements ICombat {
     } // lance le combat
 
     /**
-     * Si le pokémon est assommé, le nombre de pokémons assommés est incrémenté, et si le nombre de pokémons assommés est
-     * de 6, la bataille est terminée
+     * Cette fonction est appelée après chaque tour, elle remet les variables ko à 0 et appelle les fonctions afterTourPok1
+     * et afterTourPok2
      */
     private void afterTour() {
         this.ko1 = 0;
         this.ko2 = 0;
+        this.afterTourPok1();
+        this.afterTourPok2();
+        if (this.ko1 == 6 || this.ko2 == 6) this.termine();
+        else {
+            this.pokemon1 = this.dresseur1.choisitCombattant();
+            this.pokemon2 = this.dresseur2.choisitCombattant();
+        }
+    }
+
+    /**
+     * Si le pokémon du dresseur1 est KO, alors nous vérifions si l'entraîneur a encore des pokémons, et s'il en a, nous
+     * choisissons un nouveau pokémon avec lequel combattre.
+     */
+    private void afterTourPok1() {
         if (this.pokemon1.estEvanoui()) {
             for (int i = 0; i < 6; i++) {
                 if (this.dresseur1.getPokemon(i).estEvanoui()) {
@@ -126,10 +159,14 @@ public class Combat implements ICombat {
             }
             System.out.println("Il ne reste plus que " + (6 - this.ko1) + " pokémons dans le ranch de " + this.dresseur1.getNom() + " encore en vie");
             this.pokemon2.gagneExperienceDe(this.pokemon1);
-
-            if (this.ko1 == 6) this.termine();
-            else this.pokemon1 = this.dresseur1.choisitCombattant();
         }
+    }
+
+    /**
+     * Si le pokémon du dresseur2 est KO, nous vérifions s'il reste des pokémons à l'entraîneur, et si c'est le cas, nous
+     * choisissons un nouveau pokémon avec lequel combattre.
+     */
+    private void afterTourPok2() {
         if (this.pokemon2.estEvanoui()) {
             for (int i = 0; i < 6; i++) {
                 if (this.dresseur2.getPokemon(i).estEvanoui()) {
@@ -138,9 +175,6 @@ public class Combat implements ICombat {
             }
             System.out.println("Il ne reste plus que " + (6 - this.ko2) + " pokémons dans le ranch de " + this.dresseur2.getNom() + " encore en vie");
             this.pokemon1.gagneExperienceDe(this.pokemon2);
-
-            if (this.ko2 == 6) this.termine();
-            else this.pokemon2 = this.dresseur2.choisitCombattant();
         }
     }
 
@@ -266,7 +300,7 @@ public class Combat implements ICombat {
     } //Crée un tour du combat
 
     /**
-     * Écriture des logs de chaque tour dans un fichier
+     * écriture des logs de chaque tour dans un fichier
      */
     @Override
     public void termine() {

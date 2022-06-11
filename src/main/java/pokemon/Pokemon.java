@@ -312,6 +312,8 @@ public class Pokemon implements IPokemon {
     public void apprendCapacites(ICapacite[] caps) {
         for (int i = 0; i < caps.length; i++) {
             for (ICapacite c : this.espece.getCapSet()) {
+                if (c == null)
+                    throw new NullPointerException("Erreur la Capacité est null");
                 Capacite capacite = (Capacite) c;
                 if (caps[i].getNom().strip().equalsIgnoreCase(c.getNom().strip()) && this.niveau >= capacite.getNiveau()) {
                     this.capacites[i] = caps[i];
@@ -333,6 +335,8 @@ public class Pokemon implements IPokemon {
         if (i < 0 || i > 4)
             throw new UnsupportedOperationException();
         for (ICapacite c : this.espece.getCapSet()) {
+            if (c == null)
+                throw new NullPointerException("Erreur la Capacité est null");
             Capacite capacite = (Capacite) c;
             if (cap.getNom().equals(c.getNom()) && this.niveau >= capacite.getNiveau()) {
                 this.capacites[i] = cap;
@@ -351,7 +355,7 @@ public class Pokemon implements IPokemon {
         this.experience = (1.5 * pok.getNiveau() * pok.getEspece().getBaseExp()) / 7;
         int cmp = 0;
         while (peutChangerDeNiveau()) {
-            cmp ++;
+            cmp++;
             this.ancien_niveau = this.niveau;
             this.niveau++;
             this.miseAjourStats();
@@ -375,10 +379,7 @@ public class Pokemon implements IPokemon {
         if (atk instanceof ICapacite) {
             int degats = atk.calculeDommage(pok, this);
             this.stat.setPV(this.stat.getPV() - degats);
-            if (this.pourcentagePV - (100 * (double) degats / this.calculGainStatPV()) < 0)
-                this.pourcentagePV = 0;
-            else
-                this.pourcentagePV -= 100 * (double) degats / this.calculGainStatPV();
+            this.pourcentagePV = Math.max((this.stat.getPV() * 100 / this.calculGainStatPV()), 0);
         }
     } //Met à jour les stats de this en tenant compte des dégats subits par l'attaque atk de pok
 
