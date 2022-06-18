@@ -33,7 +33,7 @@ public class DresseurIA implements IDresseur {
     /**
      * Référence vers l'Objet IStrategy
      */
-    private final IStrategy strategy;
+    private IStrategy strategy;
 
     /**
      * Constructeur du Dresseur IA
@@ -46,8 +46,16 @@ public class DresseurIA implements IDresseur {
         this.writeLogs("création du ranch.");
         this.ranch = pokedex.engendreRanch();
         this.writeLogs("génération du ranch terminé.");
-        this.strategy = new Strategy(this.ranch);
+        this.strategy = new Strategy(this, this.ranch);
     }
+
+    @Override
+    public IPokemon[] getRanchCopy() {
+        IPokemon[] copy = new IPokemon[this.ranch.length];
+        System.arraycopy(this.ranch, 0, copy, 0, this.ranch.length);
+        return copy;
+    }
+
 
     /**
      * Une méthode qui renvoie le nom du formateur.
@@ -142,13 +150,15 @@ public class DresseurIA implements IDresseur {
      * Cette méthode permet de choisir l'attaque qui sera utilisée contre le pokémon défenseur.
      *
      * @param attaquant pokemon de l'attaquant
+     * @param dresseurDefenseur Dresseur qui défend
      * @param defenseur pokemon du defenseur
      * @return Une Instance de Attaque
      */
     @Override
-    public IAttaque choisitAttaque(IPokemon attaquant, IPokemon defenseur) {
-        return this.strategy.choisitAttaque(attaquant, defenseur);
+    public IAttaque choisitAttaque(IPokemon attaquant, IDresseur dresseurDefenseur, IPokemon defenseur) {
+        return this.strategy.choisitAttaque(attaquant, dresseurDefenseur, defenseur);
     }
+
 
     /**
      * Il écrit la date et le texte dans un fichier appelé log.txt

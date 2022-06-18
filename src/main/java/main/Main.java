@@ -27,10 +27,10 @@ public class Main {
      */
     public static void main(String[] args) {
         IPokedex pokedex = new Pokedex();
-        DresseurHuman baptiste = new DresseurHuman("Baptiste", pokedex);
+        // DresseurHuman baptiste = new DresseurHuman("Baptiste", pokedex);
         DresseurIA IA1 = new DresseurIA("IA1", pokedex);
         DresseurIA IA2 = new DresseurIA("IA2", pokedex);
-
+        /*
         for (IPokemon pokemon : baptiste.getRanch()) {
             ICapacite[] capacites = pokemon.getEspece().getCapSet();
             ICapacite[] capacitesApp = new ICapacite[4];
@@ -54,6 +54,7 @@ public class Main {
             pokemon.apprendCapacites(capacitesApp);
             affichage(pokemon);
         }
+         */
         Chrono chrono2 = new Chrono();
         chrono2.start();
         choixIA(IA1);
@@ -69,8 +70,8 @@ public class Main {
         chrono2.stop();
         System.out.println("durée total pour " + i + " combats : " + chrono2.getDureeTxt());
 
-        combat = new Combat(IA1, baptiste);
-        combat.commence();
+        // combat = new Combat(IA1, baptiste);
+        // combat.commence();
     }
 
     /**
@@ -78,7 +79,7 @@ public class Main {
      *
      * @param dresseur l'entraîneur
      */
-    private static void choixIA(DresseurIA dresseur) {
+    public static void choixIA(DresseurIA dresseur) {
         Random rand = new Random();
         for (IPokemon pokemon : dresseur.getRanch()) {
             ICapacite[] capacites = pokemon.getEspece().getCapSet();
@@ -105,8 +106,7 @@ public class Main {
         System.out.println("\n" + pokemon.getNom() + " capacités apprises : ");
         ICapacite[] capacite = pokemon.getCapacitesApprises();
         for (ICapacite caps : capacite) {
-            System.out.printf("%-32s", "nom : " + caps.getNom() + " | précision : " + caps.getPrecision() + " | puissance : "
-                    + caps.getPuissance() + " | PP : " + caps.getPuissance() + " | catégorie : " + caps.getCategorie() + " | type : " + caps.getType() + "\n");
+            System.out.printf("%-32s", "nom : " + caps.getNom() + " | précision : " + caps.getPrecision() + " | puissance : " + caps.getPuissance() + " | PP : " + caps.getPuissance() + " | catégorie : " + caps.getCategorie() + " | type : " + caps.getType() + "\n");
         }
         System.out.println("\n");
     }

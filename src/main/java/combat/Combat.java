@@ -13,6 +13,7 @@ import dresseur.DresseurHuman;
 import dresseur.DresseurIA;
 import interfaces.*;
 import other.Chrono;
+import pokemon.Pokemon;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -109,15 +110,19 @@ public class Combat implements ICombat {
         while (this.ko1 != 6 && this.ko2 != 6) {
             System.out.println("\n\n\n\n<<<<<<<<<<<<<<<<<< Début du tour : " + this.nbrTours + " >>>>>>>>>>>>>>>>>");
             // Choix action Si echange ne fait rien si attaque check vitesse
-            IAttaque attaque1 = this.dresseur1.choisitAttaque(this.pokemon1, this.pokemon2);
+            System.out.println("choix attaque dresseur 1");
+            IAttaque attaque1 = this.dresseur1.choisitAttaque(this.pokemon1, this.dresseur2, this.pokemon2);
             if (this.restePP(this.pokemon1))
                 this.pokemon1.getStat().setPV(0);
             // Choix action si echange ne fais rien si attaque check vitesse
-            IAttaque attaque2 = this.dresseur2.choisitAttaque(this.pokemon2, this.pokemon1);
+            System.out.println("choix attaque dresseur 2");
+            IAttaque attaque2 = this.dresseur2.choisitAttaque(this.pokemon2, this.dresseur2, this.pokemon1);
             if (this.restePP(this.pokemon2))
                 this.pokemon2.getStat().setPV(0);
-            if (attaque1.getClass() == Echange.class) this.pokemon1 = ((Echange) attaque1).echangeCombattant();
-            if (attaque2.getClass() == Echange.class) this.pokemon2 = ((Echange) attaque2).echangeCombattant();
+            if (attaque1.getClass() == Echange.class && ((Pokemon) this.pokemon1).getCount() < 5) this.pokemon1 = ((Echange) attaque1).echangeCombattant();
+            else this.ko1 = 6;
+            if (attaque2.getClass() == Echange.class && ((Pokemon) this.pokemon2).getCount() < 5) this.pokemon2 = ((Echange) attaque2).echangeCombattant();
+            else this.ko2 = 6;
             ITour tour = this.nouveauTour(pokemon1, attaque1, pokemon2, attaque2);
             tour.commence();
             this.tableauTours.add(tour.toString());

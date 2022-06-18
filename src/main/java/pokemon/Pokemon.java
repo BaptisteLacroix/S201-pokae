@@ -75,6 +75,7 @@ public class Pokemon implements IPokemon {
      * Objet Random qui permet de générer des nombres aléatoire
      */
     private final Random rand = new Random();
+    private int counter = 0;
 
     /**
      * Construteur du Pokémon
@@ -95,6 +96,13 @@ public class Pokemon implements IPokemon {
         this.espece = espece;
         this.setDV();
         this.miseAjourStats();
+    }
+
+    public void addCount() {
+        this.counter++;
+    }
+    public int getCount() {
+        return this.counter;
     }
 
     /**

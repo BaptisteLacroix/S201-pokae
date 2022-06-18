@@ -41,7 +41,7 @@ public class TestDresseurHuman {
      */
     @Test
     public void testChoisitAttaque() {
-        Assert.assertSame(human.choisitAttaque(human.getRanch()[0], human.getRanch()[1]).getClass(), Capacite.class);
-        Assert.assertSame(human.choisitAttaque(human.getRanch()[0], human.getRanch()[1]).getClass(), Echange.class);
+        Assert.assertSame(human.choisitAttaque(human.getRanch()[0], this.human, human.getRanch()[1]).getClass(), Capacite.class);
+        Assert.assertSame(human.choisitAttaque(human.getRanch()[0], this.human, human.getRanch()[1]).getClass(), Echange.class);
     }
 }
