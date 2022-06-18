@@ -63,7 +63,6 @@ public class Main {
         //////////////////////////////////////////////////////////
 
         ICombat combat = new Combat(IA1, IA2);
-        combat.commence();
         int i;
         for (i = 0; i < 1; i++)
             combat.commence();
