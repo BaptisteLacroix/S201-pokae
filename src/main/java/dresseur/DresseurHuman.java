@@ -46,6 +46,14 @@ public class DresseurHuman implements IDresseur {
         this.writeLogs("génération du ranch terminé.");
     }
 
+    @Override
+    public IPokemon[] getRanchCopy() {
+        IPokemon[] copy = new IPokemon[this.ranch.length];
+        System.arraycopy(this.ranch, 0, copy, 0, this.ranch.length);
+        return copy;
+    }
+
+
     /**
      * Une méthode qui renvoie le nom du formateur.
      */
@@ -166,7 +174,7 @@ public class DresseurHuman implements IDresseur {
      * @return Une Instance de Attaque
      */
     @Override
-    public IAttaque choisitAttaque(IPokemon attaquant, IPokemon defenseur) {
+    public IAttaque choisitAttaque(IPokemon attaquant, IDresseur dresseurDefenseur, IPokemon defenseur) {
         ICapacite attaque = null;
         System.out.println(defenseur.toString());
         Scanner input = new Scanner(System.in);  // Create a Scanner object

@@ -16,11 +16,12 @@ public interface IDresseur {
 	public int getNiveau();			//Niveau du dresseur
 	
 	public IPokemon getPokemon(int i); //Récupère le i-eme Pokemon du Ranch
-	
+	public IPokemon[] getRanchCopy();	//Renvoie une copie du Ranch
+
 	public void enseigne(IPokemon pok, ICapacite[] caps); //Donne au pokemon pok les capacites caps
 	public void soigneRanch();		//Redonne à tous les pokemon du Ranch leur PV max
 	
 	public IPokemon choisitCombattant();	//Choisit le premier Pokemon pour combattre
 	public IPokemon choisitCombattantContre(IPokemon pok); //Choisit le Pokemon pour combattre contre pok
-	public IAttaque choisitAttaque(IPokemon attaquant, IPokemon defenseur); //Choisit l'attaque à utiliser contre le pokemon defenseur
+	public IAttaque choisitAttaque(IPokemon attaquant, IDresseur dresseurDefenseur, IPokemon defenseur); //Choisit l'attaque à utiliser contre le pokemon defenseur
 }

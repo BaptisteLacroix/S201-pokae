@@ -31,7 +31,6 @@ public class Echange implements IEchange {
         this.pokemon = pokemon;
     }
 
-
     /**
      * Cette fonction définit le pokémon sur le pokémon passé en paramètre.
      *

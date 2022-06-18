@@ -18,5 +18,5 @@ package interfaces;
 public interface IStrategy {
 	public IPokemon choisitCombattant();
 	public IPokemon choisitCombattantContre(IPokemon pok);
-	public IAttaque choisitAttaque(IPokemon attaquant, IPokemon defenseur);
+	public IAttaque choisitAttaque(IPokemon attaquant, IDresseur dresseurDefenseur, IPokemon defenseur);
 }
