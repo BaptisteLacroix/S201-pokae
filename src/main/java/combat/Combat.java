@@ -109,14 +109,24 @@ public class Combat implements ICombat {
         this.chrono.start(); // démarrage du chrono
         while (this.ko1 != 6 && this.ko2 != 6) {
             System.out.println("\n\n\n\n<<<<<<<<<<<<<<<<<< Début du tour : " + this.nbrTours + " >>>>>>>>>>>>>>>>>");
+
             // Choix action Si echange ne fait rien si attaque check vitesse
-            System.out.println("choix attaque dresseur 1");
+            Chrono chrono1 = new Chrono();
+            chrono1.start();
             IAttaque attaque1 = this.dresseur1.choisitAttaque(this.pokemon1, this.dresseur2, this.pokemon2);
+            chrono1.stop();
+            System.out.println("Durée du MiniMax  : " + chrono1.getDureeTxt() + "\n"); // affichage au format "1 h 26 min 32 s"
+
             if (this.restePP(this.pokemon1))
                 this.pokemon1.getStat().setPV(0);
+
             // Choix action si echange ne fais rien si attaque check vitesse
-            System.out.println("choix attaque dresseur 2");
+            chrono1 = new Chrono();
+            chrono1.start();
             IAttaque attaque2 = this.dresseur2.choisitAttaque(this.pokemon2, this.dresseur2, this.pokemon1);
+            chrono1.stop();
+            System.out.println("Durée du MiniMax  : " + chrono1.getDureeTxt() + "\n"); // affichage au format "1 h 26 min 32 s"
+
             if (this.restePP(this.pokemon2))
                 this.pokemon2.getStat().setPV(0);
             if (attaque1.getClass() == Echange.class && ((Pokemon) this.pokemon1).getCount() < 5) this.pokemon1 = ((Echange) attaque1).echangeCombattant();

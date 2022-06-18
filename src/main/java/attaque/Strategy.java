@@ -103,136 +103,62 @@ public class Strategy implements IStrategy {
             return echange; // Change de Pokemon
         }
         */
-        System.out.println("MiniMax");
-        IAttaque attaque = P(new EtatDuJeu(this.dresseur, dresseurDefenseur), attaquant, defenseur, 7, Double.NEGATIVE_INFINITY, Double.POSITIVE_INFINITY).getAttaque();
-        System.out.println("attaque : " + attaque);
+        IAttaque attaque = MiniMax(new EtatDuJeu(this.dresseur, dresseurDefenseur),
+                new Coup(0, null),
+                attaquant,
+                defenseur, 7,
+                Double.NEGATIVE_INFINITY,
+                Double.POSITIVE_INFINITY,
+                true).getAttaque();
         return attaque;
     }
-    /*
-        public static void main(String[] args) {
-        IPokedex pokedex = new Pokedex();
-        DresseurIA IA1 = new DresseurIA("IA1", pokedex);
-        DresseurIA IA2 = new DresseurIA("IA2", pokedex);
-        choixIA(IA1);
-        choixIA(IA2);
-        System.out.println(MiniMax(new EtatDuJeu(IA1, IA2), IA1.getPokemon(0), IA2.getPokemon(0), 7, Double.NEGATIVE_INFINITY, Double.POSITIVE_INFINITY));
-    }
-     */
 
-    /**
-     * @param X
-     * @param pokemonAttaquant
-     * @param pokemonDefenseur
-     * @param profondeur
-     * @param alpha
-     * @param beta
-     * @return
-     */
-    private Coup P(EtatDuJeu X, IPokemon pokemonAttaquant, IPokemon pokemonDefenseur, int profondeur, double alpha, double beta) {
-        if (profondeur == 0 || X.pvDresseurAttaquant() == 0 || X.pvDresseurDefenseur() == 0) {
-            return new Coup(X.pvDresseurAttaquant() / (double) (X.pvDresseurAttaquant() + X.pvDresseurDefenseur()), null);
+    public Coup MiniMax(EtatDuJeu etatDuJeu, Coup position, IPokemon attaquant, IPokemon defenseur, int profondeur, double alpha, double beta, boolean maximizingPlayer) {
+        if (etatDuJeu.pvDresseurAttaquant() == 0)
+            return new Coup(0, null);
+        if (etatDuJeu.pvDresseurDefenseur() == 0)
+            return new Coup(1, null);
+        if (profondeur == 0) {
+            return position;
         }
+        this.addCoupsPossiblesAttaquant(etatDuJeu, attaquant);
+        this.addCoupsPossiblesDefenseur(etatDuJeu, defenseur);
 
-        this.addCoupsPossiblesAttaquant(X, pokemonAttaquant);
-        this.addCoupsPossiblesDefenseur(X, pokemonDefenseur);
+        if (maximizingPlayer) {
+            Coup coupAttaquant = null;
+            Coup coupMax = new Coup(position.getProbabilite(), position.getAttaque());
+            for (Coup coupA : this.coupsPossiblesAttaquant.getCoupsPossibles()) {
+                Coup eval = MiniMax(etatDuJeu, coupA, attaquant, defenseur, profondeur - 1, alpha, beta, false);
+                eval.setProbabilite((etatDuJeu.pvDresseurAttaquant() / (double) (etatDuJeu.pvDresseurAttaquant() + etatDuJeu.pvDresseurDefenseur())));
 
-        Coup coupAttaquant = new Coup(0, null);
-        for (Coup coupA : this.coupsPossiblesAttaquant.getCoupsPossibles()) {
-            Coup coupDefenseur = new Coup(1, null);
-            for (Coup coupD : this.coupsPossiblesDefenseur.getCoupsPossibles()) {
-                IPokemon truePokemonAttaquant;
-                IPokemon truePokemonDefenseur;
-
-                IAttaque attaqueAttaquant;
-                IAttaque attaqueDefenseur;
-
-                truePokemonAttaquant = this.getPokemonFromRanch(X.getDresseurAttaquant().getRanchCopy(), this.coupsPossiblesAttaquant.getPokemon().getNom());
-                truePokemonDefenseur = this.getPokemonFromRanch(X.getDresseurDefenseur().getRanchCopy(), this.coupsPossiblesDefenseur.getPokemon().getNom());
-
-                // Si Echange des deux Dresseurs
-                if (coupD.getAttaque().getClass() == Echange.class && coupA.getAttaque().getClass() == Echange.class) {
-                    attaqueAttaquant = new Echange(pokemonAttaquant);
-                    ((Echange) attaqueAttaquant).setPokemon(truePokemonAttaquant);
-
-                    attaqueDefenseur = new Echange(pokemonDefenseur);
-                    ((Echange) attaqueDefenseur).setPokemon(truePokemonDefenseur);
+                if (coupMax.getProbabilite() >= eval.getProbabilite()) {
+                    coupAttaquant = coupMax;
                 } else {
-                    // Si Echange du dresseur Attaquant
-                    if (coupA.getAttaque().getClass() == Echange.class) {
-                        attaqueAttaquant = new Echange(pokemonAttaquant);
-                        ((Echange) attaqueAttaquant).setPokemon(truePokemonAttaquant);
-                    } else {
-                        attaqueAttaquant = coupA.getAttaque();
-                    }
-
-                    // Si Echange des du dresseur Defenseur
-                    if (coupD.getAttaque().getClass() == Echange.class) {
-                        attaqueDefenseur = new Echange(pokemonDefenseur);
-                        ((Echange) attaqueDefenseur).setPokemon(truePokemonDefenseur);
-                    } else {
-                        attaqueDefenseur = coupD.getAttaque();
-                    }
+                    coupAttaquant = new Coup(eval.getProbabilite(), coupA.getAttaque());
+                    coupMax = coupAttaquant;
                 }
-
-                // Simulation de l'attaque
-                Simulation simulation = new Simulation(truePokemonAttaquant, attaqueAttaquant, truePokemonDefenseur, attaqueDefenseur);
-                simulation.commence();
-
-                Coup coupC = P(X, truePokemonAttaquant, truePokemonDefenseur, profondeur - 1, alpha, beta);
-                coupC.setAttaque(attaqueAttaquant);
-
-                coupAttaquant = coupMax(coupMin(coupDefenseur, coupC), coupAttaquant);
-
-                // Elagage Alpha-Beta
-                if (coupAttaquant.getProbabilite() > alpha) {
-                    alpha = coupAttaquant.getProbabilite();
-                }
-
-                if (beta <= alpha) {
+                alpha = Math.max(alpha, eval.getProbabilite());
+                if (beta <= alpha)
                     break;
+            }
+            return coupAttaquant;
+        } else {
+            Coup coupDefenseur = null;
+            Coup coupMin = new Coup(position.getProbabilite(), position.getAttaque());
+            for (Coup coupD : this.coupsPossiblesDefenseur.getCoupsPossibles()) {
+                Coup eval = MiniMax(etatDuJeu, coupD, attaquant, defenseur, profondeur - 1, alpha, beta, true);
+                eval.setProbabilite((etatDuJeu.pvDresseurAttaquant() / (double) (etatDuJeu.pvDresseurAttaquant() + etatDuJeu.pvDresseurDefenseur())));
+
+                if (coupMin.getProbabilite() <= eval.getProbabilite()) {
+                    coupDefenseur = coupMin;
+                } else {
+                    coupDefenseur = new Coup(eval.getProbabilite(), coupD.getAttaque());
+                    coupMin = coupDefenseur;
                 }
+                beta = Math.max(beta, eval.getProbabilite());
             }
+            return coupDefenseur;
         }
-        System.out.println("coup du dresseur Attaquant : " + coupAttaquant.getAttaque());
-        return coupAttaquant;
-    }
-
-    /**
-     * Algorithme Minimax minimiser les pertes de l'attaquant
-     * @param coupDefenseur
-     * @param coupC
-     * @return
-     */
-    private Coup coupMin(Coup coupDefenseur, Coup coupC) {
-        if (coupC.getProbabilite() < coupDefenseur.getProbabilite()) {
-            coupDefenseur.setProbabilite(coupC.getProbabilite());
-            coupDefenseur.setAttaque(coupC.getAttaque());
-        }
-        return coupDefenseur;
-    }
-
-    /**
-     * Algorithme Minimax maximisant les gains de l'attaquant
-     * @param coupDefenseur
-     * @param coupAttaquant
-     * @return
-     */
-    private Coup coupMax(Coup coupDefenseur, Coup coupAttaquant) {
-        if (coupAttaquant.getProbabilite() > coupDefenseur.getProbabilite()) {
-            coupDefenseur.setProbabilite(coupAttaquant.getProbabilite());
-            coupDefenseur.setAttaque(coupAttaquant.getAttaque());
-        }
-        return coupDefenseur;
-    }
-
-    private IPokemon getPokemonFromRanch(IPokemon[] ranch, String nom) {
-        IPokemon pokemon = null;
-        for (IPokemon pok : ranch) {
-            if (pok.getNom().equals(nom)) {
-                pokemon = pok;
-            }
-        }
-        return pokemon;
     }
 
     private void addCoupsPossiblesAttaquant(EtatDuJeu X, IPokemon pokemonAttaquant) {
