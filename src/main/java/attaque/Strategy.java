@@ -250,38 +250,3 @@ class EtatDuJeu {
         return this.dresseurDefenseur.getRanchCopy();
     }
 }
-
-class Simulation {
-    private IPokemon pokemon1;
-    private IAttaque attaque1;
-    private IPokemon pokemon2;
-    private IAttaque attaque2;
-
-    public Simulation(IPokemon pokemon1, IAttaque attaque1, IPokemon pokemon2, IAttaque attaque2) {
-        this.pokemon1 = pokemon1;
-        this.attaque1 = attaque1;
-        this.pokemon2 = pokemon2;
-        this.attaque2 = attaque2;
-    }
-
-    public void commence() {
-        if (attaque1.getClass() == Echange.class && attaque2.getClass() != Echange.class) {
-            this.pokemon1.subitAttaqueDe(pokemon2, attaque2);
-        } else if (attaque1.getClass() != Echange.class && attaque2.getClass() == Echange.class) {
-            this.pokemon2.subitAttaqueDe(pokemon1, attaque1);
-        } else if (attaque1.getClass() == Echange.class) {
-            // Rien faire
-        } else {
-            // Si vitesses P1 > P2 alors P1 commence sinon P2
-            if (this.pokemon1.getStat().getVitesse() > this.pokemon2.getStat().getVitesse()) {
-                this.pokemon2.subitAttaqueDe(pokemon1, attaque1);
-                if (!this.pokemon2.estEvanoui())
-                    this.pokemon1.subitAttaqueDe(pokemon2, attaque2);
-            } else {
-                this.pokemon1.subitAttaqueDe(pokemon2, attaque2);
-                if (!this.pokemon1.estEvanoui())
-                    this.pokemon2.subitAttaqueDe(pokemon1, attaque1);
-            }
-        }
-    }        //Lance un tour de combat
-}
