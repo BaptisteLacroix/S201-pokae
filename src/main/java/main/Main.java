@@ -8,7 +8,6 @@ import interfaces.*;
 import other.Chrono;
 import pokedex.Pokedex;
 
-import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -27,10 +26,10 @@ public class Main {
      */
     public static void main(String[] args) {
         IPokedex pokedex = new Pokedex();
-        // DresseurHuman baptiste = new DresseurHuman("Baptiste", pokedex);
+        DresseurHuman baptiste = new DresseurHuman("Baptiste", pokedex);
         DresseurIA IA1 = new DresseurIA("IA1", pokedex);
         DresseurIA IA2 = new DresseurIA("IA2", pokedex);
-        /*
+
         for (IPokemon pokemon : baptiste.getRanch()) {
             ICapacite[] capacites = pokemon.getEspece().getCapSet();
             ICapacite[] capacitesApp = new ICapacite[4];
@@ -54,7 +53,6 @@ public class Main {
             pokemon.apprendCapacites(capacitesApp);
             affichage(pokemon);
         }
-         */
         Chrono chrono2 = new Chrono();
         chrono2.start();
         choixIA(IA1);
@@ -69,8 +67,8 @@ public class Main {
         chrono2.stop();
         System.out.println("durée total pour " + i + " combats : " + chrono2.getDureeTxt());
 
-        // combat = new Combat(IA1, baptiste);
-        // combat.commence();
+        combat = new Combat(IA1, baptiste);
+        combat.commence();
     }
 
     /**
