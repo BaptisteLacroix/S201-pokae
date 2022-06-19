@@ -41124,3 +41124,1685 @@ Sat Jun 18 16:08:53 CEST 2022 : ------------------ Fin du combat ! -------------
 Sat Jun 18 16:08:53 CEST 2022 : ---------------------------------------------------------->
 
 
+Sun Jun 19 18:09:38 CEST 2022 : création du dresseur.
+Sun Jun 19 18:09:38 CEST 2022 : création du ranch.
+Sun Jun 19 18:09:38 CEST 2022 : génération du Pokedex.
+Sun Jun 19 18:09:38 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:38 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:39 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:39 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:39 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:39 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:39 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:39 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:39 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:39 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:39 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:39 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:39 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:39 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:39 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:39 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:39 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:39 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:39 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:39 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:39 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:39 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:39 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:39 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:39 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:40 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:40 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:40 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:41 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:41 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:41 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:41 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:41 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:41 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:41 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:41 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:41 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:41 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:41 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:41 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:41 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:41 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:41 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:41 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:41 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:41 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:41 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:41 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:41 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:41 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:41 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:41 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:42 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:42 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:42 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:42 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:42 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:42 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:42 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:42 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:42 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:42 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:42 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:42 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:42 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:42 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:42 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:42 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:42 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:42 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:42 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:42 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:42 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:42 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:42 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:09:42 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:09:42 CEST 2022 : génération terminé.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:42 CEST 2022 : ajout du Pokémon Saquedeneu au ranch.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:42 CEST 2022 : ajout du Pokémon Noeunoeuf au ranch.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:42 CEST 2022 : ajout du Pokémon Carapuce au ranch.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:42 CEST 2022 : ajout du Pokémon Kokiyas au ranch.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:42 CEST 2022 : ajout du Pokémon Lokhlass au ranch.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:42 CEST 2022 : ajout du Pokémon Kicklee au ranch.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:42 CEST 2022 : génération du ranch terminé.
+Sun Jun 19 18:09:42 CEST 2022 : création du dresseur.
+Sun Jun 19 18:09:42 CEST 2022 : création du ranch.
+Sun Jun 19 18:09:42 CEST 2022 : génération du Pokedex.
+Sun Jun 19 18:09:42 CEST 2022 : ajout du Pokémon Abra au ranch.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:42 CEST 2022 : ajout du Pokémon Porygon au ranch.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:42 CEST 2022 : ajout du Pokémon Nidoran♂ au ranch.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:42 CEST 2022 : ajout du Pokémon Scarabrute au ranch.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:42 CEST 2022 : ajout du Pokémon Nidoran♂ au ranch.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:42 CEST 2022 : ajout du Pokémon Férosinge au ranch.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:09:42 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:09:42 CEST 2022 : génération du ranch terminé.
+Sun Jun 19 18:16:28 CEST 2022 : création du dresseur.
+Sun Jun 19 18:16:28 CEST 2022 : création du ranch.
+Sun Jun 19 18:16:28 CEST 2022 : génération du Pokedex.
+Sun Jun 19 18:16:28 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:28 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:29 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:29 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:29 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:29 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:29 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:29 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:29 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:29 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:29 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:29 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:29 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:29 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:29 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:29 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:29 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:29 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:29 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:29 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:29 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:29 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:30 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:30 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:30 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:30 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:30 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:30 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:30 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:30 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:30 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:30 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:30 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:30 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:30 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:30 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:30 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:30 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:30 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:30 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:30 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:30 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:30 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:30 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:30 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:30 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:30 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:31 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:31 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:31 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:31 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:31 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:31 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:31 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:31 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:31 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:31 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:31 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:31 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:31 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:31 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:31 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:31 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:31 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:31 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:31 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:31 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:31 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:31 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:31 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:16:32 CEST 2022 : génération terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : ajout du Pokémon Sulfura au ranch.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : ajout du Pokémon Taupiqueur au ranch.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : ajout du Pokémon Porygon au ranch.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : ajout du Pokémon Psykokwak au ranch.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : ajout du Pokémon Tadmorv au ranch.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : ajout du Pokémon Pikachu au ranch.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : génération du ranch terminé.
+Sun Jun 19 18:16:32 CEST 2022 : création du dresseur.
+Sun Jun 19 18:16:32 CEST 2022 : création du ranch.
+Sun Jun 19 18:16:32 CEST 2022 : génération du Pokedex.
+Sun Jun 19 18:16:32 CEST 2022 : ajout du Pokémon Tauros au ranch.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : ajout du Pokémon Onix au ranch.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : ajout du Pokémon Machoc au ranch.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : ajout du Pokémon Canarticho au ranch.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : ajout du Pokémon Pikachu au ranch.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : ajout du Pokémon Doduo au ranch.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : génération du ranch terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:16:32 CEST 2022 : mise a jour terminé.
+
+Sun Jun 19 18:16:33 CEST 2022 : ------------------ Début du combat ! ------------------
+
+Sun Jun 19 18:16:33 CEST 2022 : Le combat a durée :  648 ms en 20 tours
+Sun Jun 19 18:16:33 CEST 2022 : Le gagnant est IA2
+Sun Jun 19 18:16:33 CEST 2022 : Le perdant est IA1
+
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 1 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:16:32 CEST 2022 : Pikachu attaque le premier en infligeant 6 de damage (lvl : 1)
+Sun Jun 19 18:16:32 CEST 2022 : Psykokwak attaque le deuxième en infligeant 5 de damage (lvl : 1)
+Sun Jun 19 18:16:32 CEST 2022 : Il reste 63.0% a Pikachu
+Sun Jun 19 18:16:32 CEST 2022 : Il reste 54.0% a Psykokwak
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 1 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 2 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:16:32 CEST 2022 : Doduo attaque le premier en infligeant 6 de damage (lvl : 1)
+Sun Jun 19 18:16:32 CEST 2022 : Tadmorv attaque le deuxième en infligeant 7 de damage (lvl : 1)
+Sun Jun 19 18:16:32 CEST 2022 : Il reste 45.0% a Doduo
+Sun Jun 19 18:16:32 CEST 2022 : Il reste 63.0% a Tadmorv
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 2 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 3 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:16:32 CEST 2022 : Onix attaque le premier en infligeant 7 de damage (lvl : 1)
+Sun Jun 19 18:16:32 CEST 2022 : Il reste 100.0% a Onix
+Sun Jun 19 18:16:32 CEST 2022 : Tadmorv est ko !
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 3 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 4 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:16:32 CEST 2022 : Machoc attaque le premier en infligeant 6 de damage (lvl : 1)
+Sun Jun 19 18:16:32 CEST 2022 : Porygon attaque le deuxième en infligeant 7 de damage (lvl : 1)
+Sun Jun 19 18:16:32 CEST 2022 : Il reste 45.0% a Machoc
+Sun Jun 19 18:16:32 CEST 2022 : Il reste 54.0% a Porygon
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 4 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 5 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:16:32 CEST 2022 : Tauros attaque le premier en infligeant 10 de damage (lvl : 1)
+Sun Jun 19 18:16:32 CEST 2022 : Pikachu attaque le deuxième en infligeant 6 de damage (lvl : 1)
+Sun Jun 19 18:16:32 CEST 2022 : Il reste 63.0% a Tauros
+Sun Jun 19 18:16:32 CEST 2022 : Il reste 18.0% a Pikachu
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 5 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 6 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:16:32 CEST 2022 : Sulfura attaque le premier en infligeant 1 de damage (lvl : 1)
+Sun Jun 19 18:16:32 CEST 2022 : Canarticho attaque le deuxième en infligeant 5 de damage (lvl : 1)
+Sun Jun 19 18:16:32 CEST 2022 : Il reste 72.0% a Sulfura
+Sun Jun 19 18:16:32 CEST 2022 : Il reste 100.0% a Canarticho
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 6 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 7 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:16:32 CEST 2022 : Canarticho attaque le premier en infligeant 5 de damage (lvl : 1)
+Sun Jun 19 18:16:32 CEST 2022 : Porygon attaque le deuxième en infligeant 0 de damage (lvl : 1)
+Sun Jun 19 18:16:32 CEST 2022 : Il reste 100.0% a Canarticho
+Sun Jun 19 18:16:32 CEST 2022 : Il reste 9.0% a Porygon
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 7 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 8 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:16:33 CEST 2022 : Doduo attaque le premier en infligeant 6 de damage (lvl : 1)
+Sun Jun 19 18:16:33 CEST 2022 : Sulfura attaque le deuxième en infligeant 2 de damage (lvl : 1)
+Sun Jun 19 18:16:33 CEST 2022 : Il reste 27.0% a Doduo
+Sun Jun 19 18:16:33 CEST 2022 : Il reste 18.0% a Sulfura
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 8 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 9 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:16:33 CEST 2022 : Pikachu attaque le premier en infligeant 7 de damage (lvl : 1)
+Sun Jun 19 18:16:33 CEST 2022 : Taupiqueur attaque le deuxième en infligeant 2 de damage (lvl : 1)
+Sun Jun 19 18:16:33 CEST 2022 : Il reste 45.0% a Pikachu
+Sun Jun 19 18:16:33 CEST 2022 : Il reste 36.0% a Taupiqueur
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 9 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 10 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:16:33 CEST 2022 : Tauros attaque le premier en infligeant 4 de damage (lvl : 1)
+Sun Jun 19 18:16:33 CEST 2022 : Il reste 63.0% a Tauros
+Sun Jun 19 18:16:33 CEST 2022 : Taupiqueur est ko !
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 10 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 11 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:16:33 CEST 2022 : Porygon attaque le premier en infligeant 5 de damage (lvl : 1)
+Sun Jun 19 18:16:33 CEST 2022 : Il reste 9.0% a Porygon
+Sun Jun 19 18:16:33 CEST 2022 : Tauros est ko !
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 11 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 12 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:16:33 CEST 2022 : Pikachu attaque le premier en infligeant 5 de damage (lvl : 1)
+Sun Jun 19 18:16:33 CEST 2022 : Il reste 18.0% a Pikachu
+Sun Jun 19 18:16:33 CEST 2022 : Machoc est ko !
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 12 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 13 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:16:33 CEST 2022 : Doduo attaque le premier en infligeant 2 de damage (lvl : 1)
+Sun Jun 19 18:16:33 CEST 2022 : Il reste 27.0% a Doduo
+Sun Jun 19 18:16:33 CEST 2022 : Sulfura est ko !
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 13 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 14 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:16:33 CEST 2022 : Canarticho attaque le premier en infligeant 6 de damage (lvl : 1)
+Sun Jun 19 18:16:33 CEST 2022 : Pikachu attaque le deuxième en infligeant 7 de damage (lvl : 2)
+Sun Jun 19 18:16:33 CEST 2022 : Il reste 36.0% a Canarticho
+Sun Jun 19 18:16:33 CEST 2022 : Il reste 33.0% a Pikachu
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 14 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 15 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:16:33 CEST 2022 : Canarticho attaque le premier en infligeant 6 de damage (lvl : 1)
+Sun Jun 19 18:16:33 CEST 2022 : Porygon attaque le deuxième en infligeant 4 de damage (lvl : 4)
+Sun Jun 19 18:16:33 CEST 2022 : Canarticho est ko !
+Sun Jun 19 18:16:33 CEST 2022 : Il reste 35.0% a Porygon
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 15 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 16 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:16:33 CEST 2022 : Pikachu attaque le premier en infligeant 2 de damage (lvl : 1)
+Sun Jun 19 18:16:33 CEST 2022 : Il reste 45.0% a Pikachu
+Sun Jun 19 18:16:33 CEST 2022 : Tadmorv est ko !
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 16 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 17 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:16:33 CEST 2022 : Psykokwak attaque le premier en infligeant 5 de damage (lvl : 1)
+Sun Jun 19 18:16:33 CEST 2022 : Il reste 54.0% a Psykokwak
+Sun Jun 19 18:16:33 CEST 2022 : Doduo est ko !
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 17 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 18 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:16:33 CEST 2022 : Pikachu attaque le premier en infligeant 8 de damage (lvl : 4)
+Sun Jun 19 18:16:33 CEST 2022 : Il reste 45.0% a Pikachu
+Sun Jun 19 18:16:33 CEST 2022 : Psykokwak est ko !
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 18 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 19 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:16:33 CEST 2022 : Pikachu attaque le premier en infligeant 5 de damage (lvl : 4)
+Sun Jun 19 18:16:33 CEST 2022 : Il reste 45.0% a Pikachu
+Sun Jun 19 18:16:33 CEST 2022 : Porygon est ko !
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 19 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 20 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:16:33 CEST 2022 : Pikachu attaque le premier en infligeant 4 de damage (lvl : 5)
+Sun Jun 19 18:16:33 CEST 2022 : Il reste 45.0% a Pikachu
+Sun Jun 19 18:16:33 CEST 2022 : Pikachu est ko !
+Sun Jun 19 18:16:33 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 20 >>>>>>>>>>>>>>>>>
+
+
+Sun Jun 19 18:16:33 CEST 2022 : ------------------ Fin du combat ! ------------------
+
+
+
+Sun Jun 19 18:16:33 CEST 2022 : ---------------------------------------------------------->
+
+
+Sun Jun 19 18:19:15 CEST 2022 : création du dresseur.
+Sun Jun 19 18:19:15 CEST 2022 : création du ranch.
+Sun Jun 19 18:19:15 CEST 2022 : génération du Pokedex.
+Sun Jun 19 18:19:15 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:15 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:15 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:15 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:15 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:15 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:15 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:16 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:16 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:16 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:16 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:16 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:16 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:16 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:16 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:16 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:16 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:16 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:16 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:16 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:16 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:16 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:16 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:16 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:16 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:16 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:16 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:16 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:16 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:16 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:16 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:17 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:17 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:17 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:18 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:18 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:18 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:19 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:19 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:19 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:19 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:19 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : création de l'espèce.
+Sun Jun 19 18:19:19 CEST 2022 : génération des capacités disponibles pour l'espèce.
+Sun Jun 19 18:19:19 CEST 2022 : génération terminé.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : ajout du Pokémon Scarabrute au ranch.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : ajout du Pokémon Magmar au ranch.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : ajout du Pokémon Chenipan au ranch.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : ajout du Pokémon Krabby au ranch.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : ajout du Pokémon Salamèche au ranch.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : ajout du Pokémon Voltorbe au ranch.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : génération du ranch terminé.
+Sun Jun 19 18:19:19 CEST 2022 : création du dresseur.
+Sun Jun 19 18:19:19 CEST 2022 : création du ranch.
+Sun Jun 19 18:19:19 CEST 2022 : génération du Pokedex.
+Sun Jun 19 18:19:19 CEST 2022 : ajout du Pokémon Rondoudou au ranch.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : ajout du Pokémon Ronflex au ranch.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : ajout du Pokémon Leveinard au ranch.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : ajout du Pokémon Magmar au ranch.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : ajout du Pokémon Poissirène au ranch.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : ajout du Pokémon Saquedeneu au ranch.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : génération du ranch terminé.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour des Statistiques du Pokémon.
+Sun Jun 19 18:19:19 CEST 2022 : mise a jour terminé.
+
+Sun Jun 19 18:19:26 CEST 2022 : ------------------ Début du combat ! ------------------
+
+Sun Jun 19 18:19:26 CEST 2022 : Le combat a durée : 6 s 806 ms en 25 tours
+Sun Jun 19 18:19:26 CEST 2022 : Le gagnant est IA2
+Sun Jun 19 18:19:26 CEST 2022 : Le perdant est IA1
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 1 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:19 CEST 2022 : Voltorbe attaque le premier en infligeant 2 de damage (lvl : 1)
+Sun Jun 19 18:19:19 CEST 2022 : Rondoudou attaque le deuxième en infligeant 5 de damage (lvl : 1)
+Sun Jun 19 18:19:19 CEST 2022 : Il reste 63.0% a Voltorbe
+Sun Jun 19 18:19:19 CEST 2022 : Il reste 100.0% a Rondoudou
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 1 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 2 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:19 CEST 2022 : Leveinard attaque le premier en infligeant 0 de damage (lvl : 1)
+Sun Jun 19 18:19:19 CEST 2022 : Salamèche attaque le deuxième en infligeant 6 de damage (lvl : 1)
+Sun Jun 19 18:19:19 CEST 2022 : Il reste 90.0% a Leveinard
+Sun Jun 19 18:19:19 CEST 2022 : Il reste 109.0% a Salamèche
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 2 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 3 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:20 CEST 2022 : Voltorbe attaque le premier en infligeant 1 de damage (lvl : 1)
+Sun Jun 19 18:19:20 CEST 2022 : Poissirène attaque le deuxième en infligeant 4 de damage (lvl : 1)
+Sun Jun 19 18:19:20 CEST 2022 : Il reste 27.0% a Voltorbe
+Sun Jun 19 18:19:20 CEST 2022 : Il reste 100.0% a Poissirène
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 3 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 4 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:20 CEST 2022 : Magmar attaque le premier en infligeant 10 de damage (lvl : 1)
+Sun Jun 19 18:19:20 CEST 2022 : Rondoudou attaque le deuxième en infligeant 5 de damage (lvl : 1)
+Sun Jun 19 18:19:20 CEST 2022 : Il reste 63.0% a Magmar
+Sun Jun 19 18:19:20 CEST 2022 : Il reste 9.0% a Rondoudou
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 4 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 5 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:20 CEST 2022 : Voltorbe attaque le premier en infligeant 1 de damage (lvl : 1)
+Sun Jun 19 18:19:20 CEST 2022 : Il reste 27.0% a Voltorbe
+Sun Jun 19 18:19:20 CEST 2022 : Rondoudou est ko !
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 5 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 6 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:20 CEST 2022 : Saquedeneu attaque le premier en infligeant 3 de damage (lvl : 1)
+Sun Jun 19 18:19:20 CEST 2022 : Krabby attaque le deuxième en infligeant 2 de damage (lvl : 1)
+Sun Jun 19 18:19:20 CEST 2022 : Il reste 90.0% a Saquedeneu
+Sun Jun 19 18:19:20 CEST 2022 : Il reste 81.0% a Krabby
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 6 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 7 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:21 CEST 2022 : Magmar attaque le premier en infligeant 1 de damage (lvl : 1)
+Sun Jun 19 18:19:21 CEST 2022 : Krabby attaque le deuxième en infligeant 1 de damage (lvl : 1)
+Sun Jun 19 18:19:21 CEST 2022 : Il reste 100.0% a Magmar
+Sun Jun 19 18:19:21 CEST 2022 : Il reste 72.0% a Krabby
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 7 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 8 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:21 CEST 2022 : Scarabrute attaque le premier en infligeant 5 de damage (lvl : 1)
+Sun Jun 19 18:19:21 CEST 2022 : Leveinard attaque le deuxième en infligeant 5 de damage (lvl : 1)
+Sun Jun 19 18:19:21 CEST 2022 : Il reste 63.0% a Scarabrute
+Sun Jun 19 18:19:21 CEST 2022 : Il reste 45.0% a Leveinard
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 8 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 9 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:21 CEST 2022 : Ronflex attaque le premier en infligeant 5 de damage (lvl : 1)
+Sun Jun 19 18:19:21 CEST 2022 : Salamèche attaque le deuxième en infligeant 6 de damage (lvl : 1)
+Sun Jun 19 18:19:21 CEST 2022 : Il reste 72.0% a Ronflex
+Sun Jun 19 18:19:21 CEST 2022 : Il reste 63.0% a Salamèche
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 9 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 10 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:22 CEST 2022 : Magmar attaque le premier en infligeant 1 de damage (lvl : 1)
+Sun Jun 19 18:19:22 CEST 2022 : Voltorbe attaque le deuxième en infligeant 2 de damage (lvl : 2)
+Sun Jun 19 18:19:22 CEST 2022 : Il reste 81.0% a Magmar
+Sun Jun 19 18:19:22 CEST 2022 : Il reste 66.0% a Voltorbe
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 10 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 11 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:22 CEST 2022 : Poissirène attaque le premier en infligeant 3 de damage (lvl : 1)
+Sun Jun 19 18:19:22 CEST 2022 : Krabby attaque le deuxième en infligeant 1 de damage (lvl : 1)
+Sun Jun 19 18:19:22 CEST 2022 : Il reste 90.0% a Poissirène
+Sun Jun 19 18:19:22 CEST 2022 : Il reste 45.0% a Krabby
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 11 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 12 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:22 CEST 2022 : Saquedeneu attaque le premier en infligeant 3 de damage (lvl : 1)
+Sun Jun 19 18:19:22 CEST 2022 : Chenipan attaque le deuxième en infligeant 3 de damage (lvl : 1)
+Sun Jun 19 18:19:22 CEST 2022 : Il reste 63.0% a Saquedeneu
+Sun Jun 19 18:19:22 CEST 2022 : Il reste 81.0% a Chenipan
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 12 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 13 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:22 CEST 2022 : Magmar attaque le premier en infligeant 7 de damage (lvl : 1)
+Sun Jun 19 18:19:22 CEST 2022 : Il reste 63.0% a Magmar
+Sun Jun 19 18:19:22 CEST 2022 : Saquedeneu est ko !
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 13 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 14 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:23 CEST 2022 : Magmar attaque le premier en infligeant 1 de damage (lvl : 1)
+Sun Jun 19 18:19:23 CEST 2022 : Chenipan attaque le deuxième en infligeant 4 de damage (lvl : 1)
+Sun Jun 19 18:19:23 CEST 2022 : Il reste 45.0% a Magmar
+Sun Jun 19 18:19:23 CEST 2022 : Il reste 72.0% a Chenipan
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 14 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 15 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:23 CEST 2022 : Leveinard attaque le premier en infligeant 0 de damage (lvl : 1)
+Sun Jun 19 18:19:23 CEST 2022 : Magmar attaque le deuxième en infligeant 5 de damage (lvl : 3)
+Sun Jun 19 18:19:23 CEST 2022 : Leveinard est ko !
+Sun Jun 19 18:19:23 CEST 2022 : Il reste 61.0% a Magmar
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 15 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 16 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:23 CEST 2022 : Magmar attaque le premier en infligeant 1 de damage (lvl : 1)
+Sun Jun 19 18:19:23 CEST 2022 : Magmar attaque le deuxième en infligeant 5 de damage (lvl : 4)
+Sun Jun 19 18:19:23 CEST 2022 : Magmar est ko !
+Sun Jun 19 18:19:23 CEST 2022 : Il reste 42.0% a Magmar
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 16 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 17 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:23 CEST 2022 : Ronflex attaque le premier en infligeant 5 de damage (lvl : 1)
+Sun Jun 19 18:19:23 CEST 2022 : Chenipan attaque le deuxième en infligeant 3 de damage (lvl : 1)
+Sun Jun 19 18:19:23 CEST 2022 : Il reste 45.0% a Ronflex
+Sun Jun 19 18:19:23 CEST 2022 : Il reste 27.0% a Chenipan
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 17 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 18 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:24 CEST 2022 : Scarabrute attaque le premier en infligeant 4 de damage (lvl : 1)
+Sun Jun 19 18:19:24 CEST 2022 : Poissirène attaque le deuxième en infligeant 3 de damage (lvl : 1)
+Sun Jun 19 18:19:24 CEST 2022 : Il reste 36.0% a Scarabrute
+Sun Jun 19 18:19:24 CEST 2022 : Il reste 54.0% a Poissirène
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 18 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 19 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:24 CEST 2022 : Ronflex attaque le premier en infligeant 6 de damage (lvl : 1)
+Sun Jun 19 18:19:24 CEST 2022 : Il reste 45.0% a Ronflex
+Sun Jun 19 18:19:24 CEST 2022 : Magmar est ko !
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 19 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 20 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:24 CEST 2022 : Poissirène attaque le premier en infligeant 3 de damage (lvl : 1)
+Sun Jun 19 18:19:24 CEST 2022 : Il reste 54.0% a Poissirène
+Sun Jun 19 18:19:24 CEST 2022 : Chenipan est ko !
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 20 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 21 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:25 CEST 2022 : Scarabrute attaque le premier en infligeant 5 de damage (lvl : 1)
+Sun Jun 19 18:19:25 CEST 2022 : Ronflex attaque le deuxième en infligeant 4 de damage (lvl : 5)
+Sun Jun 19 18:19:25 CEST 2022 : Scarabrute est ko !
+Sun Jun 19 18:19:25 CEST 2022 : Il reste 18.0% a Ronflex
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 21 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 22 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:25 CEST 2022 : Ronflex attaque le premier en infligeant 8 de damage (lvl : 5)
+Sun Jun 19 18:19:25 CEST 2022 : Il reste 18.0% a Ronflex
+Sun Jun 19 18:19:25 CEST 2022 : Voltorbe est ko !
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 22 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 23 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:25 CEST 2022 : Krabby attaque le premier en infligeant 1 de damage (lvl : 1)
+Sun Jun 19 18:19:25 CEST 2022 : Poissirène attaque le deuxième en infligeant 3 de damage (lvl : 2)
+Sun Jun 19 18:19:25 CEST 2022 : Il reste 18.0% a Krabby
+Sun Jun 19 18:19:25 CEST 2022 : Il reste 41.0% a Poissirène
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 23 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 24 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:25 CEST 2022 : Ronflex attaque le premier en infligeant 7 de damage (lvl : 5)
+Sun Jun 19 18:19:25 CEST 2022 : Il reste 18.0% a Ronflex
+Sun Jun 19 18:19:25 CEST 2022 : Salamèche est ko !
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 24 >>>>>>>>>>>>>>>>>
+
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Début du tour : 25 >>>>>>>>>>>>>>>>>
+Sun Jun 19 18:19:26 CEST 2022 : Ronflex attaque le premier en infligeant 2 de damage (lvl : 5)
+Sun Jun 19 18:19:26 CEST 2022 : Il reste 18.0% a Ronflex
+Sun Jun 19 18:19:26 CEST 2022 : Krabby est ko !
+Sun Jun 19 18:19:26 CEST 2022 : <<<<<<<<<<<<<<<<<< Fin du tour : 25 >>>>>>>>>>>>>>>>>
+
+
+Sun Jun 19 18:19:26 CEST 2022 : ------------------ Fin du combat ! ------------------
+
+
+
+Sun Jun 19 18:19:26 CEST 2022 : ---------------------------------------------------------->
+
+

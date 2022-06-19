@@ -89,28 +89,13 @@ public class Strategy implements IStrategy {
      */
     @Override
     public IAttaque choisitAttaque(IPokemon attaquant, IDresseur dresseurDefenseur, IPokemon defenseur) {
-        /*
-        int choixAttaque = rand.nextInt(2 + 1) + 1;  // Read user input
-        if (choixAttaque == 1) {
-            ICapacite random = attaquant.getCapacitesApprises()[this.rand.nextInt(4)];
-            while (random == null) {
-                random = attaquant.getCapacitesApprises()[this.rand.nextInt(4)];
-            }
-            return random;
-        } else {
-            IEchange echange = new Echange(attaquant);
-            echange.setPokemon(this.choisitCombattantContre(defenseur));
-            return echange; // Change de Pokemon
-        }
-        */
-        IAttaque attaque = MiniMax(new EtatDuJeu(this.dresseur, dresseurDefenseur),
+        return MiniMax(new EtatDuJeu(this.dresseur, dresseurDefenseur),
                 new Coup(0, null),
                 attaquant,
-                defenseur, 7,
+                defenseur, 6,
                 Double.NEGATIVE_INFINITY,
                 Double.POSITIVE_INFINITY,
                 true).getAttaque();
-        return attaque;
     }
 
     public Coup MiniMax(EtatDuJeu etatDuJeu, Coup position, IPokemon attaquant, IPokemon defenseur, int profondeur, double alpha, double beta, boolean maximizingPlayer) {
