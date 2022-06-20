@@ -1,3 +1,10 @@
+/**
+ * Université Côte d'Azur
+ * IUT Côte d'Azur
+ * Département Informatique
+ *
+ * @date MyHTMLFormatter.java
+ */
 package useLogger;
 
 import java.text.SimpleDateFormat;
@@ -8,15 +15,18 @@ import java.util.logging.Level;
 import java.util.logging.LogRecord;
 
 /**
- * It's a formatter that formats HTML
+ * C'est un formateur qui formate le HTML
+ *
+ * @author Lacroix Baptiste and Vidal Théo
  */
 class MyHTMLFormatter extends Formatter {
     // this method is called for every log records
+
     /**
-     * If the log level is greater than or equal to WARNING, then the log level is displayed in red
+     * La fonction prend un enregistrement de journal, le formate et renvoie une chaîne
      *
-     * @param rec The log record to be formatted.
-     * @return A string that is formatted to be displayed in the HTML page.
+     * @param rec Enregistrement de journal à formater.
+     * @return Une chaîne formatée pour être affichée dans la page HTML.
      */
     @Override
     public String format(LogRecord rec) {
@@ -44,11 +54,13 @@ class MyHTMLFormatter extends Formatter {
         return buf.toString();
     }
 
+
     /**
-     * It takes a long millisecs value and returns a String formatted as MM/dd, yyyy HH:mm
+     * Il prend une longue valeur représentant les millisecondes depuis l'époque et renvoie une chaîne représentant la date
+     * au format MM/jj, aaaa HH:mm
      *
-     * @param millisecs The time in milliseconds
-     * @return The date in the format MM/dd, yyyy HH:mm
+     * @param millisecs Le temps en millisecondes
+     * @return La date au format MM/jj, aaaa HH:mm
      */
     private String calcDate(long millisecs) {
         SimpleDateFormat date_format = new SimpleDateFormat("MM/dd, yyyy HH:mm");
@@ -59,10 +71,10 @@ class MyHTMLFormatter extends Formatter {
     // this method is called just after the handler using this
     // formatter is created
     /**
-     * It returns the header of the HTML page.
+     * Il renvoie l'en-tête de la page HTML.
      *
-     * @param h The handler that is being used to process the request.
-     * @return The HTML code for the header of the page.
+     * @param h Gestionnaire utilisé pour traiter la demande.
+     * @return Le code HTML de l'en-tête de la page.
      */
     @Override
     public String getHead(Handler h) {
@@ -82,10 +94,10 @@ class MyHTMLFormatter extends Formatter {
     // this method is called just after the handler using this
     // formatter is closed
     /**
-     * The `getTail` function returns the HTML code that will be appended to the end of the log file
+     * La fonction `getTail` renvoie le code HTML qui sera ajouté à la fin du fichier journal
      *
-     * @param h The handler that is calling the formatter.
-     * @return The tail of the HTML document.
+     * @param h Le gestionnaire qui appelle le formateur.
+     * @return La fin du document HTML.
      */
     @Override
     public String getTail(Handler h) {

@@ -94,6 +94,11 @@ public class Main {
         }
     }
 
+    /**
+     * Il choisit une capacité aléatoire pour chaque pokémon du dresseur
+     *
+     * @param dresseur l'entraîneur
+     */
     public static void choixIAAleatoire(DresseurIAAleatoire dresseur) {
         Random rand = new Random();
         for (IPokemon pokemon : dresseur.getRanch()) {

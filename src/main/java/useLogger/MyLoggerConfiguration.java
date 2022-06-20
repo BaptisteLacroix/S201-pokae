@@ -1,21 +1,44 @@
+/**
+ * Université Côte d'Azur
+ * IUT Côte d'Azur
+ * Département Informatique
+ *
+ * @date MyLoggerConfiguration.java
+ */
 package useLogger;
 
 import java.io.IOException;
 import java.util.logging.*;
 
+
 /**
- * This class is used to configure the logger
+ * Cette classe est utilisée pour configurer le logger
+ *
+ * @author Lacroix Baptiste and Vidal Théo
  */
 public class MyLoggerConfiguration {
     // Creating a logger object.
+    /**
+     * Il crée un objet logger.
+     */
     private static Logger LOGGER = Logger.getLogger(MyLoggerConfiguration.class.getName());
+    /**
+     * Création d'un gestionnaire de fichiers pour le fichier HTML.
+     */
     private static FileHandler fileHandlerHTML = null;
+    /**
+     * Création d'un nouvel objet formateur.
+     */
     private static MyHTMLFormatter formatter = null;
+    /**
+     * Création d'un objet gestionnaire de fichiers.
+     */
     private static FileHandler fileHandler = null;
 
     /**
-     * It creates a logger and logs the message "Hello World" to a file called logs.txt. It also creates a file called
-     * logs.html and logs the message "Info Log" to it.
+     * Cette méthode permet de configurer le logger
+     *
+     * @throws IOException Si le fichier est introuvable
      */
     private static void setup() {
         try {
@@ -30,6 +53,13 @@ public class MyLoggerConfiguration {
         }
     }
 
+
+    /**
+     * La fonction prend un niveau et un message, puis enregistre le message dans le fichier journal
+     *
+     * @param level   Le niveau du message.
+     * @param message Le message que vous souhaitez enregistrer.
+     */
     public static void printLog(Level level, String message) {
         try {
             setup();

@@ -69,6 +69,9 @@ public class Pokemon implements IPokemon {
      * Objet Random qui permet de générer des nombres aléatoire
      */
     private final Random rand = new Random();
+    /**
+     * Déclarer une variable appelée compteur et l'initialiser à 0.
+     */
     private int counter = 0;
 
     /**
@@ -92,9 +95,18 @@ public class Pokemon implements IPokemon {
         this.miseAjourStats();
     }
 
+    /**
+     * Cette fonction ajoute un au compteur.
+     */
     public void addCount() {
         this.counter++;
     }
+
+    /**
+     * Cette fonction renvoie la valeur de la variable compteur.
+     *
+     * @return Le nombre de fois où la méthode a été appelée.
+     */
     public int getCount() {
         return this.counter;
     }
