@@ -324,24 +324,25 @@ public class Combat implements ICombat {
      */
     @Override
     public void termine() {
+        Date date = new Date();
         this.chrono.stop(); // arrêt
-        StringBuilder message = new StringBuilder(" : Le combat a durée : " + this.chrono.getDureeTxt() + " en " + this.nbrTours + " tours");
+        String message;
+        message = date + " : Le combat a durée : " + this.chrono.getDureeTxt() + " en " + this.nbrTours + " tours <br>";
         if (this.ko1 == 6 && this.ko2 != 6) {
-            System.out.println("Le gagant est " + this.dresseur2.getNom() + "\nLe perdant est " + this.dresseur1.getNom());
-            message.append(" : Le gagnant est ").append(this.dresseur2.getNom()).append("\n").append(" : Le perdant est ").append(this.dresseur1.getNom()).append("\n");
+            System.out.println("Le gagant est " + this.dresseur2.getNom() + "<br>Le perdant est " + this.dresseur1.getNom());
+            message += date + " : Le gagnant est " + this.dresseur2.getNom() + "<br>" + date + " : Le perdant est " + this.dresseur1.getNom() + "<br>";
         } else if (this.ko1 != 6 && this.ko2 == 6) {
-            System.out.println("Le gagant est " + this.dresseur1.getNom() + "\nLe perdant est " + this.dresseur2.getNom());
-            message.append(" : Le gagnant est ").append(this.dresseur1.getNom()).append("\n").append(" : Le perdant est ").append(this.dresseur2.getNom()).append("\n");
+            System.out.println("Le gagant est " + this.dresseur1.getNom() + "<br>Le perdant est " + this.dresseur2.getNom());
+            message += date + " : Le gagnant est " + this.dresseur1.getNom() + "<br>" + date + " : Le perdant est " + this.dresseur2.getNom() + "<br>";
         }
         int i = 1;
         for (String tour : this.tableauTours) {
-            message.append(" : <<<<<<<<<<<<<<<<<< Début du tour : ").append(i).append(" >>>>>>>>>>>>>>>>>");
-            message.append(tour);
-            message.append(" : <<<<<<<<<<<<<<<<<< Fin du tour : ").append(i).append(" >>>>>>>>>>>>>>>>>\n");
+            message += date + " : <<<<<<<<<<<<<<<<<< Début du tour : " + i + " >>>>>>>>>>>>>>>>><br>";
+            message += tour + "<br>";
+            message += date + " : <<<<<<<<<<<<<<<<<< Fin du tour : " + i + " >>>>>>>>>>>>>>>>><br>";
             i++;
         }
-        message.append("\n").append(" : ------------------ Fin du combat ! ------------------\n");
-        message.append("\n\n").append(" : ---------------------------------------------------------->\n\n");
-        MyLoggerConfiguration.printLog(Level.INFO, message.toString());
+        message += "\n" + date + " : ------------------ Fin du combat ! ------------------<br>";
+        MyLoggerConfiguration.printLog(Level.INFO, message);
     } //affiche le bilan du combat et l'enregistre
 }

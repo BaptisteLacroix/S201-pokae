@@ -30,10 +30,6 @@ public class DresseurHuman implements IDresseur {
      * Contient les Pokémons du dresseur Humain
      */
     private final IPokemon[] ranch;
-    /**
-     * Affiche dans le log les infos
-     */
-    MyLoggerConfiguration myLoggerConfiguration = new MyLoggerConfiguration();
 
     /**
      * Constructeur du Dresseur Humain
@@ -42,10 +38,10 @@ public class DresseurHuman implements IDresseur {
      */
     public DresseurHuman(String nom, IPokedex pokedex) {
         this.nom = nom;
-        this.writeLogs(Level.INFO, "création du dresseur (Dresseur Human).");
-        this.writeLogs(Level.INFO, "création du ranch (Dresseur Human).");
+        MyLoggerConfiguration.printLog(Level.INFO, "création du dresseur (Dresseur Human).\n");
+        MyLoggerConfiguration.printLog(Level.INFO, "création du ranch (Dresseur Human).\n");
         this.ranch = pokedex.engendreRanch();
-        this.writeLogs(Level.INFO, "génération du ranch terminé (Dresseur Human).");
+        MyLoggerConfiguration.printLog(Level.INFO, "génération du ranch terminé (Dresseur Human).\n");
     }
 
     @Override
@@ -111,7 +107,7 @@ public class DresseurHuman implements IDresseur {
         if (cmp == 4) {
             pok.apprendCapacites(caps);
         } else {
-            this.writeLogs(Level.SEVERE, "Erreur ! Il manque des capacités (Dresseur Human).");
+            MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur ! Il manque des capacités (Dresseur Human).\n");
             throw new NullPointerException("Erreur ! Il manque des capacités (Dresseur Human).");
         }
     }//Donne au pokemon pok les capacites caps
@@ -121,7 +117,7 @@ public class DresseurHuman implements IDresseur {
      */
     @Override
     public void soigneRanch() {
-        this.writeLogs(Level.INFO, "Soin du ranch (Dresseur Human).");
+        MyLoggerConfiguration.printLog(Level.INFO, "Soin du ranch (Dresseur Human).\n");
         for (IPokemon p : this.ranch) {
             p.soigne();
         }
@@ -146,7 +142,7 @@ public class DresseurHuman implements IDresseur {
                 pok = p;
         }
         if (pok == null) {
-            this.writeLogs(Level.SEVERE, "Erreur ! Le pokémon n'existe pas (Dresseur Human).");
+            MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur ! Le pokémon n'existe pas (Dresseur Human).\n");
         }
         return pok;
     } //Choisit le premier Pokemon pour combattre
@@ -168,6 +164,9 @@ public class DresseurHuman implements IDresseur {
         for (IPokemon p : ranch) {
             if (p.getNom().equals(choixPokemon) && !p.estEvanoui())
                 pokemon = p;
+        }
+        if (pokemon == null) {
+            MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur ! Le pokémon n'existe pas (Dresseur Human).\n");
         }
         return pokemon;
     } //Choisit le Pokemon pour combattre contre pok
@@ -197,7 +196,7 @@ public class DresseurHuman implements IDresseur {
                     attaque = p;
             }
             if (attaque == null) {
-                this.writeLogs(Level.SEVERE, "Erreur ! Le nom de la capacité est inexistante (Dresseur Human).");
+                MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur ! Le nom de la capacité est inexistante (Dresseur Human).\n");
                 throw new NullPointerException("Erreur ! Le nom de la capacité est inexistante.");
             }
             return attaque;
@@ -207,13 +206,4 @@ public class DresseurHuman implements IDresseur {
             return echange; // Change de Pokemon
         }
     } //Choisit l'attaque à utiliser contre le pokemon defenseur
-
-    /**
-     * Il écrit la date et le texte dans un fichier appelé log.txt
-     *
-     * @param texte le texte à écrire dans le fichier journal
-     */
-    private void writeLogs(Level level, String texte) {
-        MyLoggerConfiguration.printLog(level, texte);
-    }
 }

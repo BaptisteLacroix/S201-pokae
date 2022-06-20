@@ -26,8 +26,8 @@ public class Main {
     public static void main(String[] args) {
         IPokedex pokedex = new Pokedex();
         // DresseurHuman baptiste = new DresseurHuman("Baptiste", pokedex);
-        DresseurIAAleatoire IA1 = new DresseurIAAleatoire("IA1", pokedex);
-        DresseurIA IA2 = new DresseurIA("IA2", pokedex);
+        DresseurIAAleatoire IA1 = new DresseurIAAleatoire("IA Aléatoire", pokedex);
+        DresseurIA IA2 = new DresseurIA("IA MinMax", pokedex);
 
         // for (IPokemon pokemon : baptiste.getRanch()) {
         //     ICapacite[] capacites = pokemon.getEspece().getCapSet();

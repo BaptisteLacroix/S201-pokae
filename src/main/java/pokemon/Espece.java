@@ -76,16 +76,13 @@ public class Espece implements IEspece {
      * @param types        Types de l'Espece
      */
     public Espece(IStat baseIStat, String nom, int niveauDepart, int baseExp, IStat gainsStat, IType[] types) {
-        MyLoggerConfiguration.printLog(Level.INFO, "création de l'espèce (Espece).");
         this.baseStat = baseIStat;
         this.nom = nom;
         this.niveauDepart = niveauDepart;
         this.baseExp = baseExp;
         this.gainsStat = gainsStat;
         this.types = types;
-        MyLoggerConfiguration.printLog(Level.INFO, "génération des capacités disponibles pour l'espèce (Espece).");
         this.setCapSet();
-        MyLoggerConfiguration.printLog(Level.INFO, "génération terminé (Espece).");
     }
 
 
@@ -161,7 +158,7 @@ public class Espece implements IEspece {
                 }
             }
         } catch (IOException e) {
-            MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur lors de la lecture du fichier csv (Espece).");
+            MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur lors de la lecture du fichier csv (Espece).\n");
             e.printStackTrace();
         }
     }
@@ -190,7 +187,7 @@ public class Espece implements IEspece {
                     }
                 }
             } catch (IOException e) {
-                MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur lors de la lecture du fichier csv (Espece).");
+                MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur lors de la lecture du fichier csv (Espece).\n");
                 e.printStackTrace();
             }
         }
@@ -227,7 +224,7 @@ public class Espece implements IEspece {
                 }
             }
         } catch (IOException | ParseException e) {
-            MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur lors de la lecture du fichier JSON (Espece).");
+            MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur lors de la lecture du fichier JSON (Espece).\n");
             e.printStackTrace();
         }
         return lvl;
@@ -292,7 +289,7 @@ public class Espece implements IEspece {
             reader.close();
             file.close();
         } catch (IOException e) {
-            MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur lors de la lecture du fichier csv (Espece).");
+            MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur lors de la lecture du fichier csv (Espece).\n");
             e.printStackTrace();
         }
         return espece;

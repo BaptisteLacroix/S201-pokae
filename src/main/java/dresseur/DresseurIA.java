@@ -40,16 +40,15 @@ public class DresseurIA implements IDresseur {
      */
     public DresseurIA(String nom, IPokedex pokedex) {
         this.nom = nom;
-        this.writeLogs(Level.INFO, "création du dresseur (Dresseur IA).");
-        this.writeLogs(Level.INFO, "création du ranch. (Dresseur IA).");
+        MyLoggerConfiguration.printLog(Level.INFO, "création du dresseur (Dresseur IA).\n");
+        MyLoggerConfiguration.printLog(Level.INFO, "création du ranch. (Dresseur IA).\n");
         this.ranch = pokedex.engendreRanch();
-        this.writeLogs(Level.INFO, "génération du ranch terminé (Dresseur IA).");
+        MyLoggerConfiguration.printLog(Level.INFO, "génération du ranch terminé (Dresseur IA).\n");
         this.strategy = new Strategy(this, this.ranch);
     }
 
     @Override
     public IPokemon[] getRanchCopy() {
-        this.writeLogs(Level.INFO, "Copy du ranch (Dresseur IA).");
         IPokemon[] copy = new IPokemon[this.ranch.length];
         System.arraycopy(this.ranch, 0, copy, 0, this.ranch.length);
         return copy;
@@ -110,7 +109,7 @@ public class DresseurIA implements IDresseur {
         if (cmp == 4) {
             pok.apprendCapacites(caps);
         } else {
-            this.writeLogs(Level.SEVERE, "Erreur ! Il manque des capacités (Dresseur IA).");
+            MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur ! Il manque des capacités (Dresseur IA).\n");
             throw new NullPointerException("Erreur ! Il manque des capacités.");
         }
     }//Donne au pokemon pok les capacites caps
@@ -120,7 +119,7 @@ public class DresseurIA implements IDresseur {
      */
     @Override
     public void soigneRanch() {
-        this.writeLogs(Level.INFO, "Soin du ranch (Dresseur IA).");
+        MyLoggerConfiguration.printLog(Level.INFO, "Soin du ranch (Dresseur IA).\n");
         for (IPokemon p : this.ranch) {
             p.soigne();
         }
@@ -158,15 +157,5 @@ public class DresseurIA implements IDresseur {
     @Override
     public IAttaque choisitAttaque(IPokemon attaquant, IDresseur dresseurDefenseur, IPokemon defenseur) {
         return this.strategy.choisitAttaque(attaquant, dresseurDefenseur, defenseur);
-    }
-
-
-    /**
-     * Il écrit la date et le texte dans un fichier appelé log.txt
-     *
-     * @param texte le texte à écrire dans le fichier journal
-     */
-    private void writeLogs(Level level, String texte) {
-        MyLoggerConfiguration.printLog(level, texte);
     }
 }
