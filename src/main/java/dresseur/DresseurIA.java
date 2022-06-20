@@ -119,7 +119,6 @@ public class DresseurIA implements IDresseur {
      */
     @Override
     public void soigneRanch() {
-        MyLoggerConfiguration.printLog(Level.INFO, "Soin du ranch (Dresseur IA).\n");
         for (IPokemon p : this.ranch) {
             p.soigne();
         }
