@@ -7,10 +7,7 @@
  */
 package attaque;
 
-import combat.Tour;
-import dresseur.DresseurIA;
 import interfaces.*;
-import pokedex.Pokedex;
 import pokemon.Pokemon;
 
 import java.util.*;

@@ -19,9 +19,11 @@ import pokemon.Pokemon;
 import statsPokemon.Categorie;
 import statsPokemon.Stat;
 import statsPokemon.Type;
+import useLogger.MyLoggerConfiguration;
 
 import java.io.*;
 import java.util.*;
+import java.util.logging.Level;
 
 /**
  * Une Classe qui se charge de générer le Pokedex. Implémente IPokedex
@@ -50,16 +52,17 @@ public class Pokedex implements IPokedex {
     @Override
     public IPokemon[] engendreRanch() {
         this.ranch = new IPokemon[6];
-        this.writeLogs("génération du Pokedex.");
         IPokemon pokemon;
-        if (this.dico.isEmpty())
+        if (this.dico.isEmpty()) {
+            MyLoggerConfiguration.printLog(Level.INFO, "Pokedex vide (Pokedex).\n");
+            MyLoggerConfiguration.printLog(Level.INFO, "génération du Pokedex (Pokedex).\n");
             this.initializeFromCSV();
+        }
         for (int i = 0; i < 6; i++) {
             pokemon = dico.get(rand.nextInt(151));
             while (pokemon == null) {
                 pokemon = dico.get(rand.nextInt(151));
             }
-            this.writeLogs("ajout du Pokémon " + pokemon.getNom() + " au ranch.");
             this.ranch[i] = new Pokemon(pokemon.getId(), pokemon.getNom(), pokemon.getNiveau(), pokemon.getEspece());
         }
         return this.ranch;
@@ -98,6 +101,7 @@ public class Pokedex implements IPokedex {
                 }
             }
         } catch (IOException e) {
+            MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur lors de la lecture du fichier (Pokedex).\n");
             e.printStackTrace();
         }
         return espece;
@@ -133,6 +137,7 @@ public class Pokedex implements IPokedex {
             }
             file.close();
         } catch (IOException e) {
+            MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur lors de la lecture du fichier efficacites.csv\n");
             e.printStackTrace();
         }
         return eff;
@@ -182,6 +187,7 @@ public class Pokedex implements IPokedex {
                 }
             }
         } catch (IOException e) {
+            MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur lors de la lecture du fichier listeCapacites.csv\n");
             e.printStackTrace();
         }
         return capacite;
@@ -212,6 +218,7 @@ public class Pokedex implements IPokedex {
                 }
             }
         } catch (IOException e) {
+            MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur lors de la lecture du fichier listeCapacites.csv\n");
             e.printStackTrace();
         }
         return capacite;
@@ -262,6 +269,7 @@ public class Pokedex implements IPokedex {
             reader.close();
             file.close();
         } catch (IOException e) {
+            MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur lors de la lecture du fichier listePokemeon1G.csv\n");
             e.printStackTrace();
         }
     }
@@ -316,21 +324,5 @@ public class Pokedex implements IPokedex {
      */
     public IPokemon[] getRanch() {
         return ranch;
-    }
-
-    /**
-     * Il écrit la date et le texte dans un fichier appelé log.txt
-     *
-     * @param texte le texte à écrire dans le fichier journal
-     */
-    private void writeLogs(String texte) {
-        Date date = new Date();
-        try {
-            PrintWriter writer = new PrintWriter(new FileWriter("log.txt", true));
-            writer.println(date + " : " + texte);
-            writer.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 }

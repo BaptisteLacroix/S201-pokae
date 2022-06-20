@@ -7,10 +7,12 @@
  */
 package dresseur;
 
-import attaque.Strategy;
+import attaque.Echange;
 import interfaces.*;
+import pokemon.Pokemon;
 import useLogger.MyLoggerConfiguration;
 
+import java.util.Random;
 import java.util.logging.Level;
 
 /**
@@ -19,7 +21,7 @@ import java.util.logging.Level;
  *
  * @author Lacroix Baptiste and Vidal Théo
  */
-public class DresseurIA implements IDresseur {
+public class DresseurIAAleatoire implements IDresseur {
     /**
      * Nom du Pokémon
      */
@@ -29,22 +31,21 @@ public class DresseurIA implements IDresseur {
      */
     private final IPokemon[] ranch;
     /**
-     * Référence vers l'Objet IStrategy
+     * Génère un nombre random.
      */
-    private final IStrategy strategy;
+    private final Random rand = new Random();
 
     /**
      * Constructeur du Dresseur IA
      *
      * @param nom Niom du dresseur IA
      */
-    public DresseurIA(String nom, IPokedex pokedex) {
+    public DresseurIAAleatoire(String nom, IPokedex pokedex) {
         this.nom = nom;
-        MyLoggerConfiguration.printLog(Level.INFO, "création du dresseur (Dresseur IA).\n");
-        MyLoggerConfiguration.printLog(Level.INFO, "création du ranch. (Dresseur IA).\n");
+        MyLoggerConfiguration.printLog(Level.INFO, "création du dresseur (Dresseur IAAleatoire).\n");
+        MyLoggerConfiguration.printLog(Level.INFO, "création du ranch (Dresseur IAAleatoire).\n");
         this.ranch = pokedex.engendreRanch();
-        MyLoggerConfiguration.printLog(Level.INFO, "génération du ranch terminé (Dresseur IA).\n");
-        this.strategy = new Strategy(this, this.ranch);
+        MyLoggerConfiguration.printLog(Level.INFO, "génération du ranch terminé (Dresseur IAAleatoire).\n");
     }
 
     @Override
@@ -109,7 +110,7 @@ public class DresseurIA implements IDresseur {
         if (cmp == 4) {
             pok.apprendCapacites(caps);
         } else {
-            MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur ! Il manque des capacités (Dresseur IA).\n");
+            MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur ! Il manque des capacités (Dresseur IAAleatoire).\n");
             throw new NullPointerException("Erreur ! Il manque des capacités.");
         }
     }//Donne au pokemon pok les capacites caps
@@ -131,7 +132,12 @@ public class DresseurIA implements IDresseur {
      */
     @Override
     public IPokemon choisitCombattant() {
-        return this.strategy.choisitCombattant();
+        IPokemon pokemon = this.ranch[this.rand.nextInt(this.ranch.length)];
+        while (pokemon.estEvanoui()) {
+            int random = this.rand.nextInt(this.ranch.length);
+            pokemon = this.ranch[random];
+        }
+        return pokemon;
     }
 
     /**
@@ -142,7 +148,13 @@ public class DresseurIA implements IDresseur {
      */
     @Override
     public IPokemon choisitCombattantContre(IPokemon pok) {
-        return this.strategy.choisitCombattantContre(pok);
+        IPokemon pokemon = this.ranch[this.rand.nextInt(this.ranch.length)];
+        while (pokemon.estEvanoui()) {
+            pokemon = this.ranch[this.rand.nextInt(this.ranch.length)];
+        }
+        Pokemon pok2 = (Pokemon) pok;
+        pok2.addCount();
+        return pokemon;
     }
 
     /**
@@ -155,6 +167,13 @@ public class DresseurIA implements IDresseur {
      */
     @Override
     public IAttaque choisitAttaque(IPokemon attaquant, IDresseur dresseurDefenseur, IPokemon defenseur) {
-        return this.strategy.choisitAttaque(attaquant, dresseurDefenseur, defenseur);
+        int choixAttaque = rand.nextInt(2 + 1) + 1;  // Read user input
+        if (choixAttaque == 1) {
+            return attaquant.getCapacitesApprises()[this.rand.nextInt(4)];
+        } else {
+            IEchange echange = new Echange(attaquant);
+            echange.setPokemon(this.choisitCombattantContre(defenseur));
+            return echange; // Change de Pokemon
+        }
     }
 }
