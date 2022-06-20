@@ -69,3 +69,10 @@ Toute interaction avec le projet/membres du projet doit pouvoir suivre ces règl
 - Utiliser un langage accueillant et inclusif
 - Être respectueux des points de vue et des expériences différents
 - Accepter les critiques constructives
+
+<hr>
+
+### Utilisation du système de logs
+
+Nous avons opté pour un système de log qui enregistre les actions de l'utilisateur dans un fichier logs.txt et logs.html.
+Ainsi que le déroulement des Combats pour prévenir de tout bugs potentiel.
