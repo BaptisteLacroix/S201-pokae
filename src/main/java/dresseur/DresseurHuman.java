@@ -117,7 +117,6 @@ public class DresseurHuman implements IDresseur {
      */
     @Override
     public void soigneRanch() {
-        MyLoggerConfiguration.printLog(Level.INFO, "Soin du ranch (Dresseur Human).\n");
         for (IPokemon p : this.ranch) {
             p.soigne();
         }
