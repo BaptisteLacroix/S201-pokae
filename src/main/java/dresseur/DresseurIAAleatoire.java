@@ -10,12 +10,10 @@ package dresseur;
 import attaque.Echange;
 import interfaces.*;
 import pokemon.Pokemon;
+import useLogger.MyLoggerConfiguration;
 
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.Date;
 import java.util.Random;
+import java.util.logging.Level;
 
 /**
  * Classe qui gère la création d'un dresseur IA. Implémente IDresseur
@@ -32,8 +30,10 @@ public class DresseurIAAleatoire implements IDresseur {
      * Contient les Pokémons du dresseur IA
      */
     private final IPokemon[] ranch;
-
-    private Random rand = new Random();
+    /**
+     * Génère un nombre random.
+     */
+    private final Random rand = new Random();
 
     /**
      * Constructeur du Dresseur IA
@@ -42,14 +42,15 @@ public class DresseurIAAleatoire implements IDresseur {
      */
     public DresseurIAAleatoire(String nom, IPokedex pokedex) {
         this.nom = nom;
-        this.writeLogs("création du dresseur.");
-        this.writeLogs("création du ranch.");
+        this.writeLogs(Level.INFO, "création du dresseur (Dresseur IAAleatoire).");
+        this.writeLogs(Level.INFO, "création du ranch (Dresseur IAAleatoire).");
         this.ranch = pokedex.engendreRanch();
-        this.writeLogs("génération du ranch terminé.");
+        this.writeLogs(Level.INFO, "génération du ranch terminé (Dresseur IAAleatoire).");
     }
 
     @Override
     public IPokemon[] getRanchCopy() {
+        this.writeLogs(Level.INFO, "Copy du ranch (Dresseur IAAleatoire).");
         IPokemon[] copy = new IPokemon[this.ranch.length];
         System.arraycopy(this.ranch, 0, copy, 0, this.ranch.length);
         return copy;
@@ -110,6 +111,7 @@ public class DresseurIAAleatoire implements IDresseur {
         if (cmp == 4) {
             pok.apprendCapacites(caps);
         } else {
+            this.writeLogs(Level.SEVERE, "Erreur ! Il manque des capacités (Dresseur IAAleatoire).");
             throw new NullPointerException("Erreur ! Il manque des capacités.");
         }
     }//Donne au pokemon pok les capacites caps
@@ -119,6 +121,7 @@ public class DresseurIAAleatoire implements IDresseur {
      */
     @Override
     public void soigneRanch() {
+        this.writeLogs(Level.INFO, "Soin du ranch (Dresseur IAAleatoire).");
         for (IPokemon p : this.ranch) {
             p.soigne();
         }
@@ -182,14 +185,7 @@ public class DresseurIAAleatoire implements IDresseur {
      *
      * @param texte le texte à écrire dans le fichier journal
      */
-    private void writeLogs(String texte) {
-        Date date = new Date();
-        try {
-            PrintWriter writer = new PrintWriter(new FileWriter("log.txt", true));
-            writer.println(date + " : " + texte);
-            writer.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    private void writeLogs(Level level, String texte) {
+        MyLoggerConfiguration.printLog(level, texte);
     }
 }

@@ -14,11 +14,10 @@ import dresseur.DresseurIA;
 import interfaces.*;
 import other.Chrono;
 import pokemon.Pokemon;
+import useLogger.MyLoggerConfiguration;
 
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.*;
+import java.util.logging.Level;
 
 
 /**
@@ -67,6 +66,10 @@ public class Combat implements ICombat {
      * Objet Chrono permettant de chronométrer le temps d'éxecution.
      */
     private final Chrono chrono = new Chrono();
+    /**
+     * Objet PrintWriter permettant d'écrire dans un fichier.
+     */
+    MyLoggerConfiguration myLoggerConfiguration = new MyLoggerConfiguration();
 
     /**
      * Constructeur du Combat
@@ -115,7 +118,7 @@ public class Combat implements ICombat {
             chrono1.start();
             IAttaque attaque1 = this.dresseur1.choisitAttaque(this.pokemon1, this.dresseur2, this.pokemon2);
             chrono1.stop();
-            System.out.println("Durée du MiniMax  : " + chrono1.getDureeTxt() + "\n"); // affichage au format "1 h 26 min 32 s"
+            System.out.println("Durée de l'attaque Random  : " + chrono1.getDureeTxt() + "\n"); // affichage au format "1 h 26 min 32 s"
 
             if (this.restePP(this.pokemon1))
                 this.pokemon1.getStat().setPV(0);
@@ -129,9 +132,11 @@ public class Combat implements ICombat {
 
             if (this.restePP(this.pokemon2))
                 this.pokemon2.getStat().setPV(0);
-            if (attaque1.getClass() == Echange.class && ((Pokemon) this.pokemon1).getCount() < 5) this.pokemon1 = ((Echange) attaque1).echangeCombattant();
+            if (attaque1.getClass() == Echange.class && ((Pokemon) this.pokemon1).getCount() < 5)
+                this.pokemon1 = ((Echange) attaque1).echangeCombattant();
             else this.ko1 = 6;
-            if (attaque2.getClass() == Echange.class && ((Pokemon) this.pokemon2).getCount() < 5) this.pokemon2 = ((Echange) attaque2).echangeCombattant();
+            if (attaque2.getClass() == Echange.class && ((Pokemon) this.pokemon2).getCount() < 5)
+                this.pokemon2 = ((Echange) attaque2).echangeCombattant();
             else this.ko2 = 6;
             ITour tour = this.nouveauTour(pokemon1, attaque1, pokemon2, attaque2);
             tour.commence();
@@ -319,31 +324,24 @@ public class Combat implements ICombat {
      */
     @Override
     public void termine() {
-        Date date = new Date();
-        try {
-            PrintWriter writer = new PrintWriter(new FileWriter("log.txt", true));
-            writer.println("\n" + date + " : ------------------ Début du combat ! ------------------\n");
-            this.chrono.stop(); // arrêt
-            writer.println(date + " : Le combat a durée : " + this.chrono.getDureeTxt() + " en " + this.nbrTours + " tours");
-            if (this.ko1 == 6 && this.ko2 != 6) {
-                System.out.println("Le gagant est " + this.dresseur2.getNom() + "\nLe perdant est " + this.dresseur1.getNom());
-                writer.println(date + " : Le gagnant est " + this.dresseur2.getNom() + "\n" + date + " : Le perdant est " + this.dresseur1.getNom() + "\n");
-            } else if (this.ko1 != 6 && this.ko2 == 6) {
-                System.out.println("Le gagant est " + this.dresseur1.getNom() + "\nLe perdant est " + this.dresseur2.getNom());
-                writer.println(date + " : Le gagnant est " + this.dresseur1.getNom() + "\n" + date + " : Le perdant est " + this.dresseur2.getNom() + "\n");
-            }
-            int i = 1;
-            for (String tour : this.tableauTours) {
-                writer.println(date + " : <<<<<<<<<<<<<<<<<< Début du tour : " + i + " >>>>>>>>>>>>>>>>>");
-                writer.println(tour);
-                writer.println(date + " : <<<<<<<<<<<<<<<<<< Fin du tour : " + i + " >>>>>>>>>>>>>>>>>\n");
-                i++;
-            }
-            writer.println("\n" + date + " : ------------------ Fin du combat ! ------------------\n");
-            writer.println("\n\n" + date + " : ---------------------------------------------------------->\n\n");
-            writer.close();
-        } catch (IOException e) {
-            e.printStackTrace();
+        this.chrono.stop(); // arrêt
+        StringBuilder message = new StringBuilder(" : Le combat a durée : " + this.chrono.getDureeTxt() + " en " + this.nbrTours + " tours");
+        if (this.ko1 == 6 && this.ko2 != 6) {
+            System.out.println("Le gagant est " + this.dresseur2.getNom() + "\nLe perdant est " + this.dresseur1.getNom());
+            message.append(" : Le gagnant est ").append(this.dresseur2.getNom()).append("\n").append(" : Le perdant est ").append(this.dresseur1.getNom()).append("\n");
+        } else if (this.ko1 != 6 && this.ko2 == 6) {
+            System.out.println("Le gagant est " + this.dresseur1.getNom() + "\nLe perdant est " + this.dresseur2.getNom());
+            message.append(" : Le gagnant est ").append(this.dresseur1.getNom()).append("\n").append(" : Le perdant est ").append(this.dresseur2.getNom()).append("\n");
         }
+        int i = 1;
+        for (String tour : this.tableauTours) {
+            message.append(" : <<<<<<<<<<<<<<<<<< Début du tour : ").append(i).append(" >>>>>>>>>>>>>>>>>");
+            message.append(tour);
+            message.append(" : <<<<<<<<<<<<<<<<<< Fin du tour : ").append(i).append(" >>>>>>>>>>>>>>>>>\n");
+            i++;
+        }
+        message.append("\n").append(" : ------------------ Fin du combat ! ------------------\n");
+        message.append("\n\n").append(" : ---------------------------------------------------------->\n\n");
+        MyLoggerConfiguration.printLog(Level.INFO, message.toString());
     } //affiche le bilan du combat et l'enregistre
 }

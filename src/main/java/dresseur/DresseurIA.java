@@ -9,11 +9,9 @@ package dresseur;
 
 import attaque.Strategy;
 import interfaces.*;
+import useLogger.MyLoggerConfiguration;
 
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.Date;
+import java.util.logging.Level;
 
 /**
  * Classe qui gère la création d'un dresseur IA. Implémente IDresseur
@@ -33,7 +31,7 @@ public class DresseurIA implements IDresseur {
     /**
      * Référence vers l'Objet IStrategy
      */
-    private IStrategy strategy;
+    private final IStrategy strategy;
 
     /**
      * Constructeur du Dresseur IA
@@ -42,15 +40,16 @@ public class DresseurIA implements IDresseur {
      */
     public DresseurIA(String nom, IPokedex pokedex) {
         this.nom = nom;
-        this.writeLogs("création du dresseur.");
-        this.writeLogs("création du ranch.");
+        this.writeLogs(Level.INFO, "création du dresseur (Dresseur IA).");
+        this.writeLogs(Level.INFO, "création du ranch. (Dresseur IA).");
         this.ranch = pokedex.engendreRanch();
-        this.writeLogs("génération du ranch terminé.");
+        this.writeLogs(Level.INFO, "génération du ranch terminé (Dresseur IA).");
         this.strategy = new Strategy(this, this.ranch);
     }
 
     @Override
     public IPokemon[] getRanchCopy() {
+        this.writeLogs(Level.INFO, "Copy du ranch (Dresseur IA).");
         IPokemon[] copy = new IPokemon[this.ranch.length];
         System.arraycopy(this.ranch, 0, copy, 0, this.ranch.length);
         return copy;
@@ -111,6 +110,7 @@ public class DresseurIA implements IDresseur {
         if (cmp == 4) {
             pok.apprendCapacites(caps);
         } else {
+            this.writeLogs(Level.SEVERE, "Erreur ! Il manque des capacités (Dresseur IA).");
             throw new NullPointerException("Erreur ! Il manque des capacités.");
         }
     }//Donne au pokemon pok les capacites caps
@@ -120,6 +120,7 @@ public class DresseurIA implements IDresseur {
      */
     @Override
     public void soigneRanch() {
+        this.writeLogs(Level.INFO, "Soin du ranch (Dresseur IA).");
         for (IPokemon p : this.ranch) {
             p.soigne();
         }
@@ -165,14 +166,7 @@ public class DresseurIA implements IDresseur {
      *
      * @param texte le texte à écrire dans le fichier journal
      */
-    private void writeLogs(String texte) {
-        Date date = new Date();
-        try {
-            PrintWriter writer = new PrintWriter(new FileWriter("log.txt", true));
-            writer.println(date + " : " + texte);
-            writer.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    private void writeLogs(Level level, String texte) {
+        MyLoggerConfiguration.printLog(level, texte);
     }
 }

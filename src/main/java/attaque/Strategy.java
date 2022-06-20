@@ -7,13 +7,12 @@
  */
 package attaque;
 
-import combat.Tour;
-import dresseur.DresseurIA;
 import interfaces.*;
-import pokedex.Pokedex;
 import pokemon.Pokemon;
+import useLogger.MyLoggerConfiguration;
 
 import java.util.*;
+import java.util.logging.Level;
 
 
 /**
@@ -89,28 +88,13 @@ public class Strategy implements IStrategy {
      */
     @Override
     public IAttaque choisitAttaque(IPokemon attaquant, IDresseur dresseurDefenseur, IPokemon defenseur) {
-        /*
-        int choixAttaque = rand.nextInt(2 + 1) + 1;  // Read user input
-        if (choixAttaque == 1) {
-            ICapacite random = attaquant.getCapacitesApprises()[this.rand.nextInt(4)];
-            while (random == null) {
-                random = attaquant.getCapacitesApprises()[this.rand.nextInt(4)];
-            }
-            return random;
-        } else {
-            IEchange echange = new Echange(attaquant);
-            echange.setPokemon(this.choisitCombattantContre(defenseur));
-            return echange; // Change de Pokemon
-        }
-        */
-        IAttaque attaque = MiniMax(new EtatDuJeu(this.dresseur, dresseurDefenseur),
+        return MiniMax(new EtatDuJeu(this.dresseur, dresseurDefenseur),
                 new Coup(0, null),
                 attaquant,
-                defenseur, 7,
+                defenseur, 6,
                 Double.NEGATIVE_INFINITY,
                 Double.POSITIVE_INFINITY,
                 true).getAttaque();
-        return attaque;
     }
 
     public Coup MiniMax(EtatDuJeu etatDuJeu, Coup position, IPokemon attaquant, IPokemon defenseur, int profondeur, double alpha, double beta, boolean maximizingPlayer) {
@@ -264,39 +248,4 @@ class EtatDuJeu {
     public IPokemon[] getPokemonsDefenseur() {
         return this.dresseurDefenseur.getRanchCopy();
     }
-}
-
-class Simulation {
-    private IPokemon pokemon1;
-    private IAttaque attaque1;
-    private IPokemon pokemon2;
-    private IAttaque attaque2;
-
-    public Simulation(IPokemon pokemon1, IAttaque attaque1, IPokemon pokemon2, IAttaque attaque2) {
-        this.pokemon1 = pokemon1;
-        this.attaque1 = attaque1;
-        this.pokemon2 = pokemon2;
-        this.attaque2 = attaque2;
-    }
-
-    public void commence() {
-        if (attaque1.getClass() == Echange.class && attaque2.getClass() != Echange.class) {
-            this.pokemon1.subitAttaqueDe(pokemon2, attaque2);
-        } else if (attaque1.getClass() != Echange.class && attaque2.getClass() == Echange.class) {
-            this.pokemon2.subitAttaqueDe(pokemon1, attaque1);
-        } else if (attaque1.getClass() == Echange.class) {
-            // Rien faire
-        } else {
-            // Si vitesses P1 > P2 alors P1 commence sinon P2
-            if (this.pokemon1.getStat().getVitesse() > this.pokemon2.getStat().getVitesse()) {
-                this.pokemon2.subitAttaqueDe(pokemon1, attaque1);
-                if (!this.pokemon2.estEvanoui())
-                    this.pokemon1.subitAttaqueDe(pokemon2, attaque2);
-            } else {
-                this.pokemon1.subitAttaqueDe(pokemon2, attaque2);
-                if (!this.pokemon1.estEvanoui())
-                    this.pokemon2.subitAttaqueDe(pokemon1, attaque1);
-            }
-        }
-    }        //Lance un tour de combat
 }
