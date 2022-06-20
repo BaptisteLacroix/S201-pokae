@@ -42,15 +42,14 @@ public class DresseurIAAleatoire implements IDresseur {
      */
     public DresseurIAAleatoire(String nom, IPokedex pokedex) {
         this.nom = nom;
-        this.writeLogs(Level.INFO, "création du dresseur (Dresseur IAAleatoire).");
-        this.writeLogs(Level.INFO, "création du ranch (Dresseur IAAleatoire).");
+        MyLoggerConfiguration.printLog(Level.INFO, "création du dresseur (Dresseur IAAleatoire).\n");
+        MyLoggerConfiguration.printLog(Level.INFO, "création du ranch (Dresseur IAAleatoire).\n");
         this.ranch = pokedex.engendreRanch();
-        this.writeLogs(Level.INFO, "génération du ranch terminé (Dresseur IAAleatoire).");
+        MyLoggerConfiguration.printLog(Level.INFO, "génération du ranch terminé (Dresseur IAAleatoire).\n");
     }
 
     @Override
     public IPokemon[] getRanchCopy() {
-        this.writeLogs(Level.INFO, "Copy du ranch (Dresseur IAAleatoire).");
         IPokemon[] copy = new IPokemon[this.ranch.length];
         System.arraycopy(this.ranch, 0, copy, 0, this.ranch.length);
         return copy;
@@ -111,7 +110,7 @@ public class DresseurIAAleatoire implements IDresseur {
         if (cmp == 4) {
             pok.apprendCapacites(caps);
         } else {
-            this.writeLogs(Level.SEVERE, "Erreur ! Il manque des capacités (Dresseur IAAleatoire).");
+            MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur ! Il manque des capacités (Dresseur IAAleatoire).\n");
             throw new NullPointerException("Erreur ! Il manque des capacités.");
         }
     }//Donne au pokemon pok les capacites caps
@@ -121,7 +120,7 @@ public class DresseurIAAleatoire implements IDresseur {
      */
     @Override
     public void soigneRanch() {
-        this.writeLogs(Level.INFO, "Soin du ranch (Dresseur IAAleatoire).");
+        MyLoggerConfiguration.printLog(Level.INFO, "Soin du ranch (Dresseur IAAleatoire).\n");
         for (IPokemon p : this.ranch) {
             p.soigne();
         }
@@ -177,15 +176,5 @@ public class DresseurIAAleatoire implements IDresseur {
             echange.setPokemon(this.choisitCombattantContre(defenseur));
             return echange; // Change de Pokemon
         }
-    }
-
-
-    /**
-     * Il écrit la date et le texte dans un fichier appelé log.txt
-     *
-     * @param texte le texte à écrire dans le fichier journal
-     */
-    private void writeLogs(Level level, String texte) {
-        MyLoggerConfiguration.printLog(level, texte);
     }
 }

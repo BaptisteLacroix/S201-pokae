@@ -9,10 +9,8 @@ package attaque;
 
 import interfaces.*;
 import pokemon.Pokemon;
-import useLogger.MyLoggerConfiguration;
 
 import java.util.*;
-import java.util.logging.Level;
 
 
 /**

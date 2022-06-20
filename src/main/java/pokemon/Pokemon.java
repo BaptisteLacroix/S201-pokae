@@ -16,10 +16,6 @@ import interfaces.ICapacite;
 import statsPokemon.Stat;
 import useLogger.MyLoggerConfiguration;
 
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.Date;
 import java.util.Random;
 import java.util.logging.Level;
 
@@ -118,7 +114,6 @@ public class Pokemon implements IPokemon {
      * Il met à jour les stats du pokémon
      */
     private void miseAjourStats() {
-        MyLoggerConfiguration.printLog(Level.INFO, "mise a jour des Statistiques du Pokémon (Pokemon).");
         if (this.niveau == 1)
             this.stat.setPV(calculGainStatPV());
         else
@@ -127,7 +122,6 @@ public class Pokemon implements IPokemon {
         this.stat.setDefense(calculGainStat(this.stat.getDefense(), this.espece.getGainsStat().getDefense(), espece.getGainsStat().getDefense()));
         this.stat.setSpecial(calculGainStat(this.stat.getSpecial(), this.espece.getGainsStat().getSpecial(), espece.getGainsStat().getSpecial()));
         this.stat.setVitesse(calculGainStat(this.stat.getVitesse(), this.espece.getGainsStat().getVitesse(), espece.getGainsStat().getVitesse()));
-        MyLoggerConfiguration.printLog(Level.INFO, "mise a jour terminé (Pokemon).");
     }
 
     /**
@@ -319,7 +313,7 @@ public class Pokemon implements IPokemon {
         for (int i = 0; i < caps.length; i++) {
             for (ICapacite c : this.espece.getCapSet()) {
                 if (c == null) {
-                    MyLoggerConfiguration.printLog(Level.SEVERE, "Apprend Capacité : Erreur la Capacité est null (Pokemon).");
+                    MyLoggerConfiguration.printLog(Level.SEVERE, "Apprend Capacité : Erreur la Capacité est null (Pokemon).\n");
                     throw new NullPointerException("Erreur la Capacité est null");
                 }
 
@@ -345,7 +339,7 @@ public class Pokemon implements IPokemon {
             throw new UnsupportedOperationException();
         for (ICapacite c : this.espece.getCapSet()) {
             if (c == null) {
-                MyLoggerConfiguration.printLog(Level.SEVERE, "Remplace Capacité : Erreur la Capacité est null (Pokemon).");
+                MyLoggerConfiguration.printLog(Level.SEVERE, "Remplace Capacité : Erreur la Capacité est null (Pokemon).\n");
                 throw new NullPointerException("Erreur la Capacité est null");
             }
             Capacite capacite = (Capacite) c;

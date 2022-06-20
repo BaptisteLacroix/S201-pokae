@@ -9,8 +9,8 @@ import java.util.logging.*;
 public class MyLoggerConfiguration {
     // Creating a logger object.
     private static Logger LOGGER = Logger.getLogger(MyLoggerConfiguration.class.getName());
-    // private static FileHandler fileHandlerHTML = null;
-    // private static MyHTMLFormatter formatter = null;
+    private static FileHandler fileHandlerHTML = null;
+    private static MyHTMLFormatter formatter = null;
     private static FileHandler fileHandler = null;
 
     /**
@@ -21,8 +21,8 @@ public class MyLoggerConfiguration {
         try {
             if (LOGGER == null || fileHandler == null) {
                 LOGGER = Logger.getLogger(MyLoggerConfiguration.class.getName());
-                // fileHandlerHTML = new FileHandler("logs.html");
-                // formatter = new MyHTMLFormatter();
+                fileHandlerHTML = new FileHandler("logs.html");
+                formatter = new MyHTMLFormatter();
                 fileHandler = new FileHandler("logs.txt");
             }
         } catch (SecurityException | IOException e) {
@@ -35,12 +35,13 @@ public class MyLoggerConfiguration {
             setup();
             // create a HTML formatter
             fileHandler.setFormatter(new SimpleFormatter());
-            // fileHandlerHTML.setFormatter(formatter);
-            // fileHandlerHTML.setLevel(Level.INFO);
-            // LOGGER.addHandler(fileHandlerHTML);
+            fileHandlerHTML.setFormatter(formatter);
+            fileHandlerHTML.setLevel(Level.INFO);
+            LOGGER.addHandler(fileHandlerHTML);
             LOGGER.setUseParentHandlers(false);
-            // fileHandlerHTML.setFormatter(formatter);
+            fileHandlerHTML.setFormatter(formatter);
             LOGGER.log(level, message);
+            LOGGER.addHandler(fileHandler);
         } catch (Exception exception) {
             LOGGER.log(Level.SEVERE, "Cannot read logger file", exception);
         }
