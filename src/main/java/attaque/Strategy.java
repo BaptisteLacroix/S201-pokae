@@ -31,13 +31,21 @@ public class Strategy implements IStrategy {
      * Objet Random perméttant de générer un nombre aléatoire.
      */
     private final Random rand = new Random();
+
+    /**
+     * Création d'une nouvelle instance de la classe CoupsPossibles.
+     */
     private CoupsPossibles coupsPossiblesAttaquant = new CoupsPossibles();
+    /**
+     * Création d'une nouvelle instance de la classe CoupsPossibles.
+     */
     private CoupsPossibles coupsPossiblesDefenseur = new CoupsPossibles();
 
     /**
      * Constructeur de la Strategy
      *
-     * @param ranch ranch contenant les Pokémons du dresseur IA.
+     * @param dresseur dresseur IA
+     * @param ranch    ranch contenant les pokémons du dresseur IA
      */
     public Strategy(IDresseur dresseur, IPokemon[] ranch) {
         this.dresseur = dresseur;
@@ -95,6 +103,19 @@ public class Strategy implements IStrategy {
                 true).getAttaque();
     }
 
+    /**
+     * La fonction renvoie le meilleur coup pour le joueur actuel, compte tenu de l'état actuel du jeu
+     *
+     * @param etatDuJeu        L'état actuel du jeu.
+     * @param position         le poste actuel
+     * @param attaquant        le pokémon attaquant
+     * @param defenseur        Le pokémon défenseur
+     * @param profondeur       la profondeur de l'arbre
+     * @param alpha            la meilleure valeur que le joueur maximisant peut actuellement garantir à ce niveau ou plus.
+     * @param beta             la meilleure valeur que le joueur maximisant peut actuellement garantir à ce niveau ou plus.
+     * @param maximizingPlayer vrai si c'est le tour de l'IA, faux si c'est le tour de l'adversaire
+     * @return Le meilleur coup pour le joueur.
+     */
     public Coup MiniMax(EtatDuJeu etatDuJeu, Coup position, IPokemon attaquant, IPokemon defenseur, int profondeur, double alpha, double beta, boolean maximizingPlayer) {
         if (etatDuJeu.pvDresseurAttaquant() == 0)
             return new Coup(0, null);
@@ -143,6 +164,13 @@ public class Strategy implements IStrategy {
         }
     }
 
+
+    /**
+     * Cette fonction ajoute tous les coups possibles que l'attaquant peut effectuer à la liste des coups possibles
+     *
+     * @param X                l'état actuel du jeu
+     * @param pokemonAttaquant Le pokémon attaquant
+     */
     private void addCoupsPossiblesAttaquant(EtatDuJeu X, IPokemon pokemonAttaquant) {
         this.coupsPossiblesAttaquant = new CoupsPossibles();
         for (ICapacite cap : pokemonAttaquant.getCapacitesApprises())
@@ -152,6 +180,13 @@ public class Strategy implements IStrategy {
         }
     }
 
+
+    /**
+     * Il ajoute tous les coups possibles que le défenseur peut effectuer à la liste des coups possibles
+     *
+     * @param X                l'état actuel du jeu
+     * @param pokemonDefenseur Le pokémon qui défend actuellement.
+     */
     private void addCoupsPossiblesDefenseur(EtatDuJeu X, IPokemon pokemonDefenseur) {
         this.coupsPossiblesDefenseur = new CoupsPossibles();
         for (ICapacite cap : pokemonDefenseur.getCapacitesApprises())
@@ -162,67 +197,145 @@ public class Strategy implements IStrategy {
     }
 }
 
+/**
+ * C'est une classe qui représente un mouvement qu'un Pokémon peut faire
+ *
+ * @author Lacroix Baptiste and Vidal Théo
+ */
 class Coup {
+    /**
+     * La probabilité de gagner le jeu.
+     */
     private double probabilite;
+    /**
+     * Une variable privée utilisée pour stocker l'attaque que l'ordinateur utilisera.
+     */
     private IAttaque attaque;
 
+    /**
+     * Un constructeur pour la classe Coup.
+     *
+     * @param probabilite probabilité de gagner le jeu.
+     * @param attaque     l'attaque que l'ordinateur utilisera.
+     */
     public Coup(double probabilite, IAttaque attaque) {
         this.probabilite = probabilite;
         this.attaque = attaque;
     }
 
+    /**
+     * Cette fonction renvoie la probabilité de l'événement
+     *
+     * @return La probabilité de l'événement.
+     */
     public double getProbabilite() {
         return probabilite;
     }
 
+    /**
+     * Cette fonction renvoie l'attaque du Pokémon
+     *
+     * @return L'attaque des Pokémon
+     */
     public IAttaque getAttaque() {
         return attaque;
     }
 
+    /**
+     * Cette fonction définit l'attaque du personnage.
+     *
+     * @param attaque L'attaque à utiliser.
+     */
     public void setAttaque(IAttaque attaque) {
         this.attaque = attaque;
     }
 
+    /**
+     * Cette fonction fixe la probabilité de l'objet courant à la valeur du paramètre
+     *
+     * @param probabilite La probabilité que l'événement se produise.
+     */
     public void setProbabilite(double probabilite) {
         this.probabilite = probabilite;
     }
 }
 
+/**
+ * C'est un conteneur pour une liste de mouvements possibles qu'un Pokémon peut faire
+ *
+ * @author Lacroix Baptiste and Vidal Théo
+ */
 class CoupsPossibles {
+    /**
+     * La liste des mouvements possibles.
+     */
     private final List<Coup> coups = new ArrayList<>();
+    /**
+     * La liste des mouvements possibles.
+     */
     private IPokemon pokemon;
 
+    /**
+     * Un constructeur pour la classe CoupsPossibles.
+     *
+     * @return La liste des mouvements possibles.
+     */
     public List<Coup> getCoupsPossibles() {
         return coups;
     }
 
+    /**
+     * Un constructeur pour la classe CoupsPossibles.
+     *
+     * @param pokemon le Pokémon qui peut faire des mouvements.
+     * @param coup    le mouvement que le Pokémon peut faire.
+     */
     public void addCoup(IPokemon pokemon, Coup coup) {
         this.pokemon = pokemon;
         this.coups.add(coup);
     }
 
+    /**
+     * Cette fonction renvoie le Pokémon qui peut faire des mouvements.
+     *
+     * @return le Pokémon qui peut faire des mouvements.
+     */
     public IPokemon getPokemon() {
         return pokemon;
     }
 }
 
+/**
+ * C'est une classe qui contient l'état du jeu
+ *
+ * @author Lacroix Baptiste and Vidal Théo
+ */
 class EtatDuJeu {
-    private IDresseur dresseurAttaquant;
-    private IDresseur dresseurDefenseur;
+    /**
+     * Le dresseur attaquant.
+     */
+    private final IDresseur dresseurAttaquant;
+    /**
+     * Le dresseur défenseur.
+     */
+    private final IDresseur dresseurDefenseur;
 
+    /**
+     * La liste des Pokémon du dresseur attaquant.
+     *
+     * @param dresseurAttaquant le dresseur attaquant.
+     * @param dresseurDefenseur le dresseur défenseur.
+     */
     public EtatDuJeu(IDresseur dresseurAttaquant, IDresseur dresseurDefenseur) {
         this.dresseurAttaquant = dresseurAttaquant;
         this.dresseurDefenseur = dresseurDefenseur;
     }
 
-    public IDresseur getDresseurAttaquant() {
-        return this.dresseurAttaquant;
-    }
-
-    public IDresseur getDresseurDefenseur() {
-        return dresseurDefenseur;
-    }
-
+    /**
+     * Cette fonction renvoie le dresseur attaquant.
+     *
+     * @return le dresseur attaquant.
+     */
     public int pvDresseurAttaquant() {
         int total = 0;
         for (IPokemon p : this.dresseurAttaquant.getRanchCopy()) {
@@ -231,6 +344,11 @@ class EtatDuJeu {
         return total;
     }
 
+    /**
+     * Cette fonction renvoie le dresseur défenseur.
+     *
+     * @return le dresseur défenseur.
+     */
     public int pvDresseurDefenseur() {
         int total = 0;
         for (IPokemon p : this.dresseurDefenseur.getRanchCopy()) {
@@ -239,10 +357,20 @@ class EtatDuJeu {
         return total;
     }
 
+    /**
+     * Cette fonction renvoie la liste des Pokémon du dresseur attaquant.
+     *
+     * @return la liste des Pokémon du dresseur attaquant.
+     */
     public IPokemon[] getPokemonsAttaquant() {
         return this.dresseurAttaquant.getRanchCopy();
     }
 
+    /**
+     * Cette fonction renvoie la liste des Pokémon du dresseur défenseur.
+     *
+     * @return la liste des Pokémon du dresseur défenseur.
+     */
     public IPokemon[] getPokemonsDefenseur() {
         return this.dresseurDefenseur.getRanchCopy();
     }
