@@ -14,12 +14,10 @@ import interfaces.IStat;
 import interfaces.IAttaque;
 import interfaces.ICapacite;
 import statsPokemon.Stat;
+import useLogger.MyLoggerConfiguration;
 
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.Date;
 import java.util.Random;
+import java.util.logging.Level;
 
 /**
  * Classe générant un Pokémon avec toutes ses spécificités. implément IPokemon
@@ -67,10 +65,6 @@ public class Pokemon implements IPokemon {
      * Dv du Pokémon
      */
     private IStat DV;
-    /**
-     * Objet Date qui permet au moment de l'appel connaitre la date et l'heure
-     */
-    private final Date date = new Date();
     /**
      * Objet Random qui permet de générer des nombres aléatoire
      */
@@ -120,7 +114,6 @@ public class Pokemon implements IPokemon {
      * Il met à jour les stats du pokémon
      */
     private void miseAjourStats() {
-        this.writeLogs("mise a jour des Statistiques du Pokémon.");
         if (this.niveau == 1)
             this.stat.setPV(calculGainStatPV());
         else
@@ -129,7 +122,6 @@ public class Pokemon implements IPokemon {
         this.stat.setDefense(calculGainStat(this.stat.getDefense(), this.espece.getGainsStat().getDefense(), espece.getGainsStat().getDefense()));
         this.stat.setSpecial(calculGainStat(this.stat.getSpecial(), this.espece.getGainsStat().getSpecial(), espece.getGainsStat().getSpecial()));
         this.stat.setVitesse(calculGainStat(this.stat.getVitesse(), this.espece.getGainsStat().getVitesse(), espece.getGainsStat().getVitesse()));
-        this.writeLogs("mise a jour terminé.");
     }
 
     /**
@@ -320,8 +312,11 @@ public class Pokemon implements IPokemon {
     public void apprendCapacites(ICapacite[] caps) {
         for (int i = 0; i < caps.length; i++) {
             for (ICapacite c : this.espece.getCapSet()) {
-                if (c == null)
+                if (c == null) {
+                    MyLoggerConfiguration.printLog(Level.SEVERE, "Apprend Capacité : Erreur la Capacité est null (Pokemon).\n");
                     throw new NullPointerException("Erreur la Capacité est null");
+                }
+
                 Capacite capacite = (Capacite) c;
                 if (caps[i].getNom().strip().equalsIgnoreCase(c.getNom().strip()) && this.niveau >= capacite.getNiveau()) {
                     this.capacites[i] = caps[i];
@@ -343,8 +338,10 @@ public class Pokemon implements IPokemon {
         if (i < 0 || i > 4)
             throw new UnsupportedOperationException();
         for (ICapacite c : this.espece.getCapSet()) {
-            if (c == null)
+            if (c == null) {
+                MyLoggerConfiguration.printLog(Level.SEVERE, "Remplace Capacité : Erreur la Capacité est null (Pokemon).\n");
                 throw new NullPointerException("Erreur la Capacité est null");
+            }
             Capacite capacite = (Capacite) c;
             if (cap.getNom().equals(c.getNom()) && this.niveau >= capacite.getNiveau()) {
                 this.capacites[i] = cap;
@@ -361,15 +358,11 @@ public class Pokemon implements IPokemon {
     @Override
     public void gagneExperienceDe(IPokemon pok) {
         this.experience = (1.5 * pok.getNiveau() * pok.getEspece().getBaseExp()) / 7;
-        int cmp = 0;
         while (peutChangerDeNiveau()) {
-            cmp++;
             this.ancien_niveau = this.niveau;
             this.niveau++;
             this.miseAjourStats();
         }
-        // if (this.aChangeNiveau())
-        //     System.out.println("\n" + this.nom + " a gagné " + cmp + " niveau(x) ! Il est maintenant lvl : " + this.niveau + "\n");
     } //Met à jour l'exprérience de this suite à la défaite de pok
 
     private boolean peutChangerDeNiveau() {
@@ -451,20 +444,5 @@ public class Pokemon implements IPokemon {
                 ", espece=" + espece +
                 ", DV=" + DV +
                 '}';
-    }
-
-    /**
-     * Il écrit la date et le texte dans un fichier appelé log.txt
-     *
-     * @param texte le texte à écrire dans le fichier journal
-     */
-    private void writeLogs(String texte) {
-        try {
-            PrintWriter writer = new PrintWriter(new FileWriter("log.txt", true));
-            writer.println(date + " : " + texte);
-            writer.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 }

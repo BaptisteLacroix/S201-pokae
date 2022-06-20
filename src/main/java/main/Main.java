@@ -2,14 +2,13 @@ package main;
 
 import attaque.Capacite;
 import combat.Combat;
-import dresseur.DresseurHuman;
 import dresseur.DresseurIA;
+import dresseur.DresseurIAAleatoire;
 import interfaces.*;
 import other.Chrono;
 import pokedex.Pokedex;
 
 import java.util.Random;
-import java.util.Scanner;
 
 /**
  * Classe permettant de tester le programme
@@ -26,36 +25,37 @@ public class Main {
      */
     public static void main(String[] args) {
         IPokedex pokedex = new Pokedex();
-        DresseurHuman baptiste = new DresseurHuman("Baptiste", pokedex);
-        DresseurIA IA1 = new DresseurIA("IA1", pokedex);
-        DresseurIA IA2 = new DresseurIA("IA2", pokedex);
+        // DresseurHuman baptiste = new DresseurHuman("Baptiste", pokedex);
+        DresseurIAAleatoire IA1 = new DresseurIAAleatoire("IA Aléatoire", pokedex);
+        DresseurIA IA2 = new DresseurIA("IA MinMax", pokedex);
 
-        for (IPokemon pokemon : baptiste.getRanch()) {
-            ICapacite[] capacites = pokemon.getEspece().getCapSet();
-            ICapacite[] capacitesApp = new ICapacite[4];
-            int counter = 0;
-            System.out.println("Capcités disponilbes : ");
-            for (ICapacite cap : capacites) {
-                System.out.printf("%-32s", cap.toString() + "\n");
-            }
-            System.out.println();
-            for (int i = 0; i < 4; i++) {
-                Scanner input = new Scanner(System.in);  // Create a Scanner object
-                System.out.print(baptiste.getNom() + " choose a new capacity to learn for your pokemon " + pokemon.getNom() + " (give the name) : ");
-                String choixCapacite = input.nextLine();  // Read user input
-                for (ICapacite cap : capacites) {
-                    if (cap.getNom().equals(choixCapacite)) {
-                        capacitesApp[counter] = cap;
-                        counter++;
-                    }
-                }
-            }
-            pokemon.apprendCapacites(capacitesApp);
-            affichage(pokemon);
-        }
+        // for (IPokemon pokemon : baptiste.getRanch()) {
+        //     ICapacite[] capacites = pokemon.getEspece().getCapSet();
+        //     ICapacite[] capacitesApp = new ICapacite[4];
+        //     int counter = 0;
+        //     System.out.println("Capcités disponilbes : ");
+        //     for (ICapacite cap : capacites) {
+        //         System.out.printf("%-32s", cap.toString() + "\n");
+        //     }
+        //     System.out.println();
+        //     for (int i = 0; i < 4; i++) {
+        //         Scanner input = new Scanner(System.in);  // Create a Scanner object
+        //         System.out.print(baptiste.getNom() + " choose a new capacity to learn for your pokemon " + pokemon.getNom() + " (give the name) : ");
+        //         String choixCapacite = input.nextLine();  // Read user input
+        //         for (ICapacite cap : capacites) {
+        //             if (cap.getNom().equals(choixCapacite)) {
+        //                 capacitesApp[counter] = cap;
+        //                 counter++;
+        //             }
+        //         }
+        //     }
+        //     pokemon.apprendCapacites(capacitesApp);
+        //     affichage(pokemon);
+        // }
+
         Chrono chrono2 = new Chrono();
         chrono2.start();
-        choixIA(IA1);
+        choixIAAleatoire(IA1);
         choixIA(IA2);
 
         //////////////////////////////////////////////////////////
@@ -67,8 +67,8 @@ public class Main {
         chrono2.stop();
         System.out.println("durée total pour " + i + " combats : " + chrono2.getDureeTxt());
 
-        combat = new Combat(IA1, baptiste);
-        combat.commence();
+        // combat = new Combat(IA1, baptiste);
+        // combat.commence();
     }
 
     /**
@@ -77,6 +77,24 @@ public class Main {
      * @param dresseur l'entraîneur
      */
     public static void choixIA(DresseurIA dresseur) {
+        Random rand = new Random();
+        for (IPokemon pokemon : dresseur.getRanch()) {
+            ICapacite[] capacites = pokemon.getEspece().getCapSet();
+            ICapacite[] capacitesApp = new ICapacite[4];
+            for (int i = 0; i < 4; i++) {
+                Capacite random = (Capacite) capacites[rand.nextInt(capacites.length)];
+                while (pokemon.getNiveau() < random.getNiveau())
+                    random = (Capacite) capacites[rand.nextInt(capacites.length)];
+                System.out.println(dresseur.getNom() + " choose a new capacity to learn for " + pokemon.getNom() + " : " + random.getNom());
+                capacitesApp[i] = random;
+            }
+            System.out.println();
+            pokemon.apprendCapacites(capacitesApp);
+            // affichage(pokemon);
+        }
+    }
+
+    public static void choixIAAleatoire(DresseurIAAleatoire dresseur) {
         Random rand = new Random();
         for (IPokemon pokemon : dresseur.getRanch()) {
             ICapacite[] capacites = pokemon.getEspece().getCapSet();

@@ -20,12 +20,13 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+import useLogger.MyLoggerConfiguration;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
+import java.util.logging.Level;
 
 
 /**
@@ -75,16 +76,13 @@ public class Espece implements IEspece {
      * @param types        Types de l'Espece
      */
     public Espece(IStat baseIStat, String nom, int niveauDepart, int baseExp, IStat gainsStat, IType[] types) {
-        this.writeLogs("création de l'espèce.");
         this.baseStat = baseIStat;
         this.nom = nom;
         this.niveauDepart = niveauDepart;
         this.baseExp = baseExp;
         this.gainsStat = gainsStat;
         this.types = types;
-        this.writeLogs("génération des capacités disponibles pour l'espèce.");
         this.setCapSet();
-        this.writeLogs("génération terminé.");
     }
 
 
@@ -160,6 +158,7 @@ public class Espece implements IEspece {
                 }
             }
         } catch (IOException e) {
+            MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur lors de la lecture du fichier csv (Espece).\n");
             e.printStackTrace();
         }
     }
@@ -188,6 +187,7 @@ public class Espece implements IEspece {
                     }
                 }
             } catch (IOException e) {
+                MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur lors de la lecture du fichier csv (Espece).\n");
                 e.printStackTrace();
             }
         }
@@ -224,6 +224,7 @@ public class Espece implements IEspece {
                 }
             }
         } catch (IOException | ParseException e) {
+            MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur lors de la lecture du fichier JSON (Espece).\n");
             e.printStackTrace();
         }
         return lvl;
@@ -288,6 +289,7 @@ public class Espece implements IEspece {
             reader.close();
             file.close();
         } catch (IOException e) {
+            MyLoggerConfiguration.printLog(Level.SEVERE, "Erreur lors de la lecture du fichier csv (Espece).\n");
             e.printStackTrace();
         }
         return espece;
@@ -333,22 +335,6 @@ public class Espece implements IEspece {
                 return Type.Vol;
             default:
                 return null;
-        }
-    }
-
-    /**
-     * Il écrit la date et le texte passé en paramètre dans un fichier appelé log.txt
-     *
-     * @param texte le texte à écrire dans le fichier journal
-     */
-    private void writeLogs(String texte) {
-        Date date = new Date();
-        try {
-            PrintWriter writer = new PrintWriter(new FileWriter("log.txt", true));
-            writer.println(date + " : " + texte);
-            writer.close();
-        } catch (IOException e) {
-            e.printStackTrace();
         }
     }
 }
